@@ -47,12 +47,20 @@ export default function ServiceSelector() {
     <section id="services" className="py-16 md:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-services-title">
-            What Do You Need Removed?
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6" data-testid="text-services-title">
+            Fast, Reliable Boat Removal Anywhere in the U.S.
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-services-subtitle">
-            Select the items you want to dispose of and get an instant price estimate
-          </p>
+          <div className="text-lg text-muted-foreground max-w-4xl mx-auto space-y-4" data-testid="text-services-subtitle">
+            <p>
+              At Remove My Boat, we make getting rid of unwanted boats simple and stress-free. Our experienced team handles all types of marine craft — including sailboats, motorboats, yachts, pontoons, and personal watercraft — no matter the size or condition.
+            </p>
+            <p>
+              Whether your boat is on land, in the water, or even submerged, we'll remove it safely and efficiently. We take care of salvage, disposal, and environmental compliance, so you don't have to worry about code violations, storage fees, or fines.
+            </p>
+            <p>
+              With years of experience and hundreds of successful removals nationwide, Remove My Boat is your trusted partner for professional, affordable boat removal service — anywhere in the country.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-8">
