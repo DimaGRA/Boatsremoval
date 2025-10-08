@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
 import sailboatImg from "@assets/sailboat_1759945606068.jpg";
-import motorboatImg from "@assets/stock_images/motorboat_yacht_on_w_e3bc7729.jpg";
+import motorboatImg from "@assets/junk-boat-yard_1759945852166.jpeg";
 import jetskiImg from "@assets/stock_images/jet_ski_personal_wat_2f23beee.jpg";
 import dockImg from "@assets/stock_images/wooden_dock_pier_on__262e5fd9.jpg";
 import trailerImg from "@assets/stock_images/boat_trailer_equipme_3329e488.jpg";
