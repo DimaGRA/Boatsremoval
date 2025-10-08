@@ -18,7 +18,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight" data-testid="text-hero-title">
-          Fast Junk Boat Removal
+          Fast Boat Removal Services
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
           Professional disposal of unwanted boats, jet skis, and marine equipment. Same-day service available!
