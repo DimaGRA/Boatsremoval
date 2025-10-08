@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Calculator } from "lucide-react";
-import heroImage from "@assets/stock_images/old_abandoned_boats__5e03235d.jpg";
+import heroImage from "@assets/stock_images/boat_on_trailer_bein_989304d7.jpg";
 
 export default function HeroSection() {
   return (
@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Old boats in marina"
+          alt="Boat on trailer with truck"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/50 to-black/40"></div>
