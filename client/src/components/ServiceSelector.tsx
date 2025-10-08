@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
-import sailboatImg from "@assets/stock_images/sailboat_on_water,_s_2ae8973c.jpg";
+import sailboatImg from "@assets/sailboat_1759945606068.jpg";
 import motorboatImg from "@assets/stock_images/motorboat_yacht_on_w_e3bc7729.jpg";
 import jetskiImg from "@assets/stock_images/jet_ski_personal_wat_2f23beee.jpg";
 import dockImg from "@assets/stock_images/wooden_dock_pier_on__262e5fd9.jpg";
