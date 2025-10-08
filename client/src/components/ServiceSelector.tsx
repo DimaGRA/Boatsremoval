@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 import sailboatImg from "@assets/sailboat_1759945606068.jpg";
 import motorboatImg from "@assets/junk-boat-yard_1759945852166.jpeg";
 import jetskiImg from "@assets/jetski_1759945958376.jpg";
-import dockImg from "@assets/stock_images/wooden_dock_pier_on__262e5fd9.jpg";
+import pontoonImg from "@assets/pantoon_1759946218785.png";
 import trailerImg from "@assets/boat trailers_1759946075289.webp";
 
 interface ServiceItem {
@@ -20,7 +20,7 @@ const services: ServiceItem[] = [
   { id: "sailboat", name: "Sailboat", image: sailboatImg, basePrice: 450, description: "Small to medium sailboats" },
   { id: "motorboat", name: "Motorboat", image: motorboatImg, basePrice: 550, description: "Powerboats & yachts" },
   { id: "jetski", name: "Jet Ski", image: jetskiImg, basePrice: 250, description: "Personal watercraft" },
-  { id: "dock", name: "Dock Section", image: dockImg, basePrice: 350, description: "Wooden dock removal" },
+  { id: "pontoon", name: "Pontoon", image: pontoonImg, basePrice: 500, description: "Pontoon boats" },
   { id: "trailer", name: "Boat Trailer", image: trailerImg, basePrice: 200, description: "Equipment & trailers" },
 ];
 
