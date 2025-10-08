@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">⚓ BoatGone</h3>
+            <h3 className="text-xl font-bold mb-4 text-primary">⚓ BoatRemove</h3>
             <p className="text-background/80 text-sm">
               Professional boat removal services nationwide. Fast, affordable, and eco-friendly.
             </p>
@@ -65,7 +65,7 @@ export default function Footer() {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm">
-              © {currentYear} BoatGone. All rights reserved.
+              © {currentYear} BoatRemove. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-background/60 hover:text-primary transition-colors">Privacy Policy</a>

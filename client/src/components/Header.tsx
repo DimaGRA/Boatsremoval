@@ -33,7 +33,7 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-xl md:text-2xl font-extrabold text-primary-foreground">
-              ⚓ BoatGone
+              ⚓ BoatRemove
             </h1>
           </div>
 
