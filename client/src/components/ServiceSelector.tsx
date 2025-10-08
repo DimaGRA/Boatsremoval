@@ -6,7 +6,7 @@ import sailboatImg from "@assets/sailboat_1759945606068.jpg";
 import motorboatImg from "@assets/junk-boat-yard_1759945852166.jpeg";
 import jetskiImg from "@assets/jetski_1759945958376.jpg";
 import dockImg from "@assets/stock_images/wooden_dock_pier_on__262e5fd9.jpg";
-import trailerImg from "@assets/stock_images/boat_trailer_equipme_3329e488.jpg";
+import trailerImg from "@assets/boat trailers_1759946075289.webp";
 
 interface ServiceItem {
   id: string;
