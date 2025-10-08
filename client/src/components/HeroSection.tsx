@@ -21,7 +21,7 @@ export default function HeroSection() {
           Fast Boat Removal Services
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
-          Professional disposal of unwanted boats, jet skis, and marine equipment. Same-day service available!
+          Professional disposal and dismantle of unwanted boats, yachts, catamarans . Same-day service available!
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
