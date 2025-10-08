@@ -40,13 +40,16 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
             <a href="#services" className="text-primary-foreground hover:text-primary-foreground/80 font-medium transition-colors" data-testid="link-services">
-              Services
+              Boat Removal
             </a>
             <a href="#pricing" className="text-primary-foreground hover:text-primary-foreground/80 font-medium transition-colors" data-testid="link-pricing">
-              Pricing
+              Service Area
             </a>
             <a href="#calculator" className="text-primary-foreground hover:text-primary-foreground/80 font-medium transition-colors" data-testid="link-calculator">
-              Calculator
+              Vessel Type
+            </a>
+            <a href="#whyus" className="text-primary-foreground hover:text-primary-foreground/80 font-medium transition-colors" data-testid="link-whyus">
+              Why Us?
             </a>
             <a href="#contact" className="text-primary-foreground hover:text-primary-foreground/80 font-medium transition-colors" data-testid="link-contact">
               Contact
@@ -104,13 +107,16 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
           <div className="md:hidden py-4 border-t border-primary-border">
             <nav className="flex flex-col gap-3">
               <a href="#services" className="text-primary-foreground hover:text-primary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-services">
-                Services
+                Boat Removal
               </a>
               <a href="#pricing" className="text-primary-foreground hover:text-primary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-pricing">
-                Pricing
+                Service Area
               </a>
               <a href="#calculator" className="text-primary-foreground hover:text-primary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-calculator">
-                Calculator
+                Vessel Type
+              </a>
+              <a href="#whyus" className="text-primary-foreground hover:text-primary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-whyus">
+                Why Us?
               </a>
               <a href="#contact" className="text-primary-foreground hover:text-primary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-contact">
                 Contact
