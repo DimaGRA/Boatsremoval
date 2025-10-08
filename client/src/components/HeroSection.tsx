@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Calculator } from "lucide-react";
-import heroImage from "@assets/stock_images/derelict_boat_on_boa_16145848.jpg";
+import heroImage from "@assets/23-boat-removal-georgia_1759940736668.jpeg";
 
 export default function HeroSection() {
   return (
