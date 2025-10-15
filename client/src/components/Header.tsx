@@ -32,9 +32,13 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl md:text-2xl font-extrabold text-secondary-foreground">
+            <button 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="text-xl md:text-2xl font-extrabold text-secondary-foreground hover:text-secondary-foreground/80 transition-colors cursor-pointer"
+              data-testid="button-logo"
+            >
               ⚓ BoatsRemoval
-            </h1>
+            </button>
           </div>
 
           {/* Desktop Navigation */}
@@ -42,7 +46,7 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
             <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-service-area">
               Service Area
             </a>
-            <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-vessel-type">
+            <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-vessel-type">
               Vessel Type
             </a>
             <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-faq">
@@ -106,7 +110,7 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
               <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-service-area">
                 Service Area
               </a>
-              <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-vessel-type">
+              <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-vessel-type">
                 Vessel Type
               </a>
               <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-faq">
