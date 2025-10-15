@@ -42,10 +42,12 @@ export default function HeroSection() {
             variant="outline"
             className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white/20 font-bold text-lg px-8 h-12 min-h-12"
             data-testid="button-call-now"
-            onClick={() => console.log('Call Now clicked')}
+            asChild
           >
-            <Phone className="mr-2 h-5 w-5" />
-            Call Now
+            <a href="tel:+17792200187">
+              <Phone className="mr-2 h-5 w-5" />
+              Call Now
+            </a>
           </Button>
         </div>
 
