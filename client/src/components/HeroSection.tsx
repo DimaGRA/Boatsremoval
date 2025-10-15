@@ -1,7 +1,7 @@
 import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Phone, Calculator } from "lucide-react";
-import heroImage from "@assets/23-boat-removal-georgia_1759940736668.jpeg";
+import heroImage from "@assets/Main photo_1760537559542.jpeg";
 
 export default function HeroSection() {
   const [, setLocation] = useLocation();
