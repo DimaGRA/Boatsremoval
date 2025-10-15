@@ -16,14 +16,14 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Navigation */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Navigation</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Boat Removal</a></li>
-              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Jet Ski Disposal</a></li>
-              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Dock Removal</a></li>
-              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Marine Equipment</a></li>
+              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Service Area</a></li>
+              <li><a href="#services" className="text-background/80 hover:text-primary transition-colors">Vessel Type</a></li>
+              <li><a href="#pricing" className="text-background/80 hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#contact" className="text-background/80 hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
               <li className="text-background/80">779-220-0187</li>
-              <li><a href="mailto:info@boatgone.com" className="text-background/80 hover:text-primary transition-colors">info@boatgone.com</a></li>
+              <li><a href="mailto:quote@boatsremoval.com" className="text-background/80 hover:text-primary transition-colors">quote@boatsremoval.com</a></li>
               <li className="text-background/80">24/7 Service</li>
             </ul>
             <div className="flex gap-3 mt-4">
