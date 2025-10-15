@@ -76,7 +76,7 @@ export default function ServiceSelector() {
                       onClick={() => setLocation(`/quote?type=${service.id}`)}
                       data-testid={`button-quote-${service.id}`}
                     >
-                      Quote
+                      Get Quote
                     </Button>
                   </div>
                 </CardContent>
