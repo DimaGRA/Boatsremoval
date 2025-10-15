@@ -50,7 +50,7 @@ export default function HeroSection() {
         </div>
 
         <p className="text-2xl md:text-3xl font-bold text-primary" data-testid="text-phone-number">
-          📞 1-800-555-1234
+          📞 779-220-0187
         </p>
       </div>
     </section>

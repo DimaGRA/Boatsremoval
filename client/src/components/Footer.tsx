@@ -41,7 +41,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-background/80">1-800-555-1234</li>
+              <li className="text-background/80">779-220-0187</li>
               <li><a href="mailto:info@boatgone.com" className="text-background/80 hover:text-primary transition-colors">info@boatgone.com</a></li>
               <li className="text-background/80">24/7 Service</li>
             </ul>

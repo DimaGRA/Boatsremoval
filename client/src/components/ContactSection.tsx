@@ -116,8 +116,8 @@ export default function ContactSection() {
                     <Phone className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-foreground">Phone</p>
-                      <a href="tel:+18005551234" className="text-muted-foreground hover:text-primary">
-                        1-800-555-1234
+                      <a href="tel:+17792200187" className="text-muted-foreground hover:text-primary">
+                        779-220-0187
                       </a>
                     </div>
                   </div>

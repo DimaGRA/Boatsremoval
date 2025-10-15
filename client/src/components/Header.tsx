@@ -58,9 +58,9 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
 
           {/* Phone & Language */}
           <div className="flex items-center gap-3">
-            <a href="tel:+18005551234" className="hidden sm:flex items-center gap-2 text-secondary-foreground" data-testid="link-phone">
+            <a href="tel:+17792200187" className="hidden sm:flex items-center gap-2 text-secondary-foreground" data-testid="link-phone">
               <Phone className="h-5 w-5" />
-              <span className="font-bold text-lg md:text-xl">1-800-555-1234</span>
+              <span className="font-bold text-lg md:text-xl">779-220-0187</span>
             </a>
 
             <DropdownMenu>
@@ -121,9 +121,9 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
               <a href="#contact" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-contact">
                 Contact
               </a>
-              <a href="tel:+18005551234" className="flex items-center gap-2 text-secondary-foreground font-bold py-2 sm:hidden" data-testid="mobile-link-phone">
+              <a href="tel:+17792200187" className="flex items-center gap-2 text-secondary-foreground font-bold py-2 sm:hidden" data-testid="mobile-link-phone">
                 <Phone className="h-5 w-5" />
-                1-800-555-1234
+                779-220-0187
               </a>
             </nav>
           </div>
