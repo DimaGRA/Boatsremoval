@@ -4,6 +4,7 @@ hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["zip"]
 
 [deployment]
 deploymentTarget = "autoscale"
@@ -22,7 +23,6 @@ externalPort = 3000
 PORT = "5000"
 
 [workflows]
-runButton = "Project"
 
 [[workflows.workflow]]
 name = "Project"
