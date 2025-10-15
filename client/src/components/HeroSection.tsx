@@ -32,7 +32,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-auto"
+              className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
               data-testid="button-get-quote"
               onClick={() => setLocation('/quote')}
             >
@@ -41,7 +41,7 @@ export default function HeroSection() {
             </Button>
             <Button
               size="lg"
-              className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-auto"
+              className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
               data-testid="button-call-now"
               asChild
             >
