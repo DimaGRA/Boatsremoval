@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary">⚓ BoatsRemoval</h3>
             <div className="text-background/80 text-sm space-y-2">
-              <p>3118 Gulf to Bay Blvd, Clearwater, FL 33759</p>
+              <p>201 Seminole St., Clearwater, FL 33755</p>
               <p>4470 Anglers Ave, Fort Lauderdale, FL 33312</p>
             </div>
           </div>
