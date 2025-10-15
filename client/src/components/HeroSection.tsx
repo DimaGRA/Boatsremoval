@@ -19,40 +19,50 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight" data-testid="text-hero-title">
-          Fast Boat Removal Services
-        </h1>
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
-          Professional disposal and dismantle of unwanted boats, yachts, catamarans . Same-day service available!
-        </p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <Button
-            size="lg"
-            className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12"
-            data-testid="button-get-quote"
-            onClick={() => setLocation('/quote')}
-          >
-            <Calculator className="mr-2 h-5 w-5" />
-            Get Free Quote
-          </Button>
-          <Button
-            size="lg"
-            className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12"
-            data-testid="button-call-now"
-            asChild
-          >
-            <a href="tel:+17792200187">
-              <Phone className="mr-2 h-5 w-5" />
-              Call Now
-            </a>
-          </Button>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between py-12 md:py-16 text-center">
+        {/* Top Section - Title */}
+        <div>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-8 leading-tight" data-testid="text-hero-title">
+            Fast Boat Removal Services
+          </h1>
         </div>
 
-        <p className="text-2xl md:text-3xl font-bold text-primary" data-testid="text-phone-number">
-          📞 779-220-0187
-        </p>
+        {/* Middle Section - Buttons and Phone */}
+        <div className="space-y-6">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-auto"
+              data-testid="button-get-quote"
+              onClick={() => setLocation('/quote')}
+            >
+              <Calculator className="mr-2 h-5 w-5" />
+              Get Free Quote
+            </Button>
+            <Button
+              size="lg"
+              className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-auto"
+              data-testid="button-call-now"
+              asChild
+            >
+              <a href="tel:+17792200187" className="flex items-center justify-center">
+                <Phone className="mr-2 h-5 w-5" />
+                Call Now
+              </a>
+            </Button>
+          </div>
+
+          <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary" data-testid="text-phone-number">
+            📞 779-220-0187
+          </p>
+        </div>
+
+        {/* Bottom Section - Subtitle */}
+        <div>
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
+            Professional disposal and dismantle of unwanted boats, yachts, catamarans . Same-day service available!
+          </p>
+        </div>
       </div>
     </section>
   );
