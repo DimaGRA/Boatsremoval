@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useLocation } from "wouter";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Check } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import sailboatImg from "@assets/sailboat_1759945606068.jpg";
 import motorboatImg from "@assets/junk-boat-yard_1759945852166.jpeg";
 import jetskiImg from "@assets/jetski_1759945958376.jpg";
@@ -25,23 +24,7 @@ const services: ServiceItem[] = [
 ];
 
 export default function ServiceSelector() {
-  const [selectedItems, setSelectedItems] = useState<Set<string>>(new Set());
-
-  const toggleItem = (id: string) => {
-    const newSelected = new Set(selectedItems);
-    if (newSelected.has(id)) {
-      newSelected.delete(id);
-    } else {
-      newSelected.add(id);
-    }
-    setSelectedItems(newSelected);
-    console.log('Selected items:', Array.from(newSelected));
-  };
-
-  const totalPrice = Array.from(selectedItems).reduce((sum, id) => {
-    const item = services.find(s => s.id === id);
-    return sum + (item?.basePrice || 0);
-  }, 0);
+  const [, setLocation] = useLocation();
 
   return (
     <section id="services" className="py-16 md:py-20 bg-background">
@@ -68,14 +51,10 @@ export default function ServiceSelector() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 mb-8">
           {services.map((service) => {
-            const isSelected = selectedItems.has(service.id);
             return (
               <Card
                 key={service.id}
-                className={`cursor-pointer transition-all hover-elevate active-elevate-2 overflow-hidden ${
-                  isSelected ? 'ring-2 ring-primary' : ''
-                }`}
-                onClick={() => toggleItem(service.id)}
+                className="transition-all hover-elevate active-elevate-2 overflow-hidden"
                 data-testid={`card-service-${service.id}`}
               >
                 <CardContent className="p-0">
@@ -85,38 +64,26 @@ export default function ServiceSelector() {
                       alt={service.name}
                       className="w-full h-32 md:h-40 object-cover"
                     />
-                    {isSelected && (
-                      <div className="absolute top-2 right-2 bg-primary rounded-full p-1">
-                        <Check className="h-4 w-4 text-primary-foreground" />
-                      </div>
-                    )}
                   </div>
                   <div className="p-3">
                     <h3 className="font-semibold text-foreground mb-1" data-testid={`text-service-name-${service.id}`}>
                       {service.name}
                     </h3>
                     <p className="text-xs text-muted-foreground mb-2">{service.description}</p>
-                    <Badge variant="secondary" className="text-xs" data-testid={`badge-price-${service.id}`}>
-                      from ${service.basePrice}
-                    </Badge>
+                    <Button 
+                      className="w-full bg-primary text-primary-foreground hover:bg-primary" 
+                      size="sm"
+                      onClick={() => setLocation(`/quote?type=${service.id}`)}
+                      data-testid={`button-quote-${service.id}`}
+                    >
+                      Quote
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
             );
           })}
         </div>
-
-        {selectedItems.size > 0 && (
-          <div className="bg-primary p-6 rounded-md text-center" data-testid="div-total-estimate">
-            <p className="text-primary-foreground text-lg mb-2">Total Estimate</p>
-            <p className="text-4xl font-extrabold text-primary-foreground" data-testid="text-total-price">
-              ${totalPrice}
-            </p>
-            <p className="text-primary-foreground/80 text-sm mt-2">
-              {selectedItems.size} item{selectedItems.size > 1 ? 's' : ''} selected
-            </p>
-          </div>
-        )}
       </div>
     </section>
   );
