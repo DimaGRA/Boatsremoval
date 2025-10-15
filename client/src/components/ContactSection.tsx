@@ -221,8 +221,8 @@ export default function ContactSection() {
                     <Mail className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <a href="mailto:info@boatremove.com" className="text-muted-foreground hover:text-primary">
-                        info@boatremove.com
+                      <a href="mailto:quote@boatsremoval.com" className="text-muted-foreground hover:text-primary">
+                        quote@boatsremoval.com
                       </a>
                     </div>
                   </div>
@@ -231,7 +231,7 @@ export default function ContactSection() {
                     <MapPin className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <p className="font-semibold text-foreground">Service Areas</p>
-                      <p className="text-muted-foreground">Nationwide Coverage</p>
+                      <p className="text-muted-foreground">Florida</p>
                     </div>
                   </div>
 
