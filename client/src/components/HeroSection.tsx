@@ -27,8 +27,8 @@ export default function HeroSection() {
           </h1>
         </div>
 
-        {/* Middle Section - Buttons and Phone */}
-        <div className="space-y-6">
+        {/* Bottom Section - All content at bottom */}
+        <div className="space-y-4 pb-4 md:pb-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
@@ -55,10 +55,7 @@ export default function HeroSection() {
           <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary" data-testid="text-phone-number">
             779-220-0187
           </p>
-        </div>
 
-        {/* Bottom Section - Subtitle */}
-        <div>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
             Professional disposal and dismantle of unwanted boats, yachts, catamarans . Same-day service available!
           </p>
