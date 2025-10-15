@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Upload, Image as ImageIcon, X } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactSection() {
@@ -15,15 +15,45 @@ export default function ContactSection() {
     phone: "",
     message: "",
   });
+  const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
+
+  const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const files = event.target.files;
+    if (files) {
+      const fileArray = Array.from(files);
+      const validFiles = fileArray.filter(file => {
+        const isImage = file.type.startsWith('image/');
+        const isUnder10MB = file.size <= 10 * 1024 * 1024;
+        return isImage && isUnder10MB;
+      });
+
+      if (validFiles.length !== fileArray.length) {
+        toast({
+          title: "Some files were not added",
+          description: "Only images under 10MB are allowed",
+          variant: "destructive",
+        });
+      }
+
+      const newFiles = [...selectedFiles, ...validFiles].slice(0, 4);
+      setSelectedFiles(newFiles);
+    }
+  };
+
+  const removeFile = (index: number) => {
+    setSelectedFiles(selectedFiles.filter((_, i) => i !== index));
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
+    console.log('Images:', selectedFiles);
     toast({
       title: "Request Received!",
       description: "We'll contact you within 1 hour.",
     });
     setFormData({ name: "", email: "", phone: "", message: "" });
+    setSelectedFiles([]);
   };
 
   return (
@@ -31,10 +61,10 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" data-testid="text-contact-title">
-            Get In Touch
+            Get In Touch & Send Boat Images
           </h2>
           <p className="text-lg text-muted-foreground" data-testid="text-contact-subtitle">
-            Ready to remove your boat? Contact us today for a free quote!
+            For the fastest quote, send us your boat images along with your contact details!
           </p>
         </div>
 
@@ -99,8 +129,73 @@ export default function ContactSection() {
                     />
                   </div>
 
+                  <div className="space-y-2">
+                    <Label htmlFor="boat-images">Boat Images (Optional)</Label>
+                    <input
+                      type="file"
+                      accept="image/*"
+                      multiple
+                      onChange={handleFileSelect}
+                      className="hidden"
+                      id="boat-images"
+                      data-testid="input-boat-images"
+                    />
+                    <label
+                      htmlFor="boat-images"
+                      className="flex flex-col items-center justify-center w-full h-40 border-2 border-dashed border-border rounded-md cursor-pointer hover-elevate active-elevate-2 bg-muted/50"
+                      data-testid="label-upload-area"
+                    >
+                      <div className="flex flex-col items-center justify-center text-center p-4">
+                        <div className="mb-2 p-3 bg-primary/10 rounded-full">
+                          <Upload className="h-8 w-8 text-primary" />
+                        </div>
+                        <p className="mb-1 text-sm font-semibold text-foreground">
+                          Click to upload boat images
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          PNG, JPG up to 10MB (max 4 images)
+                        </p>
+                      </div>
+                    </label>
+
+                    {selectedFiles.length > 0 && (
+                      <div className="mt-3 space-y-2">
+                        <p className="text-sm font-semibold text-foreground">
+                          Selected Images ({selectedFiles.length}/4)
+                        </p>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                          {selectedFiles.map((file, index) => (
+                            <div
+                              key={index}
+                              className="relative group bg-muted rounded-md overflow-hidden"
+                              data-testid={`preview-image-${index}`}
+                            >
+                              <div className="aspect-square flex items-center justify-center p-2">
+                                <ImageIcon className="h-8 w-8 text-muted-foreground" />
+                              </div>
+                              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <Button
+                                  size="icon"
+                                  variant="destructive"
+                                  onClick={() => removeFile(index)}
+                                  data-testid={`button-remove-${index}`}
+                                >
+                                  <X className="h-4 w-4" />
+                                </Button>
+                              </div>
+                              <p className="absolute bottom-0 left-0 right-0 bg-black/80 text-white text-xs p-1 truncate">
+                                {file.name}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
                   <Button type="submit" size="lg" className="w-full" data-testid="button-submit">
-                    Request Free Quote
+                    <Upload className="mr-2 h-5 w-5" />
+                    Submit Quote Request
                   </Button>
                 </form>
               </CardContent>
