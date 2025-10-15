@@ -19,9 +19,9 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between py-8 md:py-12 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between py-4 text-center">
         {/* Top Section - Title */}
-        <div className="pt-4 md:pt-8">
+        <div className="pt-2 md:pt-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight" data-testid="text-hero-title">
             Fast Boat Removal Services
           </h1>
