@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     id: "faq-6",
-    question: "Can U.S. Boat Removal handle boats in inaccessible places?",
+    question: "Can BoatsRemoval handle boats in inaccessible places?",
     answer: "Yes, we have the expertise and equipment to effectively remove boats from even the most inaccessible and difficult-to-reach locations.",
   },
 ];
