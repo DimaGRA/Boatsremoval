@@ -39,8 +39,7 @@ export default function HeroSection() {
           </Button>
           <Button
             size="lg"
-            variant="outline"
-            className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white/20 font-bold text-lg px-8 h-12 min-h-12"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12"
             data-testid="button-call-now"
             asChild
           >
