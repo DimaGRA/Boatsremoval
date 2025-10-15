@@ -39,17 +39,14 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-services">
-              Boat Removal
-            </a>
-            <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-pricing">
+            <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-service-area">
               Service Area
             </a>
-            <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-calculator">
+            <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-vessel-type">
               Vessel Type
             </a>
-            <a href="#whyus" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-whyus">
-              Why Us?
+            <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-faq">
+              FAQ
             </a>
             <a href="#contact" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors" data-testid="link-contact">
               Contact
@@ -106,17 +103,14 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
         {mobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-secondary-border">
             <nav className="flex flex-col gap-3">
-              <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-services">
-                Boat Removal
-              </a>
-              <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-pricing">
+              <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-service-area">
                 Service Area
               </a>
-              <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-calculator">
+              <a href="#calculator" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-vessel-type">
                 Vessel Type
               </a>
-              <a href="#whyus" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-whyus">
-                Why Us?
+              <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-faq">
+                FAQ
               </a>
               <a href="#contact" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium py-2" onClick={() => setMobileMenuOpen(false)} data-testid="mobile-link-contact">
                 Contact
