@@ -48,17 +48,20 @@ export default function ServiceSelector() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6" data-testid="text-services-title">
-            Fast, Reliable Boat Removal Anywhere in the U.S.
+            Fast, Reliable Boat Removal Across Florida
           </h2>
           <div className="text-lg text-muted-foreground max-w-4xl mx-auto space-y-4" data-testid="text-services-subtitle">
             <p>
-              At Remove My Boat, we make getting rid of unwanted boats simple and stress-free. Our experienced team handles all types of marine craft — including sailboats, motorboats, yachts, pontoons, and personal watercraft — no matter the size or condition.
+              At BoatsRemoval, we make getting rid of unwanted boats simple, safe, and stress-free. As a local Florida company, we proudly serve both the East and West Coasts — including Broward, Miami-Dade, Palm Beach, Hernando, Pasco, Pinellas, Hillsborough, Manatee, and Sarasota counties.
             </p>
             <p>
-              Whether your boat is on land, in the water, or even submerged, we'll remove it safely and efficiently. We take care of salvage, disposal, and environmental compliance, so you don't have to worry about code violations, storage fees, or fines.
+              Our experienced team handles all types of marine vessels — sailboats, motorboats, yachts, pontoons, and jet skis — no matter the size, age, or condition.
             </p>
             <p>
-              With years of experience and hundreds of successful removals nationwide, Remove My Boat is your trusted partner for professional, affordable boat removal service — anywhere in the country.
+              Whether your boat is on land, in the water, or even submerged, we'll remove it quickly and responsibly. We take care of salvage, disposal, and environmental compliance, so you can avoid code violations, storage fees, and fines.
+            </p>
+            <p>
+              With years of experience and hundreds of successful removals across Florida, BoatsRemoval is your trusted local partner for professional and affordable boat removal services on both coasts.
             </p>
           </div>
         </div>
