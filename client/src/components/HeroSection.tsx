@@ -7,7 +7,7 @@ export default function HeroSection() {
   const [, setLocation] = useLocation();
 
   return (
-    <section className="relative min-h-[600px] md:min-h-[700px] flex flex-col overflow-hidden">
+    <section className="relative min-h-screen flex flex-col">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
@@ -19,23 +19,19 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between">
         {/* Top Section - Title */}
-        <div className="pt-4 md:pt-6 text-center">
-          <h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight"
-            data-testid="text-hero-title"
-          >
+        <div className="pt-6 text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
             Fast Boat Removal Services
           </h1>
         </div>
 
         {/* Middle Section - Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-auto mb-[100px]">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-auto mb-24">
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
-            data-testid="button-get-quote"
+            className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 w-full sm:w-56"
             onClick={() => setLocation("/quote")}
           >
             <Calculator className="mr-2 h-5 w-5" />
@@ -43,8 +39,7 @@ export default function HeroSection() {
           </Button>
           <Button
             size="lg"
-            className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
-            data-testid="button-call-now"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 w-full sm:w-56"
             asChild
           >
             <a href="tel:+17792200187" className="flex items-center justify-center">
@@ -55,18 +50,11 @@ export default function HeroSection() {
         </div>
 
         {/* Bottom Section - Phone & Subtitle */}
-        <div className="absolute bottom-4 md:bottom-6 left-0 w-full text-center px-4">
-          <p
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary"
-            data-testid="text-phone-number"
-          >
+        <div className="absolute bottom-6 left-0 w-full text-center px-4">
+          <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
             779-220-0187
           </p>
-
-          <p
-            className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto"
-            data-testid="text-hero-subtitle"
-          >
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mt-2">
             Professional disposal and dismantle of unwanted boats, yachts, catamarans. Same-day
             service available!
           </p>
