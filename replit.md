@@ -51,7 +51,32 @@ A professional business website for boat removal services in Florida. The site f
 
 ## Environment Variables
 - `RESEND_API_KEY` - API key for Resend email service
+- `QUOTE_EMAIL` - Email address to receive quote notifications (defaults to test account email)
 - `SESSION_SECRET` - Session management secret
+
+## Email Setup Notes
+
+### Current Configuration (Test Mode)
+The system is currently configured with a Resend test account that has restrictions:
+- Emails can only be sent to the account owner's email (serkormik@gmail.com)
+- Uses Resend's default verified domain (onboarding@resend.dev) as sender
+
+### For Production Use
+To send emails to quote@boatsremoval.com:
+
+1. **Verify Your Domain in Resend:**
+   - Go to https://resend.com/domains
+   - Add and verify boatsremoval.com domain
+   - Follow DNS verification steps
+
+2. **Update Email Configuration:**
+   - Set `QUOTE_EMAIL` environment variable to `quote@boatsremoval.com`
+   - Update `from` address in `server/email.ts` to use your verified domain
+   - Example: `noreply@boatsremoval.com`
+
+3. **Alternative: Use Resend Production Plan**
+   - Upgrade to a paid Resend plan
+   - This removes test account restrictions
 
 ## Project Structure
 ```
