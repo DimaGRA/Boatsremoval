@@ -37,3 +37,17 @@ export const quoteSchema = z.object({
 });
 
 export type QuoteRequest = z.infer<typeof quoteSchema>;
+
+// Contact form schema for home page contact form
+export const contactSchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  email: z.string().email("Valid email is required"),
+  phone: z.string().min(1, "Phone is required"),
+  message: z.string().min(1, "Message is required"),
+  images: z.array(z.object({
+    filename: z.string(),
+    content: z.string(), // base64 encoded content
+  })).optional(),
+});
+
+export type ContactRequest = z.infer<typeof contactSchema>;

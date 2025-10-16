@@ -17,7 +17,66 @@ export default function ContactSection() {
   });
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
 
-  const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const compressImage = (file: File): Promise<File> => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = new Image();
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          if (!ctx) {
+            reject(new Error('Could not get canvas context'));
+            return;
+          }
+
+          const MAX_WIDTH = 1920;
+          const MAX_HEIGHT = 1920;
+          
+          let width = img.width;
+          let height = img.height;
+
+          if (width > height) {
+            if (width > MAX_WIDTH) {
+              height = (height * MAX_WIDTH) / width;
+              width = MAX_WIDTH;
+            }
+          } else {
+            if (height > MAX_HEIGHT) {
+              width = (width * MAX_HEIGHT) / height;
+              height = MAX_HEIGHT;
+            }
+          }
+
+          canvas.width = width;
+          canvas.height = height;
+          ctx.drawImage(img, 0, 0, width, height);
+
+          canvas.toBlob(
+            (blob) => {
+              if (blob) {
+                const compressedFile = new File([blob], file.name, {
+                  type: 'image/jpeg',
+                  lastModified: Date.now(),
+                });
+                resolve(compressedFile);
+              } else {
+                reject(new Error('Compression failed'));
+              }
+            },
+            'image/jpeg',
+            0.8
+          );
+        };
+        img.onerror = () => reject(new Error('Failed to load image'));
+        img.src = e.target?.result as string;
+      };
+      reader.onerror = () => reject(new Error('Failed to read file'));
+      reader.readAsDataURL(file);
+    });
+  };
+
+  const handleFileSelect = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files;
     if (files) {
       const fileArray = Array.from(files);
@@ -35,8 +94,20 @@ export default function ContactSection() {
         });
       }
 
-      const newFiles = [...selectedFiles, ...validFiles].slice(0, 4);
-      setSelectedFiles(newFiles);
+      try {
+        const compressedFiles = await Promise.all(
+          validFiles.map(file => compressImage(file))
+        );
+        const newFiles = [...selectedFiles, ...compressedFiles].slice(0, 4);
+        setSelectedFiles(newFiles);
+      } catch (error) {
+        console.error('Image compression error:', error);
+        toast({
+          title: "Image Processing Failed",
+          description: "Please try different images.",
+          variant: "destructive",
+        });
+      }
     }
   };
 
@@ -44,16 +115,67 @@ export default function ContactSection() {
     setSelectedFiles(selectedFiles.filter((_, i) => i !== index));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    console.log('Images:', selectedFiles);
-    toast({
-      title: "Request Received!",
-      description: "We'll contact you within 1 hour.",
-    });
-    setFormData({ name: "", email: "", phone: "", message: "" });
-    setSelectedFiles([]);
+    
+    try {
+      // Convert images to base64
+      const imagePromises = selectedFiles.map(file => {
+        return new Promise<{ filename: string; content: string }>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const base64 = reader.result as string;
+            const base64Content = base64.split(',')[1];
+            resolve({
+              filename: file.name,
+              content: base64Content,
+            });
+          };
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+      });
+
+      const images = await Promise.all(imagePromises);
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+          images: images.length > 0 ? images : undefined,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        toast({
+          title: "Request Received!",
+          description: "We'll contact you within 1 hour.",
+        });
+        setFormData({ name: "", email: "", phone: "", message: "" });
+        setSelectedFiles([]);
+      } else {
+        toast({
+          title: "Submission Failed",
+          description: result.message || "Please try again.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      console.error('Contact form submission error:', error);
+      toast({
+        title: "Submission Failed",
+        description: "Please check your connection and try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
