@@ -105,6 +105,7 @@ shared/
 
 ## API Endpoints
 - `POST /api/quote` - Submit quote request (sends email notification)
+- `POST /api/contact` - Submit contact form (sends email notification to same address)
 
 ## Running the Project
 ```bash
