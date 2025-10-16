@@ -30,31 +30,32 @@ export default function HeroSection() {
           </h1>
         </div>
 
-        {/* Bottom Section - Buttons, Phone, Subtitle */}
-        <div className="pb-6 md:pb-12 text-center space-y-4">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
-              data-testid="button-get-quote"
-              onClick={() => setLocation("/quote")}
-            >
-              <Calculator className="mr-2 h-5 w-5" />
-              Get Free Quote
-            </Button>
-            <Button
-              size="lg"
-              className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
-              data-testid="button-call-now"
-              asChild
-            >
-              <a href="tel:+17792200187" className="flex items-center justify-center">
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now
-              </a>
-            </Button>
-          </div>
+        {/* Middle Section - Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button
+            size="lg"
+            className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
+            data-testid="button-get-quote"
+            onClick={() => setLocation("/quote")}
+          >
+            <Calculator className="mr-2 h-5 w-5" />
+            Get Free Quote
+          </Button>
+          <Button
+            size="lg"
+            className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 min-h-12 w-full sm:w-56"
+            data-testid="button-call-now"
+            asChild
+          >
+            <a href="tel:+17792200187" className="flex items-center justify-center">
+              <Phone className="mr-2 h-5 w-5" />
+              Call Now
+            </a>
+          </Button>
+        </div>
 
+        {/* Bottom Section - Phone & Subtitle */}
+        <div className="mt-auto pb-4 md:pb-6 text-center space-y-2">
           <p
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary"
             data-testid="text-phone-number"
