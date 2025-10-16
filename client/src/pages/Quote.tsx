@@ -64,10 +64,97 @@ export default function Quote() {
     images: [] as File[]
   });
 
-  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const compressImage = (file: File): Promise<File> => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = new Image();
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          if (!ctx) {
+            reject(new Error('Could not get canvas context'));
+            return;
+          }
+
+          // Max dimensions to keep file size reasonable
+          const MAX_WIDTH = 1920;
+          const MAX_HEIGHT = 1920;
+          
+          let width = img.width;
+          let height = img.height;
+
+          // Calculate new dimensions
+          if (width > height) {
+            if (width > MAX_WIDTH) {
+              height = (height * MAX_WIDTH) / width;
+              width = MAX_WIDTH;
+            }
+          } else {
+            if (height > MAX_HEIGHT) {
+              width = (width * MAX_HEIGHT) / height;
+              height = MAX_HEIGHT;
+            }
+          }
+
+          canvas.width = width;
+          canvas.height = height;
+          ctx.drawImage(img, 0, 0, width, height);
+
+          // Compress to JPEG with quality 0.8
+          canvas.toBlob(
+            (blob) => {
+              if (blob) {
+                const compressedFile = new File([blob], file.name, {
+                  type: 'image/jpeg',
+                  lastModified: Date.now(),
+                });
+                resolve(compressedFile);
+              } else {
+                reject(new Error('Compression failed'));
+              }
+            },
+            'image/jpeg',
+            0.8
+          );
+        };
+        img.onerror = () => reject(new Error('Failed to load image'));
+        img.src = e.target?.result as string;
+      };
+      reader.onerror = () => reject(new Error('Failed to read file'));
+      reader.readAsDataURL(file);
+    });
+  };
+
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
       const filesArray = Array.from(e.target.files).slice(0, 3);
-      setFormData({ ...formData, images: filesArray });
+      
+      // Check file sizes
+      const oversizedFiles = filesArray.filter(f => f.size > 10 * 1024 * 1024);
+      if (oversizedFiles.length > 0) {
+        toast({
+          title: "Image Too Large",
+          description: "Please select images under 10MB each.",
+          variant: "destructive",
+        });
+        return;
+      }
+
+      try {
+        // Compress images
+        const compressedImages = await Promise.all(
+          filesArray.map(file => compressImage(file))
+        );
+        setFormData({ ...formData, images: compressedImages });
+      } catch (error) {
+        console.error('Image compression error:', error);
+        toast({
+          title: "Image Processing Failed",
+          description: "Please try different images.",
+          variant: "destructive",
+        });
+      }
     }
   };
 
@@ -337,13 +424,15 @@ export default function Quote() {
                         accept="image/*"
                         multiple
                         onChange={handleImageUpload}
-                        data-testid="input-images"
+                        data-testid="input-boat-images"
                       />
                       <p className="text-xs text-muted-foreground">
-                        Accelerate the boat removal process by adding 1-3 images of the boat you want removed.
+                        Add up to 3 images (max 10MB each) to accelerate your quote. Images will be automatically optimized.
                       </p>
                       {formData.images.length > 0 && (
-                        <p className="text-sm text-foreground">{formData.images.length} image(s) selected</p>
+                        <p className="text-sm text-foreground font-medium">
+                          ✓ {formData.images.length} image(s) ready to send
+                        </p>
                       )}
                     </div>
 
