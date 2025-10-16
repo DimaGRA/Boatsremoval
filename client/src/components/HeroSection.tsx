@@ -18,15 +18,15 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/50 to-black/40"></div>
       </div>
 
-      {/* Title at top */}
-      <div className="relative z-10 pt-6 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
+      {/* Title */}
+      <div className="relative z-10 pt-6 sm:pt-10 md:pt-16 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
           Fast Boat Removal Services
         </h1>
       </div>
 
-      {/* Buttons in middle */}
-      <div className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center items-center mt-16 mb-[120px] text-center">
+      {/* Buttons */}
+      <div className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center items-center mt-10 md:mt-20 mb-[140px] text-center px-4 sm:px-0">
         <Button
           size="lg"
           className="bg-primary hover:bg-primary text-primary-foreground font-bold text-lg px-8 h-12 w-full sm:w-56"
@@ -47,12 +47,12 @@ export default function HeroSection() {
         </Button>
       </div>
 
-      {/* Bottom phone + subtitle */}
-      <div className="absolute bottom-6 left-0 w-full text-center px-4 z-10">
-        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
+      {/* Bottom Section */}
+      <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-0 w-full text-center px-4 z-10">
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
           779-220-0187
         </p>
-        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mt-2">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto mt-2">
           Professional disposal and dismantle of unwanted boats, yachts, catamarans. Same-day
           service available!
         </p>
