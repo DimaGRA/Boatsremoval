@@ -22,9 +22,20 @@ export async function sendQuoteEmail(quoteData: QuoteRequest) {
     <p><strong>City:</strong> ${quoteData.city}</p>
     <p><strong>State:</strong> ${quoteData.state}</p>
     <p><strong>Zip Code:</strong> ${quoteData.zipCode}</p>
+    
+    ${quoteData.images && quoteData.images.length > 0 ? `
+    <h3>Boat Photos</h3>
+    <p>${quoteData.images.length} photo(s) attached</p>
+    ` : ''}
   `;
 
   try {
+    // Prepare attachments from images
+    const attachments = quoteData.images?.map(img => ({
+      filename: img.filename,
+      content: img.content,
+    })) || [];
+
     // Note: Using test account email due to Resend test account restrictions
     // For production, change this to quote@boatsremoval.com after verifying domain
     const { data, error } = await resend.emails.send({
@@ -33,6 +44,7 @@ export async function sendQuoteEmail(quoteData: QuoteRequest) {
       subject: `New Quote Request - ${quoteData.firstName} ${quoteData.lastName}`,
       html: emailContent,
       replyTo: quoteData.email,
+      ...(attachments.length > 0 && { attachments }),
     });
 
     if (error) {

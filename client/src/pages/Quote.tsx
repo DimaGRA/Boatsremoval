@@ -75,6 +75,26 @@ export default function Quote() {
     e.preventDefault();
     
     try {
+      // Convert images to base64
+      const imagePromises = formData.images.map(file => {
+        return new Promise<{ filename: string; content: string }>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const base64 = reader.result as string;
+            // Remove the data URL prefix (e.g., "data:image/jpeg;base64,")
+            const base64Content = base64.split(',')[1];
+            resolve({
+              filename: file.name,
+              content: base64Content,
+            });
+          };
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+      });
+
+      const images = await Promise.all(imagePromises);
+
       const response = await fetch('/api/quote', {
         method: 'POST',
         headers: {
@@ -92,6 +112,7 @@ export default function Quote() {
           zipCode: formData.zipCode,
           phone: formData.phone,
           email: formData.email,
+          images: images.length > 0 ? images : undefined,
         }),
       });
 

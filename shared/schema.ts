@@ -30,6 +30,10 @@ export const quoteSchema = z.object({
   zipCode: z.string().min(1, "Zip code is required"),
   phone: z.string().min(1, "Phone is required"),
   email: z.string().email("Valid email is required"),
+  images: z.array(z.object({
+    filename: z.string(),
+    content: z.string(), // base64 encoded content
+  })).optional(),
 });
 
 export type QuoteRequest = z.infer<typeof quoteSchema>;
