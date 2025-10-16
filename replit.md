@@ -34,16 +34,26 @@ A professional business website for boat removal services in Florida. The site f
      - Customer info (name, contact)
      - Boat details (size, engine type)
      - Location (full address)
-     - Optional boat images (up to 3)
+     - Optional boat images (up to 3, max 10MB each)
    - All quote requests sent via email to quote@boatsremoval.com
    
-3. **Email Integration**
+3. **Image Upload & Processing**
+   - Supports up to 3 images per quote request
+   - Maximum 10MB per image (validated client-side)
+   - Automatic image compression:
+     - Resizes to max 1920x1920px
+     - Converts to JPEG format with 0.8 quality
+     - Significantly reduces file size for faster uploads
+   - Images sent as email attachments via Resend API
+   
+4. **Email Integration**
    - Uses Resend API for reliable email delivery
    - API key stored in RESEND_API_KEY secret
    - Sends formatted HTML emails with all quote details
+   - Images attached to emails for review
    - Reply-to set to customer's email for easy responses
 
-4. **Design System**
+5. **Design System**
    - Primary color: Orange (#FF6B35)
    - Secondary color: Green (header and "Call Now" button)
    - Responsive design (mobile, tablet, desktop)
