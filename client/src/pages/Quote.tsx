@@ -71,14 +71,53 @@ export default function Quote() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Quote form submitted:', formData);
-    toast({
-      title: "Quote Request Submitted!",
-      description: "We'll contact you within 1 hour with your boat removal quote.",
-    });
-    setLocation('/');
+    
+    try {
+      const response = await fetch('/api/quote', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          boatSize: formData.boatSize,
+          engineType: formData.engineType,
+          addressLine1: formData.addressLine1,
+          addressLine2: formData.addressLine2,
+          city: formData.city,
+          state: formData.state,
+          zipCode: formData.zipCode,
+          phone: formData.phone,
+          email: formData.email,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        toast({
+          title: "Quote Request Submitted!",
+          description: "We'll contact you within 1 hour with your boat removal quote.",
+        });
+        setLocation('/');
+      } else {
+        toast({
+          title: "Submission Failed",
+          description: result.message || "Please try again.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      console.error('Quote submission error:', error);
+      toast({
+        title: "Submission Failed",
+        description: "Please check your connection and try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleNext = () => {
