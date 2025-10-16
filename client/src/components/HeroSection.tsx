@@ -23,6 +23,11 @@ export default function HeroSection() {
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
           Fast Boat Removal Services
         </h1>
+
+        {/* Phone number under title */}
+        <p className="mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
+          779-220-0187
+        </p>
       </div>
 
       {/* Buttons */}
@@ -45,13 +50,6 @@ export default function HeroSection() {
             Call Now
           </a>
         </Button>
-      </div>
-
-      {/* Phone under buttons */}
-      <div className="relative z-10 mt-4 text-center">
-        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-          779-220-0187
-        </p>
       </div>
 
       {/* Subtitle at the bottom */}
