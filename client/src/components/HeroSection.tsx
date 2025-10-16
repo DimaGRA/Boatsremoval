@@ -7,7 +7,7 @@ export default function HeroSection() {
   const [, setLocation] = useLocation();
 
   return (
-    <section className="relative min-h-[600px] md:min-h-[700px] flex flex-col justify-between items-center overflow-hidden">
+    <section className="relative min-h-[600px] md:min-h-[700px] flex flex-col justify-between overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
@@ -19,9 +19,9 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between py-8 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-between">
         {/* Top Section - Title */}
-        <div className="pt-8 md:pt-12">
+        <div className="pt-4 md:pt-6 text-center">
           <h1
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight"
             data-testid="text-hero-title"
@@ -31,7 +31,7 @@ export default function HeroSection() {
         </div>
 
         {/* Bottom Section - Buttons, Phone, Subtitle */}
-        <div className="space-y-4 pb-8 md:pb-12">
+        <div className="pb-6 md:pb-12 text-center space-y-4">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
