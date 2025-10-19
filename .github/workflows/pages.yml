@@ -1,20 +1,26 @@
-# Example: build with Node + Vite (outDir: docs) and deploy to GitHub Pages
-# Place this at .github/workflows/pages.yml
+name: Build and publish to GitHub Pages
+
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Use Node.js 18
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm ci
@@ -22,19 +28,25 @@ jobs:
       - name: Build (client -> docs/)
         run: npm run build
 
-      - name: Ensure .nojekyll (disable Jekyll processing)
+      - name: Ensure docs exists and disable Jekyll
         run: |
           mkdir -p docs
           touch docs/.nojekyll
+          ls -la docs
 
-      - name: Upload Pages artifact
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: docs
 
   deploy:
-    needs: build-and-deploy
+    needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+
     steps:
-      - name: Deploy to Pages
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
