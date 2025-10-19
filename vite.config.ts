@@ -4,6 +4,10 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
+  // IMPORTANT: set base to the repo name so assets are referenced as /Boatsremoval/...
+  // This is required for GitHub Pages project sites (dimagra.github.io/Boatsremoval/)
+  base: "/Boatsremoval/",
+
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -28,12 +32,17 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    // Write the client build into the repo's docs/ folder so GitHub Pages can serve from main/docs
+    outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true,
   },
   server: {
     fs: {
       strict: true,
+      deny: ["**/.*"],
+    },
+  },
+});
       deny: ["**/.*"],
     },
   },
