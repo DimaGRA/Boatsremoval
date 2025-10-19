@@ -1,0 +1,40 @@
+# Example: build with Node + Vite (outDir: docs) and deploy to GitHub Pages
+# Place this at .github/workflows/pages.yml
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (client -> docs/)
+        run: npm run build
+
+      - name: Ensure .nojekyll (disable Jekyll processing)
+        run: |
+          mkdir -p docs
+          touch docs/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs
+
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v1
