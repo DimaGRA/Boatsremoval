@@ -43,7 +43,3 @@ export default defineConfig({
     },
   },
 });
-      deny: ["**/.*"],
-    },
-  },
-});
