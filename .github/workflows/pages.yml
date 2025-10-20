@@ -2,7 +2,7 @@ name: Build and publish to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [client]
   workflow_dispatch:
 
 jobs:
