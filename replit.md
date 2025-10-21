@@ -28,6 +28,7 @@ A professional business website for boat removal services in Florida. The site f
 1. **Multi-page Website**
    - Home page with hero section, services, pricing, FAQ
    - Quote/pricing page with multi-step form
+   - SEO-optimized location pages (Pompano Beach, FL)
    
 2. **Quote Request System**
    - Multi-step form collecting:
@@ -58,6 +59,14 @@ A professional business website for boat removal services in Florida. The site f
    - Secondary color: Green (header and "Call Now" button)
    - Responsive design (mobile, tablet, desktop)
    - Professional business aesthetic
+
+6. **SEO Features**
+   - Location-specific landing pages with optimized content
+   - Proper meta tags using react-helmet-async
+   - SEO-friendly URLs (e.g., /pompano-beach-boat-removal)
+   - Open Graph tags for social media sharing
+   - Canonical URLs for each page
+   - Local keywords and landmarks integration
 
 ## Environment Variables
 - `RESEND_API_KEY` - API key for Resend email service
