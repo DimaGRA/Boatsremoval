@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
@@ -27,14 +28,18 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Service Areas */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Service Areas</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Service Areas</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Blog</a></li>
+              <li>
+                <Link href="/pompano-beach-boat-removal" className="text-background/80 hover:text-primary transition-colors">
+                  Pompano Beach, FL
+                </Link>
+              </li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Fort Lauderdale, FL</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Miami, FL</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">All Broward County</a></li>
             </ul>
           </div>
 

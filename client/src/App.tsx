@@ -1,10 +1,12 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
+import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
 import Quote from "@/pages/Quote";
+import PompanoBeach from "@/pages/PompanoBeach";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -12,6 +14,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/quote" component={Quote} />
+      <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -19,12 +22,14 @@ function Router() {
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Router />
-      </TooltipProvider>
-    </QueryClientProvider>
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Router />
+        </TooltipProvider>
+      </QueryClientProvider>
+    </HelmetProvider>
   );
 }
 
