@@ -6,64 +6,83 @@ import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function PompanoBeach() {
+export default function TampaBoatRemoval() {
   const [, setLocation] = useLocation();
 
+  // Tampa-specific service set, expanded for clarity and unique detail
   const services = [
-    "Boat Hauling & Transport",
-    "Yacht Dismantling",
-    "Catamaran Removal",
-    "Sailboat Disposal",
-    "Derelict Boat Removal",
-    "Marina Cleanouts"
+    "Submerged boat recovery with pumps and lift bags",
+    "Oversized yacht transport with permits and escorts",
+    "Storm-damaged vessel stabilization and removal",
+    "Derelict boat disposal and compliant documentation",
+    "Canal and marina cleanouts with careful staging",
+    "Eco-friendly dismantling and materials recycling",
+    "Trailered boat hauling from residential properties",
+    "Tight-access canal removals under low bridges",
+    "Commercial craft and workboat extraction",
+    "Insurance-coordinated removals after severe weather"
   ];
 
+  // Primary service areas with full ZIP coverage for Tampa, St. Petersburg, Clearwater, Sarasota
   const serviceAreas = [
-    "Pompano Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    // Tampa ZIP codes (33601–33694, including PO Boxes and unique ZIPs)
+    "Tampa ZIP Codes: 33601, 33602, 33603, 33604, 33605, 33606, 33607, 33608, 33609, 33610, 33611, 33612, 33613, 33614, 33615, 33616, 33617, 33618, 33619, 33620, 33621, 33622, 33623, 33624, 33625, 33626, 33629, 33630, 33631, 33633, 33634, 33635, 33637, 33646, 33647, 33650, 33655, 33660, 33661, 33662, 33663, 33664, 33672, 33673, 33674, 33675, 33677, 33679, 33680, 33681, 33682, 33684, 33685, 33686, 33687, 33688, 33689, 33694",
+    // St. Petersburg ZIP codes (33701–33784, inclusive of PO Boxes and unique ZIPs)
+    "St. Petersburg ZIP Codes: 33701, 33702, 33703, 33704, 33705, 33706, 33707, 33708, 33709, 33710, 33711, 33712, 33713, 33714, 33715, 33716, 33729, 33730, 33731, 33732, 33733, 33734, 33736, 33738, 33740, 33741, 33742, 33743, 33747, 33784",
+    // Clearwater ZIP codes (33755–33769, including Clearwater Beach and PO Boxes)
+    "Clearwater ZIP Codes: 33755, 33756, 33757, 33758, 33759, 33760, 33761, 33762, 33763, 33764, 33765, 33766, 33767, 33769",
+    // Sarasota ZIP codes (34230–34277, including barrier islands and unique ZIPs)
+    "Sarasota ZIP Codes: 34230, 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238, 34239, 34240, 34241, 34242, 34243, 34249, 34260, 34276, 34277"
   ];
 
+  // Tampa-focused FAQs with unique wording and details
   const faqs = [
     {
-      question: "How quickly can you remove a boat in Pompano Beach?",
-      answer: "We offer same-day and next-day boat removal services in Pompano Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "Do you handle storm-damaged boats across Tampa Bay marinas and canals?",
+      answer:
+        "Yes. After hurricanes or severe squalls, we secure sites, stabilize compromised hulls, and remove boats from marinas, private docks, and residential canals. We coordinate with property owners and insurers to prevent secondary impacts and expedite safe transport to approved facilities."
     },
     {
-      question: "What areas of Pompano Beach do you serve?",
-      answer: "We serve all of Pompano Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      question: "Which ZIP codes in Tampa, St. Petersburg, Clearwater, and Sarasota do you serve?",
+      answer:
+        "We cover Tampa (33601–33694), St. Petersburg (33701–33784), Clearwater (33755–33769), and Sarasota (34230–34277). If your ZIP code isn’t listed in our on-page examples, we likely still serve your location—share your address and site constraints for a fast, accurate quote."
     },
     {
-      question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Pompano Beach. We handle all permits and logistics."
+      question: "Can you remove oversized yachts or commercial craft with limited road access?",
+      answer:
+        "Absolutely. We obtain permits and arrange escorts, route planning, and staging. For tight corridors and low-clearance bridges, we deploy compact rigs, modular gear, and specialized trailers to move large vessels safely and compliantly."
     },
     {
-      question: "Is boat removal in Pompano Beach expensive?",
-      answer: "Our pricing is competitive and transparent. We provide free quotes and may even pay you for boats with resale value. Factors include boat size, condition, location accessibility, and disposal requirements."
+      question: "Is boat removal eco-friendly and compliant in Tampa Bay and neighboring waters?",
+      answer:
+        "Yes. We prioritize containment, recycling, and responsible disposal of fuel, oils, batteries, and composites. Operations are planned to protect Tampa Bay, Old Tampa Bay, and Intracoastal waterways, meeting Florida environmental regulations and local requirements."
+    },
+    {
+      question: "How quickly can you schedule Tampa boat removal?",
+      answer:
+        "We provide clear estimates promptly and can often schedule within 24–48 hours. For urgent situations—storm debris, drifting hulls, or navigational hazards—same-day assessments are possible depending on access and equipment availability."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal Pompano Beach FL | Professional Disposal & Dismantling Services</title>
-        <meta 
-          name="description" 
-          content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving Broward County for boats, yachts & catamarans of all sizes." 
+        <title>Boat Removal in Tampa Bay, FL and Surrounding Towns | BoatsRemoval.com</title>
+        <meta
+          name="description"
+          content="Professional boat removal in Tampa Bay, St. Petersburg, Clearwater, and Sarasota. Licensed crews handle submerged boats, storm-damaged vessels, oversized yachts, and derelict craft. Full coverage across Tampa, Pinellas, and Sarasota ZIP codes."
         />
-        <meta property="og:title" content="Boat Removal Pompano Beach FL | Professional Services" />
-        <meta 
-          property="og:description" 
-          content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal." 
+        <meta property="og:title" content="Boat Removal Tampa Bay FL | Professional Services" />
+        <meta
+          property="og:description"
+          content="Expert boat removal services across Tampa Bay and nearby towns. Free quotes, eco-friendly disposal, careful canal operations, and reliable scheduling for marinas, HOAs, and residential properties."
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/pompano-beach-boat-removal" />
+        <link rel="canonical" href="https://boatsremoval.com/tampa-boat-removal" />
       </Helmet>
+
       <Header />
-      
+
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-primary/10 via-background to-secondary/10 py-16 md:py-24">
@@ -71,29 +90,27 @@ export default function PompanoBeach() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Pompano Beach, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Tampa Bay, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in Pompano Beach, FL
+                Professional Boat Removal Services in Tampa Bay, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for Pompano Beach residents and businesses. 
-                We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
-                Fast, eco-friendly, and affordable solutions for Broward County.
+                Tampa Bay’s boating culture spans quiet canals, busy marinas, and open bay waters. When a vessel becomes
+                abandoned, storm-damaged, or simply unwanted, it can quickly turn from a memory into a liability. Our Tampa
+                boat removal crews design operations around your property, timeline, and local regulations—protecting docks,
+                seawalls, and landscaping while safely extracting and hauling. From submerged hull recovery to oversized yacht
+                transport, we plan every step, communicate clearly, and deliver results with care and precision.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  onClick={() => setLocation('/quote')}
-                  data-testid="button-get-quote"
-                >
+                <Button size="lg" onClick={() => setLocation("/quote")} data-testid="button-get-quote">
                   Get Free Quote
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   variant="outline"
-                  onClick={() => window.location.href = 'tel:+17792200187'}
+                  onClick={() => (window.location.href = "tel:+17792200187")}
                   data-testid="button-call-now"
                 >
                   <Phone className="mr-2 h-5 w-5" />
@@ -109,10 +126,12 @@ export default function PompanoBeach() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose BoatsRemoval in Pompano Beach?
+                Why choose BoatsRemoval in Tampa Bay?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving Pompano Beach and all of Broward County
+                We serve Tampa, St. Petersburg, Clearwater, and Sarasota with licensed crews, purpose-built equipment,
+                and a practical approach to complex waterfront removals. You get transparent pricing, reliable timelines,
+                and documented disposal—every time.
               </p>
             </div>
 
@@ -120,11 +139,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Local Experts</CardTitle>
+                  <CardTitle>Local waterways expertise</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand Pompano Beach's unique coastal environment and local regulations.
+                    We understand the logistics of Tampa Bay boat removal: shallow inlets, tidal currents, low bridges,
+                    and tight canals. Our planning protects property and minimizes disruption during extraction and staging.
                   </p>
                 </CardContent>
               </Card>
@@ -132,11 +152,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Same-Day Service</CardTitle>
+                  <CardTitle>Fast, coordinated scheduling</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in Pompano Beach.
+                    Quotes are clear and prompt. Many removals can be scheduled within 24–48 hours. Larger projects with
+                    multiple boats receive coordinated timelines, route plans, and on-site documentation.
                   </p>
                 </CardContent>
               </Card>
@@ -144,11 +165,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Eco-Friendly Disposal</CardTitle>
+                  <CardTitle>Eco-friendly disposal</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Environmentally responsible recycling and disposal following all Florida environmental guidelines.
+                    We prioritize recycling and handle fuels, oils, batteries, and composites with containment and compliant
+                    processing, protecting Tampa Bay, Old Tampa Bay, and Intracoastal waters from contamination.
                   </p>
                 </CardContent>
               </Card>
@@ -156,11 +178,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Free Quotes</CardTitle>
+                  <CardTitle>Transparent pricing</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Transparent pricing with no hidden fees. Get your free quote within 1 hour.
+                    No hidden fees. Your quote explains access assumptions, equipment sizing, haul routes, and disposal notes
+                    so you understand how we deliver value without surprises.
                   </p>
                 </CardContent>
               </Card>
@@ -168,11 +191,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Full Insurance</CardTitle>
+                  <CardTitle>Licensed and insured</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fully licensed and insured for your peace of mind during the removal process.
+                    Crews are trained and insured. From compact canal extractions to heavy-lift operations, we work with the
+                    right credentials and documented safety procedures.
                   </p>
                 </CardContent>
               </Card>
@@ -180,11 +204,12 @@ export default function PompanoBeach() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>All Boat Types</CardTitle>
+                  <CardTitle>All vessel types</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We handle sailboats, powerboats, yachts, catamarans, and derelict vessels of any size.
+                    Powerboats, sailboats, catamarans, live-aboards, workboats, and yachts. Trailered boats, beached hulls,
+                    submerged craft, and derelict vessels—we handle them responsibly and efficiently.
                   </p>
                 </CardContent>
               </Card>
@@ -198,11 +223,13 @@ export default function PompanoBeach() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  Comprehensive Boat Removal Services
+                  Comprehensive boat removal services
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for Pompano Beach residents.
+                  Tampa Bay’s geography requires careful planning. We tailor equipment and crew size to your site: compact rigs
+                  for narrow canals, lift bags for submerged boats, heavy-duty trailers for oversized yachts, and staged routes
+                  for complex transport. Every removal plan is built to protect property and water quality while delivering a
+                  reliable timeline and a clean finish.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -212,10 +239,10 @@ export default function PompanoBeach() {
                     </div>
                   ))}
                 </div>
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   className="mt-8"
-                  onClick={() => setLocation('/quote')}
+                  onClick={() => setLocation("/quote")}
                   data-testid="button-services-quote"
                 >
                   Request Free Quote
@@ -224,8 +251,8 @@ export default function PompanoBeach() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in Pompano Beach</CardTitle>
-                  <CardDescription>Complete coverage throughout the city</CardDescription>
+                  <CardTitle>Areas we serve across Tampa Bay</CardTitle>
+                  <CardDescription>Full ZIP coverage for Tampa, St. Petersburg, Clearwater, Sarasota</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
@@ -237,7 +264,8 @@ export default function PompanoBeach() {
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Plus all surrounding neighborhoods in Broward County
+                    If your ZIP code isn’t listed, we likely still serve your area. Share your address, boat dimensions, and
+                    access notes for a quick, accurate estimate.
                   </p>
                 </CardContent>
               </Card>
@@ -250,25 +278,25 @@ export default function PompanoBeach() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Our Simple 3-Step Process
+                Our simple 4-step boat removal process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in Pompano Beach
+                Clear communication, controlled operations, and documented disposal—designed for Tampa Bay’s canals and marinas.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <Card>
                 <CardHeader>
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
                     1
                   </div>
-                  <CardTitle>Contact Us</CardTitle>
+                  <CardTitle>Information and estimate</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in Pompano Beach. 
-                    Send photos for faster quotes.
+                    Share your ZIP code, boat type and dimensions, condition (afloat, submerged, storm-damaged), and access
+                    constraints. We return a clear quote and proposed timeline, noting equipment assumptions and disposal steps.
                   </p>
                 </CardContent>
               </Card>
@@ -278,11 +306,12 @@ export default function PompanoBeach() {
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
                     2
                   </div>
-                  <CardTitle>Get Your Quote</CardTitle>
+                  <CardTitle>On-site assessment</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Receive a free, no-obligation quote within 1 hour. We may even pay you for boats with resale value!
+                    We confirm entry points, staging areas, bottom conditions, currents, and clearances. This step ensures
+                    right-sizing and safe operations for canals, marinas, and residential waterfronts.
                   </p>
                 </CardContent>
               </Card>
@@ -292,12 +321,27 @@ export default function PompanoBeach() {
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
                     3
                   </div>
-                  <CardTitle>We Remove It</CardTitle>
+                  <CardTitle>Removal operations</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Schedule a convenient time. Our team handles all hauling, disposal, and paperwork. 
-                    Your property is clean in no time!
+                    Crews secure the vessel, protect nearby structures, and execute the plan using lift systems, compact rigs,
+                    barges, or heavy-duty trailers as required. We maintain a controlled footprint and clear communications.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
+                    4
+                  </div>
+                  <CardTitle>Transport and disposal</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Boats are hauled to approved facilities. Usable components are recycled; fuels, oils, batteries, and
+                    composites are processed responsibly. Final site cleanup returns your property to a safe, orderly state.
                   </p>
                 </CardContent>
               </Card>
@@ -310,10 +354,10 @@ export default function PompanoBeach() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Frequently Asked Questions
+                Frequently asked questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in Pompano Beach
+                Clear answers about boat removal across Tampa, St. Petersburg, Clearwater, and Sarasota.
               </p>
             </div>
 
@@ -328,6 +372,44 @@ export default function PompanoBeach() {
                   </CardContent>
                 </Card>
               ))}
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl">Do you manage derelict boat documentation for HOAs and marinas?</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Yes. We document derelict vessel removals for property owners, HOAs, marinas, and municipalities. Our
+                    records include site photos, access notes, equipment details, and disposal confirmation—supporting clear
+                    communication and compliance.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl">Can you work under low-clearance bridges and tight canal turns?</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    We plan around low bridges, narrow turns, and compact staging with modular gear and careful route design.
+                    For extremely tight access, we deploy smaller rigs or water-side extraction to minimize impact on property.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl">What makes Tampa Bay boat removal different from other regions?</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Tampa Bay’s mix of shallow inlets, tidal movement, and dense waterfronts demands detailed planning. We
+                    tailor operations to water depth, current, bottom conditions, and neighborhood access—protecting docks,
+                    seawalls, and landscaping while delivering safe extractions.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -336,26 +418,27 @@ export default function PompanoBeach() {
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Remove Your Boat in Pompano Beach?
+              Ready to remove your boat in Tampa Bay?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Get your free quote today! Fast response, professional service, competitive pricing.
+              Get your free quote now. We’ll ask for ZIP code, boat type and dimensions, condition, and access notes—then
+              provide a clear plan, fair pricing, and a reliable timeline to reclaim your space safely.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="secondary"
-                onClick={() => setLocation('/quote')}
+                onClick={() => setLocation("/quote")}
                 data-testid="button-cta-quote"
               >
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-                onClick={() => window.location.href = 'tel:+17792200187'}
+                onClick={() => (window.location.href = "tel:+17792200187")}
                 data-testid="button-cta-call"
               >
                 <Phone className="mr-2 h-5 w-5" />
@@ -379,29 +462,59 @@ export default function PompanoBeach() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About Boat Removal in Pompano Beach, Florida
+              About boat removal in Tampa Bay, St. Petersburg, Clearwater, and Sarasota
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pompano Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Tampa Bay’s waterfronts stretch from Davis Islands and Harbour Island to Gandy Bridge corridors, Old Tampa Bay,
+                and the canals of Westshore and Town ’n’ Country. Each site presents its own mix of access, depth, current,
+                and property constraints. Our boat removal plans account for staging areas, low-clearance bridges, tight turns,
+                and neighborhood logistics—balancing safety, efficiency, and respect for your property and community.
               </p>
               <p>
-                Whether you're near the Pompano Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, BoatsRemoval provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                St. Petersburg’s ZIPs span downtown marinas, Old Northeast, Shore Acres, and barrier island access near St. Pete
+                Beach. Clearwater includes both residential neighborhoods and Clearwater Beach’s barrier island. Sarasota extends
+                from mainland residential canals to Lido Key and Siesta Key waters. We structure extraction, transport, and
+                disposal around these local realities, using the right rigs, lift systems, and route plans to protect docks,
+                seawalls, and adjacent waterfronts.
               </p>
               <p>
-                Our Pompano Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Complex scenarios are part of our daily work. Submerged boats require stabilization, lift bags, pumps, and careful
+                rigging before overland movement. Oversized yachts and commercial craft demand permits, escorts, and staged transport.
+                Storm-damaged vessels need fast site control to prevent drift or further impact. Derelict boats require compliant
+                documentation with responsible recycling and disposal. Whatever the scenario, we deliver practical, engineered
+                operations with clear communication.
               </p>
               <p>
-                Serving all of Broward County including Pompano Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                We proudly serve Tampa ZIP codes 33601, 33602, 33603, 33604, 33605, 33606, 33607, 33608, 33609, 33610, 33611,
+                33612, 33613, 33614, 33615, 33616, 33617, 33618, 33619, 33620, 33621, 33622, 33623, 33624, 33625, 33626, 33629,
+                33630, 33631, 33633, 33634, 33635, 33637, 33646, 33647, 33650, 33655, 33660, 33661, 33662, 33663, 33664, 33672,
+                33673, 33674, 33675, 33677, 33679, 33680, 33681, 33682, 33684, 33685, 33686, 33687, 33688, 33689, and 33694; St.
+                Petersburg ZIP codes 33701, 33702, 33703, 33704, 33705, 33706, 33707, 33708, 33709, 33710, 33711, 33712, 33713,
+                33714, 33715, 33716, 33729, 33730, 33731, 33732, 33733, 33734, 33736, 33738, 33740, 33741, 33742, 33743, 33747,
+                and 33784; Clearwater ZIP codes 33755, 33756, 33757, 33758, 33759, 33760, 33761, 33762, 33763, 33764, 33765,
+                33766, 33767, and 33769; and Sarasota ZIP codes 34230, 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238,
+                34239, 34240, 34241, 34242, 34243, 34249, 34260, 34276, and 34277. If your ZIP code falls nearby but isn’t
+                indicated above, send your address and site details—we likely serve your location.
+              </p>
+              <p>
+                Environmental stewardship matters. Boats contain materials that require strict handling. We deploy containment
+                and follow documented procedures to minimize impact on local waters and wildlife. Recycling isn’t an afterthought
+                but a key part of operations: usable components are reclaimed, and hazardous items are processed responsibly. This
+                approach protects Tampa Bay, Old Tampa Bay, the Intracoastal, and neighborhood lakes while ensuring you meet
+                obligations as a property owner, manager, or marina operator.
+              </p>
+              <p>
+                Choosing a boat removal partner is about trust and execution. We provide transparent quotes, explain equipment and
+                access assumptions, and offer reliable timelines. On-site, crews maintain a controlled footprint and keep you
+                informed at each stage. After removal, transport and disposal conclude with a clean property and documented
+                recycling. It’s a comprehensive service designed to solve a problem without creating new ones.
+              </p>
+              <p>
+                If a vessel is taking up space, creating risk, or holding you back from your next plan, we can help. Share your ZIP
+                code, boat details, and access notes. We’ll return a precise estimate with a practical approach to reclaim your
+                space. From Tampa’s canals to St. Petersburg marinas, Clearwater neighborhoods to Sarasota waterfronts, we’re ready
+                to handle complex boat removal with care, control, and professionalism.
               </p>
             </div>
           </div>
