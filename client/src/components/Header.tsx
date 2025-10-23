@@ -34,10 +34,27 @@ export default function Header({ onLanguageChange, currentLanguage = "en" }: Hea
           <div className="flex-shrink-0">
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-xl md:text-2xl font-extrabold text-secondary-foreground hover:text-secondary-foreground/80 transition-colors cursor-pointer"
+              className="flex flex-col items-center gap-1 cursor-pointer group"
               data-testid="button-logo"
             >
-              ⚓ BoatsRemoval
+              {/* Boat Icon */}
+              <svg 
+                viewBox="0 0 100 50" 
+                className="w-12 h-6 md:w-16 md:h-8 fill-primary transition-transform group-hover:scale-105"
+                aria-label="Boat icon"
+              >
+                <path d="M10,30 L25,20 L45,15 L70,15 L90,25 L85,30 L75,28 L65,30 L55,28 L45,30 L35,28 L25,30 L15,28 Z" />
+              </svg>
+              
+              {/* Main Text */}
+              <div className="flex flex-col items-center -mt-1">
+                <span className="text-sm md:text-lg font-bold text-secondary-foreground tracking-widest uppercase">
+                  Florida Boat Removal
+                </span>
+                <span className="text-[10px] md:text-xs font-semibold text-primary tracking-[0.2em] uppercase -mt-0.5">
+                  Boat Removal
+                </span>
+              </div>
             </button>
           </div>
 
