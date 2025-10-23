@@ -12,17 +12,17 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <button
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="cursor-pointer group"
-              data-testid="button-logo"
+           <a
+            href="/"
+            className="cursor-pointer group"
+            data-testid="link-logo"
             >
-              <img
-                src={logoImage}
-                alt="Florida Boat Removal"
-                className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
-              />
-            </button>
+            <img
+            src={logoImage}
+            alt="Florida Boat Removal logo"
+            className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105"
+             />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
