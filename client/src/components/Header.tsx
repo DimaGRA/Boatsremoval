@@ -26,7 +26,7 @@ export default function Header() {
 </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex flex-1 justify-center items-center gap-6">
             <a
               href="#services"
               className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
