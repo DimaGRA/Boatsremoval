@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
 import Tampa from "@/pages/Tampa";
+import Oldsmar from "@/pages/Oldsmar-Fl";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -17,6 +18,7 @@ function Router() {
       <Route path="/quote" component={Quote} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route path="/tampa-boat-removal" component={Tampa} />
+      <Route path="/oldsmar-boat-removal" component={Oldsmar} />      
       <Route component={NotFound} />
     </Switch>
   );
