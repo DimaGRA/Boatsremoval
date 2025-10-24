@@ -7,44 +7,56 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-  <header className="relative bg-secondary border-b border-secondary-border">
+    <header className="fixed top-0 left-0 right-0 bg-secondary z-50 border-b border-secondary-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center h-16 md:h-20 w-full relative">
-          
-          {/* Logo */}
-          <div className="flex-shrink-0 flex justify-center md:justify-start w-full md:w-auto">
-            <a href="/" className="cursor-pointer group" data-testid="link-logo">
-              <img
-                src={logoImage}
-                alt="Florida Boat Removal logo"
-                className="h-16 md:h-20 w-auto transition-transform group-hover:scale-105"
-              />
-            </a>
-          </div>
+        <div className="flex items-center justify-between h-16 md:h-20">
+        {/* Logo */} 
+          <div className="flex-shrink-0 flex-1 flex justify-center md:justify-start">
+  <a
+    href="/"
+    className="cursor-pointer group"
+    data-testid="link-logo"
+  >
+    <img
+      src={logoImage}
+      alt="Florida Boat Removal logo"
+      className="h-12 md:h-14 w-auto transition-transform group-hover:scale-105"
+    />
+  </a>
+</div>
 
-          {/* Desktop nav links (centered) */}
-          <nav className="hidden md:flex flex-1 justify-center gap-8">
-            <a href="#services" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors">
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-6">
+            <a
+              href="#services"
+              className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
+              data-testid="link-service-area"
+            >
               Service Area
             </a>
-            <a href="#vessel-type" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors">
+            <a
+              href="#services"
+              className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
+              data-testid="link-vessel-type"
+            >
               Vessel Type
             </a>
-            <a href="#pricing" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors">
+            <a
+              href="#pricing"
+              className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
+              data-testid="link-faq"
+            >
               FAQ
             </a>
-            <a href="#contact" className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors">
+            <a
+              href="#contact"
+              className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
+              data-testid="link-contact"
+            >
               Contact
             </a>
           </nav>
 
-          {/* Right: phone + mobile menu */}
-          <div className="flex-shrink-0 flex items-center gap-3">
-            {/* Phone visible only on desktop */}
-            <a href="tel:+17792200187" className="hidden md:flex items-center gap-2 text-secondary-foreground">
-              <Phone className="h-5 w-5" />
-              <span className="font-bold text-lg md:text-xl">779-220-0187</span>
-            </a>
           {/* Phone & Mobile Menu */}
           <div className="flex items-center gap-3">
             <a
