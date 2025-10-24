@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-secondary z-50 border-b border-secondary-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+       <div className="flex items-center h-16 md:h-20">
         {/* Logo */} 
-          <div className="flex-shrink-0 flex-1 flex justify-center md:justify-start">
+          <div className="flex-shrink-0">
   <a
     href="/"
     className="cursor-pointer group"
