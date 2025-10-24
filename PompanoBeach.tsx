@@ -6,79 +6,89 @@ import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function TampaBoatRemoval() {
+/**
+ * Oldsmar Boat Removal
+ * Exact structure mirrored from the Pompano Beach file:
+ * - Helmet (SEO)
+ * - Header
+ * - Hero
+ * - Why Choose Us (Cards)
+ * - Services Grid + Service Areas (ZIP codes: 34677, 34685)
+ * - Process (4-step)
+ * - FAQs
+ * - CTA
+ * - Local Content (long-form, ZIPs, waterways, neighborhoods)
+ * - Footer
+ * Requirements:
+ * - 400+ lines
+ * - 1450–1900 words of unique text
+ * - Only Oldsmar, FL (ZIPs 34677 and 34685). No other territories.
+ * - Closing structure included at the end.
+ */
+
+export default function OldsmarBoatRemoval() {
   const [, setLocation] = useLocation();
 
-  // Tampa-specific service set, expanded for clarity and unique detail
   const services = [
-    "Submerged boat recovery with pumps and lift bags",
-    "Oversized yacht transport with permits and escorts",
-    "Storm-damaged vessel stabilization and removal",
-    "Derelict boat disposal and compliant documentation",
-    "Canal and marina cleanouts with careful staging",
-    "Eco-friendly dismantling and materials recycling",
-    "Trailered boat hauling from residential properties",
-    "Tight-access canal removals under low bridges",
-    "Commercial craft and workboat extraction",
-    "Insurance-coordinated removals after severe weather"
+    "Submerged boat recovery with lift bags and dewatering pumps",
+    "Oversized yacht transport with permits, escorts, and route plans",
+    "Storm-damaged vessel stabilization and controlled removal",
+    "Derelict boat disposal with HOA and city-ready documentation",
+    "Canal and lake cleanouts with compact rigs and careful staging",
+    "Eco-friendly dismantling with materials sorting and recycling",
+    "Trailered boat hauling from residential driveways and yards",
+    "Tight-access canal extractions under low bridges and narrow turns",
+    "Commercial craft and workboat removal for local businesses",
+    "Insurance-coordinated removals after severe weather events"
   ];
 
-  // Primary service areas with full ZIP coverage for Tampa, St. Petersburg, Clearwater, Sarasota
   const serviceAreas = [
-    // Tampa ZIP codes (33601–33694, including PO Boxes and unique ZIPs)
-    "Tampa ZIP Codes: 33601, 33602, 33603, 33604, 33605, 33606, 33607, 33608, 33609, 33610, 33611, 33612, 33613, 33614, 33615, 33616, 33617, 33618, 33619, 33620, 33621, 33622, 33623, 33624, 33625, 33626, 33629, 33630, 33631, 33633, 33634, 33635, 33637, 33646, 33647, 33650, 33655, 33660, 33661, 33662, 33663, 33664, 33672, 33673, 33674, 33675, 33677, 33679, 33680, 33681, 33682, 33684, 33685, 33686, 33687, 33688, 33689, 33694",
-    // St. Petersburg ZIP codes (33701–33784, inclusive of PO Boxes and unique ZIPs)
-    "St. Petersburg ZIP Codes: 33701, 33702, 33703, 33704, 33705, 33706, 33707, 33708, 33709, 33710, 33711, 33712, 33713, 33714, 33715, 33716, 33729, 33730, 33731, 33732, 33733, 33734, 33736, 33738, 33740, 33741, 33742, 33743, 33747, 33784",
-    // Clearwater ZIP codes (33755–33769, including Clearwater Beach and PO Boxes)
-    "Clearwater ZIP Codes: 33755, 33756, 33757, 33758, 33759, 33760, 33761, 33762, 33763, 33764, 33765, 33766, 33767, 33769",
-    // Sarasota ZIP codes (34230–34277, including barrier islands and unique ZIPs)
-    "Sarasota ZIP Codes: 34230, 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238, 34239, 34240, 34241, 34242, 34243, 34249, 34260, 34276, 34277"
+    "Oldsmar ZIP Codes Served: 34677, 34685"
   ];
 
-  // Tampa-focused FAQs with unique wording and details
   const faqs = [
     {
-      question: "Do you handle storm-damaged boats across Tampa Bay marinas and canals?",
+      question: "Do you handle storm-damaged boats in Oldsmar canals and lakes?",
       answer:
-        "Yes. After hurricanes or severe squalls, we secure sites, stabilize compromised hulls, and remove boats from marinas, private docks, and residential canals. We coordinate with property owners and insurers to prevent secondary impacts and expedite safe transport to approved facilities."
+        "Yes. After storms, we secure the site, stabilize compromised hulls, and safely remove vessels from canals, lakes, and bayfront properties in Oldsmar. We coordinate with property owners and HOAs to reduce secondary impacts and move boats to approved facilities for recycling and disposal."
     },
     {
-      question: "Which ZIP codes in Tampa, St. Petersburg, Clearwater, and Sarasota do you serve?",
+      question: "Which ZIP codes in Oldsmar do you serve?",
       answer:
-        "We cover Tampa (33601–33694), St. Petersburg (33701–33784), Clearwater (33755–33769), and Sarasota (34230–34277). If your ZIP code isn’t listed in our on-page examples, we likely still serve your location—share your address and site constraints for a fast, accurate quote."
+        "We serve Oldsmar entirely—ZIP codes 34677 and 34685. If your address falls within these ZIPs, we can assess access points, staging areas, and route conditions to provide a clear, accurate quote and timeline."
     },
     {
-      question: "Can you remove oversized yachts or commercial craft with limited road access?",
+      question: "Can you remove oversized yachts or commercial craft in Oldsmar?",
       answer:
-        "Absolutely. We obtain permits and arrange escorts, route planning, and staging. For tight corridors and low-clearance bridges, we deploy compact rigs, modular gear, and specialized trailers to move large vessels safely and compliantly."
+        "Absolutely. We plan permits, escorts, and road routes for oversized loads. We use specialized trailers and modular gear to navigate tight residential corridors and canal-adjacent streets, ensuring safe, compliant transport."
     },
     {
-      question: "Is boat removal eco-friendly and compliant in Tampa Bay and neighboring waters?",
+      question: "Is your boat removal process eco-friendly in Oldsmar?",
       answer:
-        "Yes. We prioritize containment, recycling, and responsible disposal of fuel, oils, batteries, and composites. Operations are planned to protect Tampa Bay, Old Tampa Bay, and Intracoastal waterways, meeting Florida environmental regulations and local requirements."
+        "Yes. We prioritize containment and recycling, handling fuels, oils, batteries, and composites responsibly. Operations are designed to protect local canals, lakes, and waterfronts while meeting regulatory expectations."
     },
     {
-      question: "How quickly can you schedule Tampa boat removal?",
+      question: "How quickly can you schedule removal in ZIP codes 34677 and 34685?",
       answer:
-        "We provide clear estimates promptly and can often schedule within 24–48 hours. For urgent situations—storm debris, drifting hulls, or navigational hazards—same-day assessments are possible depending on access and equipment availability."
+        "We typically return estimates quickly and can schedule within 24–48 hours once access constraints are confirmed. For urgent hazards such as drifting hulls or obstructed canals, same-day assessments may be possible."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal in Tampa Bay, FL and Surrounding Towns | BoatsRemoval.com</title>
+        <title>Boat Removal in Oldsmar, FL (34677 & 34685) | BoatsRemoval.com</title>
         <meta
           name="description"
-          content="Professional boat removal in Tampa Bay, St. Petersburg, Clearwater, and Sarasota. Licensed crews handle submerged boats, storm-damaged vessels, oversized yachts, and derelict craft. Full coverage across Tampa, Pinellas, and Sarasota ZIP codes."
+          content="Professional boat removal in Oldsmar, FL. Serving ZIP codes 34677 and 34685 with licensed crews for submerged, storm-damaged, oversized, and derelict boats. Eco-friendly disposal, clear quotes, and reliable scheduling."
         />
-        <meta property="og:title" content="Boat Removal Tampa Bay FL | Professional Services" />
+        <meta property="og:title" content="Boat Removal Oldsmar FL | Professional Services" />
         <meta
           property="og:description"
-          content="Expert boat removal services across Tampa Bay and nearby towns. Free quotes, eco-friendly disposal, careful canal operations, and reliable scheduling for marinas, HOAs, and residential properties."
+          content="Expert boat removal in Oldsmar, Florida. Free quotes, eco-friendly disposal, and careful operations for homeowners, HOAs, and waterfront properties in ZIPs 34677 and 34685."
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/tampa-boat-removal" />
+        <link rel="canonical" href="https://boatsremoval.com/oldsmar-boat-removal" />
       </Helmet>
 
       <Header />
@@ -90,20 +100,26 @@ export default function TampaBoatRemoval() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Tampa Bay, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Oldsmar, Florida</span>
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in Tampa Bay, FL
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+                Boat Removal Services in Oldsmar, FL (34677 & 34685)
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Tampa Bay’s boating culture spans quiet canals, busy marinas, and open bay waters. When a vessel becomes
-                abandoned, storm-damaged, or simply unwanted, it can quickly turn from a memory into a liability. Our Tampa
-                boat removal crews design operations around your property, timeline, and local regulations—protecting docks,
-                seawalls, and landscaping while safely extracting and hauling. From submerged hull recovery to oversized yacht
-                transport, we plan every step, communicate clearly, and deliver results with care and precision.
+                Oldsmar sits along the northern reaches of Tampa Bay, where canals, lakes, and bayfront
+                neighborhoods make boating part of daily life. When a vessel becomes abandoned, storm-damaged,
+                or simply unwanted, it can quickly shift from a cherished asset to a source of risk. Our crews
+                deliver safe, efficient, and environmentally responsible boat removal tailored to Oldsmar’s
+                waterfronts, delivering clarity, care, and a clean finish.
+              </p>
+              <p className="text-lg text-muted-foreground mb-8">
+                Whether your property is in ZIP code 34677 or 34685, we design operations that respect docks,
+                seawalls, landscaping, and neighborhood access. From submerged hull recovery to oversized yacht
+                transport, we plan each step, communicate throughout, and leave your site orderly. We serve
+                homeowners, HOAs, and local businesses with documented, compliant disposal and practical timelines.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" onClick={() => setLocation("/quote")} data-testid="button-get-quote">
+                <Button size="lg" onClick={() => setLocation("/quote")}>
                   Get Free Quote
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -111,7 +127,6 @@ export default function TampaBoatRemoval() {
                   size="lg"
                   variant="outline"
                   onClick={() => (window.location.href = "tel:+17792200187")}
-                  data-testid="button-call-now"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call: 779-220-0187
@@ -126,12 +141,12 @@ export default function TampaBoatRemoval() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why choose BoatsRemoval in Tampa Bay?
+                Why choose BoatsRemoval in Oldsmar?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We serve Tampa, St. Petersburg, Clearwater, and Sarasota with licensed crews, purpose-built equipment,
-                and a practical approach to complex waterfront removals. You get transparent pricing, reliable timelines,
-                and documented disposal—every time.
+                We specialize in boat removal for Oldsmar’s canals, lakes, and bayfront properties. With
+                licensed crews, scaled equipment, and documented disposal, we deliver controlled operations
+                that protect water quality and property while meeting practical timelines.
               </p>
             </div>
 
@@ -139,12 +154,13 @@ export default function TampaBoatRemoval() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Local waterways expertise</CardTitle>
+                  <CardTitle>Local waterfront expertise</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We understand the logistics of Tampa Bay boat removal: shallow inlets, tidal currents, low bridges,
-                    and tight canals. Our planning protects property and minimizes disruption during extraction and staging.
+                    Oldsmar’s canals, lakes, and bay-adjacent streets require careful planning. We tailor
+                    operations to depth, current, bottom conditions, and limited clearances, protecting docks,
+                    seawalls, and landscaping as we extract and haul vessels.
                   </p>
                 </CardContent>
               </Card>
@@ -152,12 +168,12 @@ export default function TampaBoatRemoval() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Fast, coordinated scheduling</CardTitle>
+                  <CardTitle>Reliable, fast scheduling</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Quotes are clear and prompt. Many removals can be scheduled within 24–48 hours. Larger projects with
-                    multiple boats receive coordinated timelines, route plans, and on-site documentation.
+                    Quotes are clear and prompt. Many removals can be scheduled within 24–48 hours, with
+                    phased plans for multi-boat scenarios in neighborhoods where access must be coordinated.
                   </p>
                 </CardContent>
               </Card>
@@ -169,8 +185,9 @@ export default function TampaBoatRemoval() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We prioritize recycling and handle fuels, oils, batteries, and composites with containment and compliant
-                    processing, protecting Tampa Bay, Old Tampa Bay, and Intracoastal waters from contamination.
+                    We prioritize recycling and manage fuels, oils, batteries, and composites with containment
+                    and compliant processing. The goal is to protect local canals and lakes during removal and
+                    transport, avoiding contamination and preserving waterfront health.
                   </p>
                 </CardContent>
               </Card>
@@ -182,8 +199,9 @@ export default function TampaBoatRemoval() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    No hidden fees. Your quote explains access assumptions, equipment sizing, haul routes, and disposal notes
-                    so you understand how we deliver value without surprises.
+                    Your quote outlines access assumptions, equipment sizing, haul routes, and disposal steps.
+                    We explain options when site constraints increase complexity, helping you choose the
+                    most practical, cost-effective plan.
                   </p>
                 </CardContent>
               </Card>
@@ -191,12 +209,13 @@ export default function TampaBoatRemoval() {
               <Card>
                 <CardHeader>
                   <CheckCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Licensed and insured</CardTitle>
+                  <CardTitle>Licensed and insured crews</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Crews are trained and insured. From compact canal extractions to heavy-lift operations, we work with the
-                    right credentials and documented safety procedures.
+                    Removal teams are trained and insured. From compact canal extractions to heavy-lift
+                    operations, we work with documented procedures that keep people and property safe while
+                    the vessel is recovered and transported.
                   </p>
                 </CardContent>
               </Card>
@@ -208,8 +227,9 @@ export default function TampaBoatRemoval() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Powerboats, sailboats, catamarans, live-aboards, workboats, and yachts. Trailered boats, beached hulls,
-                    submerged craft, and derelict vessels—we handle them responsibly and efficiently.
+                    Powerboats, sailboats, catamarans, live-aboards, workboats, and small yachts—afloat,
+                    beached, submerged, or derelict. We scale equipment to the task and maintain a controlled
+                    footprint throughout the operation.
                   </p>
                 </CardContent>
               </Card>
@@ -226,10 +246,10 @@ export default function TampaBoatRemoval() {
                   Comprehensive boat removal services
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Tampa Bay’s geography requires careful planning. We tailor equipment and crew size to your site: compact rigs
-                  for narrow canals, lift bags for submerged boats, heavy-duty trailers for oversized yachts, and staged routes
-                  for complex transport. Every removal plan is built to protect property and water quality while delivering a
-                  reliable timeline and a clean finish.
+                  Oldsmar’s geography demands careful staging. We size equipment and crews to fit your site:
+                  compact rigs for narrow canals, lift bags for submerged boats, heavy-duty trailers for
+                  oversized vessels, and planned routes for complex transport. Every plan is designed to
+                  protect property and water quality while delivering a predictable timeline and clean finish.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -243,7 +263,6 @@ export default function TampaBoatRemoval() {
                   size="lg"
                   className="mt-8"
                   onClick={() => setLocation("/quote")}
-                  data-testid="button-services-quote"
                 >
                   Request Free Quote
                 </Button>
@@ -251,21 +270,22 @@ export default function TampaBoatRemoval() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas we serve across Tampa Bay</CardTitle>
-                  <CardDescription>Full ZIP coverage for Tampa, St. Petersburg, Clearwater, Sarasota</CardDescription>
+                  <CardTitle>Areas we serve in Oldsmar</CardTitle>
+                  <CardDescription>ZIP codes 34677 and 34685</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
                     {serviceAreas.map((area, index) => (
-                      <div key={index} className="flex items-center gap-2 p-2 rounded hover-elevate">
+                      <div key={index} className="flex items-center gap-2 p-2 rounded">
                         <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
                         <span className="text-foreground">{area}</span>
                       </div>
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    If your ZIP code isn’t listed, we likely still serve your area. Share your address, boat dimensions, and
-                    access notes for a quick, accurate estimate.
+                    If your address is within ZIP 34677 or 34685, we can assess site access, recommend
+                    equipment, and provide a clear schedule and price. Share boat dimensions, condition,
+                    and canal or driveway constraints for the most accurate estimate.
                   </p>
                 </CardContent>
               </Card>
@@ -281,7 +301,8 @@ export default function TampaBoatRemoval() {
                 Our simple 4-step boat removal process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Clear communication, controlled operations, and documented disposal—designed for Tampa Bay’s canals and marinas.
+                Clear communication, controlled operations, and documented disposal—built for Oldsmar’s canals,
+                lakes, and bayfront properties.
               </p>
             </div>
 
@@ -291,12 +312,13 @@ export default function TampaBoatRemoval() {
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
                     1
                   </div>
-                  <CardTitle>Information and estimate</CardTitle>
+                  <CardTitle>Information & estimate</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Share your ZIP code, boat type and dimensions, condition (afloat, submerged, storm-damaged), and access
-                    constraints. We return a clear quote and proposed timeline, noting equipment assumptions and disposal steps.
+                    Share ZIP, boat type and dimensions, condition (afloat, submerged, storm-damaged), and
+                    access constraints. We return a clear quote and proposed timeline, noting assumptions
+                    about equipment and disposal steps to complete the job safely.
                   </p>
                 </CardContent>
               </Card>
@@ -310,8 +332,9 @@ export default function TampaBoatRemoval() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We confirm entry points, staging areas, bottom conditions, currents, and clearances. This step ensures
-                    right-sizing and safe operations for canals, marinas, and residential waterfronts.
+                    We confirm entry points, staging areas, bottom conditions, currents, clearances, and
+                    neighborhood logistics. This ensures right-sizing for canal and lake operations with
+                    minimal disturbance to property and surroundings.
                   </p>
                 </CardContent>
               </Card>
@@ -325,8 +348,9 @@ export default function TampaBoatRemoval() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Crews secure the vessel, protect nearby structures, and execute the plan using lift systems, compact rigs,
-                    barges, or heavy-duty trailers as required. We maintain a controlled footprint and clear communications.
+                    Crews secure the vessel, protect nearby structures, and execute the plan using lift
+                    systems, compact rigs, barges, or heavy-duty trailers as required. We maintain a
+                    controlled footprint and steady communication throughout the operation.
                   </p>
                 </CardContent>
               </Card>
@@ -336,12 +360,13 @@ export default function TampaBoatRemoval() {
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mb-4">
                     4
                   </div>
-                  <CardTitle>Transport and disposal</CardTitle>
+                  <CardTitle>Transport & disposal</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Boats are hauled to approved facilities. Usable components are recycled; fuels, oils, batteries, and
-                    composites are processed responsibly. Final site cleanup returns your property to a safe, orderly state.
+                    Boats are hauled to approved facilities. Usable components are recycled; fuels, oils,
+                    batteries, and composites are processed responsibly. Final site cleanup returns your
+                    property to a safe, orderly state with disposal documentation.
                   </p>
                 </CardContent>
               </Card>
@@ -357,7 +382,7 @@ export default function TampaBoatRemoval() {
                 Frequently asked questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Clear answers about boat removal across Tampa, St. Petersburg, Clearwater, and Sarasota.
+                Clear answers about boat removal across Oldsmar’s ZIP codes 34677 and 34685.
               </p>
             </div>
 
@@ -375,38 +400,39 @@ export default function TampaBoatRemoval() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl">Do you manage derelict boat documentation for HOAs and marinas?</CardTitle>
+                  <CardTitle className="text-xl">Do you provide derelict vessel documentation for HOAs?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Yes. We document derelict vessel removals for property owners, HOAs, marinas, and municipalities. Our
-                    records include site photos, access notes, equipment details, and disposal confirmation—supporting clear
-                    communication and compliance.
+                    Yes. We document derelict boat removal for property owners and HOAs, including site photos,
+                    access notes, equipment details, and disposal confirmation. This supports clear communication
+                    and compliance while keeping records organized for future reference.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl">Can you work under low-clearance bridges and tight canal turns?</CardTitle>
+                  <CardTitle className="text-xl">Can you work under low bridges and tight canal turns?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We plan around low bridges, narrow turns, and compact staging with modular gear and careful route design.
-                    For extremely tight access, we deploy smaller rigs or water-side extraction to minimize impact on property.
+                    We plan around low-clearance bridges, narrow turns, and compact staging with modular gear and
+                    careful route design. In extremely tight conditions, we use smaller rigs or water-side extraction
+                    to minimize impact on property and shorelines.
                   </p>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl">What makes Tampa Bay boat removal different from other regions?</CardTitle>
+                  <CardTitle className="text-xl">Do you handle multi-boat projects in Oldsmar?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Tampa Bay’s mix of shallow inlets, tidal movement, and dense waterfronts demands detailed planning. We
-                    tailor operations to water depth, current, bottom conditions, and neighborhood access—protecting docks,
-                    seawalls, and landscaping while delivering safe extractions.
+                    Yes. We coordinate canal cleanouts and multi-boat removals with phased schedules, documented
+                    operations, and neighbor communications. The aim is to keep timelines predictable and disruption
+                    minimal across the waterfront community.
                   </p>
                 </CardContent>
               </Card>
@@ -418,18 +444,18 @@ export default function TampaBoatRemoval() {
         <section className="py-16 md:py-20 bg-primary text-primary-foreground">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to remove your boat in Tampa Bay?
+              Ready to remove your boat in Oldsmar?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Get your free quote now. We’ll ask for ZIP code, boat type and dimensions, condition, and access notes—then
-              provide a clear plan, fair pricing, and a reliable timeline to reclaim your space safely.
+              Get your free quote now. We’ll ask for ZIP (34677 or 34685), boat type and dimensions, condition,
+              and access notes—then provide a clear plan, fair pricing, and a reliable schedule to reclaim your
+              space safely. For multi-boat or HOA-coordinated projects, we’ll phase operations to keep impact low.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 variant="secondary"
                 onClick={() => setLocation("/quote")}
-                data-testid="button-cta-quote"
               >
                 Get Free Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -439,7 +465,6 @@ export default function TampaBoatRemoval() {
                 variant="outline"
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 onClick={() => (window.location.href = "tel:+17792200187")}
-                data-testid="button-cta-call"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
@@ -462,59 +487,69 @@ export default function TampaBoatRemoval() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About boat removal in Tampa Bay, St. Petersburg, Clearwater, and Sarasota
+              About boat removal in Oldsmar, FL (34677 & 34685)
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Tampa Bay’s waterfronts stretch from Davis Islands and Harbour Island to Gandy Bridge corridors, Old Tampa Bay,
-                and the canals of Westshore and Town ’n’ Country. Each site presents its own mix of access, depth, current,
-                and property constraints. Our boat removal plans account for staging areas, low-clearance bridges, tight turns,
-                and neighborhood logistics—balancing safety, efficiency, and respect for your property and community.
+                Oldsmar’s waterfront footprint includes canal-lined neighborhoods, lake-adjacent homes, and
+                bayfront streets that sit near the upper reaches of Tampa Bay. These areas combine shallow
+                waters, narrow corridors, and varying bottom conditions, each influencing how a vessel can be
+                extracted and staged for transport. Our plans consider bridge clearances, turn radii, driveway
+                grades, and shoreline stability to protect property and maintain control during operations.
               </p>
               <p>
-                St. Petersburg’s ZIPs span downtown marinas, Old Northeast, Shore Acres, and barrier island access near St. Pete
-                Beach. Clearwater includes both residential neighborhoods and Clearwater Beach’s barrier island. Sarasota extends
-                from mainland residential canals to Lido Key and Siesta Key waters. We structure extraction, transport, and
-                disposal around these local realities, using the right rigs, lift systems, and route plans to protect docks,
-                seawalls, and adjacent waterfronts.
+                In ZIP 34677 and ZIP 34685, boats are often moored in canals or stored on properties with limited
+                access for large trailers. We size rigs for tight conditions and use modular equipment where
+                appropriate. For submerged craft, we stabilize, dewater, and lift with measured steps, avoiding
+                secondary damage to docks, seawalls, and adjacent structures. For oversized vessels, we coordinate
+                permits, escorts, and pre-routed paths to move boats safely and compliantly.
               </p>
               <p>
-                Complex scenarios are part of our daily work. Submerged boats require stabilization, lift bags, pumps, and careful
-                rigging before overland movement. Oversized yachts and commercial craft demand permits, escorts, and staged transport.
-                Storm-damaged vessels need fast site control to prevent drift or further impact. Derelict boats require compliant
-                documentation with responsible recycling and disposal. Whatever the scenario, we deliver practical, engineered
-                operations with clear communication.
+                Severe weather can turn a manageable situation into a priority. After storms, compromised hulls
+                may drift, list, or obstruct canals and lake inlets. We respond with site control, containment
+                when necessary, and a staged plan to remove the vessel with minimal disruption. In every case,
+                we document operations, maintain clear communication, and deliver a clean outcome with proper
+                disposal records.
               </p>
               <p>
-                We proudly serve Tampa ZIP codes 33601, 33602, 33603, 33604, 33605, 33606, 33607, 33608, 33609, 33610, 33611,
-                33612, 33613, 33614, 33615, 33616, 33617, 33618, 33619, 33620, 33621, 33622, 33623, 33624, 33625, 33626, 33629,
-                33630, 33631, 33633, 33634, 33635, 33637, 33646, 33647, 33650, 33655, 33660, 33661, 33662, 33663, 33664, 33672,
-                33673, 33674, 33675, 33677, 33679, 33680, 33681, 33682, 33684, 33685, 33686, 33687, 33688, 33689, and 33694; St.
-                Petersburg ZIP codes 33701, 33702, 33703, 33704, 33705, 33706, 33707, 33708, 33709, 33710, 33711, 33712, 33713,
-                33714, 33715, 33716, 33729, 33730, 33731, 33732, 33733, 33734, 33736, 33738, 33740, 33741, 33742, 33743, 33747,
-                and 33784; Clearwater ZIP codes 33755, 33756, 33757, 33758, 33759, 33760, 33761, 33762, 33763, 33764, 33765,
-                33766, 33767, and 33769; and Sarasota ZIP codes 34230, 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238,
-                34239, 34240, 34241, 34242, 34243, 34249, 34260, 34276, and 34277. If your ZIP code falls nearby but isn’t
-                indicated above, send your address and site details—we likely serve your location.
+                Responsible disposal is central to our approach. Boats contain materials—fuels, oils, batteries,
+                fiberglass, metals—that must be handled thoughtfully. We sort and recycle where possible, and we
+                process hazardous items with compliant methods. The goal is simple: safeguard Oldsmar’s waterways
+                and neighborhoods while making sure your obligations as a property owner or HOA are met without
+                unexpected complications.
               </p>
               <p>
-                Environmental stewardship matters. Boats contain materials that require strict handling. We deploy containment
-                and follow documented procedures to minimize impact on local waters and wildlife. Recycling isn’t an afterthought
-                but a key part of operations: usable components are reclaimed, and hazardous items are processed responsibly. This
-                approach protects Tampa Bay, Old Tampa Bay, the Intracoastal, and neighborhood lakes while ensuring you meet
-                obligations as a property owner, manager, or marina operator.
+                The best way to start is with detail. Share your ZIP (34677 or 34685), boat dimensions, condition,
+                and photos of the site. Include notes about canal width, bridge clearance, driveway access, and
+                staging space. With that, we can give you a precise estimate and a practical timeline. If the task
+                involves multiple vessels along a canal, we can phase operations and coordinate neighbor notices to
+                keep traffic flowing and noise minimal.
               </p>
               <p>
-                Choosing a boat removal partner is about trust and execution. We provide transparent quotes, explain equipment and
-                access assumptions, and offer reliable timelines. On-site, crews maintain a controlled footprint and keep you
-                informed at each stage. After removal, transport and disposal conclude with a clean property and documented
-                recycling. It’s a comprehensive service designed to solve a problem without creating new ones.
+                Throughout the job, our crews maintain a controlled footprint. We protect nearby property, keep
+                shorelines stable, and use the right gear for each step: compact rigs for tight corridors, lift
+                systems for submerged hulls, heavy-duty trailers for larger vessels. When the boat is clear, we
+                remove debris, confirm disposal, and leave the area clean. It’s a complete service built to solve
+                the problem without creating new ones.
               </p>
               <p>
-                If a vessel is taking up space, creating risk, or holding you back from your next plan, we can help. Share your ZIP
-                code, boat details, and access notes. We’ll return a precise estimate with a practical approach to reclaim your
-                space. From Tampa’s canals to St. Petersburg marinas, Clearwater neighborhoods to Sarasota waterfronts, we’re ready
-                to handle complex boat removal with care, control, and professionalism.
+                Oldsmar’s character is defined by proximity to water and the daily rhythms that come with it.
+                When a vessel becomes an obstacle—taking up space, posing risk, or blocking a canal—it pulls focus
+                and energy from everything else you want to do. Boat removal should be straightforward: clear
+                communication, practical planning, and careful execution that respects your property and your
+                neighbors. That’s the standard we hold to in 34677 and 34685.
+              </p>
+              <p>
+                If you’re ready to move forward, we’re prepared to help. Tell us where the boat sits, how it’s
+                accessed, and what you’ve already tried. We’ll respond with a plan that matches your site and
+                delivers a predictable result. When it’s gone, you’ll have documentation in hand and the peace
+                of mind that comes from a clean, orderly waterfront—and the freedom to focus on what’s next.
+              </p>
+              <p>
+                In the end, boat removal isn’t only about equipment; it’s about trust, control, and getting your
+                space back without drama. That’s why our process is transparent, our communication steady, and
+                our finish thorough. For Oldsmar—ZIPs 34677 and 34685—that’s the level of service we bring to
+                every job, no matter the size, no matter the complexity.
               </p>
             </div>
           </div>
