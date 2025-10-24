@@ -11,17 +11,19 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
         {/* Logo */} 
-          <div className="flex-shrink-0"> 
-            <a href="/" 
-              className="cursor-pointer group" 
-              data-testid="link-logo" > 
-              <img 
-                src={logoImage} 
-                alt="Florida Boat Removal logo" 
-                className="h-10 md:h-14 w-auto transition-transform group-hover:scale-105" 
-                /> 
-            </a> 
-          </div>
+          <div className="flex-shrink-0 flex-1 flex justify-center md:justify-start">
+  <a
+    href="/"
+    className="cursor-pointer group"
+    data-testid="link-logo"
+  >
+    <img
+      src={logoImage}
+      alt="Florida Boat Removal logo"
+      className="h-12 md:h-14 w-auto transition-transform group-hover:scale-105"
+    />
+  </a>
+</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
