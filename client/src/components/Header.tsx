@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-secondary z-50 border-b border-secondary-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
-        {/* Logo */} 
-          <div className="flex-shrink-0 flex-1 flex justify-center md:justify-start">
+        <div className="flex items-center h-16 md:h-20 w-full relative">
+       
+         <div className="absolute left-0 md:static w-full md:w-auto flex justify-center md:justify-start">
   <a
     href="/"
     className="cursor-pointer group"
@@ -26,7 +26,7 @@ export default function Header() {
 </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex flex-1 justify-center items-center gap-6">
+          <nav className="hidden md:flex flex-1 justify-center gap-8">
             <a
               href="#services"
               className="text-secondary-foreground hover:text-secondary-foreground/80 font-medium transition-colors"
@@ -58,7 +58,7 @@ export default function Header() {
           </nav>
 
           {/* Phone & Mobile Menu */}
-          <div className="flex items-center gap-3">
+          <div className="absolute right-0 flex items-center gap-3">
             <a
               href="tel:+17792200187"
               className="hidden sm:flex items-center gap-2 text-secondary-foreground"
