@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RandomBoatGallery from "@/components/RandomBoatGallery";
 
 export default function PompanoBeach() {
   const [, setLocation] = useLocation();
@@ -103,7 +104,7 @@ export default function PompanoBeach() {
             </div>
           </div>
         </section>
-
+    <RandomBoatGallery cityName="Pompano Beach" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
