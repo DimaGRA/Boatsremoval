@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RandomBoatGallery from "@/components/RandomBoatGallery";
 
 export default function OldsmarFl() {
   const [, setLocation] = useLocation();
