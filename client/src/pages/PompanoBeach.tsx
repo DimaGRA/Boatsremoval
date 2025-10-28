@@ -6,9 +6,12 @@ import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RandomBoatGallery from "@/components/RandomBoatGallery";
+import ServiceAreaList from "@/components/ServiceAreaList";
+import { getNearbyCities } from "@/utils/getNearbyCities";
 
 export default function PompanoBeach() {
   const [, setLocation] = useLocation();
+   const nearbyCities = getNearbyCities("Pompano Beach", 60); // find up to 60 closest
 
   const services = [
     "Boat Hauling & Transport",
@@ -407,6 +410,8 @@ export default function PompanoBeach() {
             </div>
           </div>
         </section>
+        {/* Nearby Cities Section */}
+        <ServiceAreaList cities={nearbyCities} />
       </main>
 
       <Footer />
