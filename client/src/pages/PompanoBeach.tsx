@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import RandomBoatGallery from "@/components/RandomBoatGallery";
 import ServiceAreaList from "@/components/ServiceAreaList";
 import { getNearbyCities } from "@/utils/getNearbyCities";
+import logoImage from "@assets/Logo_florida_boat_removal.png";
 
 export default function PompanoBeach() {
   const [, setLocation] = useLocation();
