@@ -49,7 +49,7 @@ export default function RandomBoatGallery({ cityName, count = 3 }: Props) {
               className="w-full h-auto rounded-xl shadow-md object-cover"
             />
             <p className="text-sm text-muted-foreground mt-3 text-center max-w-sm">
-              {img.caption} in {cityName}.
+              {img.caption} in {cityName}, Florida
             </p>
           </div>
         ))}
