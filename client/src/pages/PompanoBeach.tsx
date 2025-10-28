@@ -113,7 +113,7 @@ export default function PompanoBeach() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-orange-500">Florida Boat Removal</span> in Pompano Beach?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in Pompano Beach?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 We're the trusted boat removal experts serving Pompano Beach and all of Broward County
@@ -383,7 +383,7 @@ export default function PompanoBeach() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-orange-500">Florida Boat Removal</span> in Pompano Beach, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in Pompano Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
@@ -393,7 +393,7 @@ export default function PompanoBeach() {
               </p>
               <p>
                 Whether you're near the Pompano Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-orange-500">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
                 disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
                 environment and have the expertise to handle any situation.
               </p>
