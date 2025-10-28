@@ -1,5 +1,5 @@
 import React from "react";
-import { boatImages } from "@/data/boatImages";
+import { boatImages } from "../data/boatImages"
 
 interface Props {
   cityName: string;
