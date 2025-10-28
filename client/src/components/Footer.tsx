@@ -71,7 +71,7 @@ export default function Footer() {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm">
-              © {currentYear} BoatsRemoval. All rights reserved.
+              © {currentYear} Florida Boat Removal. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-background/60 hover:text-primary transition-colors">Privacy Policy</a>
