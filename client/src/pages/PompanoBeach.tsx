@@ -336,19 +336,39 @@ export default function PompanoBeach() {
           </div>
         </section>
 
-        {/* Localized Contact SEO Block */}
-<section className="py-12 bg-background text-center">
-  <div className="max-w-3xl mx-auto px-4">
-    <p className="text-lg text-muted-foreground leading-relaxed">
-      Call <span className="text-primary font-semibold">Florida Boat Removal</span> at 
-      <a href="tel:+17792200187" className="text-primary font-semibold"> 779-220-0187</a> 
-      and speak with a live person today for professional boat removal, disposal in 
-      <span className="text-primary font-semibold"> Pompano Beach</span> and all of Broward County.
-      Pricing is based on vessel size, weight, and accessibility.
+       {/* Local Call Section with Logo */}
+<section className="py-16 md:py-20 bg-muted text-center">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Logo */}
+    <img
+      src="/attached_assets/Logo_florida_boat_removal.png"
+      alt="Florida Boat Removal logo"
+      className="mx-auto mb-6 w-32 h-auto"
+      loading="lazy"
+    />
+
+    {/* Local Text */}
+    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+      Call <span className="text-primary">Florida Boat Removal</span> Today!
+    </h2>
+    <p className="text-lg text-muted-foreground mb-8">
+      Speak with a live representative at {" "}
+      <a href="tel:+17792200187" className="text-primary font-semibold hover:underline">
+        779-220-0187
+      </a>{" "}
+      for boat removal service in Pompano Beach and all of Broward County.
+      Pricing is based on vessel size, condition, and accessibility.
     </p>
+<Button
+      size="lg"
+      onClick={() => setLocation("/quote")}
+      data-testid="button-local-call-quote"
+    >
+      Get Free Quote
+      <ArrowRight className="ml-2 h-5 w-5" />
+    </Button>
   </div>
 </section>
-
         {/* Local Content Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
