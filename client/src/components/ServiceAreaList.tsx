@@ -29,7 +29,7 @@ export default function ServiceAreaList({ cities }: Props) {
           OTHER NEARBY TOWNS WE SERVE
         </h2>
         <p className="text-muted-foreground mb-10">
-          Florida Boat Removal proudly serves customers across all Florida. 
+          <span className="text-primary font-semibold">Florida Boat Removal</span> proudly serves customers across all Florida. 
           Below are nearby cities where we provide junk boat removal, dismantle, towing, and disposal services.
         </p>
 
