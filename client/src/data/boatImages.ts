@@ -8,12 +8,12 @@ export const boatImages: BoatImage[] = [
   {
     src: "/attached_assets/Boat_images/Boat_removal_1.webp",
     alt: "Abandoned boat being towed away by Florida Boat Removal crew",
-    caption: "Abandoned vessel safely towed away by our professional team."
+    caption: "Abandoned vessel safely towed away by our professional team"
   },
   {
     src: "/attached_assets/Boat_images/Boat_trailer_removal_1.webp",
     alt: "Abandoned boat on trailer being towed away",
-    caption: "Damaged boat trailer being prepared for dismantle ."
+    caption: "Damaged boat trailer being prepared for dismantle"
   },
   {
     src: "/attached_assets/Boat_images/Boat_disposal_1.webp",
@@ -28,6 +28,6 @@ export const boatImages: BoatImage[] = [
   {
     src: "/attached_assets/Boat_images/Boat_removal_2.webp",
     alt: "Boat loaded onto trailer for disposal",
-    caption: "Boat loaded and transported for responsible disposal."
+    caption: "Boat loaded and transported for responsible disposal"
   }
 ];
