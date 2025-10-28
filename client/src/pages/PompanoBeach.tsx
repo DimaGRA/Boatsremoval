@@ -286,7 +286,7 @@ export default function PompanoBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Receive a free, no-obligation quote within 1 hour. We may even pay you for boats with resale value!
+                    Receive a free, no-obligation quote within 1 hour!
                   </p>
                 </CardContent>
               </Card>
