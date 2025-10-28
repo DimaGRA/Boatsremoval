@@ -104,7 +104,7 @@ export default function OldsmarFl() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Pompano Beach" count={2} />
+    <RandomBoatGallery cityName="Oldsmar" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
