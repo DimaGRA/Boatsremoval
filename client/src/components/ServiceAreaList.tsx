@@ -26,7 +26,7 @@ export default function ServiceAreaList({ cities }: Props) {
 
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-8">
-          Other Nearby Towns We Serve
+          OTHER NEARBY TOWNS WE SERVE
         </h2>
         <p className="text-muted-foreground mb-10">
           Florida Boat Removal proudly serves customers across all Florida. 
