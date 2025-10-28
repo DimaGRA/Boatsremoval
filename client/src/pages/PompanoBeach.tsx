@@ -336,48 +336,18 @@ export default function PompanoBeach() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-16 md:py-20 bg-primary text-primary-foreground">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Remove Your Boat in Pompano Beach?
-            </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8">
-              Get your free quote today! Fast response, professional service, competitive pricing.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                variant="secondary"
-                onClick={() => setLocation('/quote')}
-                data-testid="button-cta-quote"
-              >
-                Get Free Quote
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-                onClick={() => window.location.href = 'tel:+17792200187'}
-                data-testid="button-cta-call"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now
-              </Button>
-            </div>
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground/90">
-              <div className="flex items-center gap-2">
-                <Phone className="h-5 w-5" />
-                <span>779-220-0187</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="h-5 w-5" />
-                <span>quote@boatsremoval.com</span>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Localized Contact SEO Block */}
+<section className="py-12 bg-background text-center">
+  <div className="max-w-3xl mx-auto px-4">
+    <p className="text-lg text-muted-foreground leading-relaxed">
+      Call <span className="text-primary font-semibold">Florida Boat Removal</span> at 
+      <a href="tel:+17792200187" className="text-primary font-semibold"> 779-220-0187</a> 
+      and speak with a live person today for professional boat removal, disposal in 
+      <span className="text-primary font-semibold"> Pompano Beach</span> and all of Broward County.
+      Pricing is based on vessel size, weight, and accessibility.
+    </p>
+  </div>
+</section>
 
         {/* Local Content Section */}
         <section className="py-16 md:py-20 bg-muted">
