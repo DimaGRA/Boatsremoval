@@ -100,11 +100,11 @@ export default function PompanoBeach() {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={() => window.location.href = 'tel:+17792200187'}
+                  onClick={() => window.location.href = 'tel:+1${phone.replace(/[^0-9]/g, "")}`}
                   data-testid="button-call-now"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: 779-220-0187
+                  Call: {phone}
                 </Button>
               </div>
             </div>
@@ -356,8 +356,8 @@ export default function PompanoBeach() {
     </h2>
     <p className="text-lg text-muted-foreground mb-8">
       Speak with a live representative at {" "}
-      <a href="tel:+17792200187" className="text-primary font-semibold hover:underline">
-        779-220-0187
+      <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
+        {phone}
       </a>{" "}
       for boat removal service in Pompano Beach and all of Broward County.
       Pricing is based on vessel size, condition, and accessibility.
