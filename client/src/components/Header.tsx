@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 
-export default function Header() {
+export default function Header({ phone = "779-220-0187" }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -59,15 +59,15 @@ export default function Header() {
 
           {/* Phone & Mobile Menu */}
           <div className="absolute right-0 flex items-center gap-3">
-            <a
-              href="tel:+17792200187"
-              className="hidden sm:flex items-center gap-2 text-secondary-foreground"
-              data-testid="link-phone"
+           <a
+            href={`tel:+1${phone.replace(/[^0-9]/g, "")}`}
+            className="hidden sm:flex items-center gap-2 text-secondary-foreground"
+            data-testid="link-phone"
             >
-              <Phone className="h-5 w-5" />
-              <span className="font-bold text-lg md:text-xl">
-                779-220-0187
-              </span>
+            <Phone className="h-5 w-5" />
+            <span className="font-bold text-lg md:text-xl">
+            {phone}
+            </span>
             </a>
 
             {/* Mobile Menu Button */}
@@ -124,12 +124,12 @@ export default function Header() {
                 Contact
               </a>
               <a
-                href="tel:+17792200187"
+                href={`tel:+1${phone.replace(/[^0-9]/g, "")}`}
                 className="flex items-center gap-2 text-secondary-foreground font-bold py-2 sm:hidden"
                 data-testid="mobile-link-phone"
               >
                 <Phone className="h-5 w-5" />
-                779-220-0187
+                {phone}
               </a>
             </nav>
           </div>
