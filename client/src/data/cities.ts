@@ -2,10 +2,11 @@ export interface City {
   name: string;
   lat: number;
   lon: number;
+  phone?: string; // optional so you don’t have to fill it for all
 }
 
 export const allCities: City[] = [
-  { name: "Pompano Beach", lat: 26.2379, lon: -80.1248 },
+  { name: "Pompano Beach", lat: 26.2379, lon: -80.1248, phone: "954-398-5831" },
   { name: "Fort Lauderdale", lat: 26.1224, lon: -80.1373 },
   { name: "Deerfield Beach", lat: 26.3184, lon: -80.0996 },
   { name: "Boca Raton", lat: 26.3683, lon: -80.1289 },
