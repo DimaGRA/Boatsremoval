@@ -9,11 +9,13 @@ import RandomBoatGallery from "@/components/RandomBoatGallery";
 import ServiceAreaList from "@/components/ServiceAreaList";
 import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
+import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
 export default function PompanoBeach() {
   const [, setLocation] = useLocation();
    const nearbyCities = getNearbyCities("Pompano Beach", 60); // find up to 60 closest
-
+  const phone = getPhoneByCity("Pompano Beach");
+  
   const services = [
     "Boat Hauling & Transport",
     "Yacht Dismantling",
