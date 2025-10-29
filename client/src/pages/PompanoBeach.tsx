@@ -342,7 +342,7 @@ export default function PompanoBeach() {
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     {/* Logo */}
     <img
-      src="/attached_assets/Logo_florida_boat_removal.png"
+      src="/attached_assets/Logo_florida_boat_removal_black.png"
       alt="Florida Boat Removal logo"
       className="mx-auto mb-6 w-32 h-auto"
       loading="lazy"
