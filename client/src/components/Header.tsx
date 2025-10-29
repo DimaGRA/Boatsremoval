@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
-import { allCities } from "@/data/allCities";
+import { allCities } from "@/data/cities";
 
 export default function Header({ cityName }: { cityName?: string }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
