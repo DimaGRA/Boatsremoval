@@ -3,12 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { allCities } from "@/data/cities";
+import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
 export default function Header({ cityName }: { cityName?: string }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const defaultPhone = "779-220-0187";
-  const city = allCities.find((c) => c.name === cityName);
-  const phone = city?.phone || defaultPhone;
+  const phone = getPhoneByCity(cityName);
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-secondary z-50 border-b border-secondary-border">
