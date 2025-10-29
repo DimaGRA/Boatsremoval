@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { allCities } from "../src/data/cities_test.ts";
+import { allCities } from "../data/cities_test.ts";
 
 // === CONFIG ===
 const TEMPLATE_CITY = "Pompano Beach"; // base template
