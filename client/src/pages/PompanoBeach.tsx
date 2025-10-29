@@ -100,7 +100,7 @@ export default function PompanoBeach() {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={() => window.location.href = 'tel:+1${phone.replace(/[^0-9]/g, "")}`}
+                  onClick={() => window.location.href = `tel:+1${phone.replace(/[^0-9]/g, "")}`}
                   data-testid="button-call-now"
                 >
                   <Phone className="mr-2 h-5 w-5" />
