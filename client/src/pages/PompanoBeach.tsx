@@ -67,7 +67,7 @@ export default function PompanoBeach() {
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://boatsremoval.com/pompano-beach-boat-removal" />
       </Helmet>
-      <Header phone="954-398-5831" />
+      <Header />
       
       <main className="flex-1">
         {/* Hero Section */}
