@@ -3,7 +3,7 @@ export const allCities = [
   { name: "Hialeah", lat: 25.8576, lon: -80.2781, county: "Miami-Dade", phone: "779-220-0187" },
   { name: "Miami Beach", lat: 25.7907, lon: -80.1300, county: "Miami-Dade", phone: "779-220-0187" },
   { name: "Coral Gables", lat: 25.7215, lon: -80.2684, county: "Miami-Dade", phone: "779-220-0187" },
-  { name: "Doral", lat: 25.8195, lon: -80.3550, county: "Miami-Dade", phone: "779-220-0187" },
+  { name: "Doral", lat: 25.8195, lon: -80.3550, county: "Miami Dade", phone: "779-220-0187" },
   { name: "Homestead", lat: 25.4683, lon: -80.4776, county: "Miami-Dade", phone: "779-220-0187" },
   { name: "Kendall", lat: 25.6890, lon: -80.3560, county: "Miami-Dade", phone: "779-220-0187" },
   { name: "North Miami", lat: 25.8909, lon: -80.1869, county: "Miami-Dade", phone: "779-220-0187" },
