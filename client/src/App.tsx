@@ -11,7 +11,7 @@ import Tampa from "@/pages/Tampa";
 import Oldsmar from "@/pages/Oldsmar-Fl";
 import OldsmarFl from "@/pages/Oldsmar";
 import NotFound from "@/pages/not-found";
-import Atlantis from "@/pages//SEO/Atlantis";
+import Atlantis from "@/pages/SEO/Atlantis";
 
 function Router() {
   return (
