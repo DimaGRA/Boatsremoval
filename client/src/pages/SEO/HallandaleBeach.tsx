@@ -27,11 +27,11 @@ export default function HallandaleBeach() {
 
   const serviceAreas = [
     "Hallandale Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Golden Isles",
+"Three Islands Boulevard",
+"Intracoastal Waterway",
+"Federal Highway Corridor",
+"Hemisphere Marina Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function HallandaleBeach() {
     },
     {
       question: "What areas of Hallandale Beach do you serve?",
-      answer: "We serve all of Hallandale Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Hallandale Beach, including the beachfront areas near the Hallandale Beach Pier, Golden Isles, Three Islands Boulevard, Intracoastal Waterway, Federal Highway, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,29 @@ export default function HallandaleBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Hallandale Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Hallandale Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Hallandale Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Hallandale Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Hallandale Beach is a vibrant coastal city in Broward County, known for its beautiful beaches, 
+  scenic Intracoastal Waterway views, and active boating community. With numerous waterfront homes, 
+  marinas, and easy access to the Atlantic Ocean, the demand for professional boat removal services 
+  remains essential in this area.
+</p>
+<p>
+  Whether you're near the Hallandale Beach Pier, Golden Isles, Three Islands Boulevard, or along the 
+  Intracoastal Waterway and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the expertise to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Hallandale Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, private docks, storage facilities, and marinas. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal, 
+  ensuring a smooth, hassle-free experience from start to finish.
+</p>
+<p>
+  Serving all of Broward County, including Hallandale Beach, Hollywood, Dania Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
