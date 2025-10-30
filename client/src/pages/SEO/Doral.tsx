@@ -27,11 +27,11 @@ export default function Doral() {
 
   const serviceAreas = [
     "Doral Central Park",
-"Doral City Place",
-"Miami International Airport Area",
-"Palmetto Expressway Corridor",
-"Northwest 36th Street",
-"Doral Boulevard (NW 41st Street)"
+    "Doral City Place",
+    "Miami International Airport Area",
+    "Palmetto Expressway Corridor",
+    "Northwest 36th Street",
+    "Doral Boulevard (NW 41st Street)"
   ];
 
   const faqs = [
@@ -377,27 +377,27 @@ export default function Doral() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-  Doral is a vibrant city in Miami-Dade County, known for its modern communities, golf courses, and proximity 
-  to major waterways and marinas throughout the Miami area. While not directly on the coast, Doral is home to 
-  many boat owners who rely on nearby storage yards and service facilities, making professional boat removal 
-  services essential in the area.
-</p>
-<p>
-  Whether you're near Doral Central Park, close to City Place Doral, or in residential neighborhoods around 
-  Doral Boulevard and the Palmetto Expressway, 
-  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-  disposal services. We understand the unique challenges of boat removal across Miami-Dade County’s 
-  inland and coastal areas and have the expertise to handle any type of vessel safely.
-</p>
-<p>
-  Our Doral boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
-  private properties, storage yards, and nearby marinas. We manage all the heavy lifting, transportation, 
-  and environmentally responsible disposal, ensuring a smooth, stress-free experience for every customer.
-</p>
-<p>
-  Serving all of Miami-Dade County, including Doral, Miami, Hialeah, and surrounding areas. 
-  Contact us today for a free quote!
-</p>
+                Doral is a vibrant city in Miami-Dade County, known for its modern communities, golf courses, and proximity 
+                to major waterways and marinas throughout the Miami area. While not directly on the coast, Doral is home to 
+                many boat owners who rely on nearby storage yards and service facilities, making professional boat removal 
+                services essential in the area.
+              </p>
+              <p>
+                Whether you're near Doral Central Park, close to City Place Doral, or in residential neighborhoods around 
+                Doral Boulevard and the Palmetto Expressway, 
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+                disposal services. We understand the unique challenges of boat removal across Miami-Dade County’s 
+                inland and coastal areas and have the expertise to handle any type of vessel safely.
+              </p>
+              <p>
+                Our Doral boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
+                private properties, storage yards, and nearby marinas. We manage all the heavy lifting, transportation, 
+                and environmentally responsible disposal, ensuring a smooth, stress-free experience for every customer.
+              </p>
+              <p>
+                Serving all of Miami-Dade County, including Doral, Miami, Hialeah, and surrounding areas. 
+                Contact us today for a free quote!
+              </p>
             </div>
           </div>
         </section>
