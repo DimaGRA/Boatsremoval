@@ -12,6 +12,7 @@ import Oldsmar from "@/pages/Oldsmar-Fl";
 import OldsmarFl from "@/pages/Oldsmar";
 import NotFound from "@/pages/not-found";
 import Atlantis from "@/pages/SEO/Atlantis";
+import Doral from "@/pages/SEO/Doral";
 
 function Router() {
   return (
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/oldsmar-boat-removal" component={Oldsmar} />
       <Route path="/oldsmar-fl-boat-removal" component={OldsmarFl} />
       <Route path="/boat-removal-fl-atlantis" component={Atlantis} />
+      <Route path="/boat-removal-fl-doral" component={Doral} />
       <Route component={NotFound} />
     </Switch>
   );
