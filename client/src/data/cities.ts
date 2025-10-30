@@ -28,5 +28,6 @@ export const allCities: City[] = [
   { name: "Miami Gardens", lat: 25.9420, lon: -80.2456 },
   { name: "North Miami Beach", lat: 25.9331, lon: -80.1625 },
   { name: "Miami", lat: 25.7617, lon: -80.1918 },
+  { name: "Atlantis", lat: 26.5906, lon: -80.1000, county: "Palm Beach", phone: "754-224-8555" },
   
 ];
