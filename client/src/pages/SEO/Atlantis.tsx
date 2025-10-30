@@ -41,7 +41,7 @@ export default function Atlantis() {
     },
     {
       question: "What areas of Atlantis do you serve?",
-      answer: "We serve all of Atlantis including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Atlantis, including the areas near Lake Worth Lagoon, John Prince Park, Atlantis Country Club, Lantana Beach, Military Trail, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
