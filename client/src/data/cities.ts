@@ -2,14 +2,15 @@ export interface City {
   name: string;
   lat: number;
   lon: number;
+  county?: string; // optional county name
   phone?: string; // optional so you don’t have to fill it for all
 }
 
 export const allCities: City[] = [
-  { name: "Pompano Beach", lat: 26.2379, lon: -80.1248, phone: "779-220-0187" },
+  { name: "Pompano Beach", lat: 26.2379, lon: -80.1248, county: "Broward", phone: "779-220-0187" },
   { name: "Fort Lauderdale", lat: 26.1224, lon: -80.1373 },
   { name: "Deerfield Beach", lat: 26.3184, lon: -80.0996 },
-  { name: "Boca Raton", lat: 26.3683, lon: -80.1289 },
+  { name: "Boca Raton", lat: 26.3683, lon: -80.1289, county: "Palm Beach", phone: "561-220-0187" },
   { name: "Coral Springs", lat: 26.2712, lon: -80.2706 },
   { name: "Coconut Creek", lat: 26.2518, lon: -80.1789 },
   { name: "Margate", lat: 26.2445, lon: -80.2064 },

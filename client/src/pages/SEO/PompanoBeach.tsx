@@ -57,17 +57,14 @@ export default function PompanoBeach() {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Boat Removal Pompano Beach FL | Professional Disposal & Dismantling Services</title>
-        <meta 
-          name="description" 
-          content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving Broward County for boats, yachts & catamarans of all sizes." 
-        />
+        <meta name="description" content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
         <meta property="og:title" content="Boat Removal Pompano Beach FL | Professional Services" />
         <meta 
           property="og:description" 
           content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/pompano-beach-boat-removal" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-pompano-beach" />
       </Helmet>
      <Header cityName="Pompano Beach" />
       

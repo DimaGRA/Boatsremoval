@@ -1,11 +1,12 @@
 import fs from "fs";
 import path from "path";
-import { allCities } from "../data/cities_test.ts";
+import { allCities } from "../data/cities_test.js";
 
 // === CONFIG ===
 const TEMPLATE_CITY = "Pompano Beach"; // base template
-const TEMPLATE_FILE = "src/pages/PompanoBeach.tsx";
-const OUTPUT_DIR = "src/pages/SEO";
+const TEMPLATE_COUNTY = "Broward"; // county to replace in template
+const TEMPLATE_FILE = "client/src/pages/PompanoBeach.tsx";
+const OUTPUT_DIR = "client/src/pages/SEO";
 
 // === MAIN ===
 const templatePath = path.resolve(TEMPLATE_FILE);
@@ -22,12 +23,18 @@ function replaceAll(text, search, replacement) {
   return text.split(search).join(replacement);
 }
 
+// ✅ Only one loop here
 for (const city of allCities) {
-  const cityName = city.name;
+  const { name: cityName, county } = city;
+
+  if (!county) {
+    console.error(`❌ Missing county for city: ${cityName}. Please add it to cities_test.js.`);
+    process.exit(1);
+  }
+
   const safeCity = cityName.replace(/\s+/g, "-").toLowerCase();
   const exportName = cityName.replace(/\s+/g, "");
-
-  const newFileName = `boat-removal-fl-${safeCity}.tsx`;
+  const newFileName = `${exportName}.tsx`;
   const newFilePath = path.join(outputDir, newFileName);
 
   if (fs.existsSync(newFilePath)) {
@@ -37,11 +44,12 @@ for (const city of allCities) {
 
   let content = template;
 
-  // === Replace all text occurrences of template city ===
+  // === Replace "Broward" with the correct county ===
+  content = replaceAll(content, TEMPLATE_COUNTY, county);
+
+  // === Replace city names (uppercase + lowercase) ===
   const cityNameLower = cityName.toLowerCase();
   const templateCityLower = TEMPLATE_CITY.toLowerCase();
-
-  // Replace both capitalized and lowercase variants throughout file
   content = replaceAll(content, TEMPLATE_CITY, cityName);
   content = replaceAll(content, templateCityLower, cityNameLower);
 
@@ -67,8 +75,7 @@ for (const city of allCities) {
     `<link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-${safeCity}" />`,
   );
 
-  // === Update location-based variables ===
-  // Update inside getNearbyCities() and getPhoneByCity() calls
+  // === Update helper function calls ===
   content = content.replace(
     /getNearbyCities\(".*?",/,
     `getNearbyCities("${cityName}",`,
@@ -80,7 +87,7 @@ for (const city of allCities) {
 
   // === Write new file ===
   fs.writeFileSync(newFilePath, content, "utf-8");
-  console.log(`✅ Created: ${newFileName}`);
+  console.log(`✅ Created: ${newFileName} (${county})`);
 }
 
 console.log("🎉 All SEO city pages generated successfully!");

@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function PompanoBeach() {
+export default function BocaRaton() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("Pompano Beach", 60); // find up to 60 closest
-  const phone = getPhoneByCity("Pompano Beach");
+   const nearbyCities = getNearbyCities("Boca Raton", 60); // find up to 60 closest
+  const phone = getPhoneByCity("Boca Raton");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,7 +26,7 @@ export default function PompanoBeach() {
   ];
 
   const serviceAreas = [
-    "Pompano Beach Pier",
+    "Boca Raton Pier",
     "Hillsboro Inlet",
     "Lighthouse Point",
     "Atlantic Boulevard",
@@ -36,40 +36,37 @@ export default function PompanoBeach() {
 
   const faqs = [
     {
-      question: "How quickly can you remove a boat in Pompano Beach?",
-      answer: "We offer same-day and next-day boat removal services in Pompano Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "How quickly can you remove a boat in Boca Raton?",
+      answer: "We offer same-day and next-day boat removal services in Boca Raton, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Pompano Beach do you serve?",
-      answer: "We serve all of Pompano Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      question: "What areas of Boca Raton do you serve?",
+      answer: "We serve all of Boca Raton including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Pompano Beach. We handle all permits and logistics."
+      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Boca Raton. We handle all permits and logistics."
     },
     {
-      question: "Is boat removal in Pompano Beach expensive?",
-      answer: "Our Pompano Beach boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      question: "Is boat removal in Boca Raton expensive?",
+      answer: "Our Boca Raton boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal Pompano Beach FL | Professional Disposal & Dismantling Services</title>
-        <meta 
-          name="description" 
-          content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving Broward County for boats, yachts & catamarans of all sizes." 
-        />
-        <meta property="og:title" content="Boat Removal Pompano Beach FL | Professional Services" />
+        <title>Boat Removal Boca Raton FL | Professional Disposal & Dismantling Services</title>
+        <meta name="description" content="Expert boat removal services in Boca Raton, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
+        <meta property="og:title" content="Boat Removal Boca Raton FL | Professional Services" />
         <meta 
           property="og:description" 
-          content="Expert boat removal services in Pompano Beach, Florida. Free quotes, same-day service, eco-friendly disposal." 
+          content="Expert boat removal services in Boca Raton, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/pompano-beach-boat-removal" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-boca-raton" />
       </Helmet>
-     <Header cityName="Pompano Beach" />
+     <Header cityName="Boca Raton" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -78,15 +75,15 @@ export default function PompanoBeach() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Pompano Beach, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Boca Raton, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in Pompano Beach, FL
+                Professional Boat Removal Services in Boca Raton, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for Pompano Beach residents and businesses. 
+                Expert boat disposal and dismantling services for Boca Raton residents and businesses. 
                 We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
-                Fast, eco-friendly, and affordable solutions for Broward County.
+                Fast, eco-friendly, and affordable solutions for Palm Beach County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -110,16 +107,16 @@ export default function PompanoBeach() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Pompano Beach" count={2} />
+    <RandomBoatGallery cityName="Boca Raton" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Florida Boat Removal</span> in Pompano Beach?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in Boca Raton?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving Pompano Beach and all of Broward County
+                We're the trusted boat removal experts serving Boca Raton and all of Palm Beach County
               </p>
             </div>
 
@@ -131,7 +128,7 @@ export default function PompanoBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand Pompano Beach's unique coastal environment and local regulations.
+                    Based in Florida, we understand Boca Raton's unique coastal environment and local regulations.
                   </p>
                 </CardContent>
               </Card>
@@ -143,7 +140,7 @@ export default function PompanoBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in Pompano Beach.
+                    Fast response times with same-day removal available for urgent situations in Boca Raton.
                   </p>
                 </CardContent>
               </Card>
@@ -209,7 +206,7 @@ export default function PompanoBeach() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for Pompano Beach residents.
+                  or a derelict boat that needs immediate removal, we provide complete solutions for Boca Raton residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -231,7 +228,7 @@ export default function PompanoBeach() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in Pompano Beach</CardTitle>
+                  <CardTitle>Areas We Serve in Boca Raton</CardTitle>
                   <CardDescription>Complete coverage throughout the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -244,7 +241,7 @@ export default function PompanoBeach() {
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Plus all surrounding neighborhoods in Broward County
+                    Plus all surrounding neighborhoods in Palm Beach County
                   </p>
                 </CardContent>
               </Card>
@@ -260,7 +257,7 @@ export default function PompanoBeach() {
                 Our Simple 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in Pompano Beach
+                Fast and hassle-free boat removal in Boca Raton
               </p>
             </div>
 
@@ -274,7 +271,7 @@ export default function PompanoBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in Pompano Beach. 
+                    Call us or fill out our online form with details about your boat and location in Boca Raton. 
                     Send photos for faster quotes.
                   </p>
                 </CardContent>
@@ -320,7 +317,7 @@ export default function PompanoBeach() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in Pompano Beach
+                Common questions about boat removal in Boca Raton
               </p>
             </div>
 
@@ -359,7 +356,7 @@ export default function PompanoBeach() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to speak with our boat removal specialist serving Pompano Beach and all of Broward County.
+      to speak with our boat removal specialist serving Boca Raton and all of Palm Beach County.
       Pricing is based on vessel size, condition, and accessibility.
     </p>
 <Button
@@ -376,28 +373,28 @@ export default function PompanoBeach() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Florida Boat Removal</span> in Pompano Beach, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in Boca Raton, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pompano Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
+                Boca Raton is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
                 fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
                 boat owners, the need for professional boat removal services is essential.
               </p>
               <p>
-                Whether you're near the Pompano Beach Pier, along the Intracoastal Waterway, or in residential 
+                Whether you're near the Boca Raton Pier, along the Intracoastal Waterway, or in residential 
                 neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
                 disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
                 environment and have the expertise to handle any situation.
               </p>
               <p>
-                Our Pompano Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+                Our Boca Raton boat removal services include hauling away old boats, yachts, sailboats, and 
                 catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
                 We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
                 don't have to worry about a thing.
               </p>
               <p>
-                Serving all of Broward County including Pompano Beach, Fort Lauderdale, Deerfield Beach, and 
+                Serving all of Palm Beach County including Boca Raton, Fort Lauderdale, Deerfield Beach, and 
                 surrounding areas. Contact us today for a free quote!
               </p>
             </div>
