@@ -26,12 +26,12 @@ export default function Atlantis() {
   ];
 
   const serviceAreas = [
-    "Atlantis Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+   "Atlantis Country Club",
+"Lake Worth Lagoon",
+"Lantana Beach",
+"Palm Beach State College Area",
+"John Prince Park",
+"Military Trail Corridor"
   ];
 
   const faqs = [
@@ -377,26 +377,19 @@ export default function Atlantis() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Atlantis is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Atlantis Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Atlantis boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Atlantis, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Atlantis is a serene city located in Palm Beach County, known for its lush landscapes, golf courses, and close proximity to beautiful coastal areas like Lake Worth Lagoon and Lantana Beach. While not directly on the ocean, Atlantis is surrounded by South Florida’s active boating community. With many nearby marinas, canals, and residential waterways, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near the Atlantis Country Club, close to John Prince Park, or in residential neighborhoods along Military Trail and Congress Avenue, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Palm Beach County’s inland and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Atlantis boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, marinas, storage yards, and waterfront areas. 
+  We take care of all transportation, heavy lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Palm Beach County, including Atlantis, Lake Worth, Boynton Beach, Lantana, and surrounding communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>
