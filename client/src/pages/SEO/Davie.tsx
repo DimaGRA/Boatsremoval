@@ -26,12 +26,12 @@ export default function Davie() {
   ];
 
   const serviceAreas = [
-    "Davie Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Nova Southeastern University Area",
+"Griffin Road Corridor",
+"Davie Road Extension",
+"Pine Island Ridge",
+"Orange Drive Area",
+"Flamingo Gardens"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Davie() {
     },
     {
       question: "What areas of Davie do you serve?",
-      answer: "We serve all of Davie including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Davie, including areas near Nova Southeastern University, Griffin Road, Pine Island Ridge, Orange Drive, Davie Road Extension, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,24 @@ export default function Davie() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Davie is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Davie Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Davie boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Davie, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Davie is a thriving town in Broward County, known for its equestrian lifestyle, scenic parks, and convenient access to South Florida’s waterways. 
+  While not directly on the coast, Davie is surrounded by nearby marinas, canals, and boat storage facilities, making it a popular community for boat owners throughout the region. 
+  As a result, the need for professional and eco-friendly boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Nova Southeastern University, along Griffin Road, or in residential neighborhoods around Orange Drive and Pine Island Ridge, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat disposal services. 
+  We understand the challenges of boat removal in Broward County’s inland and coastal areas and have the expertise to handle any type of vessel safely and efficiently.
+</p>
+<p>
+  Our Davie boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, storage yards, and nearby marinas. 
+  We take care of the heavy lifting, transportation, and proper disposal, ensuring a stress-free experience for every customer.
+</p>
+<p>
+  Serving all of Broward County, including Davie, Plantation, Cooper City, Fort Lauderdale, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
