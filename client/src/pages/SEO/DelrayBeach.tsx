@@ -27,11 +27,11 @@ export default function DelrayBeach() {
 
   const serviceAreas = [
     "Delray Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Atlantic Avenue",
+"Intracoastal Waterway",
+"Lake Ida Area",
+"Federal Highway Corridor",
+"Linton Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function DelrayBeach() {
     },
     {
       question: "What areas of Delray Beach do you serve?",
-      answer: "We serve all of Delray Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Delray Beach, including the beachfront areas near the Delray Beach Pier, Atlantic Avenue, Intracoastal Waterway, Lake Ida, Federal Highway, Linton Boulevard, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,29 @@ export default function DelrayBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Delray Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Delray Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Delray Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Delray Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Delray Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Delray Beach is a vibrant coastal city in Palm Beach County, known for its beautiful sandy beaches, 
+  lively downtown along Atlantic Avenue, and strong boating community. With its marinas, waterfront homes, 
+  and access to the Intracoastal Waterway, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Delray Beach Pier, cruising along the Intracoastal Waterway, or in residential 
+  neighborhoods off Federal Highway or Linton Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Delray Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We manage all the heavy lifting, transportation, and environmentally responsible disposal, 
+  ensuring a stress-free experience from start to finish.
+</p>
+<p>
+  Serving all of Palm Beach County, including Delray Beach, Boynton Beach, Boca Raton, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
