@@ -26,12 +26,12 @@ export default function Doral() {
   ];
 
   const serviceAreas = [
-    "Doral Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Doral Central Park",
+"Doral City Place",
+"Miami International Airport Area",
+"Palmetto Expressway Corridor",
+"Northwest 36th Street",
+"Doral Boulevard (NW 41st Street)"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Doral() {
     },
     {
       question: "What areas of Doral do you serve?",
-      answer: "We serve all of Doral including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Doral, including areas near Doral Central Park, Doral City Place, Miami International Airport, Palmetto Expressway, Northwest 36th Street, Doral Boulevard (NW 41st Street), and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Doral() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Doral is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Doral Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Doral boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Doral, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Doral is a vibrant city in Miami-Dade County, known for its modern communities, golf courses, and proximity 
+  to major waterways and marinas throughout the Miami area. While not directly on the coast, Doral is home to 
+  many boat owners who rely on nearby storage yards and service facilities, making professional boat removal 
+  services essential in the area.
+</p>
+<p>
+  Whether you're near Doral Central Park, close to City Place Doral, or in residential neighborhoods around 
+  Doral Boulevard and the Palmetto Expressway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal across Miami-Dade County’s 
+  inland and coastal areas and have the expertise to handle any type of vessel safely.
+</p>
+<p>
+  Our Doral boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
+  private properties, storage yards, and nearby marinas. We manage all the heavy lifting, transportation, 
+  and environmentally responsible disposal, ensuring a smooth, stress-free experience for every customer.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Doral, Miami, Hialeah, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
