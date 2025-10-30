@@ -26,12 +26,12 @@ export default function FortLauderdale() {
   ];
 
   const serviceAreas = [
-    "Fort Lauderdale Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Fort Lauderdale Beach Pier",
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Las Olas Boulevard",
+"Sunrise Boulevard Area",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function FortLauderdale() {
     },
     {
       question: "What areas of Fort Lauderdale do you serve?",
-      answer: "We serve all of Fort Lauderdale including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Fort Lauderdale, including the beachfront areas near the Fort Lauderdale Beach Pier, Hillsboro Inlet, Lighthouse Point, Las Olas Boulevard, Sunrise Boulevard, Federal Highway, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function FortLauderdale() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Fort Lauderdale is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Fort Lauderdale Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Fort Lauderdale boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Fort Lauderdale, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Fort Lauderdale is a stunning coastal city in Broward County, famous for its beautiful beaches, 
+  boating canals, and vibrant waterfront lifestyle. With miles of shoreline, marinas, and residential 
+  waterfront communities, the demand for professional boat removal services is always high.
+</p>
+<p>
+  Whether you're near the Fort Lauderdale Beach Pier, along the Intracoastal Waterway, or in neighborhoods 
+  off Federal Highway, Las Olas Boulevard, or Sunrise Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the experience to handle any situation efficiently.
+</p>
+<p>
+  Our Fort Lauderdale boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage yards, and waterfront locations. 
+  We take care of the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you can rest assured your vessel is handled properly from start to finish.
+</p>
+<p>
+  Serving all of Broward County, including Fort Lauderdale, Pompano Beach, Hollywood, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
