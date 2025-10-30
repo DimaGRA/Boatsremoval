@@ -26,12 +26,12 @@ export default function Greenacres() {
   ];
 
   const serviceAreas = [
-    "Greenacres Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+   "Greenacres Freedom Park",
+"Jog Road Corridor",
+"Lake Worth Road",
+"Palm Beach State College Area",
+"Military Trail",
+"Lake Worth Lagoon"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Greenacres() {
     },
     {
       question: "What areas of Greenacres do you serve?",
-      answer: "We serve all of Greenacres including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Greenacres, including areas near Greenacres Freedom Park, Jog Road, Lake Worth Road, Palm Beach State College, Military Trail, Lake Worth Lagoon, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,29 @@ export default function Greenacres() {
               About <span className="text-primary">Florida Boat Removal</span> in Greenacres, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Greenacres is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Greenacres Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Greenacres boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Greenacres, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+           <p>
+  Greenacres is a welcoming community in Palm Beach County, known for its family-friendly neighborhoods, 
+  beautiful parks, and close proximity to South Florida’s coastal areas. While not directly on the beach, 
+  Greenacres is just minutes from Lake Worth Lagoon and several nearby marinas, making professional 
+  boat removal services an important need for local homeowners and boaters.
+</p>
+<p>
+  Whether you're near Greenacres Freedom Park, along Lake Worth Road, or in residential neighborhoods near 
+  Jog Road and Military Trail, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal throughout Palm Beach County and 
+  have the experience to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Greenacres boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, storage yards, and nearby marinas. We take care of all the heavy lifting, 
+  transportation, and environmentally responsible disposal, giving you complete peace of mind.
+</p>
+<p>
+  Serving all of Palm Beach County, including Greenacres, Lake Worth, Palm Springs, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
