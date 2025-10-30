@@ -14,9 +14,9 @@ export default function ServiceAreaList({ cities }: Props) {
       "@type": "ListItem",
       "position": index + 1,
       "name": `${city.name}, Fl Boat Removal`,
-      "url": `https://www.boatsremoval.com/fl-${city.name
+      "url": `https://www.boatsremoval.com/boat-removal-fl-${city.name
         .toLowerCase()
-        .replace(/ /g, "-")}-boat-removal`
+        .replace(/ /g, "-")}`
     }))
   };
 
@@ -37,7 +37,7 @@ export default function ServiceAreaList({ cities }: Props) {
           {cities.map((city) => (
             <a
               key={city.name}
-              href={`/fl-${city.name.toLowerCase().replace(/ /g, "-")}-boat-removal`}
+              href={`/boat-removal-fl-${city.name.toLowerCase().replace(/ /g, "-")}`}
               className="hover:text-primary transition-colors"
             >
               {city.name}
