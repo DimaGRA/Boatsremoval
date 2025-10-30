@@ -26,12 +26,12 @@ export default function GulfStream() {
   ];
 
   const serviceAreas = [
-    "Gulf Stream Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gulf Stream Park",
+"Atlantic Avenue",
+"Intracoastal Waterway",
+"Delray Beach Marina Area",
+"Federal Highway Corridor",
+"Linton Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function GulfStream() {
     },
     {
       question: "What areas of Gulf Stream do you serve?",
-      answer: "We serve all of Gulf Stream including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Gulf Stream, including the beachfront areas near Gulf Stream Park, Atlantic Avenue, the Intracoastal Waterway, Delray Beach Marina, Federal Highway, Linton Boulevard, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,30 @@ export default function GulfStream() {
               About <span className="text-primary">Florida Boat Removal</span> in Gulf Stream, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Gulf Stream is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Gulf Stream Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Gulf Stream boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Gulf Stream, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+            <p>
+  Gulf Stream is a picturesque coastal town in Palm Beach County, known for its beautiful beaches, 
+  exclusive waterfront estates, and close proximity to Delray Beach and Boynton Beach. With easy access 
+  to the Intracoastal Waterway and nearby marinas, the need for professional boat removal services is 
+  essential for local property owners and boat enthusiasts.
+</p>
+<p>
+  Whether you're near Gulf Stream Park, along the Intracoastal Waterway, or in residential neighborhoods 
+  off Federal Highway or Linton Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the expertise to handle any situation with care and efficiency.
+</p>
+<p>
+  Our Gulf Stream boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, private docks, marinas, and storage yards. We take care of 
+  all transportation, heavy lifting, and environmentally responsible disposal, ensuring a smooth, 
+  stress-free process from start to finish.
+</p>
+<p>
+  Serving all of Palm Beach County, including Gulf Stream, Delray Beach, Boynton Beach, and surrounding 
+  areas. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
