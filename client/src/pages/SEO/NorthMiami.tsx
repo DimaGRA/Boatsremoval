@@ -26,12 +26,12 @@ export default function NorthMiami() {
   ];
 
   const serviceAreas = [
-    "North Miami Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "North Miami Marina",
+"Biscayne Bay Area",
+"Arch Creek East Environmental Preserve",
+"NE 135th Street Corridor",
+"West Dixie Highway",
+"Broad Causeway to Bay Harbor Islands"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function NorthMiami() {
     },
     {
       question: "What areas of North Miami do you serve?",
-      answer: "We serve all of North Miami including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of North Miami, including areas near Biscayne Bay, North Miami Marina, NE 135th Street, West Dixie Highway, Broad Causeway, Arch Creek East Preserve, and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,28 @@ export default function NorthMiami() {
               About <span className="text-primary">Florida Boat Removal</span> in North Miami, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                North Miami is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the North Miami Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our North Miami boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including North Miami, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  North Miami is a vibrant coastal city in Miami-Dade County, known for its scenic views of Biscayne Bay, 
+  waterfront neighborhoods, and active boating community. With numerous marinas, residential canals, and 
+  boating facilities, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the North Miami Marina, along Biscayne Bay, or in residential neighborhoods off 
+  West Dixie Highway and NE 135th Street, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of marine removal in South Florida’s coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our North Miami boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Miami-Dade County including North Miami, Aventura, Miami Shores, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

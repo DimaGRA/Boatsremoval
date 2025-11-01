@@ -27,11 +27,11 @@ export default function PalmettoBay() {
 
   const serviceAreas = [
     "Palmetto Bay Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Deering Point Marina",
+"Black Point Marina",
+"Old Cutler Road",
+"South Dixie Highway (US-1)",
+"Palmetto Bay Park Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function PalmettoBay() {
     },
     {
       question: "What areas of Palmetto Bay do you serve?",
-      answer: "We serve all of Palmetto Bay including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Palmetto Bay, including areas near Deering Point Marina, Black Point Marina, Old Cutler Road, South Dixie Highway (US-1), and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function PalmettoBay() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Palmetto Bay is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Palmetto Bay Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Palmetto Bay boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Palmetto Bay, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Palmetto Bay is a scenic waterfront community in Miami-Dade County, known for its access to Biscayne Bay,
+  nearby marinas, and family-friendly neighborhoods. With many homes near canals and launch sites, professional
+  boat removal services are often essential for local property owners and marine businesses.
+</p>
+<p>
+  Whether you're near Deering Point Marina and the Deering Estate, along Old Cutler Road, or in neighborhoods
+  close to Black Point Marina and South Dixie Highway (US-1),
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We understand the logistics of marine removals across South Florida’s coastal areas and
+  handle every project safely and efficiently.
+</p>
+<p>
+  Our Palmetto Bay boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+  private residences, marinas, storage facilities, and waterfront properties. We manage all transportation, heavy
+  lifting, and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Palmetto Bay, Cutler Bay, Pinecrest, and surrounding communities.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

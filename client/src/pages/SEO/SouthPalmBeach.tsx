@@ -27,11 +27,11 @@ export default function SouthPalmBeach() {
 
   const serviceAreas = [
     "South Palm Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Lake Worth Lagoon Waterfront",
+"Manalapan Beach Access",
+"South Ocean Boulevard",
+"Blue Heron Boulevard Corridor",
+"Federal Highway Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function SouthPalmBeach() {
     },
     {
       question: "What areas of South Palm Beach do you serve?",
-      answer: "We serve all of South Palm Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of South Palm Beach including the beachfront areas, Lake Worth Lagoon, South Ocean Boulevard, areas along Federal Highway, Blue Heron Boulevard, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function SouthPalmBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                South Palm Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the South Palm Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our South Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including South Palm Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  South Palm Beach is a beautiful coastal town in Palm Beach County, known for its stunning oceanfront views, 
+  sandy beaches, and boating lifestyle. With numerous waterfront properties along the Intracoastal Waterway 
+  and the Atlantic Ocean, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the South Palm Beach Pier, along the Lake Worth Lagoon, or in neighborhoods off 
+  South Ocean Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our South Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don't have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including South Palm Beach, Lake Worth Beach, Manalapan, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

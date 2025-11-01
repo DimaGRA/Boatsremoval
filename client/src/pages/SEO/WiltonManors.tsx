@@ -27,11 +27,11 @@ export default function WiltonManors() {
 
   const serviceAreas = [
     "Wilton Manors Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Middle River",
+"North Dixie Highway",
+"Oakland Park Boulevard",
+"Sunrise Boulevard",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function WiltonManors() {
     },
     {
       question: "What areas of Wilton Manors do you serve?",
-      answer: "We serve all of Wilton Manors including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Wilton Manors including the Middle River waterfront, areas along Federal Highway, Oakland Park Boulevard, Sunrise Boulevard, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,21 @@ export default function WiltonManors() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Wilton Manors is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Wilton Manors Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Wilton Manors boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Wilton Manors, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Wilton Manors is a vibrant waterfront community in Broward County, surrounded by the scenic Middle River and known for its close proximity to Fort Lauderdale’s beaches and boating areas. With numerous canals, marinas, and waterfront homes, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Wilton Manors waterfront, along North Dixie Highway, Oakland Park Boulevard, or the Intracoastal Waterway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. 
+  We understand the unique challenges of boat removal in South Florida’s coastal environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Wilton Manors boat removal services include hauling away old boats, yachts, sailboats, and catamarans from residential properties, 
+  marinas, storage facilities, and waterfront locations. We handle all the heavy lifting, transportation, and environmentally responsible 
+  disposal, so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Wilton Manors, Fort Lauderdale, Oakland Park, and surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

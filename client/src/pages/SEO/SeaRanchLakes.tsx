@@ -26,12 +26,12 @@ export default function SeaRanchLakes() {
   ];
 
   const serviceAreas = [
-    "Sea Ranch Lakes Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Sea Ranch Lakes Beach Club",
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Commercial Boulevard",
+"Ocean Drive (A1A Corridor)",
+"Federal Highway (US-1) Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function SeaRanchLakes() {
     },
     {
       question: "What areas of Sea Ranch Lakes do you serve?",
-      answer: "We serve all of Sea Ranch Lakes including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Sea Ranch Lakes, including the beachfront areas near the Sea Ranch Lakes Beach Club, Hillsboro Inlet, Lighthouse Point, Ocean Drive (A1A), Commercial Boulevard, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function SeaRanchLakes() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Sea Ranch Lakes is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Sea Ranch Lakes Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Sea Ranch Lakes boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Sea Ranch Lakes, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Sea Ranch Lakes is a beautiful coastal community in Broward County, known for its private beachfront, 
+  exclusive residential areas, and close proximity to popular boating destinations like Lighthouse Point 
+  and Lauderdale-by-the-Sea. With waterfront properties and easy access to the Intracoastal Waterway, 
+  the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Sea Ranch Lakes Beach Club, along Ocean Drive (A1A), or in neighborhoods close 
+  to Commercial Boulevard and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Sea Ranch Lakes boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don't have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Sea Ranch Lakes, Lighthouse Point, Pompano Beach, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

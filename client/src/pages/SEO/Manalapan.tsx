@@ -26,12 +26,12 @@ export default function Manalapan() {
   ];
 
   const serviceAreas = [
-    "Manalapan Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Manalapan Marina",
+"Lake Worth Lagoon",
+"Ocean Avenue Bridge",
+"Hypoluxo Island Area",
+"South Ocean Boulevard (A1A)",
+"Intracoastal Waterway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Manalapan() {
     },
     {
       question: "What areas of Manalapan do you serve?",
-      answer: "We serve all of Manalapan including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Manalapan, including the beachfront areas, Lake Worth Lagoon, the Ocean Avenue Bridge, South Ocean Boulevard (A1A), Hypoluxo Island, and surrounding waterfront neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function Manalapan() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Manalapan is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Manalapan Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Manalapan boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Manalapan, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Manalapan is an exclusive coastal community in Palm Beach County, known for its luxurious oceanfront estates, 
+  peaceful beaches, and access to the scenic Lake Worth Lagoon. With its abundance of waterfront properties, 
+  private docks, and marinas, the need for professional boat removal services is essential for homeowners and 
+  marine property managers in the area.
+</p>
+<p>
+  Whether you're near the Ocean Avenue Bridge, along South Ocean Boulevard (A1A), or in neighborhoods near 
+  Hypoluxo Island and the Intracoastal Waterway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in handling all types of marine removals in South Florida’s 
+  high-end coastal environments with precision and care.
+</p>
+<p>
+  Our Manalapan boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private docks, marinas, storage facilities, and waterfront properties. We manage all the heavy lifting, 
+  transportation, and environmentally responsible disposal, giving you a completely stress-free experience.
+</p>
+<p>
+  Serving all of Palm Beach County, including Manalapan, Lantana, Hypoluxo, and surrounding coastal areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

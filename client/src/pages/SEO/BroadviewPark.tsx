@@ -26,12 +26,13 @@ export default function BroadviewPark() {
   ];
 
   const serviceAreas = [
-    "Broadview Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Broadview Park Boat Ramp",
+"New River Canal",
+"Riverland Road Area",
+"State Road 84 Corridor",
+"Southwest 40th Avenue",
+"Florida Turnpike Access Area"
+
   ];
 
   const faqs = [
@@ -41,7 +42,7 @@ export default function BroadviewPark() {
     },
     {
       question: "What areas of Broadview Park do you serve?",
-      answer: "We serve all of Broadview Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Broadview Park including the areas near the New River Canal, Riverland Road, State Road 84, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +378,18 @@ export default function BroadviewPark() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Broadview Park is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Broadview Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Broadview Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Broadview Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Broadview Park is a charming residential community in Broward County, located just west of Fort Lauderdale. Known for its scenic canals and proximity to South Florida’s major waterways, Broadview Park attracts many boat owners and marine enthusiasts. With aging or damaged vessels often needing disposal, the demand for professional <span className="text-primary">boat removal in Broward County</span> continues to grow.
+</p>
+<p>
+  Whether you're near Riverland Road, along the New River Canal, or in neighborhoods off State Road 84, <span className="text-primary">Florida Boat Removal</span> provides fast, affordable, and eco-friendly <strong>junk boat removal</strong> and disposal services. Our experienced team understands the local waterways and ensures every job is handled safely, efficiently, and in full environmental compliance.
+</p>
+<p>
+  Our Broadview Park <strong>boat hauling and disposal services</strong> include removing unwanted boats, yachts, sailboats, and catamarans from residential properties, storage yards, and marinas. We handle every step — from heavy lifting to transportation and environmentally responsible recycling — so you can rest easy.
+</p>
+<p>
+  Serving all of Broward County, including Broadview Park, Fort Lauderdale, Davie, and nearby communities. Contact <span className="text-primary">Florida Boat Removal</span> today for a free, no-obligation quote and same-day service availability.
+</p>
+
             </div>
           </div>
         </section>

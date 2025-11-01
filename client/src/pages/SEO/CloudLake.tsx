@@ -27,11 +27,12 @@ export default function CloudLake() {
 
   const serviceAreas = [
     "Cloud Lake Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Southern Boulevard",
+"Parker Avenue",
+"Forest Hill Boulevard",
+"Lake Worth Road Area",
+"I-95 Highway Corridor"
+
   ];
 
   const faqs = [
@@ -41,7 +42,8 @@ export default function CloudLake() {
     },
     {
       question: "What areas of Cloud Lake do you serve?",
-      answer: "We serve all of Cloud Lake including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Cloud Lake including the areas around Cloud Lake Pier, Southern Boulevard, Parker Avenue, Forest Hill Boulevard, Lake Worth Road Area, I-95 Highway Corridor, and surrounding neighborhoods in Palm Beach County."
+
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +379,27 @@ export default function CloudLake() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Cloud Lake is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Cloud Lake Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Cloud Lake boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Cloud Lake, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Cloud Lake is a small but vibrant town in Palm Beach County, located just south of West Palm Beach. 
+  With its proximity to major waterways, marinas, and boating communities in nearby Lake Worth and Palm Beach, 
+  the need for professional boat removal services in the area is important for maintaining a clean and safe environment.
+</p>
+<p>
+  Whether you're near Cloud Lake Pier, along the Intracoastal Waterway, or in residential 
+  neighborhoods near Southern Boulevard or I-95, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  and inland communities and have the expertise to handle any situation.
+</p>
+<p>
+  Our Cloud Lake boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Cloud Lake, West Palm Beach, Lake Worth, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

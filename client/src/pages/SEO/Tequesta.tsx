@@ -27,11 +27,11 @@ export default function Tequesta() {
 
   const serviceAreas = [
     "Tequesta Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Jupiter Inlet",
+"Coral Cove Park",
+"U.S. Highway 1",
+"County Line Road",
+"Riverside Drive"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Tequesta() {
     },
     {
       question: "What areas of Tequesta do you serve?",
-      answer: "We serve all of Tequesta including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Tequesta including the beachfront areas near Jupiter Inlet and Coral Cove Park, areas along U.S. Highway 1, County Line Road, Riverside Drive, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function Tequesta() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Tequesta is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Tequesta Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Tequesta boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Tequesta, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Tequesta is a beautiful coastal village in northern Palm Beach County, known for its scenic waterfront views, 
+  access to the Loxahatchee River, and proximity to Jupiter Inlet and Coral Cove Park. With numerous 
+  waterfront properties, marinas, and boat owners, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Tequesta Pier, along the Intracoastal Waterway, or in residential 
+  neighborhoods off U.S. Highway 1 or Riverside Drive, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Tequesta boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don't have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Tequesta, Jupiter, Palm Beach Gardens, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

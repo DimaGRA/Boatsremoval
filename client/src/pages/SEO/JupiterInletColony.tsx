@@ -27,11 +27,11 @@ export default function JupiterInletColony() {
 
   const serviceAreas = [
     "Jupiter Inlet Colony Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Jupiter Inlet Lighthouse",
+"Coral Cove Park",
+"Intracoastal Waterway",
+"US Highway 1 Corridor",
+"Tequesta Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function JupiterInletColony() {
     },
     {
       question: "What areas of Jupiter Inlet Colony do you serve?",
-      answer: "We serve all of Jupiter Inlet Colony including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Jupiter Inlet Colony, including the beachfront areas near the Jupiter Inlet Colony Pier, Jupiter Inlet Lighthouse, Coral Cove Park, Intracoastal Waterway, US Highway 1, Tequesta, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function JupiterInletColony() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Jupiter Inlet Colony is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Jupiter Inlet Colony Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Jupiter Inlet Colony boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Jupiter Inlet Colony, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Jupiter Inlet Colony is an exclusive coastal community in Palm Beach County, located at the southern tip 
+  of Jupiter Island. Known for its pristine beaches, crystal-clear waters, and proximity to the iconic 
+  Jupiter Inlet Lighthouse, this small seaside town is a favorite for boat owners and waterfront residents. 
+  The need for professional, eco-friendly boat removal services is essential in this marine-focused area.
+</p>
+<p>
+  Whether you're near the Jupiter Inlet Colony Pier, along the Intracoastal Waterway, or close to Coral Cove Park 
+  and US Highway 1, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally 
+  responsible boat disposal services. We understand the unique challenges of boat removal in South Florida’s 
+  coastal environment and have the expertise to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Jupiter Inlet Colony boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, residential properties, marinas, and storage facilities. 
+  We take care of all the heavy lifting, transportation, and responsible disposal, ensuring a smooth and 
+  stress-free process for every client.
+</p>
+<p>
+  Serving all of Palm Beach County, including Jupiter Inlet Colony, Tequesta, Jupiter, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

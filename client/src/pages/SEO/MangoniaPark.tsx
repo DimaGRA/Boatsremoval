@@ -26,12 +26,12 @@ export default function MangoniaPark() {
   ];
 
   const serviceAreas = [
-    "Mangonia Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Mangonia Park Marina",
+"Australian Avenue Corridor",
+"Congress Avenue",
+"45th Street Area",
+"Northwood Harbor District",
+"Intracoastal Waterway via West Palm Beach"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function MangoniaPark() {
     },
     {
       question: "What areas of Mangonia Park do you serve?",
-      answer: "We serve all of Mangonia Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Mangonia Park, including areas near Australian Avenue, Congress Avenue, 45th Street, Northwood Harbor, Mangonia Park Marina, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function MangoniaPark() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Mangonia Park is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Mangonia Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Mangonia Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Mangonia Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Mangonia Park is a small but thriving community in Palm Beach County, located just north of West Palm Beach 
+  and close to major marine access points. While not directly on the coast, its proximity to the Intracoastal 
+  Waterway, Riviera Beach, and local marinas makes professional boat removal services essential for residents, 
+  property owners, and marine businesses in the area.
+</p>
+<p>
+  Whether you're near Australian Avenue, along Congress Avenue, or close to 45th Street and the Mangonia Park 
+  Marina, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in removing and transporting vessels of all sizes throughout Palm Beach 
+  County’s inland and coastal regions.
+</p>
+<p>
+  Our Mangonia Park boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, storage lots, marinas, and industrial yards. We take care of all the heavy lifting, 
+  transportation, and environmentally responsible disposal — ensuring a smooth and worry-free process from start 
+  to finish.
+</p>
+<p>
+  Serving all of Palm Beach County, including Mangonia Park, Riviera Beach, West Palm Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

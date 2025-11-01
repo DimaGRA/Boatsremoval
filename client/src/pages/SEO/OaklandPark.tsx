@@ -26,12 +26,12 @@ export default function OaklandPark() {
   ];
 
   const serviceAreas = [
-    "Oakland Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Oakland Park Beach Access",
+"Hugh Taylor Birch State Park",
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Commercial Boulevard",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function OaklandPark() {
     },
     {
       question: "What areas of Oakland Park do you serve?",
-      answer: "We serve all of Oakland Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Oakland Park including the areas near the beachfront, Hillsboro Inlet, Federal Highway, Commercial Boulevard, Prospect Road, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,27 @@ export default function OaklandPark() {
               About <span className="text-primary">Florida Boat Removal</span> in Oakland Park, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Oakland Park is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Oakland Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Oakland Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Oakland Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Oakland Park is a vibrant inland city in Broward County, known for its tree-lined neighborhoods, craft-food scene,
+  and quick access to Fort Lauderdale’s beaches and waterways. While not directly on the ocean, many residents use
+  nearby marinas and canals—making professional boat removal services an essential local need.
+</p>
+<p>
+  Whether you're near Commercial Boulevard, along Federal Highway (US-1), or in neighborhoods close to Oakland Park
+  Boulevard, Prospect Road, and the Middle River area,
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat
+  disposal services. We understand the logistics of inland pickups and coastal launches across South Florida and handle
+  every project safely and efficiently.
+</p>
+<p>
+  Our Oakland Park boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+  private residences, storage facilities, and nearby marinas. We take care of all transportation, heavy lifting,
+  and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including Oakland Park, Wilton Manors, Fort Lauderdale, and surrounding communities.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

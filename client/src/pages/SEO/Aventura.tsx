@@ -26,12 +26,12 @@ export default function Aventura() {
   ];
 
   const serviceAreas = [
-    "Aventura Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Aventura Waterways",
+"Turnberry Marina",
+"Williams Island",
+"Dumfoundling Bay",
+"Lehman Causeway Area",
+"Intracoastal Mall Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Aventura() {
     },
     {
       question: "What areas of Aventura do you serve?",
-      answer: "We serve all of Aventura including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Aventura including the Aventura Waterways, Turnberry Marina, Williams Island, Dumfoundling Bay, Lehman Causeway Area, Intracoastal Mall Corridor, and surrounding neighborhoods in Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +377,28 @@ export default function Aventura() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Aventura is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Aventura Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Aventura boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Aventura, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                <p>
+  Aventura is a beautiful coastal city in Miami-Dade County, known for its pristine waterways, 
+  luxury marinas, and active boating community. With numerous waterfront properties, docks, and 
+  boat owners, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Aventura Waterways, Turnberry Marina, Williams Island, Dumfoundling Bay, 
+  Lehman Causeway Area, or Intracoastal Mall Corridor, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Aventura boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don't have to worry about a thing.
+</p>
+<p>
+  Serving all of Miami-Dade County including Aventura, Fort Lauderdale, Deerfield Beach, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
               </p>
             </div>
           </div>

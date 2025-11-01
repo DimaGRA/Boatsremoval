@@ -26,12 +26,12 @@ export default function LighthousePoint() {
   ];
 
   const serviceAreas = [
-    "Lighthouse Point Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lighthouse Point Marina",
+"Hillsboro Inlet",
+"Sample Road Corridor",
+"Atlantic Boulevard",
+"Federal Highway (US-1)",
+"Intracoastal Waterway Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function LighthousePoint() {
     },
     {
       question: "What areas of Lighthouse Point do you serve?",
-      answer: "We serve all of Lighthouse Point including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Lighthouse Point, including areas near the Lighthouse Point Marina, Hillsboro Inlet, Federal Highway (US-1), Atlantic Boulevard, Sample Road, and surrounding waterfront neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,29 @@ export default function LighthousePoint() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lighthouse Point is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lighthouse Point Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lighthouse Point boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Lighthouse Point, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lighthouse Point is a beautiful coastal community in Broward County, known for its scenic waterways, 
+  upscale residential areas, and proximity to the famous Hillsboro Inlet. With its many waterfront homes, 
+  marinas, and active boating lifestyle, the need for professional boat removal services is essential for 
+  local property owners and marine businesses.
+</p>
+<p>
+  Whether you're near the Lighthouse Point Marina, along the Intracoastal Waterway, or in neighborhoods 
+  off Federal Highway (US-1) and Atlantic Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in navigating South Florida’s coastal waterways and can handle 
+  any removal project efficiently and safely.
+</p>
+<p>
+  Our Lighthouse Point boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, marinas, storage facilities, and residential properties. We take care of 
+  all the heavy lifting, transportation, and environmentally responsible disposal — so you don’t have to 
+  worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including Lighthouse Point, Deerfield Beach, Pompano Beach, and nearby 
+  communities. Contact us today for a free quote!
+</p>
+            
             </div>
           </div>
         </section>

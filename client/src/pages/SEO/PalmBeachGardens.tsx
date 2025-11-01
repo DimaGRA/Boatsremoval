@@ -26,12 +26,12 @@ export default function PalmBeachGardens() {
   ];
 
   const serviceAreas = [
-    "Palm Beach Gardens Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Palm Beach Gardens Marina & Pier",
+"Lake Worth Lagoon",
+"Prosperity Farms Road",
+"PGA Boulevard",
+"Donald Ross Road",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function PalmBeachGardens() {
     },
     {
       question: "What areas of Palm Beach Gardens do you serve?",
-      answer: "We serve all of Palm Beach Gardens including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Palm Beach Gardens, including areas near the Intracoastal Waterway, PGA Boulevard, Donald Ross Road, Prosperity Farms Road, Federal Highway, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function PalmBeachGardens() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Palm Beach Gardens is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Palm Beach Gardens Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Palm Beach Gardens boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Palm Beach Gardens, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Palm Beach Gardens is a vibrant city in northern Palm Beach County, known for its upscale neighborhoods,
+  golf communities, and proximity to the Intracoastal Waterway. With numerous marinas, private docks, and
+  waterfront access points, professional boat removal services are essential for local homeowners and businesses.
+</p>
+<p>
+  Whether you're near the Palm Beach Gardens Marina, along the Intracoastal Waterway, or in neighborhoods
+  off PGA Boulevard, Donald Ross Road, Prosperity Farms Road, and Federal Highway (US-1),
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We understand the logistics of marine removals across South Florida’s coastal areas
+  and handle every project safely and efficiently.
+</p>
+<p>
+  Our Palm Beach Gardens boat removal services include hauling away old boats, yachts, sailboats, and
+  catamarans from private residences, marinas, storage facilities, and waterfront properties. We manage all
+  transportation, heavy lifting, and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Palm Beach Gardens, North Palm Beach, Juno Beach, and surrounding
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

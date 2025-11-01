@@ -26,12 +26,12 @@ export default function Weston() {
   ];
 
   const serviceAreas = [
-    "Weston Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Weston Town Center",
+"Griffin Road",
+"Bonaventure Boulevard",
+"Saddle Club Road",
+"I-75 Corridor",
+"Royal Palm Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Weston() {
     },
     {
       question: "What areas of Weston do you serve?",
-      answer: "We serve all of Weston including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Weston including areas near Weston Town Center, Griffin Road, Bonaventure Boulevard, Royal Palm Boulevard, Saddle Club Road, I-75 Corridor, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,26 @@ export default function Weston() {
               About <span className="text-primary">Florida Boat Removal</span> in Weston, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Weston is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Weston Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Weston boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Weston, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Weston is a master-planned inland city in Broward County, known for its tree-lined neighborhoods, lakes,
+  parks, and quick access to major corridors like I-75 and Griffin Road. While not on the ocean, many residents
+  store boats locally or launch from nearby waterfront areas—so professional boat removal services are often needed.
+</p>
+<p>
+  Whether you're near Weston Town Center, along Bonaventure Boulevard or Royal Palm Boulevard, or in neighborhoods
+  off Saddle Club Road and the I-75 corridor,
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat
+  disposal services. We handle inland pickups and coastal transfers across South Florida safely and efficiently.
+</p>
+<p>
+  Our Weston boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+  private residences, storage facilities, and nearby marinas. We manage all transportation, heavy lifting,
+  and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Weston, Davie, Pembroke Pines, and Sunrise, as well as surrounding communities.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

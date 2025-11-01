@@ -27,11 +27,11 @@ export default function JunoBeach() {
 
   const serviceAreas = [
     "Juno Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Loggerhead Marinelife Center Area",
+"Intracoastal Waterway",
+"Donald Ross Road Corridor",
+"US Highway 1",
+"Ocean Drive"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function JunoBeach() {
     },
     {
       question: "What areas of Juno Beach do you serve?",
-      answer: "We serve all of Juno Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Juno Beach, including the beachfront areas near the Juno Beach Pier, Loggerhead Marinelife Center, Intracoastal Waterway, Donald Ross Road, US Highway 1, Ocean Drive, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function JunoBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Juno Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Juno Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Juno Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Juno Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Juno Beach is a picturesque coastal town in Palm Beach County, known for its pristine beaches, 
+  scenic ocean views, and relaxed boating lifestyle. With popular destinations like the Juno Beach Pier 
+  and the Loggerhead Marinelife Center, this vibrant seaside community attracts boat owners and 
+  waterfront residents who often require professional and eco-friendly boat removal services.
+</p>
+<p>
+  Whether you're near the Juno Beach Pier, along the Intracoastal Waterway, or in residential 
+  neighborhoods near Donald Ross Road and US Highway 1, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally 
+  responsible boat disposal services. We understand the challenges of marine vessel removal in South Florida’s 
+  coastal environment and have the expertise to handle any type of project safely and efficiently.
+</p>
+<p>
+  Our Juno Beach boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, private docks, marinas, and storage yards. We manage all transportation, 
+  heavy lifting, and green disposal methods to ensure a smooth, stress-free experience.
+</p>
+<p>
+  Serving all of Palm Beach County, including Juno Beach, Jupiter, North Palm Beach, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

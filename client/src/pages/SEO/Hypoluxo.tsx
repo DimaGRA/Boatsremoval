@@ -26,12 +26,12 @@ export default function Hypoluxo() {
   ];
 
   const serviceAreas = [
-    "Hypoluxo Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Hypoluxo Scrub Natural Area",
+"Manalapan Marina Area",
+"Intracoastal Waterway",
+"Ocean Avenue Bridge",
+"Federal Highway Corridor",
+"Lantana Beach"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Hypoluxo() {
     },
     {
       question: "What areas of Hypoluxo do you serve?",
-      answer: "We serve all of Hypoluxo including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Hypoluxo, including areas near the Hypoluxo Scrub Natural Area, Manalapan Marina, Intracoastal Waterway, Ocean Avenue Bridge, Federal Highway, Lantana Beach, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Hypoluxo() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Hypoluxo is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Hypoluxo Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Hypoluxo boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Hypoluxo, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Hypoluxo is a charming coastal town in Palm Beach County, known for its scenic Intracoastal views, 
+  peaceful neighborhoods, and proximity to beautiful beaches. With easy access to nearby marinas in 
+  Manalapan and Lantana, the need for professional boat removal services is essential for local 
+  homeowners and boat enthusiasts.
+</p>
+<p>
+  Whether you're near the Hypoluxo Scrub Natural Area, along the Intracoastal Waterway, or in residential 
+  neighborhoods close to the Ocean Avenue Bridge and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s 
+  coastal environment and have the expertise to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Hypoluxo boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private docks, marinas, storage facilities, and waterfront properties. We handle all the heavy 
+  lifting, transportation, and environmentally responsible disposal, giving you a completely hassle-free 
+  experience.
+</p>
+<p>
+  Serving all of Palm Beach County, including Hypoluxo, Lantana, Manalapan, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

@@ -27,11 +27,11 @@ export default function PembrokePines() {
 
   const serviceAreas = [
     "Pembroke Pines Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Hollywood Beach Marina",
+"Hillsboro Inlet",
+"Flamingo Road Corridor",
+"Pines Boulevard Area",
+"Sheridan Street Extension"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function PembrokePines() {
     },
     {
       question: "What areas of Pembroke Pines do you serve?",
-      answer: "We serve all of Pembroke Pines including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Pembroke Pines, including areas near Pines Boulevard, Flamingo Road, Sheridan Street, Palm Avenue, the I-75 corridor, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,25 @@ export default function PembrokePines() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pembroke Pines is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pembroke Pines Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pembroke Pines boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Pembroke Pines, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pembroke Pines is a thriving inland city in Broward County, known for its family-friendly neighborhoods,
+  parks, and quick access to nearby coastal marinas in Hollywood and Dania. While not directly on the ocean,
+  many residents own boats and trailers—making professional boat removal services an essential local need.
+</p>
+<p>
+  Whether you're near Pines Boulevard, along Flamingo Road, or in neighborhoods close to Sheridan Street,
+  Palm Avenue, and the I-75 corridor,
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We handle inland pickups and coastal transfers across South Florida safely and efficiently.
+</p>
+<p>
+  Our Pembroke Pines boat removal services include hauling away old boats, yachts, sailboats, and catamarans
+  from private residences, storage facilities, and nearby marinas. We manage all transportation, heavy lifting,
+  and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including Pembroke Pines, Miramar, Cooper City, and Hollywood.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

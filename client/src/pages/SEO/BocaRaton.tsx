@@ -27,11 +27,11 @@ export default function BocaRaton() {
 
   const serviceAreas = [
     "Boca Raton Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"South Beach Park",
+"Spanish River Park",
+"Red Reef Park",
+"Palmetto Park Road Area",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function BocaRaton() {
     },
     {
       question: "What areas of Boca Raton do you serve?",
-      answer: "We serve all of Boca Raton including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Boca Raton including the beachfront areas, South Beach Park, Red Reef Park, Spanish River Park, areas along Federal Highway, Palmetto Park Road, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function BocaRaton() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Boca Raton is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Boca Raton Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Boca Raton boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Boca Raton, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Boca Raton is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
+  boating lifestyle, and active waterfront community. With numerous marinas, oceanfront homes, 
+  and boating enthusiasts, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Boca Raton Pier, South Beach Park, Red Reef Park, or in neighborhoods 
+  along Federal Highway and Palmetto Park Road, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida's 
+  coastal environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Boca Raton boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Boca Raton, Highland Beach, Delray Beach, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

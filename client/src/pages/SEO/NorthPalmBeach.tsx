@@ -26,12 +26,12 @@ export default function NorthPalmBeach() {
   ];
 
   const serviceAreas = [
-    "North Palm Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "North Palm Beach Marina",
+"John D. MacArthur Beach State Park",
+"Lake Worth Lagoon",
+"US-1 Corridor",
+"Prosperity Farms Road",
+"Ellison Wilson Road"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function NorthPalmBeach() {
     },
     {
       question: "What areas of North Palm Beach do you serve?",
-      answer: "We serve all of North Palm Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of North Palm Beach including the waterfront communities, North Palm Beach Marina, areas near US-1, Prosperity Farms Road, Ellison Wilson Road, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function NorthPalmBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                North Palm Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the North Palm Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our North Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including North Palm Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  North Palm Beach is a beautiful coastal community in Palm Beach County, known for its stunning waterfront views, 
+  marinas, and active boating lifestyle. With numerous docks, canals, and ocean access points, the need for 
+  professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the North Palm Beach Marina, John D. MacArthur Beach State Park, or in residential 
+  neighborhoods off US-1, Prosperity Farms Road, or Ellison Wilson Road, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of marine vessel removal in South Florida’s coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our North Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including North Palm Beach, Juno Beach, Lake Park, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

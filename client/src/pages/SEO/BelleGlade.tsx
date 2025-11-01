@@ -26,12 +26,12 @@ export default function BelleGlade() {
   ];
 
   const serviceAreas = [
-    "Belle Glade Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Belle Glade Marina",
+"Lake Okeechobee Pier",
+"Canal Point Area",
+"Torry Island",
+"South Bay Area",
+"Palm Beach Road Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function BelleGlade() {
     },
     {
       question: "What areas of Belle Glade do you serve?",
-      answer: "We serve all of Belle Glade including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Belle Glade including the Lake Okeechobee waterfront, Torry Island, the Canal Point area, Palm Beach Road corridor, South Bay, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,28 @@ export default function BelleGlade() {
               About <span className="text-primary">Florida Boat Removal</span> in Belle Glade, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Belle Glade is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Belle Glade Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Belle Glade boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Belle Glade, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Belle Glade is a beautiful lakeside city in Palm Beach County, located along the southeastern shore of 
+  Lake Okeechobee. Known for its scenic waterfront, marinas, and strong boating and fishing community, 
+  the need for professional boat removal services is essential in this area.
+</p>
+<p>
+  Whether you're near the Belle Glade Marina, Torry Island, the Lake Okeechobee Pier, or in residential 
+  neighborhoods along Palm Beach Road, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal around Florida’s inland 
+  waterways and have the expertise to handle any situation.
+</p>
+<p>
+  Our Belle Glade boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Belle Glade, South Bay, Pahokee, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

@@ -26,12 +26,12 @@ export default function Miami() {
   ];
 
   const serviceAreas = [
-    "Miami Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Miami Beach Marina",
+"Biscayne Bay Area",
+"Rickenbacker Causeway",
+"Virginia Key",
+"MacArthur Causeway",
+"Downtown Miami Waterfront"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Miami() {
     },
     {
       question: "What areas of Miami do you serve?",
-      answer: "We serve all of Miami including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Miami, including the Biscayne Bay area, Miami Beach Marina, Downtown Miami Waterfront, Rickenbacker Causeway, Virginia Key, MacArthur Causeway, and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Miami() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Miami is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Miami Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Miami boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Miami, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Miami is a world-renowned coastal city in Miami-Dade County, famous for its stunning beaches, 
+  vibrant boating culture, and access to Biscayne Bay and the Atlantic Ocean. With countless 
+  waterfront properties, private docks, and marinas, professional boat removal services are 
+  essential for residents, property managers, and marine businesses throughout the region.
+</p>
+<p>
+  Whether you're near the Miami Beach Marina, along the Biscayne Bay waterfront, or in neighborhoods 
+  near the Rickenbacker Causeway, Virginia Key, or Downtown Miami, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in navigating Miami’s unique waterways and offer safe, 
+  efficient solutions for every removal project.
+</p>
+<p>
+  Our Miami boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential docks, marinas, storage facilities, and commercial waterfront locations. 
+  We handle all transportation, heavy lifting, and environmentally responsible disposal — so you 
+  can enjoy peace of mind from start to finish.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Miami, Miami Beach, Key Biscayne, and Coral Gables. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

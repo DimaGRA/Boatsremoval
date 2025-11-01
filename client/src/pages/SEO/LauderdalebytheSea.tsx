@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function Lauderdale-by-the-Sea() {
+export default function LauderdalebytheSea() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("Lauderdale-by-the-Sea", 60); // find up to 60 closest
-  const phone = getPhoneByCity("Lauderdale-by-the-Sea");
+   const nearbyCities = getNearbyCities("LauderdalebytheSea", 60); // find up to 60 closest
+  const phone = getPhoneByCity("LauderdalebytheSea");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,12 +26,12 @@ export default function Lauderdale-by-the-Sea() {
   ];
 
   const serviceAreas = [
-    "Lauderdale-by-the-Sea Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Anglin’s Fishing Pier",
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Commercial Boulevard Corridor",
+"Federal Highway",
+"El Mar Drive"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Lauderdale-by-the-Sea() {
     },
     {
       question: "What areas of Lauderdale-by-the-Sea do you serve?",
-      answer: "We serve all of Lauderdale-by-the-Sea including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Lauderdale-by-the-Sea, including the beachfront areas near Anglin’s Fishing Pier, Hillsboro Inlet, Lighthouse Point, Commercial Boulevard, Federal Highway, El Mar Drive, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Lauderdale-by-the-Sea() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lauderdale-by-the-Sea is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lauderdale-by-the-Sea Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lauderdale-by-the-Sea boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Lauderdale-by-the-Sea, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lauderdale-by-the-Sea is a charming coastal town in Broward County, known for its beautiful beaches, 
+  vibrant seaside atmosphere, and iconic Anglin’s Fishing Pier. With its close proximity to the 
+  Intracoastal Waterway, Hillsboro Inlet, and nearby marinas, the need for professional boat removal 
+  services is essential for local homeowners and waterfront businesses.
+</p>
+<p>
+  Whether you're near Anglin’s Fishing Pier, along El Mar Drive, or in residential neighborhoods close to 
+  Commercial Boulevard and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the expertise to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Lauderdale-by-the-Sea boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, residential properties, marinas, and storage facilities. We take care of 
+  all transportation, heavy lifting, and environmentally responsible disposal — so you can enjoy a 
+  completely hassle-free experience.
+</p>
+<p>
+  Serving all of Broward County, including Lauderdale-by-the-Sea, Fort Lauderdale, Pompano Beach, and 
+  surrounding communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

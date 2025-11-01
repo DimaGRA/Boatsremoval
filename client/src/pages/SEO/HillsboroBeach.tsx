@@ -27,11 +27,11 @@ export default function HillsboroBeach() {
 
   const serviceAreas = [
     "Hillsboro Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Atlantic Boulevard",
+"Federal Highway Corridor",
+"Sample Road Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function HillsboroBeach() {
     },
     {
       question: "What areas of Hillsboro Beach do you serve?",
-      answer: "We serve all of Hillsboro Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Hillsboro Beach, including the beachfront areas near the Hillsboro Beach Pier, Hillsboro Inlet, Lighthouse Point, Atlantic Boulevard, Federal Highway, Sample Road, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,29 @@ export default function HillsboroBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Hillsboro Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Hillsboro Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Hillsboro Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Hillsboro Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Hillsboro Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Hillsboro Beach is a stunning coastal town in Broward County, known for its pristine beaches, 
+  oceanfront estates, and picturesque lighthouse views. Located between Deerfield Beach and Pompano Beach, 
+  this exclusive stretch of coastline is home to many waterfront properties and boating enthusiasts — 
+  making professional boat removal services an essential need in the area.
+</p>
+<p>
+  Whether you're near the Hillsboro Beach Pier, close to the Hillsboro Inlet, or in residential 
+  neighborhoods along Federal Highway or near Lighthouse Point, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the experience to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Hillsboro Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, residential properties, marinas, and storage facilities. 
+  We take care of all transportation, heavy lifting, and environmentally responsible disposal — 
+  giving you peace of mind from start to finish.
+</p>
+<p>
+  Serving all of Broward County, including Hillsboro Beach, Pompano Beach, Lighthouse Point, and 
+  surrounding communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

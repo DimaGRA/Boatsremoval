@@ -27,11 +27,11 @@ export default function BrinyBreezes() {
 
   const serviceAreas = [
     "Briny Breezes Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Boynton Beach Inlet",
+"Ocean Avenue",
+"Federal Highway Corridor",
+"Gulfstream Park Area",
+"Woolbright Road"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function BrinyBreezes() {
     },
     {
       question: "What areas of Briny Breezes do you serve?",
-      answer: "We serve all of Briny Breezes including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Briny Breezes including the beachfront areas, Boynton Beach Inlet, areas along Federal Highway, Ocean Avenue, Woolbright Road, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function BrinyBreezes() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Briny Breezes is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Briny Breezes Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Briny Breezes boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Briny Breezes, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Briny Breezes is a beautiful coastal town in Palm Beach County, known for its pristine beaches, 
+  peaceful waterfront lifestyle, and active boating community. With numerous waterfront homes, marinas, 
+  and easy access to the Intracoastal Waterway, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Briny Breezes Pier, along Ocean Avenue, close to the Boynton Beach Inlet, 
+  or in neighborhoods off Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s 
+  coastal environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Briny Breezes boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Briny Breezes, Boynton Beach, Delray Beach, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
+            
             </div>
           </div>
         </section>

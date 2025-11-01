@@ -26,12 +26,12 @@ export default function RoyalPalmBeach() {
   ];
 
   const serviceAreas = [
-    "Royal Palm Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Wellington Area",
+"Southern Boulevard Corridor",
+"Okeechobee Boulevard",
+"Florida’s Turnpike Access",
+"State Road 7 (US-441)",
+"Royal Palm Beach Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function RoyalPalmBeach() {
     },
     {
       question: "What areas of Royal Palm Beach do you serve?",
-      answer: "We serve all of Royal Palm Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Royal Palm Beach including the areas near Okeechobee Boulevard, Southern Boulevard, Royal Palm Beach Boulevard, State Road 7, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function RoyalPalmBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Royal Palm Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Royal Palm Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Royal Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Royal Palm Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Royal Palm Beach is a charming community in Palm Beach County, known for its scenic parks, 
+  lakes, and family-friendly atmosphere. While not directly on the coast, its close proximity 
+  to nearby waterfront areas makes boat ownership common — and the need for professional boat 
+  removal services essential.
+</p>
+<p>
+  Whether you're near Royal Palm Beach Commons Park, along Okeechobee Boulevard, or in neighborhoods 
+  off State Road 7, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and 
+  eco-friendly boat disposal services. We understand the unique challenges of boat removal in 
+  South Florida’s environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Royal Palm Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage yards, and nearby marinas. We handle all the 
+  heavy lifting, transportation, and environmentally responsible disposal, so you don’t have to 
+  worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including Royal Palm Beach, Wellington, Loxahatchee, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

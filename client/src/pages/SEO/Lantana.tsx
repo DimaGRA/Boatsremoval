@@ -26,12 +26,12 @@ export default function Lantana() {
   ];
 
   const serviceAreas = [
-    "Lantana Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lantana Bridge and Boat Ramp",
+"Lantana Beach Pier",
+"Intracoastal Waterway",
+"Ocean Avenue Corridor",
+"Federal Highway",
+"Hypoluxo Island Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Lantana() {
     },
     {
       question: "What areas of Lantana do you serve?",
-      answer: "We serve all of Lantana including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Lantana, including areas near the Lantana Bridge and Boat Ramp, Lantana Beach Pier, Intracoastal Waterway, Ocean Avenue Corridor, Federal Highway, Hypoluxo Island, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Lantana() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lantana is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lantana Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lantana boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Lantana, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lantana is a charming coastal town in Palm Beach County, known for its beautiful beaches, 
+  fishing pier, and relaxed boating lifestyle. With easy access to the Intracoastal Waterway, 
+  Lantana Bridge, and nearby marinas, professional boat removal services are essential for 
+  homeowners and marine property owners throughout the area.
+</p>
+<p>
+  Whether you're near the Lantana Bridge and Boat Ramp, along the Intracoastal Waterway, or in 
+  residential neighborhoods off Ocean Avenue and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the challenges of boat removal in South Florida’s coastal 
+  environment and have the expertise to manage every situation efficiently and safely.
+</p>
+<p>
+  Our Lantana boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, marinas, storage facilities, and waterfront properties. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal — 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Lantana, Hypoluxo, Lake Worth Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

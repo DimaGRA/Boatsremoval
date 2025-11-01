@@ -26,12 +26,12 @@ export default function NorthLauderdale() {
   ];
 
   const serviceAreas = [
-    "North Lauderdale Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Southgate Boulevard",
+"Rock Island Road",
+"Kimberly Boulevard",
+"McNab Road",
+"State Road 7 (US-441)",
+"Tamarac and Margate Border Areas"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function NorthLauderdale() {
     },
     {
       question: "What areas of North Lauderdale do you serve?",
-      answer: "We serve all of North Lauderdale including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of North Lauderdale, including areas near Southgate Boulevard, Rock Island Road, Kimberly Boulevard, McNab Road, State Road 7 (US-441), and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function NorthLauderdale() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                North Lauderdale is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the North Lauderdale Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our North Lauderdale boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including North Lauderdale, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  North Lauderdale is a vibrant inland city in Broward County, known for its convenient location, 
+  family-friendly neighborhoods, and close proximity to South Florida’s major waterways. 
+  While not directly on the coast, many local residents and businesses own boats or marine equipment 
+  that require professional removal, transport, or disposal services.
+</p>
+<p>
+  Whether you're near Southgate Boulevard, along Rock Island Road, or in neighborhoods close to 
+  Kimberly Boulevard, McNab Road, or State Road 7 (US-441), 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in both inland and coastal boat removals across South Florida, 
+  ensuring efficient and environmentally responsible results every time.
+</p>
+<p>
+  Our North Lauderdale boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage yards, and commercial facilities. 
+  We handle every aspect of the process — from transportation and heavy lifting to recycling and 
+  responsible disposal — so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including North Lauderdale, Tamarac, Margate, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

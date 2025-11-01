@@ -27,11 +27,12 @@ export default function CoralSprings() {
 
   const serviceAreas = [
     "Coral Springs Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Riverside Drive",
+"Atlantic Boulevard",
+"Sample Road Area",
+"University Drive Corridor",
+"Wiles Road District"
+
   ];
 
   const faqs = [
@@ -41,7 +42,8 @@ export default function CoralSprings() {
     },
     {
       question: "What areas of Coral Springs do you serve?",
-      answer: "We serve all of Coral Springs including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Coral Springs including the areas around Coral Springs Pier, Riverside Drive, Atlantic Boulevard, Sample Road, University Drive, Wiles Road, and surrounding neighborhoods in Broward County."
+
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +379,29 @@ export default function CoralSprings() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Coral Springs is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Coral Springs Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Coral Springs boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Coral Springs, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                <p>
+  Coral Springs is a vibrant inland city in Broward County, known for its beautiful neighborhoods, 
+  clean streets, and close proximity to South Florida’s boating and coastal areas. While not directly 
+  on the ocean, many residents own boats and use nearby waterways and marinas for access to the coast.
+</p>
+<p>
+  Whether you're near the Coral Springs Pier, along Riverside Drive, Atlantic Boulevard, or the 
+  University Drive Corridor, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, 
+  and eco-friendly boat disposal services. Our team understands the specific needs of boat owners in 
+  inland communities and ensures every removal is handled efficiently and professionally.
+</p>
+<p>
+  Our Coral Springs boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage facilities, and nearby waterfront locations. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  We serve all of Coral Springs including the areas around Coral Springs Pier, Riverside Drive, 
+  Atlantic Boulevard, Sample Road, University Drive, and Wiles Road — as well as surrounding 
+  neighborhoods across Broward County. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

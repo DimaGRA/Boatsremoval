@@ -27,11 +27,11 @@ export default function PembrokePark() {
 
   const serviceAreas = [
     "Pembroke Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Hallandale Beach Boulevard",
+"I-95 Corridor",
+"Federal Highway Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function PembrokePark() {
     },
     {
       question: "What areas of Pembroke Park do you serve?",
-      answer: "We serve all of Pembroke Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Pembroke Park, including areas near Hallandale Beach Boulevard, Federal Highway, I-95, West Pembroke Road, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function PembrokePark() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pembroke Park is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pembroke Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pembroke Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Pembroke Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pembroke Park is a compact inland town in Broward County, bordered by Hallandale Beach and West Park.
+  While not directly on the ocean, it sits minutes from the Intracoastal Waterway, marinas, and storage
+  facilities along Federal Highway—so professional boat removal services are often needed for homes,
+  businesses, and storage yards in the area.
+</p>
+<p>
+  Whether you're near Hallandale Beach Boulevard, along Federal Highway (US-1), or in neighborhoods close to
+  West Pembroke Road and the I-95 corridor,
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We understand the logistics of inland pickups with coastal transfers across South
+  Florida and handle every project safely and efficiently.
+</p>
+<p>
+  Our Pembroke Park boat removal services include hauling away old boats, yachts, sailboats, and catamarans
+  from private residences, storage facilities, and nearby marinas. We manage all transportation, heavy lifting,
+  and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including Pembroke Park, Hallandale Beach, West Park, and surrounding communities.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

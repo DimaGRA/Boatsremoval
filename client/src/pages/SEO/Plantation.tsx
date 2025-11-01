@@ -27,11 +27,11 @@ export default function Plantation() {
 
   const serviceAreas = [
     "Plantation Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Atlantic Boulevard",
+"Sample Road Area",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Plantation() {
     },
     {
       question: "What areas of Plantation do you serve?",
-      answer: "We serve all of Plantation including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Plantation, including nearby areas with easy access to Hillsboro Inlet, Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function Plantation() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Plantation is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Plantation Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Plantation boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Plantation, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Plantation is a beautiful city in Broward County, located just west of Fort Lauderdale. Known for its scenic 
+  neighborhoods, parks, and proximity to South Florida’s boating destinations, many residents rely on nearby 
+  marinas and waterways for their boating needs. As a result, the demand for professional boat removal services 
+  in the area continues to grow.
+</p>
+<p>
+  Whether you're near Plantation Pier, close to Federal Highway, or just a short drive from the Intracoastal 
+  Waterway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal throughout South Florida and have 
+  the expertise to handle any situation.
+</p>
+<p>
+  Our Plantation boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
+  residential properties, storage facilities, and nearby marinas. We handle all the heavy lifting, transportation, 
+  and environmentally responsible disposal, so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Plantation, Fort Lauderdale, Deerfield Beach, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

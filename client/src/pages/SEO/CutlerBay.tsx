@@ -26,12 +26,13 @@ export default function CutlerBay() {
   ];
 
   const serviceAreas = [
-    "Cutler Bay Marina",
-    "Black Point Park and Marina",
-    "Old Cutler Road Corridor",
-    "Southland Mall Area",
-    "Franjo Road",
-    "Cutler Ridge Area"
+    "Cutler Bay Pier",
+"Old Cutler Road",
+"Franjo Road",
+"SW 184th Street Area",
+"Cutler Ridge District",
+"US-1 Highway Corridor"
+
   ];
 
   const faqs = [
@@ -41,7 +42,8 @@ export default function CutlerBay() {
     },
     {
       question: "What areas of Cutler Bay do you serve?",
-      answer: "We serve all of Cutler Bay, including areas near Cutler Bay Marina, Black Point Park and Marina, Old Cutler Road, Southland Mall, Franjo Road, Cutler Ridge, and surrounding neighborhoods throughout Miami-Dade County."
+      answer: "We serve all of Cutler Bay including the areas around Cutler Bay Pier, Old Cutler Road, Franjo Road, SW 184th Street, Cutler Ridge District, US-1 Highway Corridor, and surrounding neighborhoods in Miami-Dade County."
+
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +379,26 @@ export default function CutlerBay() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                  Cutler Bay is a thriving waterfront community in southern Miami-Dade County, known for its proximity to Biscayne Bay, 
-                  scenic parks, and boating lifestyle. With access to marinas like Black Point Park and Marina and the surrounding 
-                  Intracoastal waterways, the need for professional boat removal services is essential for local residents and property owners.
-              </p>
-              <p>
-                  Whether you're near Cutler Bay Marina, along Old Cutler Road, or in residential neighborhoods near Franjo Road and 
-                  Southland Mall, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. 
-                  We understand the unique challenges of boat removal in South Florida’s coastal and inland environments and have the expertise 
-                  to handle any situation safely and efficiently.
-              </p>
-              <p>
-                   Our Cutler Bay boat removal services include hauling away old boats, yachts, sailboats, and catamarans from residential 
-                   properties, marinas, storage facilities, and waterfront areas. We manage the heavy lifting, transportation, and 
-                   environmentally responsible disposal—so you don’t have to worry about a thing.
-              </p>
-              <p>
-                   Serving all of Miami-Dade County, including Cutler Bay, Palmetto Bay, Homestead, and surrounding communities. 
-                   Contact us today for a free quote!
-              </p>
+  Cutler Bay is a vibrant coastal community in Miami-Dade County, known for its access to Biscayne Bay, 
+  beautiful parks, and strong boating culture. With many waterfront properties, marinas, and recreational 
+  boat owners, the demand for reliable and professional boat removal services is growing.
+</p>
+<p>
+  Whether you're near the Cutler Bay Pier, along Old Cutler Road, or in neighborhoods near the US-1 Highway Corridor, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and eco-friendly boat 
+  disposal services. We understand the unique environmental and logistical challenges of boat removal in South Florida’s 
+  coastal areas and are fully equipped to handle them.
+</p>
+<p>
+  Our Cutler Bay boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, marinas, storage facilities, and waterfront locations. We manage all the heavy lifting, 
+  transportation, and environmentally responsible disposal — so you can relax knowing the job is done right.
+</p>
+<p>
+  We serve all of Cutler Bay including the areas around Cutler Bay Pier, Old Cutler Road, Franjo Road, SW 184th Street, 
+  Cutler Ridge District, and the US-1 Highway Corridor — as well as surrounding neighborhoods across Miami-Dade County. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

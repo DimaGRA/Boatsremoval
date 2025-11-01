@@ -26,12 +26,12 @@ export default function LakePark() {
   ];
 
   const serviceAreas = [
-    "Lake Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lake Park Marina",
+"Lake Park Harbor Marina",
+"Intracoastal Waterway",
+"US Highway 1 Corridor",
+"Northlake Boulevard",
+"Riviera Beach Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function LakePark() {
     },
     {
       question: "What areas of Lake Park do you serve?",
-      answer: "We serve all of Lake Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Lake Park, including areas near Lake Park Marina, Lake Park Harbor Marina, the Intracoastal Waterway, US Highway 1, Northlake Boulevard, Riviera Beach, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function LakePark() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lake Park is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lake Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lake Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Lake Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lake Park is a charming coastal town in Palm Beach County, known for its marinas, scenic waterfronts, 
+  and close proximity to Riviera Beach and North Palm Beach. With easy access to the Intracoastal Waterway 
+  and nearby boating facilities, the need for professional boat removal services is essential for both 
+  residents and local marine businesses.
+</p>
+<p>
+  Whether you're near Lake Park Marina, along the Intracoastal Waterway, or in neighborhoods close to 
+  US Highway 1 and Northlake Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  communities and have the experience to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Lake Park boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private docks, residential properties, storage facilities, and marinas. We manage all the heavy 
+  lifting, transportation, and environmentally responsible disposal — so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Lake Park, Riviera Beach, North Palm Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

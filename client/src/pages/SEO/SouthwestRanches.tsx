@@ -26,12 +26,12 @@ export default function SouthwestRanches() {
   ];
 
   const serviceAreas = [
-    "Southwest Ranches Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Southwest Ranches Marina Access",
+"Griffin Road Corridor",
+"Sheridan Street Area",
+"Pines Boulevard",
+"US-27 Highway",
+"South Flamingo Road"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function SouthwestRanches() {
     },
     {
       question: "What areas of Southwest Ranches do you serve?",
-      answer: "We serve all of Southwest Ranches including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Southwest Ranches including the areas along Griffin Road, Sheridan Street, US-27 Highway, South Flamingo Road, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function SouthwestRanches() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Southwest Ranches is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Southwest Ranches Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Southwest Ranches boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Southwest Ranches, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Southwest Ranches is a peaceful rural community in Broward County, known for its spacious properties, 
+  equestrian lifestyle, and scenic canals. While it’s not directly on the coast, many residents own boats 
+  or watercraft stored nearby, making professional boat removal services an important part of property upkeep.
+</p>
+<p>
+  Whether you're near the Griffin Road corridor, along Sheridan Street, or in neighborhoods off 
+  South Flamingo Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of handling and transporting vessels in South Florida’s 
+  inland communities and have the expertise to manage every detail safely and efficiently.
+</p>
+<p>
+  Our Southwest Ranches boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage facilities, and nearby marinas. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Southwest Ranches, Pembroke Pines, Cooper City, and 
+  surrounding areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

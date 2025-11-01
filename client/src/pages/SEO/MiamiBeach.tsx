@@ -26,12 +26,12 @@ export default function MiamiBeach() {
   ];
 
   const serviceAreas = [
-    "Miami Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Miami Beach Marina",
+"South Pointe Pier",
+"Ocean Drive Waterfront",
+"Collins Avenue",
+"MacArthur Causeway",
+"Biscayne Bay Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function MiamiBeach() {
     },
     {
       question: "What areas of Miami Beach do you serve?",
-      answer: "We serve all of Miami Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Miami Beach, including the beachfront areas near South Pointe Pier, Miami Beach Marina, Ocean Drive, Collins Avenue, MacArthur Causeway, Biscayne Bay, and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function MiamiBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Miami Beach is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Miami Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Miami Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Miami Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Miami Beach is one of Florida’s most iconic coastal cities, located in Miami-Dade County and known for its 
+  world-famous beaches, luxury waterfront properties, and active boating community. With easy access to 
+  Biscayne Bay and the Atlantic Ocean, professional boat removal services are essential for local residents, 
+  marinas, and marine businesses.
+</p>
+<p>
+  Whether you're near South Pointe Pier, along Ocean Drive or Collins Avenue, or docked at the Miami Beach 
+  Marina and Biscayne Bay, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in navigating Miami Beach’s unique coastal waterways and offer 
+  efficient, environmentally responsible removal solutions for all types of vessels.
+</p>
+<p>
+  Our Miami Beach boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private docks, marinas, storage facilities, and waterfront properties. We handle all transportation, 
+  heavy lifting, and disposal so you can enjoy a stress-free experience from start to finish.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Miami Beach, Miami, Key Biscayne, and nearby coastal communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

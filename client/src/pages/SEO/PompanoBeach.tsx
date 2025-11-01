@@ -11,7 +11,7 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function PompanoBeach() {
+export default function PompanoBeachFL() {
   const [, setLocation] = useLocation();
    const nearbyCities = getNearbyCities("Pompano Beach", 60); // find up to 60 closest
   const phone = getPhoneByCity("Pompano Beach");

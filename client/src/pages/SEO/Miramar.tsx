@@ -26,12 +26,12 @@ export default function Miramar() {
   ];
 
   const serviceAreas = [
-    "Miramar Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Miramar Parkway Corridor",
+"Pembroke Road",
+"Douglas Road",
+"University Drive",
+"Palm Avenue",
+"Florida’s Turnpike Access Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Miramar() {
     },
     {
       question: "What areas of Miramar do you serve?",
-      answer: "We serve all of Miramar including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Miramar, including areas near Miramar Parkway, Pembroke Road, Douglas Road, University Drive, Palm Avenue, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function Miramar() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Miramar is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Miramar Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Miramar boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Miramar, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Miramar is a thriving inland city in Broward County, known for its family-friendly neighborhoods, 
+  beautiful parks, and easy access to South Florida’s major highways and coastal areas. While not 
+  directly on the ocean, many residents and businesses in Miramar own boats and marine equipment that 
+  require professional removal, transport, or disposal services.
+</p>
+<p>
+  Whether you're near Miramar Parkway, along Pembroke Road, or in neighborhoods close to Douglas Road, 
+  University Drive, or Palm Avenue, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in serving both inland and coastal communities across South Florida, 
+  ensuring safe and environmentally responsible removals every time.
+</p>
+<p>
+  Our Miramar boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private residences, storage facilities, and commercial lots. We handle all aspects of removal — 
+  from transportation and heavy lifting to proper recycling and disposal — for a completely worry-free experience.
+</p>
+<p>
+  Serving all of Broward County, including Miramar, Pembroke Pines, Hollywood, and surrounding neighborhoods. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

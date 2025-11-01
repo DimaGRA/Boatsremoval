@@ -26,12 +26,12 @@ export default function Pahokee() {
   ];
 
   const serviceAreas = [
-    "Pahokee Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Pahokee Marina & Pier",
+"Lake Okeechobee Shoreline",
+"Canal Point Area",
+"US Highway 98 Corridor",
+"East Main Street",
+"Palm Beach County Glades Region"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Pahokee() {
     },
     {
       question: "What areas of Pahokee do you serve?",
-      answer: "We serve all of Pahokee including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Pahokee, including areas near Lake Okeechobee, Pahokee Marina & Pier, US Highway 98, East Main Street, Canal Point, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,27 @@ export default function Pahokee() {
               About <span className="text-primary">Florida Boat Removal</span> in Pahokee, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Pahokee is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pahokee Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pahokee boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Pahokee, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  Pahokee is a lakeside community in Palm Beach County, set on the eastern shore of Lake Okeechobee. 
+  Known for its marina, pier, and access to the Lake Okeechobee Scenic Trail, the area has many 
+  waterfront properties and storage yards where professional boat removal services are often needed.
+</p>
+<p>
+  Whether you're near the Pahokee Marina & Pier, along the Lake Okeechobee shoreline, or in residential 
+  neighborhoods off US Highway 98 and East Main Street, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique logistics of inland and lakeside removals across South 
+  Florida and handle every project safely and efficiently.
+</p>
+<p>
+  Our Pahokee boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private properties, marinas, storage facilities, and waterfront locations. We manage all 
+  transportation, heavy lifting, and environmentally responsible disposal—so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Pahokee, Belle Glade, Canal Point, and South Bay. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

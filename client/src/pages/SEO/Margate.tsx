@@ -26,12 +26,12 @@ export default function Margate() {
   ];
 
   const serviceAreas = [
-    "Margate Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Margate Boulevard Corridor",
+"Rock Island Road",
+"Atlantic Boulevard",
+"Sample Road Area",
+"State Road 7 (US-441)",
+"Royal Palm Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Margate() {
     },
     {
       question: "What areas of Margate do you serve?",
-      answer: "We serve all of Margate including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Margate, including areas near Margate Boulevard, Rock Island Road, Atlantic Boulevard, Sample Road, State Road 7 (US-441), and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function Margate() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Margate is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Margate Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Margate boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Margate, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Margate is a welcoming inland city in Broward County, known for its family-friendly neighborhoods, 
+  beautiful parks, and close proximity to South Florida’s major waterways. While not directly on the coast, 
+  Margate residents often own boats, trailers, and other marine equipment that require professional removal, 
+  transport, or disposal services.
+</p>
+<p>
+  Whether you're near Margate Boulevard, along Rock Island Road, or in neighborhoods close to Atlantic Boulevard, 
+  Sample Road, and State Road 7 (US-441), 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in handling boat removals across both inland and coastal areas of 
+  Broward County safely and efficiently.
+</p>
+<p>
+  Our Margate boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, storage facilities, and nearby marinas. We take care of all transportation, 
+  heavy lifting, and environmentally responsible disposal — so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County, including Margate, Coconut Creek, Coral Springs, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

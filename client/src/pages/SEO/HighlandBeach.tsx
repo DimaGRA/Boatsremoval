@@ -27,11 +27,11 @@ export default function HighlandBeach() {
 
   const serviceAreas = [
     "Highland Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Spanish River Boulevard",
+"Intracoastal Waterway",
+"Delray Sands Resort Area",
+"Federal Highway Corridor",
+"Linton Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function HighlandBeach() {
     },
     {
       question: "What areas of Highland Beach do you serve?",
-      answer: "We serve all of Highland Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Highland Beach, including the beachfront areas near the Highland Beach Pier, Spanish River Boulevard, Intracoastal Waterway, Delray Sands Resort, Federal Highway, Linton Boulevard, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function HighlandBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Highland Beach is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Highland Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Highland Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Highland Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Highland Beach is a picturesque coastal town in Palm Beach County, known for its quiet beaches, 
+  luxurious oceanfront homes, and boating lifestyle. With direct access to the Intracoastal Waterway 
+  and nearby marinas in Boca Raton and Delray Beach, the need for professional boat removal services 
+  is essential for property owners and marine enthusiasts in the area.
+</p>
+<p>
+  Whether you're near the Highland Beach Pier, along the Intracoastal Waterway, or in neighborhoods 
+  off Federal Highway and Spanish River Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s coastal 
+  environment and have the expertise to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Highland Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, private docks, storage facilities, and waterfront locations. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal, 
+  ensuring a smooth and worry-free process for every client.
+</p>
+<p>
+  Serving all of Palm Beach County, including Highland Beach, Boca Raton, Delray Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

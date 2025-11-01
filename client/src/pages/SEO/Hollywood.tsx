@@ -26,12 +26,12 @@ export default function Hollywood() {
   ];
 
   const serviceAreas = [
-    "Hollywood Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Hollywood Beach Broadwalk",
+"Hollywood Beach Pier",
+"North Lake and South Lake Areas",
+"Federal Highway Corridor",
+"Sheridan Street",
+"Johnson Street"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Hollywood() {
     },
     {
       question: "What areas of Hollywood do you serve?",
-      answer: "We serve all of Hollywood including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Hollywood, including the beachfront areas near the Hollywood Beach Broadwalk, Hollywood Beach Pier, North and South Lake communities, Sheridan Street, Johnson Street, Federal Highway, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Hollywood() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Hollywood is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Hollywood Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Hollywood boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Hollywood, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Hollywood is a vibrant coastal city in Broward County, known for its beautiful beaches, 
+  the famous Hollywood Beach Broadwalk, and an active boating community. With numerous 
+  waterfront properties, marinas, and easy access to the Intracoastal Waterway, the need 
+  for professional boat removal services is essential for local residents and business owners.
+</p>
+<p>
+  Whether you're near the Hollywood Beach Pier, along North or South Lake, or in residential 
+  neighborhoods near Sheridan Street and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida’s 
+  coastal environment and have the expertise to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Hollywood boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, private docks, storage facilities, and marinas. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal, 
+  ensuring a stress-free process from start to finish.
+</p>
+<p>
+  Serving all of Broward County, including Hollywood, Dania Beach, Hallandale Beach, and surrounding 
+  communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

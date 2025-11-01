@@ -26,12 +26,12 @@ export default function SouthBay() {
   ];
 
   const serviceAreas = [
-    "South Bay Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lake Okeechobee Waterfront",
+"Palm Beach Canal",
+"U.S. Highway 27 Corridor",
+"Downtown South Bay Area",
+"Ridgeway Drive",
+"Hooker Highway"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function SouthBay() {
     },
     {
       question: "What areas of South Bay do you serve?",
-      answer: "We serve all of South Bay including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of South Bay including the Lake Okeechobee waterfront areas, U.S. Highway 27 corridor, Ridgeway Drive, Hooker Highway, and surrounding neighborhoods in Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function SouthBay() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                South Bay is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the South Bay Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our South Bay boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including South Bay, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  South Bay is a scenic lakeside city in Palm Beach County, located near the southern shores of Lake Okeechobee. 
+  Known for its tranquil waterfront views, fishing spots, and boating community, the need for professional boat 
+  removal services is essential for local property owners and marinas.
+</p>
+<p>
+  Whether you're near the South Bay Pier, along Lake Okeechobee, or in neighborhoods off U.S. Highway 27, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida’s inland and coastal 
+  environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our South Bay boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage yards, marinas, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County including South Bay, Belle Glade, Pahokee, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

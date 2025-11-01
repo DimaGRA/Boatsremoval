@@ -26,12 +26,12 @@ export default function Jupiter() {
   ];
 
   const serviceAreas = [
-    "Jupiter Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Jupiter Inlet Lighthouse",
+"Jupiter Beach Pier",
+"Carlin Park",
+"Intracoastal Waterway",
+"US Highway 1 Corridor",
+"Indiantown Road"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Jupiter() {
     },
     {
       question: "What areas of Jupiter do you serve?",
-      answer: "We serve all of Jupiter including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Jupiter, including the beachfront areas near the Jupiter Beach Pier, Jupiter Inlet Lighthouse, Carlin Park, Intracoastal Waterway, US Highway 1, Indiantown Road, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function Jupiter() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Jupiter is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Jupiter Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Jupiter boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Jupiter, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Jupiter is a picturesque coastal town in Palm Beach County, known for its stunning beaches, 
+  iconic Jupiter Inlet Lighthouse, and active boating lifestyle. With numerous marinas, 
+  waterfront homes, and easy access to the Intracoastal Waterway, the demand for professional 
+  boat removal services remains high in this popular boating destination.
+</p>
+<p>
+  Whether you're near the Jupiter Beach Pier, along the Intracoastal Waterway, or in residential 
+  neighborhoods near US Highway 1 and Indiantown Road, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the challenges of marine vessel removal in South Florida’s 
+  coastal environment and have the experience to handle any situation safely and efficiently.
+</p>
+<p>
+  Our Jupiter boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private docks, marinas, storage facilities, and residential properties. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal, 
+  ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Palm Beach County, including Jupiter, Tequesta, Juno Beach, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

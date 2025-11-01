@@ -27,11 +27,11 @@ export default function OceanRidge() {
 
   const serviceAreas = [
     "Ocean Ridge Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Hillsboro Inlet",
+"Lighthouse Point",
+"Boynton Beach Boulevard",
+"Federal Highway Corridor",
+"Intracoastal Waterway Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function OceanRidge() {
     },
     {
       question: "What areas of Ocean Ridge do you serve?",
-      answer: "We serve all of Ocean Ridge including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Ocean Ridge, including the beachfront areas, the Intracoastal Waterway, neighborhoods near Boynton Beach Boulevard, Federal Highway, and surrounding coastal communities throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function OceanRidge() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Ocean Ridge is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Ocean Ridge Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Ocean Ridge boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Ocean Ridge, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Ocean Ridge is a beautiful coastal town in Palm Beach County, known for its pristine beaches,
+  scenic dunes, and peaceful waterfront community. With numerous oceanfront homes, marinas, and
+  canal-access properties, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Ocean Ridge Pier, along the Intracoastal Waterway, or in residential
+  neighborhoods near Boynton Beach Boulevard and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We understand the unique challenges of marine and residential boat removal
+  in South Florida’s coastal environment and have the expertise to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Ocean Ridge boat removal services include hauling away old boats, yachts, sailboats, and
+  catamarans from private properties, marinas, storage facilities, and waterfront locations.
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal —
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Ocean Ridge, Boynton Beach, Delray Beach, and surrounding
+  coastal areas. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

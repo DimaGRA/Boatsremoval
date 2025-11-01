@@ -27,11 +27,11 @@ export default function PalmSprings() {
 
   const serviceAreas = [
     "Palm Springs Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Lake Worth Lagoon",
+"Forest Hill Boulevard",
+"Congress Avenue",
+"Lake Osborne Area",
+"Federal Highway Corridor"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function PalmSprings() {
     },
     {
       question: "What areas of Palm Springs do you serve?",
-      answer: "We serve all of Palm Springs including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Palm Beach County."
+      answer: "We serve all of Palm Springs, including areas near Lake Worth Lagoon, Forest Hill Boulevard, Congress Avenue, Lake Osborne, Federal Highway, and surrounding neighborhoods throughout Palm Beach County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function PalmSprings() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Palm Springs is a beautiful coastal city in Palm Beach County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Palm Springs Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Palm Springs boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Palm Beach County including Palm Springs, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Palm Springs is a welcoming inland community in Palm Beach County, known for its parks, lakeside recreation,
+  and convenient access to nearby marine facilities. With many residents owning boats and trailers, professional
+  boat removal services are often needed for homes, storage lots, and local businesses.
+</p>
+<p>
+  Whether you're near Forest Hill Boulevard and Congress Avenue, around Lake Osborne and John Prince Park,
+  or in neighborhoods off Federal Highway (US-1),
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+  boat disposal services. We understand the logistics of inland pickups and coastal launches across South Florida
+  and handle every project safely and efficiently.
+</p>
+<p>
+  Our Palm Springs boat removal services include hauling away old boats, yachts, sailboats, and catamarans
+  from private residences, storage facilities, and nearby marinas. We take care of all transportation, heavy lifting,
+  and environmentally responsible disposal — so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Palm Beach County, including Palm Springs, Lake Worth Beach, Greenacres, and surrounding communities.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

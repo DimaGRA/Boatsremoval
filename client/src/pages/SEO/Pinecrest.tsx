@@ -27,11 +27,11 @@ export default function Pinecrest() {
 
   const serviceAreas = [
     "Pinecrest Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Matheson Hammock Marina",
+"Black Point Marina",
+"Old Cutler Road",
+"South Dixie Highway (US-1)",
+"Pinecrest Gardens Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Pinecrest() {
     },
     {
       question: "What areas of Pinecrest do you serve?",
-      answer: "We serve all of Pinecrest including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Pinecrest, including the areas near Old Cutler Road, South Dixie Highway (US-1), Matheson Hammock Marina, Black Point Marina, and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,25 @@ export default function Pinecrest() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pinecrest is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pinecrest Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pinecrest boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Pinecrest, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pinecrest is a beautiful suburban community in Miami-Dade County, known for its lush tree-lined streets,
+  upscale neighborhoods, and proximity to South Florida’s boating and waterfront destinations. With many
+  residents owning boats and access to nearby marinas, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Pinecrest Pier, along Old Cutler Road, or close to Matheson Hammock Marina and
+  South Dixie Highway (US-1), <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+  and eco-friendly boat disposal services. We understand the unique challenges of boat removal across
+  Miami-Dade County and have the expertise to handle any situation.
+</p>
+<p>
+  Our Pinecrest boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+  residential properties, storage facilities, and nearby marinas. We handle all the heavy lifting, transportation,
+  and environmentally responsible disposal, so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Miami-Dade County including Pinecrest, Coral Gables, Palmetto Bay, and surrounding areas.
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

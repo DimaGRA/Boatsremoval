@@ -27,11 +27,12 @@ export default function CoralGables() {
 
   const serviceAreas = [
     "Coral Gables Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Miracle Mile",
+"Granada Boulevard",
+"Ponce de Leon Boulevard",
+"Douglas Road Area",
+"Old Cutler Road Corridor"
+
   ];
 
   const faqs = [
@@ -41,7 +42,7 @@ export default function CoralGables() {
     },
     {
       question: "What areas of Coral Gables do you serve?",
-      answer: "We serve all of Coral Gables including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Coral Gables including the Miracle Mile area, Coral Way corridor, neighborhoods near the University of Miami, Old Cutler Road, South Dixie Highway, and surrounding communities in Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -49,7 +50,7 @@ export default function CoralGables() {
     },
     {
       question: "Is boat removal in Coral Gables expensive?",
-      answer: "Our Coral Gables boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      answer: "Our Coral Gables boat removal services are affordable, transparent, and tailored to your needs." 
     }
   ];
 
@@ -377,26 +378,28 @@ export default function CoralGables() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Coral Gables is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Coral Gables Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Coral Gables boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Coral Gables, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Coral Gables is a historic and picturesque city in Miami-Dade County, known for its Mediterranean Revival 
+  architecture, tree-lined streets, and proximity to Biscayne Bay. With its many waterfront properties, 
+  marinas, and boating enthusiasts, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Coral Gables Pier, along Old Cutler Road, or in residential neighborhoods 
+  off Ponce de Leon Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and 
+  eco-friendly boat disposal services. We understand the unique challenges of boat removal in South Florida’s 
+  coastal environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Coral Gables boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We manage all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you can have complete peace of mind.
+</p>
+<p>
+  We serve all of Coral Gables including the areas around Coral Gables Pier, Miracle Mile, Granada Boulevard, 
+  Ponce de Leon Boulevard, Douglas Road, and Old Cutler Road — as well as surrounding neighborhoods across 
+  Miami-Dade County. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

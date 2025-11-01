@@ -27,11 +27,12 @@ export default function CooperCity() {
 
   const serviceAreas = [
     "Cooper City Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Stirling Road",
+"Griffin Road",
+"Flamingo Road",
+"Pine Island Road",
+"University Drive Corridor"
+
   ];
 
   const faqs = [
@@ -41,7 +42,8 @@ export default function CooperCity() {
     },
     {
       question: "What areas of Cooper City do you serve?",
-      answer: "We serve all of Cooper City including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Cooper City including the areas around Cooper City Pier, Stirling Road, Griffin Road, Flamingo Road, Pine Island Road, University Drive, and surrounding neighborhoods in Broward County."
+
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +379,29 @@ export default function CooperCity() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Cooper City is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Cooper City Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Cooper City boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Cooper City, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Cooper City is a welcoming community in Broward County, known for its family-friendly neighborhoods, 
+  beautiful parks, and easy access to South Florida’s waterways. While not directly on the coast, many 
+  residents enjoy boating and use nearby marinas and lakes for recreation, making professional boat 
+  removal services an important need.
+</p>
+<p>
+  Whether you're near the Cooper City Pier, along Stirling Road, Griffin Road, or in residential 
+  neighborhoods off University Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, 
+  and eco-friendly boat disposal services. We understand the specific needs of inland boat owners and 
+  ensure every removal is handled safely and efficiently.
+</p>
+<p>
+  Our Cooper City boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage yards, and nearby waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you don’t have to worry about a thing.
+</p>
+<p>
+  We serve all of Cooper City including the areas around Cooper City Pier, Stirling Road, Griffin Road, 
+  Flamingo Road, Pine Island Road, and University Drive — as well as surrounding neighborhoods across 
+  Broward County. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

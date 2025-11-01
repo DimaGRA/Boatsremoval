@@ -26,12 +26,12 @@ export default function Kendall() {
   ];
 
   const serviceAreas = [
-    "Kendall Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+   "Dadeland Mall Area",
+"Kendall Drive (SW 88th Street)",
+"Miami Dade College Kendall Campus",
+"US Highway 1 Corridor",
+"The Palms at Town & Country",
+"Snapper Creek Canal Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Kendall() {
     },
     {
       question: "What areas of Kendall do you serve?",
-      answer: "We serve all of Kendall including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Kendall, including areas near Dadeland Mall, Kendall Drive (SW 88th Street), Miami Dade College Kendall Campus, The Palms at Town & Country, US Highway 1 Corridor, Snapper Creek Canal, and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function Kendall() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Kendall is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Kendall Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Kendall boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Kendall, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Kendall is a thriving suburban community in Miami-Dade County, known for its family-friendly neighborhoods, 
+  shopping destinations, and easy access to South Florida’s waterways. While not directly on the coast, Kendall 
+  is surrounded by marinas, boat storage facilities, and canals that connect to nearby Miami and Biscayne Bay—making 
+  professional boat removal services an essential need for local residents.
+</p>
+<p>
+  Whether you're near Dadeland Mall, along Kendall Drive (SW 88th Street), or in residential neighborhoods close to 
+  the Palms at Town & Country and Snapper Creek Canal, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal across Miami-Dade County’s inland and 
+  coastal areas and have the expertise to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Kendall boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
+  residential properties, storage yards, and nearby marinas. We take care of all the heavy lifting, transportation, 
+  and environmentally responsible disposal, ensuring a smooth and worry-free process for every customer.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Kendall, Pinecrest, South Miami, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

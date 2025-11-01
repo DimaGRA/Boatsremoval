@@ -26,12 +26,12 @@ export default function LazyLake() {
   ];
 
   const serviceAreas = [
-    "Lazy Lake Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Wilton Drive Corridor",
+"NE 26th Street",
+"Powerline Road",
+"Oakland Park Boulevard",
+"Middle River Area",
+"Fort Lauderdale Access via Sunrise Boulevard"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function LazyLake() {
     },
     {
       question: "What areas of Lazy Lake do you serve?",
-      answer: "We serve all of Lazy Lake including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Lazy Lake, including areas near Wilton Drive, NE 26th Street, Powerline Road, Oakland Park Boulevard, the Middle River area, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function LazyLake() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lazy Lake is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lazy Lake Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lazy Lake boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Lazy Lake, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lazy Lake is a small and exclusive residential community in Broward County, surrounded by the vibrant cities 
+  of Wilton Manors and Oakland Park. While not directly on the coast, its close proximity to Fort Lauderdale’s 
+  marinas, waterways, and the Intracoastal makes it an ideal location for boat owners and waterfront property 
+  enthusiasts who may require professional boat removal services.
+</p>
+<p>
+  Whether you're near Wilton Drive, along NE 26th Street, or in neighborhoods close to Powerline Road and 
+  Oakland Park Boulevard, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique logistics of inland boat removal across South Florida 
+  and have the expertise to handle every project efficiently and safely.
+</p>
+<p>
+  Our Lazy Lake boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from private residences, storage yards, nearby marinas, and waterfront properties in surrounding areas. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal — ensuring 
+  a stress-free experience from start to finish.
+</p>
+<p>
+  Serving all of Broward County, including Lazy Lake, Wilton Manors, Oakland Park, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

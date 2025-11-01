@@ -27,11 +27,12 @@ export default function DaniaBeach() {
 
   const serviceAreas = [
     "Dania Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+"Port Everglades Area",
+"Sheridan Street Corridor",
+"Griffin Road",
+"Federal Highway",
+"Stirling Road Neighborhoods"
+
   ];
 
   const faqs = [
@@ -41,7 +42,7 @@ export default function DaniaBeach() {
     },
     {
       question: "What areas of Dania Beach do you serve?",
-      answer: "We serve all of Dania Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Dania Beach including the beachfront areas, Port Everglades, neighborhoods along Federal Highway, Sheridan Street, Griffin Road, and surrounding communities in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +378,29 @@ export default function DaniaBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Dania Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Dania Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Dania Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Dania Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                <p>
+  Dania Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
+  fishing pier, and vibrant boating community. With numerous waterfront properties, marinas, and 
+  boat owners, the need for professional boat removal services is essential.
+</p>
+<p>
+  Whether you're near the Dania Beach Pier, around Port Everglades, or along Griffin Road and Federal Highway, 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+  disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  environment and have the expertise to handle any situation.
+</p>
+<p>
+  Our Dania Beach boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
+  don't have to worry about a thing.
+</p>
+<p>
+  We serve all of Dania Beach including the beachfront areas, Port Everglades, Sheridan Street, 
+  Griffin Road, Federal Highway Corridor, and the Marina District — as well as surrounding neighborhoods 
+  throughout Broward County. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

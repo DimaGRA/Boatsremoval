@@ -26,12 +26,12 @@ export default function MiamiGardens() {
   ];
 
   const serviceAreas = [
-    "Miami Gardens Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+   "Hard Rock Stadium Area",
+"Carol City Neighborhoods",
+"NW 183rd Street Corridor",
+"NW 27th Avenue (University Drive)",
+"Palmetto Expressway (SR 826)",
+"Miami-Opa Locka Executive Airport Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function MiamiGardens() {
     },
     {
       question: "What areas of Miami Gardens do you serve?",
-      answer: "We serve all of Miami Gardens including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Miami-Dade County."
+      answer: "We serve all of Miami Gardens, including areas near Hard Rock Stadium, Carol City, NW 183rd Street, NW 27th Avenue, Palmetto Expressway (SR 826), and surrounding neighborhoods throughout Miami-Dade County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function MiamiGardens() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Miami Gardens is a beautiful coastal city in Miami-Dade County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Miami Gardens Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Miami Gardens boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Miami-Dade County including Miami Gardens, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Miami Gardens is a vibrant inland city in Miami-Dade County, known for its diverse neighborhoods, 
+  major attractions like Hard Rock Stadium, and convenient access to South Florida’s coastal areas. 
+  While not directly on the water, many residents and businesses in Miami Gardens own boats or marine 
+  equipment that require professional removal, transport, or disposal services.
+</p>
+<p>
+  Whether you're near Hard Rock Stadium, along NW 27th Avenue, or in neighborhoods off NW 183rd Street 
+  and the Palmetto Expressway (SR 826), 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We specialize in serving both inland and coastal areas across South Florida, 
+  offering safe and efficient removal solutions for every situation.
+</p>
+<p>
+  Our Miami Gardens boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from private properties, storage lots, marinas, and commercial locations. 
+  We take care of all the heavy lifting, transportation, and environmentally responsible disposal — 
+  giving you complete peace of mind.
+</p>
+<p>
+  Serving all of Miami-Dade County, including Miami Gardens, Opa-locka, Miramar, and surrounding communities. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>

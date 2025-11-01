@@ -26,10 +26,10 @@ export default function DeerfieldBeach() {
   ];
 
   const serviceAreas = [
-    "Deerfield Beach Pier",
+    "Deerfield Beach International Fishing Pier",
 "Hillsboro Inlet",
 "Lighthouse Point",
-"Atlantic Boulevard",
+"Pompano Beach",
 "Sample Road Area",
 "Federal Highway Corridor"
   ];
@@ -41,7 +41,7 @@ export default function DeerfieldBeach() {
     },
     {
       question: "What areas of Deerfield Beach do you serve?",
-      answer: "We serve all of Deerfield Beach, including the beachfront areas near the Deerfield Beach Pier, Hillsboro Inlet, Lighthouse Point, Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods throughout Broward County."
+      answer: "We serve all of Deerfield Beach, including the beachfront areas near the Deerfield Beach International Fishing Pier, Hillsboro Inlet, Lighthouse Point, Federal Highway, Sample Road, and surrounding neighborhoods throughout Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,16 +376,16 @@ export default function DeerfieldBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Deerfield Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
+            <p>
   Deerfield Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
-  iconic fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-  boat owners, the need for professional boat removal services is essential.
+  the iconic Deerfield Beach International Fishing Pier, and its active boating community. With numerous 
+  waterfront properties, marinas, and boat owners, the need for professional boat removal services is essential.
 </p>
 <p>
   Whether you're near the Deerfield Beach Pier, along the Intracoastal Waterway, or in residential 
   neighborhoods off Federal Highway, 
-  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-  disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
+  <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
   environment and have the expertise to handle any situation.
 </p>
 <p>

@@ -26,12 +26,13 @@ export default function CoconutCreek() {
   ];
 
   const serviceAreas = [
-    "Coconut Creek Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Coconut Creek Promenade",
+"Tradewinds Park",
+"Lyons Road Corridor",
+"Sample Road Area",
+"Wiles Road",
+"Florida’s Turnpike Corridor"
+
   ];
 
   const faqs = [
@@ -41,7 +42,7 @@ export default function CoconutCreek() {
     },
     {
       question: "What areas of Coconut Creek do you serve?",
-      answer: "We serve all of Coconut Creek including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Coconut Creek including the Promenade area, Tradewinds Park, neighborhoods along Lyons Road, Wiles Road, Sample Road, and surrounding communities near Margate and Coral Springs in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +378,28 @@ export default function CoconutCreek() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Coconut Creek is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Coconut Creek Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Coconut Creek boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Coconut Creek, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Coconut Creek is a beautiful city in Broward County, known for its lush green spaces, 
+  family-friendly neighborhoods, and active community. With easy access to major highways, 
+  nearby marinas, and surrounding boating areas, the need for professional boat removal services 
+  remains essential for residents and local businesses.
+</p>
+<p>
+  Whether you're near the Promenade at Coconut Creek, Tradewinds Park, or neighborhoods along 
+  Lyons Road, Wiles Road, or Sample Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the unique challenges of boat removal in South Florida 
+  and have the expertise to handle any situation.
+</p>
+<p>
+  Our Coconut Creek boat removal services include hauling away old boats, yachts, sailboats, and 
+  catamarans from residential properties, storage facilities, and nearby waterfront areas. 
+  We handle all the heavy lifting, transportation, and environmentally responsible disposal, 
+  so you don't have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Coconut Creek, Margate, Coral Springs, and surrounding 
+  areas. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>

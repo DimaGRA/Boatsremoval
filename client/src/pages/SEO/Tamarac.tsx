@@ -26,12 +26,12 @@ export default function Tamarac() {
   ];
 
   const serviceAreas = [
-    "Tamarac Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Tamarac Marina Access",
+"Commercial Boulevard",
+"McNab Road",
+"University Drive",
+"Pine Island Road",
+"Sample Road Area"
   ];
 
   const faqs = [
@@ -41,7 +41,7 @@ export default function Tamarac() {
     },
     {
       question: "What areas of Tamarac do you serve?",
-      answer: "We serve all of Tamarac including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Broward County."
+      answer: "We serve all of Tamarac including the areas along Commercial Boulevard, University Drive, Pine Island Road, McNab Road, Sample Road, and surrounding neighborhoods in Broward County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,25 @@ export default function Tamarac() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Tamarac is a beautiful coastal city in Broward County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Tamarac Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Tamarac boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Broward County including Tamarac, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Tamarac is a thriving city in Broward County, known for its friendly neighborhoods, beautiful parks, 
+  and convenient access to nearby marinas and South Florida waterways. With many residents owning or 
+  storing boats nearby, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Commercial Boulevard, University Drive, Pine Island Road, or the surrounding 
+  residential neighborhoods, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+  boat disposal services. We understand the logistics of inland boat removal and offer expertise across 
+  all of Broward County.
+</p>
+<p>
+  Our Tamarac boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+  from residential properties, storage facilities, and nearby marinas. We take care of all the heavy 
+  lifting, transportation, and environmentally responsible disposal, so you don’t have to worry about a thing.
+</p>
+<p>
+  Serving all of Broward County including Tamarac, Fort Lauderdale, Coral Springs, and surrounding areas. 
+  Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>
