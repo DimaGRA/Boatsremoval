@@ -377,8 +377,7 @@ export default function DaniaBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Dania Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                <p>
+           <p>
   Dania Beach is a beautiful coastal city in Broward County, known for its pristine beaches, 
   fishing pier, and vibrant boating community. With numerous waterfront properties, marinas, and 
   boat owners, the need for professional boat removal services is essential.
