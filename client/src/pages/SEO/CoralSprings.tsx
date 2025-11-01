@@ -379,7 +379,6 @@ export default function CoralSprings() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                <p>
   Coral Springs is a vibrant inland city in Broward County, known for its beautiful neighborhoods, 
   clean streets, and close proximity to South Florida’s boating and coastal areas. While not directly 
   on the ocean, many residents own boats and use nearby waterways and marinas for access to the coast.
