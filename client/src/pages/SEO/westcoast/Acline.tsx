@@ -26,12 +26,12 @@ export default function Acline() {
   ];
 
   const serviceAreas = [
-    "Acline Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+  "Acline Pier",
+  "Acline Downtown",
+  "Acline Shores",
+  "Burnt Store Marina",
+  "Burnt Store Road Corridor",
+  "Harbor Heights"
   ];
 
   const faqs = [
