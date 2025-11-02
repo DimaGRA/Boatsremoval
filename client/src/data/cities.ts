@@ -93,5 +93,11 @@ export const allCities: City[] = [
   { name: "Tequesta", lat: 26.9698, lon: -80.1289, county: "Palm Beach", phone: "561-800-0744" },
   { name: "Wellington", lat: 26.6618, lon: -80.2684, county: "Palm Beach", phone: "561-800-0744" },
   { name: "Westlake", lat: 26.7059, lon: -80.3118, county: "Palm Beach", phone: "561-800-0744" },
-  { name: "West Palm Beach", lat: 26.7153, lon: -80.0534, county: "Palm Beach", phone: "561-800-0744" } 
+  { name: "West Palm Beach", lat: 26.7153, lon: -80.0534, county: "Palm Beach", phone: "561-800-0744" },
+
+  { name: "East Lake", lat: 28.1241, lon: -82.7069, county: "Pinellas" },
+  { name: "Tarpon Springs", lat: 28.1474, lon: -82.7568, county: "Pinellas" },
+  { name: "Palm Harbor", lat: 28.0564, lon: -82.7567, county: "Pinellas" },  
+  { name: "Safety Harbor", lat: 27.9994, lon: -82.6923, county: "Pinellas" },
+  { name: "Dunedin", lat: 28.0198, lon: -82.7873, county: "Pinellas" }
 ];
