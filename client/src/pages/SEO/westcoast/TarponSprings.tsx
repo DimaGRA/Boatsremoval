@@ -26,12 +26,12 @@ export default function TarponSprings() {
   ];
 
   const serviceAreas = [
-    "Tarpon Springs Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Sponge Docks",
+    "Historic Downtown district",
+    "Anclote River waterfront and marina area",
+    "Sunset Beach",
+    "Safford Park",
+    "Tarpon Springs High School"
   ];
 
   const faqs = [
@@ -40,9 +40,8 @@ export default function TarponSprings() {
       answer: "We offer same-day and next-day boat removal services in Tarpon Springs, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Tarpon Springs do you serve?",
-      answer: "We serve all of Tarpon Springs including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Tarpon Springs do you serve?", 
+      answer: "We serve all of Tarpon Springs including the Downtown Sponge Docks and Historic Downtown district, the Anclote River waterfront and marina area, Sunset Beach, and the neighborhoods around Safford Park and Tarpon Springs High School."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tarpon Springs. We handle all permits and logistics."
