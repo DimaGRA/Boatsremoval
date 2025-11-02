@@ -41,7 +41,8 @@ export default function TarponSprings() {
     },
     {
       question: "What areas of Tarpon Springs do you serve?", 
-      answer: "We serve all of Tarpon Springs including the Downtown Sponge Docks and Historic Downtown district, the Anclote River waterfront and marina area, Sunset Beach, and the neighborhoods around Safford Park and Tarpon Springs High School."    },
+      answer: "We serve all of Tarpon Springs including the Downtown Sponge Docks and Historic Downtown district, the Anclote River waterfront and marina area, Sunset Beach, and the neighborhoods around Safford Park and Tarpon Springs High School."  
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tarpon Springs. We handle all permits and logistics."
