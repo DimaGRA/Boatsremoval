@@ -26,12 +26,12 @@ export default function SafetyHarbor() {
   ];
 
   const serviceAreas = [
-    "Safety Harbor Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown/Main Street Village",
+    "Philippe Park",
+    "waterfront area along Old Tampa Bay",
+    "Safety Harbor Marina",
+    "Harbor Drive corridor",
+    "Renshaw Bayou and Feather Sound border"
   ];
 
   const faqs = [
@@ -40,9 +40,8 @@ export default function SafetyHarbor() {
       answer: "We offer same-day and next-day boat removal services in Safety Harbor, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Safety Harbor do you serve?",
-      answer: "We serve all of Safety Harbor including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Safety Harbor do you serve?", 
+      answer: "We serve all of Safety Harbor including Downtown, Main Street Village, the Philippe Park and waterfront area along Old Tampa Bay, the Safety Harbor Marina and Harbor Drive corridor, the residential neighborhoods around 20th Street and Bayshore Drive, the neighborhoods near Renshaw Bayou and Feather Sound border, and surrounding commercial corridors such as Main Street and Tenth Street."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Safety Harbor. We handle all permits and logistics."
