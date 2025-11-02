@@ -375,26 +375,24 @@ export default function TarponSprings() {
               About <span className="text-primary">Florida Boat Removal</span> in Tarpon Springs, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Tarpon Springs is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Tarpon Springs is a picturesque coastal city in Pinellas County, celebrated for its historic Sponge Docks, vibrant Greek heritage, 
+                and scenic waterfront along the Anclote River and Spring Bayou. With direct access to the Gulf of Mexico, a busy marina scene,
+                and popular spots like Fred Howard Park and Sunset Beach, the demand for professional boat removal services remains high. 
+              </p> 
+              <p> 
+                Whether you're near the Sponge Docks and Historic Downtown, close to the Anclote River marina and Spring Bayou waterfront, 
+                or in residential neighborhoods along Pinellas Avenue, Safford Park, and Tarpon Avenue, <span class="text-primary">Florida Boat Removal</span> delivers fast,
+                dependable, and environmentally responsible boat disposal services. We understand the logistical and regulatory challenges of working across Pinellas County’s 
+                coastal and inland waterways and have the expertise to handle every situation. 
               </p>
               <p>
-                Whether you're near the Tarpon Springs Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Tarpon Springs boat removal services include hauling away old boats, sailboats, yachts, and pontoons from private properties,
+                marinas, boat ramps, and shoreline locations. We take care of all towing, heavy lifting, and compliant disposal, ensuring a hassle-free experience
+                for every customer. 
               </p>
               <p>
-                Our Tarpon Springs boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Tarpon Springs, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Pinellas County, including Tarpon Springs, Palm Harbor, Dunedin, Clearwater, and surrounding communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
