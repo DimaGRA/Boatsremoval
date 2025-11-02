@@ -6,7 +6,7 @@ import { allCities } from "../data/cities_test.js";
 const TEMPLATE_CITY = "Pompano Beach"; // base template
 const TEMPLATE_COUNTY = "Broward"; // county to replace in template
 const TEMPLATE_FILE = "client/src/pages/PompanoBeach.tsx";
-const OUTPUT_DIR = "client/src/pages/SEO";
+const OUTPUT_DIR = "client/src/pages/SEO/westcoast";
 
 // === MAIN ===
 const templatePath = path.resolve(TEMPLATE_FILE);
