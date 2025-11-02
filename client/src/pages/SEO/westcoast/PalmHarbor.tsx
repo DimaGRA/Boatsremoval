@@ -26,12 +26,12 @@ export default function PalmHarbor() {
   ];
 
   const serviceAreas = [
-    "Palm Harbor Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Palm Harbor / Main Street Village",
+    "Wall Springs Park waterfront and adjacent marina areas",
+    "Innisbrook Resort and golf community",
+    "Lansbrook and Beacon Groves neighborhoods",
+    "Curlew Road commercial corridor",
+    "Honeymoon Island and surrounding area"
   ];
 
   const faqs = [
@@ -40,9 +40,7 @@ export default function PalmHarbor() {
       answer: "We offer same-day and next-day boat removal services in Palm Harbor, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Palm Harbor do you serve?",
-      answer: "We serve all of Palm Harbor including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Palm Harbor do you serve?", answer: "We serve all of Palm Harbor (Pinellas County) including Downtown Palm Harbor / Main Street Village, the Wall Springs Park waterfront and adjacent marina areas, the Innisbrook Resort and golf community, the Lansbrook and Beacon Groves neighborhoods, Honeymoon Island surrounding area, and the Curlew Road commercial corridor and surrounding residential areas."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm Harbor. We handle all permits and logistics."
@@ -376,26 +374,23 @@ export default function PalmHarbor() {
               About <span className="text-primary">Florida Boat Removal</span> in Palm Harbor, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Palm Harbor is a vibrant community in Pinellas County, known for its scenic parks, historic downtown village, and easy access to coastal areas like Wall Springs Park
+                and the Gulf of Mexico. With a strong recreational boating scene and several nearby marinas and slips, professional boat removal services remain an important local need.
+              </p> 
               <p>
-                Palm Harbor is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Downtown Palm Harbor and Main Street, close to Wall Springs Park and the marina access, or in residential neighborhoods along Curlew Road, 
+                Belcher Road, and the Innisbrook golf and resort area, <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, 
+                and eco‑friendly boat hauling and disposal services. We understand the permitting, logistical, and environmental concerns of working throughout Pinellas County’s coastal 
+                and inland waterways and have the experience to handle every situation.
+              </p> 
+              <p> 
+                Our Palm Harbor boat removal services include towing and hauling away old boats, sailboats, pontoons, and small yachts from private properties, 
+                marinas, storage lots, and shoreline locations. We manage all transport, heavy lifting, and responsible disposal, 
+                ensuring a smooth, stress‑free process for each customer. 
               </p>
-              <p>
-                Whether you're near the Palm Harbor Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Palm Harbor boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Palm Harbor, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Serving all of Pinellas County, including Palm Harbor, Dunedin, Clearwater, Tarpon Springs, and surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>

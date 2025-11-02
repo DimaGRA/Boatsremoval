@@ -26,12 +26,12 @@ export default function Dunedin() {
   ];
 
   const serviceAreas = [
-    "Dunedin Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Dunedin Marina and Bayfront Park",
+    "Honeymoon Island/Causeway access",
+    "Gulf-facing neighborhoods",
+    "Pinellas Trail and Edgewater Drive corridor",
+    "Skinner Boulevard",
+    "Ridgecrest/Curlew Road corridors"
   ];
 
   const faqs = [
@@ -40,9 +40,8 @@ export default function Dunedin() {
       answer: "We offer same-day and next-day boat removal services in Dunedin, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Dunedin do you serve?",
-      answer: "We serve all of Dunedin including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Dunedin do you serve?", 
+      answer: "We serve all of Dunedin (Pinellas County) including Downtown Dunedin and the waterfront around the Dunedin Marina and Bayfront Park, the Honeymoon Island/Causeway access and nearby Gulf-facing neighborhoods, the neighborhoods along the Pinellas Trail and Edgewater Drive corridor, and residential areas around Skinner Boulevard and the Ridgecrest/Curlew Road corridors"    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Dunedin. We handle all permits and logistics."
@@ -377,25 +376,18 @@ export default function Dunedin() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Dunedin is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Dunedin Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Dunedin boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Dunedin, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Dunedin is a coastal city in Pinellas County known for its historic downtown, waterfront parks, and close access 
+                to Honeymoon Island and the Gulf of Mexico. With a strong boating and fishing community, many residents keep vessels at local marinas and waterways, 
+                so professional boat removal services are often needed. 
+              </p> 
+              <p> Whether you're near Downtown Dunedin and Main Street, close to Dunedin Marina and Bayfront Park, or in residential neighborhoods along Skinner Boulevard, 
+                Edgewater Drive, and Curlew Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat 
+                disposal services. We understand the unique challenges of boat removal across Pinellas County’s coastal and inland waterways 
+                and have the expertise to handle every situation. 
+              </p> 
+              <p> Our Dunedin boat removal services include hauling away old boats, sailboats, and yachts from private properties, marinas, storage lots, and waterfront areas. We handle all transport, heavy lifting, and responsible disposal, making the process simple and stress-free for every customer. 
+              </p> 
+              <p> Serving all of Pinellas County, including Dunedin, Palm Harbor, Clearwater, Tarpon Springs, and surrounding communities. Contact us today for a free quote!              
               </p>
             </div>
           </div>
