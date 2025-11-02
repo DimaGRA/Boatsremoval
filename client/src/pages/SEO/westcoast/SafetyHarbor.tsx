@@ -41,7 +41,8 @@ export default function SafetyHarbor() {
     },
     {
       question: "What areas of Safety Harbor do you serve?", 
-      answer: "We serve all of Safety Harbor including Downtown, Main Street Village, the Philippe Park and waterfront area along Old Tampa Bay, the Safety Harbor Marina and Harbor Drive corridor, the residential neighborhoods around 20th Street and Bayshore Drive, the neighborhoods near Renshaw Bayou and Feather Sound border, and surrounding commercial corridors such as Main Street and Tenth Street."    },
+      answer: "We serve all of Safety Harbor including Downtown, Main Street Village, the Philippe Park and waterfront area along Old Tampa Bay, the Safety Harbor Marina and Harbor Drive corridor, the residential neighborhoods around 20th Street and Bayshore Drive, the neighborhoods near Renshaw Bayou and Feather Sound border, and surrounding commercial corridors such as Main Street and Tenth Street."   
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Safety Harbor. We handle all permits and logistics."
@@ -387,9 +388,13 @@ export default function SafetyHarbor() {
                 We understand the regulatory and logistical challenges of working around Pinellas County’s coastal shorelines and inland channels and have the experience 
                 to manage each job safely. 
               </p>
-              <p> Our Safety Harbor boat removal services include towing and removing derelict boats, sailboats, pontoons, and small yachts from private properties, marinas,
+              <p> 
+                Our Safety Harbor boat removal services include towing and removing derelict boats, sailboats, pontoons, and small yachts from private properties, marinas,
                 boat ramps, and shoreline locations. We handle all lifting, transportation, and compliant disposal with care, ensuring a smooth, 
-                hassle‑free process for every customer. </p> <p> Serving all of Pinellas County, including Safety Harbor, Palm Harbor, Clearwater, 
+                hassle‑free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including Safety Harbor, Palm Harbor, Clearwater, 
                 Dunedin, and neighboring communities. Contact us today for a free quote! 
               </p>
             </div>
