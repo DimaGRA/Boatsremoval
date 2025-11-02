@@ -97,11 +97,11 @@ import Wellington from "@/pages/SEO/Wellington"
 import Westlake from "@/pages/SEO/Westlake"
 import WestPalmBeach from "@/pages/SEO/WestPalmBeach"
 
-import EastLake from "@/pages/SEO/eastcoast/EastLake"
-import TarponSprings from "@/pages/SEO/eastcoast/TarponSprings"
-import PalmHarbor from "@/pages/SEO/eastcoast/PalmHarbor"
-import SafetyHarbor from "@/pages/SEO/eastcoast/SafetyHarbor"
-import Dunedin from "@/pages/SEO/eastcoast/Dunedin"
+import EastLake from "@/pages/SEO/wastcoast/EastLake"
+import TarponSprings from "@/pages/SEO/wastcoast/TarponSprings"
+import PalmHarbor from "@/pages/SEO/wastcoast/PalmHarbor"
+import SafetyHarbor from "@/pages/SEO/wastcoast/SafetyHarbor"
+import Dunedin from "@/pages/SEO/wastcoast/Dunedin"
 
 
 function Router() {
