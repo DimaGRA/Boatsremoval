@@ -41,7 +41,7 @@ export default function Acline() {
     },
     {
       question: "What areas of Acline do you serve?",
-      answer: "We serve all of Acline including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+      answer: "We serve all of Acline including the central Acline neighborhood, the Acline waterfront and marina area (Burnt Store Marina), the Burnt Store Road corridor, the Acline Heights / Harbor Heights boundary area, and surrounding residential neighborhoods such as Acline Estates."
     },
     {
       question: "Do you remove boats from residential properties?",
