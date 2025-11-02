@@ -40,7 +40,9 @@ export default function PalmHarbor() {
       answer: "We offer same-day and next-day boat removal services in Palm Harbor, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Palm Harbor do you serve?", answer: "We serve all of Palm Harbor (Pinellas County) including Downtown Palm Harbor / Main Street Village, the Wall Springs Park waterfront and adjacent marina areas, the Innisbrook Resort and golf community, the Lansbrook and Beacon Groves neighborhoods, Honeymoon Island surrounding area, and the Curlew Road commercial corridor and surrounding residential areas."    },
+      question: "What areas of Palm Harbor do you serve?", 
+      answer: "We serve all of Palm Harbor (Pinellas County) including Downtown Palm Harbor / Main Street Village, the Wall Springs Park waterfront and adjacent marina areas, the Innisbrook Resort and golf community, the Lansbrook and Beacon Groves neighborhoods, Honeymoon Island surrounding area, and the Curlew Road commercial corridor and surrounding residential areas."   
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm Harbor. We handle all permits and logistics."
