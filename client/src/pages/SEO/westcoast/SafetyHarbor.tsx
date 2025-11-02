@@ -375,26 +375,22 @@ export default function SafetyHarbor() {
               About <span className="text-primary">Florida Boat Removal</span> in Safety Harbor, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Safety Harbor is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Safety Harbor is a historic waterfront city in Pinellas County, celebrated for its mineral springs, tree‑lined streets, and scenic views of Old Tampa Bay.
+                Although compact in size, Safety Harbor has an active boating community with marinas, boat ramps, and shallow coastal waters, making professional boat removal services 
+                an important local resource. 
               </p>
-              <p>
-                Whether you're near the Safety Harbor Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+              <p> 
+                Whether you're near Downtown/Main Street, close to Philippe Park and the waterfront, or in residential areas along Bayshore Drive, 
+                7th Avenue, and the Safety Harbor Marina corridor, <span className="text-primary">Florida Boat Removal</span> offers prompt, reliable, 
+                and environmentally responsible boat hauling and disposal services. 
+                We understand the regulatory and logistical challenges of working around Pinellas County’s coastal shorelines and inland channels and have the experience 
+                to manage each job safely. 
               </p>
-              <p>
-                Our Safety Harbor boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Safety Harbor, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> Our Safety Harbor boat removal services include towing and removing derelict boats, sailboats, pontoons, and small yachts from private properties, marinas,
+                boat ramps, and shoreline locations. We handle all lifting, transportation, and compliant disposal with care, ensuring a smooth, 
+                hassle‑free process for every customer. </p> <p> Serving all of Pinellas County, including Safety Harbor, Palm Harbor, Clearwater, 
+                Dunedin, and neighboring communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
