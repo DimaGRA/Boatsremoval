@@ -41,7 +41,7 @@ export default function EastLake() {
     },
     {
       question: "What areas of East Lake do you serve?", 
-      answer: "We serve all of East Lake (Pinellas County) including central East Lake neighborhoods, the Lake Tarpon waterfront and John Chestnut Park area, the Curlew Road corridor, the northern neighborhoods adjacent to Tarpon Springs, and the southern neighborhoods bordering Oldsmar and nearby Pinellas County communities
+      answer: "We serve all of East Lake (Pinellas County) including central East Lake neighborhoods, the Lake Tarpon waterfront and John Chestnut Park area, the Curlew Road corridor, the northern neighborhoods adjacent to Tarpon Springs, and the southern neighborhoods bordering Oldsmar and nearby Pinellas County communities"
     },
     {
       question: "Do you remove boats from residential properties?",
