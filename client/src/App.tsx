@@ -97,6 +97,12 @@ import Wellington from "@/pages/SEO/Wellington"
 import Westlake from "@/pages/SEO/Westlake"
 import WestPalmBeach from "@/pages/SEO/WestPalmBeach"
 
+import EastLake from "@/pages/SEO/eastcoast/EastLake"
+import TarponSprings from "@/pages/SEO/eastcoast/TarponSprings"
+import PalmHarbor from "@/pages/SEO/eastcoast/PalmHarbor"
+import SafetyHarbor from "@/pages/SEO/eastcoast/SafetyHarbor"
+import Dunedin from "@/pages/SEO/eastcoast/Dunedin"
+
 
 function Router() {
   return (
@@ -192,6 +198,11 @@ function Router() {
       <Route path="/boat-removal-fl-wellington" component={Wellington} />
       <Route path="/boat-removal-fl-westlake" component={Westlake} />
       <Route path="/boat-removal-fl-west-palm-beach" component={WestPalmBeach} />
+      <Route path="/boat-removal-fl-east-lake" component={EastLake} />
+      <Route path="/boat-removal-fl-tarpon-springs" component={TarponSprings} />
+      <Route path="/boat-removal-fl-palm-harbor" component={PalmHarbor} />
+      <Route path="/boat-removal-fl-safety-harbor" component={SafetyHarbor} />
+      <Route path="/boat-removal-fl-dunedin" component={Dunedin} />
       <Route component={NotFound} />
     </Switch>
   );
