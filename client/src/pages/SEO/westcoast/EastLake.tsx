@@ -26,12 +26,12 @@ export default function EastLake() {
   ];
 
   const serviceAreas = [
-    "East Lake Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "East Lake neighborhoods",
+    "Lake Tarpon waterfront",
+    "John Chestnut Park area",
+    "Curlew Road corridor",
+    "northern neighborhoods adjacent to Tarpon Springs",
+    "southern neighborhoods bordering Oldsmar"
   ];
 
   const faqs = [
@@ -40,8 +40,8 @@ export default function EastLake() {
       answer: "We offer same-day and next-day boat removal services in East Lake, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of East Lake do you serve?",
-      answer: "We serve all of East Lake including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
+      question: "What areas of East Lake do you serve?", 
+      answer: "We serve all of East Lake (Pinellas County) including central East Lake neighborhoods, the Lake Tarpon waterfront and John Chestnut Park area, the Curlew Road corridor, the northern neighborhoods adjacent to Tarpon Springs, and the southern neighborhoods bordering Oldsmar and nearby Pinellas County communities
     },
     {
       question: "Do you remove boats from residential properties?",
