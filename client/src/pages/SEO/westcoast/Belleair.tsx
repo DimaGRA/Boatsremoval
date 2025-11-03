@@ -26,13 +26,13 @@ export default function Belleair() {
   ];
 
   const serviceAreas = [
-    "Belleair Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+    "Belleair Beach",
+    "Belleair Bluffs",
+    "Belleair Shore",
+    "Belleair Country Club",
+    "Indian Rocks Road",
+    "Belleview Island"
+      ];
 
   const faqs = [
     {
@@ -40,9 +40,8 @@ export default function Belleair() {
       answer: "We offer same-day and next-day boat removal services in Belleair, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Belleair do you serve?",
-      answer: "We serve all of Belleair including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Belleair do you serve?", 
+      answer: "We serve all of Belleair including Belleair Beach, Belleair Bluffs, Belleair Shore, Belleair Country Club, Belleview Island and surrounding neighborhoods in Pinellas County."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Belleair. We handle all permits and logistics."
