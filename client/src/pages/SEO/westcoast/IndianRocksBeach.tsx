@@ -26,12 +26,12 @@ export default function IndianRocksBeach() {
   ];
 
   const serviceAreas = [
-    "Indian Rocks Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gulf Boulevard beachfront",
+    "Indian Rocks Beach Marina",
+    "Kolb Park",
+    "the 4th Street area",
+    "Walsingham Road corridor",
+    "Indian Rock Beach Island"
   ];
 
   const faqs = [
@@ -40,9 +40,8 @@ export default function IndianRocksBeach() {
       answer: "We offer same-day and next-day boat removal services in Indian Rocks Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Indian Rocks Beach do you serve?",
-      answer: "We serve all of Indian Rocks Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Indian Rocks Beach do you serve?", 
+      answer: "We serve all of Indian Rocks Beach including Gulf Boulevard beachfront, Indian Rocks Beach Marina, Kolb Park and the 4th Street area, Walsingham Road corridor, and surrounding neighborhoods in Pinellas County."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Indian Rocks Beach. We handle all permits and logistics."
