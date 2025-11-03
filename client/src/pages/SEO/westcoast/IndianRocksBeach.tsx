@@ -376,26 +376,29 @@ export default function IndianRocksBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Indian Rocks Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Indian Rocks Beach is a relaxed barrier island community in Pinellas County, celebrated for its sugar‑white 
+                sands, calm Gulf waters, and lively local beach culture. With direct access to the Intracoastal Waterway and
+                nearby marinas and boat ramps, the area supports an active recreational boating community, so professional 
+                boat removal services are frequently needed. 
+              </p> 
               <p>
-                Indian Rocks Beach is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Indian Rocks Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Indian Rocks Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Indian Rocks Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Whether you're near Gulf Boulevard and the Indian Rocks Beach shoreline, close to the Indian Rocks Beach
+                Marina and Kolb Park, or in residential streets off Walsingham Road, Bay Pines Boulevard, and the Gulf‑side
+                neighborhoods around 4th Street, <span className="text-primary">Florida Boat Removal</span> provides prompt, 
+                dependable, and environmentally responsible boat hauling and disposal services. 
+                We understand the permitting, logistical, and ecological concerns of working around Pinellas County’s 
+                coastal waters and have the experience to handle every situation. 
+              </p> 
+              <p> 
+                Our Indian Rocks Beach boat removal services include towing and hauling away derelict boats, sailboats, 
+                pontoons, and small yachts from private properties, marinas, storage yards, and shoreline locations.
+                We manage all transport, heavy lifting, and compliant disposal with care to make the process straightforward 
+                and stress‑free for each customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including Indian Rocks Beach, Belleair, Clearwater, Largo, 
+                and surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
