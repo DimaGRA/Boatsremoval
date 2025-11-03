@@ -377,25 +377,28 @@ export default function Belleair() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Belleair is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Belleair is an elegant waterfront town in Pinellas County, known for its tree‑lined streets, manicured golf 
+                courses, and proximity to the Gulf of Mexico and beautiful beaches. 
+                Although compact, Belleair has a strong boating presence with nearby marinas, waterways, and shoreline
+                properties, so professional boat removal services are often necessary. 
               </p>
               <p>
-                Whether you're near the Belleair Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near the Belleair Golf Club and Country Club area, close to Belleair Beach and the shoreline,
+                or in residential neighborhoods around Belleair Bluffs and the local waterfront corridors, 
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, 
+                and environmentally responsible boat hauling and disposal services. 
+                We understand the permitting, logistical, and environmental challenges of working across
+                Pinellas County’s coastal and inland waters and have the experience to handle every situation.
               </p>
               <p>
-                Our Belleair boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Belleair boat removal services include towing and hauling away old boats, sailboats, pontoons,
+                and small yachts from private properties, marinas, storage lots, and shoreline locations.
+                We manage all lifting, transport, and compliant disposal with care to ensure a smooth, hassle‑free process
+                for every customer. 
               </p>
-              <p>
-                Serving all of Pinellas County including Belleair, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Serving all of Pinellas County, including Belleair, Belleair Beach, Belleair Bluffs, Clearwater,
+                and surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
