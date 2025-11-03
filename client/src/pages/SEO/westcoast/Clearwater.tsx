@@ -376,26 +376,29 @@ export default function Clearwater() {
               About <span className="text-primary">Florida Boat Removal</span> in Clearwater, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Clearwater is a vibrant coastal city in Pinellas County, famed for its wide white-sand beaches, 
+                lively waterfront, and access to Clearwater Harbor and the Gulf of Mexico. 
+                With a robust recreational boating scene and numerous marinas and boat ramps,
+                professional boat removal services remain an important local resource. 
+              </p> 
+              <p> 
+                Whether you're near Clearwater Beach and Pier 60, close to Downtown Clearwater and Coachman Park, 
+                or in residential neighborhoods along Sand Key, Island Estates, and the Sand Key Bridge corridor, 
+                <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, 
+                and environmentally responsible boat hauling and disposal services. 
+                We understand the permitting, logistical, and ecological considerations of working across
+                Pinellas County’s coastal waters and inland channels and have the expertise to handle any situation. 
+              </p> 
               <p>
-                Clearwater is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Clearwater Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Clearwater boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Clearwater, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Our Clearwater boat removal services include towing and hauling away old boats, sailboats, pontoons, 
+                and small yachts from private properties, marinas, storage yards, and shoreline locations. 
+                We handle all transport, heavy lifting, and compliant disposal with care, ensuring a smooth, stress-free 
+                process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including Clearwater, Clearwater Beach, Dunedin, Palm Harbor,
+                and surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
