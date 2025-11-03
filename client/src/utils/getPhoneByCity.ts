@@ -5,7 +5,7 @@ import { allCities } from "@/data/cities";
  * Falls back to default if not found.
  */
 export function getPhoneByCity(cityName?: string): string {
-  const defaultPhone = "779-220-0187";
+  const defaultPhone = "754-224-8555";
 
   if (!cityName) return defaultPhone;
 
