@@ -26,12 +26,13 @@ export default function Clearwater() {
   ];
 
   const serviceAreas = [
-    "Clearwater Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Clearwater Beach",
+    "Downtown Clearwater",
+    "Sand Key",
+    "Island Estates",
+    "Coachman Park",
+    "Old Clearwater Bay",
+    "Bayside Bridge area"
   ];
 
   const faqs = [
@@ -40,9 +41,8 @@ export default function Clearwater() {
       answer: "We offer same-day and next-day boat removal services in Clearwater, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Clearwater do you serve?",
-      answer: "We serve all of Clearwater including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+      question: "What areas of Clearwater do you serve?", 
+      answer: "We serve all of Clearwater including Clearwater Beach, Downtown Clearwater, Sand Key, Bayside Bridge area, Island Estates, Old Clearwater Bay, Coachman Park, and surrounding neighborhoods in Pinellas County."    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Clearwater. We handle all permits and logistics."
