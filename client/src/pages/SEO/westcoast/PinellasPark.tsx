@@ -30,7 +30,6 @@ export default function PinellasPark() {
     "Park Boulevard commercial corridor",
     "Pinellas Park Municipal Complex",
     "Pinellas Park Golf Course",
-    "Pinellas Park Golf Course",
     "Lake Vista neighborhoods"
   ];
 
