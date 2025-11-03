@@ -47,7 +47,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-background/80">779-220-0187</li>
+              <li className="text-background/80">754-224-8555</li>
               <li><a href="mailto:quote@boatsremoval.com" className="text-background/80 hover:text-primary transition-colors">quote@boatsremoval.com</a></li>
               <li className="text-background/80">24/7 Service</li>
             </ul>
