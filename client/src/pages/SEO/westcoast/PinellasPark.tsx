@@ -40,7 +40,8 @@ export default function PinellasPark() {
     },
     {
       question: "What areas of Pinellas Park do you serve?",
-      answer: "We serve all of Pinellas Park including the Pinellas Park Municipal Complex, the Park Boulevard commercial corridor, areas along 49th Street North, the Pinellas Park Golf Course and Lake Vista neighborhoods, and surrounding residential areas in Pinellas County."    },
+      answer: "We serve all of Pinellas Park including the Pinellas Park Municipal Complex, the Park Boulevard commercial corridor, areas along 49th Street North, the Pinellas Park Golf Course and Lake Vista neighborhoods, and surrounding residential areas in Pinellas County."    
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Pinellas Park. We handle all permits and logistics."

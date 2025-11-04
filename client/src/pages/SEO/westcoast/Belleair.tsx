@@ -41,7 +41,8 @@ export default function Belleair() {
     },
     {
       question: "What areas of Belleair do you serve?", 
-      answer: "We serve all of Belleair including Belleair Beach, Belleair Bluffs, Belleair Shore, Belleair Country Club, Belleview Island and surrounding neighborhoods in Pinellas County."    },
+      answer: "We serve all of Belleair including Belleair Beach, Belleair Bluffs, Belleair Shore, Belleair Country Club, Belleview Island and surrounding neighborhoods in Pinellas County."    
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Belleair. We handle all permits and logistics."

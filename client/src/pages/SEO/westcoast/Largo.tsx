@@ -42,8 +42,9 @@ export default function Largo() {
       answer: "We offer same-day and next-day boat removal services in Largo, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question": "What areas of Largo do you serve?", 
-      answer: "We serve all of Largo including Largo Central Park, Largo Beach (East Bay Drive shoreline), Fairway Village, Anona, Palm Hill, the Largo Cultural Center area, Highland Avenue corridor, Ulmerton Road, and surrounding neighborhoods in Pinellas County."    },
+      question: "What areas of Largo do you serve?", 
+      answer: "We serve all of Largo including Largo Central Park, Largo Beach (East Bay Drive shoreline), Fairway Village, Anona, Palm Hill, the Largo Cultural Center area, Highland Avenue corridor, Ulmerton Road, and surrounding neighborhoods in Pinellas County."    
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Largo. We handle all permits and logistics."
@@ -386,7 +387,7 @@ export default function Largo() {
               <p>
                 Whether you're near Largo Central Park and the Largo Cultural Center, close to the Largo Beach 
                 and East Bay Drive shoreline, or in residential areas along Highland Avenue, Indian Rocks Road, 
-                and the Ulmerton Road corridor, <span class="text-primary">Florida Boat Removal</span> delivers fast, 
+                and the Ulmerton Road corridor, <span className="text-primary">Florida Boat Removal</span> delivers fast, 
                 dependable, and environmentally responsible boat hauling and disposal services.
                 We understand the permitting, logistical, and environmental challenges of working across Pinellas County’s 
                 coastal and inland waterways and have the experience to handle every situation. 

@@ -95,9 +95,16 @@ export const allCities: City[] = [
   { name: "Westlake", lat: 26.7059, lon: -80.3118, county: "Palm Beach", phone: "561-800-0744" },
   { name: "West Palm Beach", lat: 26.7153, lon: -80.0534, county: "Palm Beach", phone: "561-800-0744" },
 
-  { name: "East Lake", lat: 28.1241, lon: -82.7069, county: "Pinellas" },
-  { name: "Tarpon Springs", lat: 28.1474, lon: -82.7568, county: "Pinellas" },
-  { name: "Palm Harbor", lat: 28.0564, lon: -82.7567, county: "Pinellas" },  
-  { name: "Safety Harbor", lat: 27.9994, lon: -82.6923, county: "Pinellas" },
-  { name: "Dunedin", lat: 28.0198, lon: -82.7873, county: "Pinellas" }
+  { name: "East Lake", lat: 28.1241, lon: -82.7069, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Tarpon Springs", lat: 28.1474, lon: -82.7568, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Palm Harbor", lat: 28.0564, lon: -82.7567, county: "Pinellas", phone: "727-298-0155"  },  
+  { name: "Safety Harbor", lat: 27.9994, lon: -82.6923, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Dunedin", lat: 28.0198, lon: -82.7873, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Clearwater", lat: 27.9659, lon: -82.8001, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Belleair", lat: 27.9136, lon: -82.8184, county: "Pinellas", phone: "727-298-0155" },
+  { name: "Largo", lat: 27.9095, lon: -82.7873, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Pinellas Park", lat: 27.8427, lon: -82.6995, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Indian Rocks Beach", lat: 27.9026, lon: -82.8226, county: "Pinellas", phone: "727-298-0155"  }
+
+
 ];

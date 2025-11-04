@@ -102,6 +102,11 @@ import TarponSprings from "@/pages/SEO/westcoast/TarponSprings"
 import PalmHarbor from "@/pages/SEO/westcoast/PalmHarbor"
 import SafetyHarbor from "@/pages/SEO/westcoast/SafetyHarbor"
 import Dunedin from "@/pages/SEO/westcoast/Dunedin"
+import Clearwater from "@/pages/SEO/westcoast/Clearwater"
+import Belleair from "@/pages/SEO/westcoast/Belleair"
+import Largo from "@/pages/SEO/westcoast/Largo"
+import PinellasPark from "@/pages/SEO/westcoast/PinellasPark"
+import IndianRocksBeach from "@/pages/SEO/westcoast/IndianRocksBeach"
 
 
 function Router() {
@@ -203,6 +208,11 @@ function Router() {
       <Route path="/boat-removal-fl-palm-harbor" component={PalmHarbor} />
       <Route path="/boat-removal-fl-safety-harbor" component={SafetyHarbor} />
       <Route path="/boat-removal-fl-dunedin" component={Dunedin} />
+      <Route path="/boat-removal-fl-clearwater" component={Clearwater} />
+      <Route path="/boat-removal-fl-belleair" component={Belleair} />
+      <Route path="/boat-removal-fl-largo" component={Largo} />
+      <Route path="/boat-removal-fl-pinellas-park" component={PinellasPark} />
+      <Route path="/boat-removal-fl-indian-rocks-beach" component={IndianRocksBeach} />
       <Route component={NotFound} />
     </Switch>
   );

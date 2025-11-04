@@ -42,7 +42,8 @@ export default function Clearwater() {
     },
     {
       question: "What areas of Clearwater do you serve?", 
-      answer: "We serve all of Clearwater including Clearwater Beach, Downtown Clearwater, Sand Key, Bayside Bridge area, Island Estates, Old Clearwater Bay, Coachman Park, and surrounding neighborhoods in Pinellas County."    },
+      answer: "We serve all of Clearwater including Clearwater Beach, Downtown Clearwater, Sand Key, Bayside Bridge area, Island Estates, Old Clearwater Bay, Coachman Park, and surrounding neighborhoods in Pinellas County."    
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Clearwater. We handle all permits and logistics."

@@ -41,7 +41,8 @@ export default function IndianRocksBeach() {
     },
     {
       question: "What areas of Indian Rocks Beach do you serve?", 
-      answer: "We serve all of Indian Rocks Beach including Gulf Boulevard beachfront, Indian Rocks Beach Marina, Kolb Park and the 4th Street area, Walsingham Road corridor, and surrounding neighborhoods in Pinellas County."    },
+      answer: "We serve all of Indian Rocks Beach including Gulf Boulevard beachfront, Indian Rocks Beach Marina, Kolb Park and the 4th Street area, Walsingham Road corridor, and surrounding neighborhoods in Pinellas County."    
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Indian Rocks Beach. We handle all permits and logistics."
