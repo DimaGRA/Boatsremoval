@@ -91,7 +91,7 @@ export const allCities: City[] = [
   { name: "South Bay", lat: 26.6631, lon: -80.7164, county: "Palm Beach", phone: "561-800-0744" },
   { name: "South Palm Beach", lat: 26.5864, lon: -80.0375, county: "Palm Beach", phone: "561-800-0744" },
   { name: "Tequesta", lat: 26.9698, lon: -80.1289, county: "Palm Beach", phone: "561-800-0744" },
-  { name: "Wellington", lat: 26.6618, lon: -80.2684, county: "Palm Beach", phone: "561-800-0744" },
+  { name: "Wellington", lat: 26.6618, lon: -80.2685, county: "Palm Beach", phone: "561-800-0744" },
   { name: "Westlake", lat: 26.7059, lon: -80.3118, county: "Palm Beach", phone: "561-800-0744" },
   { name: "West Palm Beach", lat: 26.7153, lon: -80.0534, county: "Palm Beach", phone: "561-800-0744" },
 
