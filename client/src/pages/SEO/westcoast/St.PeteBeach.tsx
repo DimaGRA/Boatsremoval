@@ -377,25 +377,27 @@ export default function St.PeteBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                St. Pete Beach is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                St. Pete Beach is a charming Gulf Coast city in Pinellas County, prized for its powder‑white sand, 
+                lively beachfront districts, and a strong tradition of boating and seaside recreation.
+                The city encompasses notable districts such as Pass‑a‑Grille and the Corey Avenue area and draws boaters
+                year‑round thanks to its direct access to the Gulf of Mexico and nearby marinas.
               </p>
               <p>
-                Whether you're near the St. Pete Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+               Whether you’re near the Pass‑a‑Grille shoreline and Merry Pier, close to the Corey Avenue shops and dining corridor, 
+                or along Upham Beach and the Blind Pass waterfront, Florida Boat Removal delivers prompt, professional, 
+                and environmentally conscious boat hauling and disposal services. We’re familiar with the permitting, logistical, 
+                and environmental considerations of working throughout Pinellas County’s coastal waters and have the experience to
+                manage every situation safely.
               </p>
               <p>
-                Our St. Pete Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our St. Pete Beach boat removal offerings include towing and removal of derelict vessels, pontoons, sailboats, 
+                and small yachts from private properties, docks, marinas, storage yards, and shoreline locations.
+                We handle all lifting, transport, and compliant disposal with care to make the process straightforward and stress‑free 
+                for each customer.
               </p>
               <p>
-                Serving all of Pinellas County including St. Pete Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving the wider Pinellas County area, including St. Pete Beach, Pass‑a‑Grille, Treasure Island, 
+                Madeira Beach, and neighboring communities. Contact us today for a free quote.
               </p>
             </div>
           </div>
