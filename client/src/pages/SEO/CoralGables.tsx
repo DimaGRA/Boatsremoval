@@ -14,7 +14,7 @@ import { getPhoneByCity } from "@/utils/getPhoneByCity";
 export default function CoralGables() {
   const [, setLocation] = useLocation();
    const nearbyCities = getNearbyCities("Coral Gables", 70); // find up to 60 closest
-  const phone = getPhoneByCity("Coral Gables");
+  const phone = getPhoneByCity("Coral Gables") || "786-343-5111";
   
   const services = [
     "Boat Hauling & Transport",
