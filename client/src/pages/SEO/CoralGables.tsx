@@ -13,7 +13,7 @@ import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
 export default function CoralGables() {
   const [, setLocation] = useLocation();
-  {/*  const nearbyCities = getNearbyCities("Coral Gables", 60); // find up to 60 closest */}
+  const nearbyCities = getNearbyCities("Coral Gables", 60); // find up to 60 closest
   const phone = getPhoneByCity("Coral Gables");
   
   const services = [
@@ -404,7 +404,7 @@ export default function CoralGables() {
           </div>
         </section>
         {/* Nearby Cities Section */}
-    {/*    <ServiceAreaList cities={nearbyCities} /> */}
+    <ServiceAreaList cities={nearbyCities} />
       </main>
 
       <Footer />
