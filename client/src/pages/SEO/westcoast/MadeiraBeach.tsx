@@ -376,26 +376,26 @@ export default function MadeiraBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Madeira Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Madeira Beach is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Madeira Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Madeira Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Madeira Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Madeira Beach is a lively beachfront city in Pinellas County, celebrated for its wide Gulf beaches,
+                vibrant John’s Pass waterfront, and strong boating and fishing culture. With direct access to the Gulf of Mexico,
+                multiple marinas, and popular recreational waterways, professional boat removal services are frequently in demand.
+              </p> 
+              <p> 
+                Whether you're near the Gulf Boulevard beachfront and Madeira Beach Causeway, close to John’s Pass Village and the boardwalk,
+                or in the marina and shoreline areas around Archibald Beach Park and the Madeira Beach Marina, 
+                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
+                and disposal services. We understand the permitting, logistical, and ecological challenges of working across 
+                Pinellas County’s coastal waters and have the experience to handle every situation. 
+              </p> 
+              <p> 
+                Our Madeira Beach boat removal services include towing and hauling away derelict boats, pontoons, sailboats, 
+                and small yachts from private properties, docks, marinas, storage yards, and shoreline locations. We manage all transport,
+                heavy lifting, and compliant disposal with care to ensure a smooth, stress‑free process for each customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including Madeira Beach, Treasure Island, Indian Rocks Beach, St. Pete Beach, and
+                surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
