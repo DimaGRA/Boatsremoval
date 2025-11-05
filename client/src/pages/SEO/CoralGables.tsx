@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import RandomBoatGallery from "@/components/RandomBoatGallery";
-import ServiceAreaList from "@/components/ServiceAreaList";
+//import RandomBoatGallery from "@/components/RandomBoatGallery";
+//import ServiceAreaList from "@/components/ServiceAreaList";
 import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
@@ -107,7 +107,7 @@ export default function CoralGables() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Coral Gables" count={2} />
+   // <RandomBoatGallery cityName="Coral Gables" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -402,7 +402,7 @@ export default function CoralGables() {
           </div>
         </section>
         {/* Nearby Cities Section */}
-        <ServiceAreaList cities={nearbyCities} />
+  //      <ServiceAreaList cities={nearbyCities} />
       </main>
 
       <Footer />
