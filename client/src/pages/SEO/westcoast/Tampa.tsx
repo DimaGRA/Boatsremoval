@@ -47,7 +47,7 @@ export default function Tampa() {
     { 
       question: "What areas of Tampa do you serve?",
       answer: "We serve all of Tampa including Downtown Tampa, Ybor City, Hyde Park, Channel District, Westshore, Tampa Heights, Carrollwood, South Tampa, Davis Islands, Seminole Heights, and the University Area in Hillsborough County." 
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tampa. We handle all permits and logistics."
@@ -389,7 +389,7 @@ export default function Tampa() {
               <p> 
                 Whether you're near the Downtown Tampa waterfront and the Riverwalk, close to Davis Islands and Harbour Island,
                 or around Bayshore Boulevard, the Channel District, or Port Tampa Bay,
-                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible
                 boat disposal services. We understand the permitting, logistical, and ecological challenges of working across
                 Hillsborough County’s inland and coastal waterways and have the experience to handle any situation. 
               </p>

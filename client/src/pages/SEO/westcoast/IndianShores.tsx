@@ -40,7 +40,7 @@ export default function IndianShores() {
     { 
       question: "What areas of Indian Shores do you serve?", 
       answer: "We serve all of Indian Shores including the Gulf Boulevard beachfront, the Indian Shores Municipal Center, 86th Avenue area, Indian Shores Beach Park, and surrounding neighborhoods in Pinellas County."
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Indian Shores. We handle all permits and logistics."
@@ -378,7 +378,7 @@ export default function IndianShores() {
                 Indian Shores is a relaxed barrier‑island town in Pinellas County, prized for its soft white beaches, calm Gulf waters, and strong community focus on coastal conservation. With direct access to the Intracoastal Waterway and nearby marinas and boat ramps, Indian Shores supports an active recreational boating community, so professional boat removal services remain an important local resource.
               </p> 
               <p>
-                Whether you're near Gulf Boulevard and the Indian Shores beachfront, close to the Indian Shores Marina and Kolb Park, or in residential streets off Walsingham Road and 4th Street, <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally responsible boat hauling and disposal services. We understand the permitting, logistical, and ecological challenges of working across Pinellas County’s coastal and intercoastal waters and have the experience to handle every situation.
+                Whether you're near Gulf Boulevard and the Indian Shores beachfront, close to the Indian Shores Marina and Kolb Park, or in residential streets off Walsingham Road and 4th Street, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally responsible boat hauling and disposal services. We understand the permitting, logistical, and ecological challenges of working across Pinellas County’s coastal and intercoastal waters and have the experience to handle every situation.
               </p>
               <p> 
                 Our Indian Shores boat removal services include towing and hauling away old boats, pontoons, sailboats, and small yachts from private properties, marinas, storage yards, and shoreline locations. We manage all transport, heavy lifting, and compliant disposal with care to ensure a smooth, stress‑free process for every customer. 

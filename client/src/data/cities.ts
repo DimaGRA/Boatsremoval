@@ -104,7 +104,18 @@ export const allCities: City[] = [
   { name: "Belleair", lat: 27.9136, lon: -82.8184, county: "Pinellas", phone: "727-298-0155" },
   { name: "Largo", lat: 27.9095, lon: -82.7873, county: "Pinellas", phone: "727-298-0155"  },
   { name: "Pinellas Park", lat: 27.8427, lon: -82.6995, county: "Pinellas", phone: "727-298-0155"  },
-  { name: "Indian Rocks Beach", lat: 27.9026, lon: -82.8226, county: "Pinellas", phone: "727-298-0155"  }
+  { name: "Indian Rocks Beach", lat: 27.9026, lon: -82.8226, county: "Pinellas", phone: "727-298-0155"  },
+  { name: "Indian Shores", lat: 27.8169, lon: -82.8190, county: "Pinellas", phone: "727-298-0155" },
+  { name: "Madeira Beach", lat: 27.8320, lon: -82.7386, county: "Pinellas", phone: "727-298-0155" },
+  { name: "Lutz", lat: 28.1328, lon: -82.4701, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Seminole", lat: 27.8394, lon: -82.7866, county: "Pinellas", phone: "727-298-0155" },
+  { name: "St. Pete Beach", lat: 27.7302, lon: -82.7390, county: "Pinellas", phone: "727-298-0155" },
+  { name: "Treasure Island", lat: 27.7405, lon: -82.7541, county: "Pinellas", phone: "727-298-0155" },
+  { name: "St. Petersburg", lat: 27.7676, lon: -82.6403, county: "Pinellas", phone: "727-298-0155" },
+  { name: "Tampa", lat: 27.9506, lon: -82.4572, county: "Hillsborough", phone: "727-298-0155" },
+  { name: "Town 'N' Country", lat: 28.0325, lon: -82.5329, county: "Hillsborough", phone: "727-298-0155" },
+  { name: "Palm River-Clair Mel", lat: 27.9144, lon: -82.3746, county: "Hillsborough", phone: "727-298-0155" }
+
 
 
 ];

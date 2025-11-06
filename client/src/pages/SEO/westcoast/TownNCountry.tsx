@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function PalmRiver-ClairMel() {
+export default function TownNCountry() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("Palm River-Clair Mel", 60); // find up to 60 closest
-  const phone = getPhoneByCity("Palm River-Clair Mel");
+   const nearbyCities = getNearbyCities("Town 'N' Country", 60); // find up to 60 closest
+  const phone = getPhoneByCity("Town 'N' Country");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,46 +26,46 @@ export default function PalmRiver-ClairMel() {
   ];
 
   const serviceAreas = [
-    "Palm River",
-    "Clair-Mel City",
-    "the 78th Street area",
-    "the U.S. Highway 41 corridor",
-    "Palm River Road area"   
+    "Bay Crest Park",
+    "Countryway",
+    "Rocky Creek",
+    "Sweetwater Creek",
+    "Town 'n' Country Center area"    
   ];
 
   const faqs = [
     {
-      question: "How quickly can you remove a boat in Palm River-Clair Mel?",
-      answer: "We offer same-day and next-day boat removal services in Palm River-Clair Mel, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "How quickly can you remove a boat in Town 'N' Country?",
+      answer: "We offer same-day and next-day boat removal services in Town 'N' Country, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     { 
-      question: "What areas of Palm River-Clair Mel do you serve?", 
-      answer: "We serve all of Palm River-Clair Mel including Palm River, Clair-Mel City, the 78th Street area, the U.S. Highway 41 corridor, and the Palm River Road area in Hillsborough County." 
-    }
-    {
-      question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm River-Clair Mel. We handle all permits and logistics."
+      question: "What areas of Town 'n' Country do you serve?",
+      answer: "We serve all of Town 'n' Country including Bay Crest Park, Countryway, Rocky Creek, Sweetwater Creek, and the Town 'n' Country Center area in Hillsborough County." 
     },
     {
-      question: "Is boat removal in Palm River-Clair Mel expensive?",
-      answer: "Our Palm River-Clair Mel boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      question: "Do you remove boats from residential properties?",
+      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Town 'N' Country. We handle all permits and logistics."
+    },
+    {
+      question: "Is boat removal in Town 'N' Country expensive?",
+      answer: "Our Town 'N' Country boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal Palm River-Clair Mel FL | Professional Disposal & Dismantling Services</title>
-        <meta name="description" content="Expert boat removal services in Palm River-Clair Mel, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
-        <meta property="og:title" content="Boat Removal Palm River-Clair Mel FL | Professional Services" />
+        <title>Boat Removal Town 'N' Country FL | Professional Disposal & Dismantling Services</title>
+        <meta name="description" content="Expert boat removal services in Town 'N' Country, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
+        <meta property="og:title" content="Boat Removal Town 'N' Country FL | Professional Services" />
         <meta 
           property="og:description" 
-          content="Expert boat removal services in Palm River-Clair Mel, Florida. Free quotes, same-day service, eco-friendly disposal." 
+          content="Expert boat removal services in Town 'N' Country, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-palm-river-clair-mel" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-town-'n'-country" />
       </Helmet>
-     <Header cityName="Palm River-Clair Mel" />
+     <Header cityName="Town 'N' Country" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -74,13 +74,13 @@ export default function PalmRiver-ClairMel() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Palm River-Clair Mel, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Town 'N' Country, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in Palm River-Clair Mel, FL
+                Professional Boat Removal Services in Town 'N' Country, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for Palm River-Clair Mel residents and businesses. 
+                Expert boat disposal and dismantling services for Town 'N' Country residents and businesses. 
                 We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
                 Fast, eco-friendly, and affordable solutions for Hillsborough County.
               </p>
@@ -106,16 +106,16 @@ export default function PalmRiver-ClairMel() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Palm River-Clair Mel" count={2} />
+    <RandomBoatGallery cityName="Town 'N' Country" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Florida Boat Removal</span> in Palm River-Clair Mel?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in Town 'N' Country?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving Palm River-Clair Mel and all of Hillsborough County
+                We're the trusted boat removal experts serving Town 'N' Country and all of Hillsborough County
               </p>
             </div>
 
@@ -127,7 +127,7 @@ export default function PalmRiver-ClairMel() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand Palm River-Clair Mel's unique coastal environment and local regulations.
+                    Based in Florida, we understand Town 'N' Country's unique coastal environment and local regulations.
                   </p>
                 </CardContent>
               </Card>
@@ -139,7 +139,7 @@ export default function PalmRiver-ClairMel() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in Palm River-Clair Mel.
+                    Fast response times with same-day removal available for urgent situations in Town 'N' Country.
                   </p>
                 </CardContent>
               </Card>
@@ -205,7 +205,7 @@ export default function PalmRiver-ClairMel() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for Palm River-Clair Mel residents.
+                  or a derelict boat that needs immediate removal, we provide complete solutions for Town 'N' Country residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -227,7 +227,7 @@ export default function PalmRiver-ClairMel() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in Palm River-Clair Mel</CardTitle>
+                  <CardTitle>Areas We Serve in Town 'N' Country</CardTitle>
                   <CardDescription>Complete coverage throughout the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -256,7 +256,7 @@ export default function PalmRiver-ClairMel() {
                 Our Simple 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in Palm River-Clair Mel
+                Fast and hassle-free boat removal in Town 'N' Country
               </p>
             </div>
 
@@ -270,7 +270,7 @@ export default function PalmRiver-ClairMel() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in Palm River-Clair Mel. 
+                    Call us or fill out our online form with details about your boat and location in Town 'N' Country. 
                     Send photos for faster quotes.
                   </p>
                 </CardContent>
@@ -316,7 +316,7 @@ export default function PalmRiver-ClairMel() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in Palm River-Clair Mel
+                Common questions about boat removal in Town 'N' Country
               </p>
             </div>
 
@@ -355,7 +355,7 @@ export default function PalmRiver-ClairMel() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to speak with our boat removal specialist serving Palm River-Clair Mel and all of Hillsborough County.
+      to speak with our boat removal specialist serving Town 'N' Country and all of Hillsborough County.
       Pricing is based on vessel size, condition, and accessibility.
     </p>
 <Button
@@ -372,31 +372,30 @@ export default function PalmRiver-ClairMel() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Florida Boat Removal</span> in Palm River-Clair Mel, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in Town 'N' Country, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-             <p> 
-               Palm River‑Clair Mel is a mixed residential and industrial community in eastern Hillsborough County, positioned just east 
-               of Tampa and noted for its neighborhoods, local waterways, and proximity to regional transportation corridors.
-               Though not a coastal town, its network of canals, nearby boat ramps, and access to the Hillsborough River system make 
-               boat removal a service often required by residents and property owners. 
-             </p> 
               <p> 
-                Whether you’re located in Palm River, Clair‑Mel City, near the 78th Street commercial corridor, along U.S. Highway 41, 
-                or close to Palm River Road and adjacent waterfront access points, 
-                <span class="text-primary">Florida Boat Removal</span> offers prompt, professional, and environmentally minded boat 
-                hauling and disposal services. We’re familiar with the permitting, logistical, and environmental issues that arise in 
-                Hillsborough County and bring the local knowledge needed to complete each job safely. 
+                Town ’n’ Country is a residential community in Hillsborough County, valued for its suburban neighborhoods, canals,
+                and convenient access to Tampa Bay and regional waterways. Though primarily inland, the area’s network of canals, 
+                nearby boat ramps, and proximity to the bay mean professional boat removal services are often necessary. 
+              </p>
+              <p> 
+                Whether you're near Bay Crest Park and the Rocky Creek corridor, close to Countryway or Sweetwater Creek neighborhoods, 
+                or around the Town ’n’ Country Center and local waterfront access points,
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
+                and disposal services. We understand the permitting, logistical, and ecological issues of working throughout 
+                Hillsborough County’s waterways and have the experience to manage every situation safely.
               </p> 
-              <p> 
-                Our Palm River‑Clair Mel services cover removal of derelict boats, pontoons, small sailboats, and personal watercraft 
-                from private properties, docks, storage yards, and shoreline locations. We handle all aspects of transport, lifting, 
-                and compliant disposal so customers experience a smooth, worry‑free process from start to finish.
+              <p>
+                Our Town ’n’ Country boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal 
+                watercraft from private properties, docks, storage yards, and shoreline areas. We handle all transport, heavy lifting, 
+                and compliant disposal with care to ensure a smooth, stress‑free process for every customer. 
               </p> 
-              <p> 
-                Serving the entire Hillsborough County area, including Palm River‑Clair Mel, Tampa, Brandon, Riverview, 
-                and neighboring communities. Contact us today for a free estimate! 
-             </p>
+              <p>
+                Serving all of Hillsborough County, including Town ’n’ Country, Tampa, Westchase, Carrollwood, and surrounding communities.
+                Contact us today for a free quote! 
+              </p>
             </div>
           </div>
         </section>

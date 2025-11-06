@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function Town'N'Country() {
+export default function StPeteBeach() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("Town 'N' Country", 60); // find up to 60 closest
-  const phone = getPhoneByCity("Town 'N' Country");
+   const nearbyCities = getNearbyCities("St. Pete Beach", 60); // find up to 60 closest
+  const phone = getPhoneByCity("St. Pete Beach");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,46 +26,45 @@ export default function Town'N'Country() {
   ];
 
   const serviceAreas = [
-    "Bay Crest Park",
-    "Countryway",
-    "Rocky Creek",
-    "Sweetwater Creek",
-    "Town 'n' Country Center area"    
+    "Pass-a-Grille",
+    "the Corey Avenue district",
+    "Upham Beach",
+    "Blind Pass Beach"    
   ];
 
   const faqs = [
     {
-      question: "How quickly can you remove a boat in Town 'N' Country?",
-      answer: "We offer same-day and next-day boat removal services in Town 'N' Country, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "How quickly can you remove a boat in St. Pete Beach?",
+      answer: "We offer same-day and next-day boat removal services in St. Pete Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    { 
-      question: "What areas of Town 'n' Country do you serve?",
-      answer: "We serve all of Town 'n' Country including Bay Crest Park, Countryway, Rocky Creek, Sweetwater Creek, and the Town 'n' Country Center area in Hillsborough County." 
-    }
+   { 
+     question: "What areas of St. Pete Beach do you serve?",
+     answer: "We serve all of St. Pete Beach including Pass-a-Grille, the Corey Avenue district, Upham Beach, Blind Pass Beach, and surrounding neighborhoods in Pinellas County." 
+   },
     {
       question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Town 'N' Country. We handle all permits and logistics."
+      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Pete Beach. We handle all permits and logistics."
     },
     {
-      question: "Is boat removal in Town 'N' Country expensive?",
-      answer: "Our Town 'N' Country boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      question: "Is boat removal in St. Pete Beach expensive?",
+      answer: "Our St. Pete Beach boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal Town 'N' Country FL | Professional Disposal & Dismantling Services</title>
-        <meta name="description" content="Expert boat removal services in Town 'N' Country, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
-        <meta property="og:title" content="Boat Removal Town 'N' Country FL | Professional Services" />
+        <title>Boat Removal St. Pete Beach FL | Professional Disposal & Dismantling Services</title>
+        <meta name="description" content="Expert boat removal services in St. Pete Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
+        <meta property="og:title" content="Boat Removal St. Pete Beach FL | Professional Services" />
         <meta 
           property="og:description" 
-          content="Expert boat removal services in Town 'N' Country, Florida. Free quotes, same-day service, eco-friendly disposal." 
+          content="Expert boat removal services in St. Pete Beach, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-town-'n'-country" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-st-pete-beach" />
       </Helmet>
-     <Header cityName="Town 'N' Country" />
+     <Header cityName="St. Pete Beach" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -74,15 +73,15 @@ export default function Town'N'Country() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Town 'N' Country, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">St. Pete Beach, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in Town 'N' Country, FL
+                Professional Boat Removal Services in St. Pete Beach, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for Town 'N' Country residents and businesses. 
+                Expert boat disposal and dismantling services for St. Pete Beach residents and businesses. 
                 We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
-                Fast, eco-friendly, and affordable solutions for Hillsborough County.
+                Fast, eco-friendly, and affordable solutions for Pinellas County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -106,16 +105,16 @@ export default function Town'N'Country() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Town 'N' Country" count={2} />
+    <RandomBoatGallery cityName="St. Pete Beach" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Florida Boat Removal</span> in Town 'N' Country?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in St. Pete Beach?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving Town 'N' Country and all of Hillsborough County
+                We're the trusted boat removal experts serving St. Pete Beach and all of Pinellas County
               </p>
             </div>
 
@@ -127,7 +126,7 @@ export default function Town'N'Country() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand Town 'N' Country's unique coastal environment and local regulations.
+                    Based in Florida, we understand St. Pete Beach's unique coastal environment and local regulations.
                   </p>
                 </CardContent>
               </Card>
@@ -139,7 +138,7 @@ export default function Town'N'Country() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in Town 'N' Country.
+                    Fast response times with same-day removal available for urgent situations in St. Pete Beach.
                   </p>
                 </CardContent>
               </Card>
@@ -205,7 +204,7 @@ export default function Town'N'Country() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for Town 'N' Country residents.
+                  or a derelict boat that needs immediate removal, we provide complete solutions for St. Pete Beach residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -227,7 +226,7 @@ export default function Town'N'Country() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in Town 'N' Country</CardTitle>
+                  <CardTitle>Areas We Serve in St. Pete Beach</CardTitle>
                   <CardDescription>Complete coverage throughout the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -240,7 +239,7 @@ export default function Town'N'Country() {
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Plus all surrounding neighborhoods in Hillsborough County
+                    Plus all surrounding neighborhoods in Pinellas County
                   </p>
                 </CardContent>
               </Card>
@@ -256,7 +255,7 @@ export default function Town'N'Country() {
                 Our Simple 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in Town 'N' Country
+                Fast and hassle-free boat removal in St. Pete Beach
               </p>
             </div>
 
@@ -270,7 +269,7 @@ export default function Town'N'Country() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in Town 'N' Country. 
+                    Call us or fill out our online form with details about your boat and location in St. Pete Beach. 
                     Send photos for faster quotes.
                   </p>
                 </CardContent>
@@ -316,7 +315,7 @@ export default function Town'N'Country() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in Town 'N' Country
+                Common questions about boat removal in St. Pete Beach
               </p>
             </div>
 
@@ -355,7 +354,7 @@ export default function Town'N'Country() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to speak with our boat removal specialist serving Town 'N' Country and all of Hillsborough County.
+      to speak with our boat removal specialist serving St. Pete Beach and all of Pinellas County.
       Pricing is based on vessel size, condition, and accessibility.
     </p>
 <Button
@@ -372,29 +371,31 @@ export default function Town'N'Country() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Florida Boat Removal</span> in Town 'N' Country, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in St. Pete Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p> 
-                Town ’n’ Country is a residential community in Hillsborough County, valued for its suburban neighborhoods, canals,
-                and convenient access to Tampa Bay and regional waterways. Though primarily inland, the area’s network of canals, 
-                nearby boat ramps, and proximity to the bay mean professional boat removal services are often necessary. 
+              <p>
+                St. Pete Beach is a charming Gulf Coast city in Pinellas County, prized for its powder‑white sand, 
+                lively beachfront districts, and a strong tradition of boating and seaside recreation.
+                The city encompasses notable districts such as Pass‑a‑Grille and the Corey Avenue area and draws boaters
+                year‑round thanks to its direct access to the Gulf of Mexico and nearby marinas.
               </p>
-              <p> 
-                Whether you're near Bay Crest Park and the Rocky Creek corridor, close to Countryway or Sweetwater Creek neighborhoods, 
-                or around the Town ’n’ Country Center and local waterfront access points,
-                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
-                and disposal services. We understand the permitting, logistical, and ecological issues of working throughout 
-                Hillsborough County’s waterways and have the experience to manage every situation safely.
-              </p> 
               <p>
-                Our Town ’n’ Country boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal 
-                watercraft from private properties, docks, storage yards, and shoreline areas. We handle all transport, heavy lifting, 
-                and compliant disposal with care to ensure a smooth, stress‑free process for every customer. 
-              </p> 
+               Whether you’re near the Pass‑a‑Grille shoreline and Merry Pier, close to the Corey Avenue shops and dining corridor, 
+                or along Upham Beach and the Blind Pass waterfront, <span className="text-primary">Florida Boat Removal</span> delivers prompt, professional, 
+                and environmentally conscious boat hauling and disposal services. We’re familiar with the permitting, logistical, 
+                and environmental considerations of working throughout Pinellas County’s coastal waters and have the experience to
+                manage every situation safely.
+              </p>
               <p>
-                Serving all of Hillsborough County, including Town ’n’ Country, Tampa, Westchase, Carrollwood, and surrounding communities.
-                Contact us today for a free quote! 
+                Our St. Pete Beach boat removal offerings include towing and removal of derelict vessels, pontoons, sailboats, 
+                and small yachts from private properties, docks, marinas, storage yards, and shoreline locations.
+                We handle all lifting, transport, and compliant disposal with care to make the process straightforward and stress‑free 
+                for each customer.
+              </p>
+              <p>
+                Serving the wider Pinellas County area, including St. Pete Beach, Pass‑a‑Grille, Treasure Island, 
+                Madeira Beach, and neighboring communities. Contact us today for a free quote.
               </p>
             </div>
           </div>

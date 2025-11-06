@@ -40,7 +40,7 @@ export default function MadeiraBeach() {
     { 
       question: "What areas of Madeira Beach do you serve?", 
       answer: "We serve all of Madeira Beach including John's Pass Village, Madeira Beach Causeway, Archibald Beach Park, Madeira Beach Marina, and surrounding neighborhoods in Pinellas County."
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Madeira Beach. We handle all permits and logistics."
@@ -382,7 +382,7 @@ export default function MadeiraBeach() {
               <p> 
                 Whether you're near the Gulf Boulevard beachfront and Madeira Beach Causeway, close to John’s Pass Village and the boardwalk,
                 or in the marina and shoreline areas around Archibald Beach Park and the Madeira Beach Marina, 
-                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
                 and disposal services. We understand the permitting, logistical, and ecological challenges of working across 
                 Pinellas County’s coastal waters and have the experience to handle every situation. 
               </p> 

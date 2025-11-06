@@ -7,7 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
 import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
-import Tampa from "@/pages/Tampa";
+import TampaBoatRemoval from "@/pages/TampaBay";
 import Oldsmar from "@/pages/Oldsmar-Fl";
 import OldsmarFl from "@/pages/Oldsmar";
 import NotFound from "@/pages/not-found";
@@ -107,6 +107,17 @@ import Belleair from "@/pages/SEO/westcoast/Belleair"
 import Largo from "@/pages/SEO/westcoast/Largo"
 import PinellasPark from "@/pages/SEO/westcoast/PinellasPark"
 import IndianRocksBeach from "@/pages/SEO/westcoast/IndianRocksBeach"
+import IndianShores from "@/pages/SEO/westcoast/IndianShores"
+import MadeiraBeach from "@/pages/SEO/westcoast/MadeiraBeach"
+import Lutz from "@/pages/SEO/westcoast/Lutz"
+import Seminole from "@/pages/SEO/westcoast/Seminole"
+import StPeteBeach from "@/pages/SEO/westcoast/StPeteBeach"
+import TreasureIsland from "@/pages/SEO/westcoast/TreasureIsland"
+import StPetersburg from "@/pages/SEO/westcoast/StPetersburg"
+import Tampa from "@/pages/SEO/westcoast/Tampa"
+import TownNCountry from "@/pages/SEO/westcoast/TownNCountry"
+import PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel"
+
 
 
 function Router() {
@@ -115,7 +126,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/quote" component={Quote} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
-      <Route path="/tampa-boat-removal" component={Tampa} />
+      <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
       <Route path="/oldsmar-boat-removal" component={Oldsmar} />
       <Route path="/oldsmar-fl-boat-removal" component={OldsmarFl} />
       <Route path="/boat-removal-fl-miami" component={Miami} />
@@ -213,6 +224,17 @@ function Router() {
       <Route path="/boat-removal-fl-largo" component={Largo} />
       <Route path="/boat-removal-fl-pinellas-park" component={PinellasPark} />
       <Route path="/boat-removal-fl-indian-rocks-beach" component={IndianRocksBeach} />
+      <Route path="/boat-removal-fl-indian-shores" component={IndianShores} />
+      <Route path="/boat-removal-fl-madeira-beach" component={MadeiraBeach} />
+      <Route path="/boat-removal-fl-lutz" component={Lutz} />
+      <Route path="/boat-removal-fl-seminole" component={Seminole} />
+      <Route path="/boat-removal-fl-st-pete-beach" component={StPeteBeach} />
+      <Route path="/boat-removal-fl-treasure-island" component={TreasureIsland} />
+      <Route path="/boat-removal-fl-st-petersburg" component={StPetersburg} />
+      <Route path="/boat-removal-fl-tampa" component={Tampa} />
+      <Route path="/boat-removal-fl-town-n-country" component={TownNCountry} />
+      <Route path="/boat-removal-fl-palm-river-clair-mel" component={PalmRiverClairMel} />
+      
       <Route component={NotFound} />
     </Switch>
   );

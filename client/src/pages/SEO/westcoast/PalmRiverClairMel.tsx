@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function St.Petersburg() {
+export default function PalmRiverClairMel() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("St. Petersburg", 60); // find up to 60 closest
-  const phone = getPhoneByCity("St. Petersburg");
+   const nearbyCities = getNearbyCities("Palm River-Clair Mel", 60); // find up to 60 closest
+  const phone = getPhoneByCity("Palm River-Clair Mel");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,49 +26,46 @@ export default function St.Petersburg() {
   ];
 
   const serviceAreas = [
-    "St. Petersburg Pier",
-    "Downtown St. Petersburg",
-    "the Historic Old Northeast",
-    "Snell Isle",
-    "Vinoy Park",
-    "Shore Acres",
-    "Venetian Isles",
-    "Broadwater",
-    "Bayway Isles"
+    "Palm River",
+    "Clair-Mel City",
+    "the 78th Street area",
+    "the U.S. Highway 41 corridor",
+    "Palm River Road area"   
   ];
 
   const faqs = [
     {
-      question: "How quickly can you remove a boat in St. Petersburg?",
-      answer: "We offer same-day and next-day boat removal services in St. Petersburg, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "How quickly can you remove a boat in Palm River-Clair Mel?",
+      answer: "We offer same-day and next-day boat removal services in Palm River-Clair Mel, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     { 
-      question: "What areas of St. Petersburg do you serve?", 
-      answer "We serve all of St. Petersburg including Downtown St. Petersburg, the Historic Old Northeast, Broadwater, Bayway Isles, Venetian Isles, Snell Isle, Vinoy Park, Shore Acres, and surrounding neighborhoods in Pinellas County." }
-    {
-      question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Petersburg. We handle all permits and logistics."
+      question: "What areas of Palm River-Clair Mel do you serve?", 
+      answer: "We serve all of Palm River-Clair Mel including Palm River, Clair-Mel City, the 78th Street area, the U.S. Highway 41 corridor, and the Palm River Road area in Hillsborough County." 
     },
     {
-      question: "Is boat removal in St. Petersburg expensive?",
-      answer: "Our St. Petersburg boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      question: "Do you remove boats from residential properties?",
+      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm River-Clair Mel. We handle all permits and logistics."
+    },
+    {
+      question: "Is boat removal in Palm River-Clair Mel expensive?",
+      answer: "Our Palm River-Clair Mel boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal St. Petersburg FL | Professional Disposal & Dismantling Services</title>
-        <meta name="description" content="Expert boat removal services in St. Petersburg, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
-        <meta property="og:title" content="Boat Removal St. Petersburg FL | Professional Services" />
+        <title>Boat Removal Palm River-Clair Mel FL | Professional Disposal & Dismantling Services</title>
+        <meta name="description" content="Expert boat removal services in Palm River-Clair Mel, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
+        <meta property="og:title" content="Boat Removal Palm River-Clair Mel FL | Professional Services" />
         <meta 
           property="og:description" 
-          content="Expert boat removal services in St. Petersburg, Florida. Free quotes, same-day service, eco-friendly disposal." 
+          content="Expert boat removal services in Palm River-Clair Mel, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-st.-petersburg" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-palm-river-clair-mel" />
       </Helmet>
-     <Header cityName="St. Petersburg" />
+     <Header cityName="Palm River-Clair Mel" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -77,18 +74,20 @@ export default function St.Petersburg() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">St. Petersburg, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Palm River-Clair Mel, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in St. Petersburg, FL
+                Professional Boat Removal Services in Palm River-Clair Mel, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for St. Petersburg residents and businesses. 
+                Expert boat disposal and dismantling services for Palm River-Clair Mel residents and businesses. 
                 We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
-                Fast, eco-friendly, and affordable solutions for Pinellas County.
+                Fast, eco-friendly, and affordable solutions for Hillsborough County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                
+                <Button 
+                  size="lg" 
+                  onClick={() => setLocation('/quote')}
                   data-testid="button-get-quote"
                 >
                   Get Free Quote
@@ -107,16 +106,16 @@ export default function St.Petersburg() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="St. Petersburg" count={2} />
+    <RandomBoatGallery cityName="Palm River-Clair Mel" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Florida Boat Removal</span> in St. Petersburg?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in Palm River-Clair Mel?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving St. Petersburg and all of Pinellas County
+                We're the trusted boat removal experts serving Palm River-Clair Mel and all of Hillsborough County
               </p>
             </div>
 
@@ -128,7 +127,7 @@ export default function St.Petersburg() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand St. Petersburg's unique coastal environment and local regulations.
+                    Based in Florida, we understand Palm River-Clair Mel's unique coastal environment and local regulations.
                   </p>
                 </CardContent>
               </Card>
@@ -140,7 +139,7 @@ export default function St.Petersburg() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in St. Petersburg.
+                    Fast response times with same-day removal available for urgent situations in Palm River-Clair Mel.
                   </p>
                 </CardContent>
               </Card>
@@ -206,7 +205,7 @@ export default function St.Petersburg() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for St. Petersburg residents.
+                  or a derelict boat that needs immediate removal, we provide complete solutions for Palm River-Clair Mel residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -228,7 +227,7 @@ export default function St.Petersburg() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in St. Petersburg</CardTitle>
+                  <CardTitle>Areas We Serve in Palm River-Clair Mel</CardTitle>
                   <CardDescription>Complete coverage throughout the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -241,7 +240,7 @@ export default function St.Petersburg() {
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Plus all surrounding neighborhoods in Pinellas County
+                    Plus all surrounding neighborhoods in Hillsborough County
                   </p>
                 </CardContent>
               </Card>
@@ -257,7 +256,7 @@ export default function St.Petersburg() {
                 Our Simple 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in St. Petersburg
+                Fast and hassle-free boat removal in Palm River-Clair Mel
               </p>
             </div>
 
@@ -271,7 +270,7 @@ export default function St.Petersburg() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in St. Petersburg. 
+                    Call us or fill out our online form with details about your boat and location in Palm River-Clair Mel. 
                     Send photos for faster quotes.
                   </p>
                 </CardContent>
@@ -317,7 +316,7 @@ export default function St.Petersburg() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in St. Petersburg
+                Common questions about boat removal in Palm River-Clair Mel
               </p>
             </div>
 
@@ -356,7 +355,7 @@ export default function St.Petersburg() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to speak with our boat removal specialist serving St. Petersburg and all of Pinellas County.
+      to speak with our boat removal specialist serving Palm River-Clair Mel and all of Hillsborough County.
       Pricing is based on vessel size, condition, and accessibility.
     </p>
 <Button
@@ -373,30 +372,31 @@ export default function St.Petersburg() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Florida Boat Removal</span> in St. Petersburg, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in Palm River-Clair Mel, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                St. Petersburg is a vibrant coastal city in Pinellas County, celebrated for its waterfront parks, arts districts, 
-                and extensive shoreline along Tampa Bay. With active marinas, public boat ramps, and a thriving recreational boating scene,
-                professional boat removal services are commonly needed throughout the area.
+             <p> 
+               Palm River‑Clair Mel is a mixed residential and industrial community in eastern Hillsborough County, positioned just east 
+               of Tampa and noted for its neighborhoods, local waterways, and proximity to regional transportation corridors.
+               Though not a coastal town, its network of canals, nearby boat ramps, and access to the Hillsborough River system make 
+               boat removal a service often required by residents and property owners. 
+             </p> 
+              <p> 
+                Whether you’re located in Palm River, Clair‑Mel City, near the 78th Street commercial corridor, along U.S. Highway 41, 
+                or close to Palm River Road and adjacent waterfront access points, 
+                <span className="text-primary">Florida Boat Removal</span> offers prompt, professional, and environmentally minded boat 
+                hauling and disposal services. We’re familiar with the permitting, logistical, and environmental issues that arise in 
+                Hillsborough County and bring the local knowledge needed to complete each job safely. 
               </p> 
               <p> 
-                Whether you're near Downtown St. Petersburg and the Vinoy waterfront, close to the Historic Old Northeast or Snell Isle,
-                or around Bayfront Park, Shore Acres, or the Marina District, <span class="text-primary">Florida Boat Removal</span> provides
-                prompt, dependable, and environmentally responsible boat hauling and disposal services. 
-                We’re experienced with the permitting, logistical, and ecological considerations of working across Pinellas County’s coastal
-                and inland waterways and will manage each job with care. 
-              </p> 
-              <p> Our St. Petersburg boat removal services include hauling away derelict vessels, pontoons, sailboats, and small yachts 
-                from private properties, docks, marinas, storage yards, and shoreline locations. 
-                We handle all transportation, heavy lifting, and eco‑compliant disposal to ensure a straightforward, stress‑free process
-                for every customer. 
+                Our Palm River‑Clair Mel services cover removal of derelict boats, pontoons, small sailboats, and personal watercraft 
+                from private properties, docks, storage yards, and shoreline locations. We handle all aspects of transport, lifting, 
+                and compliant disposal so customers experience a smooth, worry‑free process from start to finish.
               </p> 
               <p> 
-                Serving all of Pinellas County, including St. Petersburg, Clearwater, St. Pete Beach, Tierra Verde, and surrounding communities.
-                Contact us today for a free quote! 
-              </p>
+                Serving the entire Hillsborough County area, including Palm River‑Clair Mel, Tampa, Brandon, Riverview, 
+                and neighboring communities. Contact us today for a free estimate! 
+             </p>
             </div>
           </div>
         </section>

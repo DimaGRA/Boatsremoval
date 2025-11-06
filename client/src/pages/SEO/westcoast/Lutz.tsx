@@ -40,7 +40,7 @@ export default function Lutz() {
     { 
       question: "What areas of Lutz do you serve?", 
       answer: "We serve all of Lutz including Downtown Lutz, Lutz Lake Fern, the U.S. Highway 41 corridor, County Line Road area, and surrounding neighborhoods in Hillsborough County."
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Lutz. We handle all permits and logistics."
@@ -383,7 +383,7 @@ export default function Lutz() {
               <p> 
                 Whether you're near Downtown Lutz and Lutz Lake Fern, close to the Cheval golf and waterfront community, or around 
                 the U.S. Highway 41 corridor, Lake Park, or Collier Parkway area, 
-                <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally responsible boat 
+                <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally responsible boat 
                 disposal services. We understand the permitting, logistical, and environmental concerns of working across 
                 Hillsborough County’s inland waterways and have the experience to manage any situation.
               </p> 

@@ -40,6 +40,7 @@ export default function Seminole() {
     { 
       question: "What areas of Seminole do you serve?", 
       answer: "We serve all of Seminole including Lake Seminole Park, Long Bayou, Seminole Boulevard, Seminole City Center, and surrounding neighborhoods in Pinellas County."
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Seminole. We handle all permits and logistics."
@@ -379,7 +380,7 @@ export default function Seminole() {
               <p> 
                 Whether you're near Lake Seminole Park and Long Bayou, close to Seminole City Center and Seminole Boulevard,
                 or in neighborhoods along Indian Rocks Road and the Bay Pines corridor, 
-                <span class="text-primary">Florida Boat Removal</span> offers fast, reliable, and environmentally responsible boat hauling
+                <span className="text-primary">Florida Boat Removal</span> offers fast, reliable, and environmentally responsible boat hauling
                 and disposal services. We understand the permitting, logistical, and ecological challenges of working across 
                 Pinellas County’s inland and coastal waterways and have the experience to handle every situation.
               </p> 

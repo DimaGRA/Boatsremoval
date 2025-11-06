@@ -41,7 +41,7 @@ export default function TreasureIsland() {
     { 
       question: "What areas of Treasure Island do you serve?", 
       answer: "We serve all of Treasure Island including the Gulf Boulevard beachfront, Sunset Beach, Upham Beach Park, Treasure Island Causeway, and Treasure Island Marina, and surrounding neighborhoods in Pinellas County." 
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Treasure Island. We handle all permits and logistics."
@@ -384,7 +384,7 @@ export default function TreasureIsland() {
               <p> 
                 Whether you're near the Gulf Boulevard beachfront and Treasure Island Causeway, close to Sunset Beach and
                 Upham Beach Park, or in the marina and shoreline areas around Treasure Island Marina and local residential 
-                canals, <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally
+                canals, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally
                 responsible boat hauling and disposal services. We understand the permitting, logistical, and ecological 
                 challenges of working across Pinellas County’s coastal waters and have the experience to handle every
                 situation. 

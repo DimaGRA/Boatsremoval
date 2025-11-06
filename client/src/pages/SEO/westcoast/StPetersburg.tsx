@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function St.PeteBeach() {
+export default function StPetersburg() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("St. Pete Beach", 60); // find up to 60 closest
-  const phone = getPhoneByCity("St. Pete Beach");
+   const nearbyCities = getNearbyCities("St. Petersburg", 60); // find up to 60 closest
+  const phone = getPhoneByCity("St. Petersburg");
   
   const services = [
     "Boat Hauling & Transport",
@@ -26,45 +26,50 @@ export default function St.PeteBeach() {
   ];
 
   const serviceAreas = [
-    "Pass-a-Grille",
-    "the Corey Avenue district",
-    "Upham Beach",
-    "Blind Pass Beach"    
+    "St. Petersburg Pier",
+    "Downtown St. Petersburg",
+    "the Historic Old Northeast",
+    "Snell Isle",
+    "Vinoy Park",
+    "Shore Acres",
+    "Venetian Isles",
+    "Broadwater",
+    "Bayway Isles"
   ];
 
   const faqs = [
     {
-      question: "How quickly can you remove a boat in St. Pete Beach?",
-      answer: "We offer same-day and next-day boat removal services in St. Pete Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
+      question: "How quickly can you remove a boat in St. Petersburg?",
+      answer: "We offer same-day and next-day boat removal services in St. Petersburg, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-   { 
-     question: "What areas of St. Pete Beach do you serve?",
-     answer: "We serve all of St. Pete Beach including Pass-a-Grille, the Corey Avenue district, Upham Beach, Blind Pass Beach, and surrounding neighborhoods in Pinellas County." 
-   }
+    { 
+      question: "What areas of St. Petersburg do you serve?", 
+      answer: "We serve all of St. Petersburg including Downtown St. Petersburg, the Historic Old Northeast, Broadwater, Bayway Isles, Venetian Isles, Snell Isle, Vinoy Park, Shore Acres, and surrounding neighborhoods in Pinellas County." 
+    },
     {
       question: "Do you remove boats from residential properties?",
-      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Pete Beach. We handle all permits and logistics."
+      answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Petersburg. We handle all permits and logistics."
     },
     {
-      question: "Is boat removal in St. Pete Beach expensive?",
-      answer: "Our St. Pete Beach boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
+      question: "Is boat removal in St. Petersburg expensive?",
+      answer: "Our St. Petersburg boat removal services are budget-friendly and transparent. Costs vary by boat size, condition, and access. We offer free quotes and specialize only in removal and disposal — not boat purchases."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Boat Removal St. Pete Beach FL | Professional Disposal & Dismantling Services</title>
-        <meta name="description" content="Expert boat removal services in St. Pete Beach, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
-        <meta property="og:title" content="Boat Removal St. Pete Beach FL | Professional Services" />
+        <title>Boat Removal St. Petersburg FL | Professional Disposal & Dismantling Services</title>
+        <meta name="description" content="Expert boat removal services in St. Petersburg, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
+        <meta property="og:title" content="Boat Removal St. Petersburg FL | Professional Services" />
         <meta 
           property="og:description" 
-          content="Expert boat removal services in St. Pete Beach, Florida. Free quotes, same-day service, eco-friendly disposal." 
+          content="Expert boat removal services in St. Petersburg, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-st.-pete-beach" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-st-petersburg" />
       </Helmet>
-     <Header cityName="St. Pete Beach" />
+     <Header cityName="St. Petersburg" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -73,13 +78,13 @@ export default function St.PeteBeach() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">St. Pete Beach, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">St. Petersburg, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Professional Boat Removal Services in St. Pete Beach, FL
+                Professional Boat Removal Services in St. Petersburg, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Expert boat disposal and dismantling services for St. Pete Beach residents and businesses. 
+                Expert boat disposal and dismantling services for St. Petersburg residents and businesses. 
                 We handle boats of all sizes - from small sailboats to large yachts and catamarans. 
                 Fast, eco-friendly, and affordable solutions for Pinellas County.
               </p>
@@ -105,16 +110,16 @@ export default function St.PeteBeach() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="St. Pete Beach" count={2} />
+    <RandomBoatGallery cityName="St. Petersburg" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Florida Boat Removal</span> in St. Pete Beach?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in St. Petersburg?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                We're the trusted boat removal experts serving St. Pete Beach and all of Pinellas County
+                We're the trusted boat removal experts serving St. Petersburg and all of Pinellas County
               </p>
             </div>
 
@@ -126,7 +131,7 @@ export default function St.PeteBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Based in Florida, we understand St. Pete Beach's unique coastal environment and local regulations.
+                    Based in Florida, we understand St. Petersburg's unique coastal environment and local regulations.
                   </p>
                 </CardContent>
               </Card>
@@ -138,7 +143,7 @@ export default function St.PeteBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Fast response times with same-day removal available for urgent situations in St. Pete Beach.
+                    Fast response times with same-day removal available for urgent situations in St. Petersburg.
                   </p>
                 </CardContent>
               </Card>
@@ -204,7 +209,7 @@ export default function St.PeteBeach() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether you have an old boat taking up space in your driveway, a damaged vessel at the marina, 
-                  or a derelict boat that needs immediate removal, we provide complete solutions for St. Pete Beach residents.
+                  or a derelict boat that needs immediate removal, we provide complete solutions for St. Petersburg residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -226,7 +231,7 @@ export default function St.PeteBeach() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Areas We Serve in St. Pete Beach</CardTitle>
+                  <CardTitle>Areas We Serve in St. Petersburg</CardTitle>
                   <CardDescription>Complete coverage throughout the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -255,7 +260,7 @@ export default function St.PeteBeach() {
                 Our Simple 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Fast and hassle-free boat removal in St. Pete Beach
+                Fast and hassle-free boat removal in St. Petersburg
               </p>
             </div>
 
@@ -269,7 +274,7 @@ export default function St.PeteBeach() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Call us or fill out our online form with details about your boat and location in St. Pete Beach. 
+                    Call us or fill out our online form with details about your boat and location in St. Petersburg. 
                     Send photos for faster quotes.
                   </p>
                 </CardContent>
@@ -315,7 +320,7 @@ export default function St.PeteBeach() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Common questions about boat removal in St. Pete Beach
+                Common questions about boat removal in St. Petersburg
               </p>
             </div>
 
@@ -354,7 +359,7 @@ export default function St.PeteBeach() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to speak with our boat removal specialist serving St. Pete Beach and all of Pinellas County.
+      to speak with our boat removal specialist serving St. Petersburg and all of Pinellas County.
       Pricing is based on vessel size, condition, and accessibility.
     </p>
 <Button
@@ -371,31 +376,29 @@ export default function St.PeteBeach() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Florida Boat Removal</span> in St. Pete Beach, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in St. Petersburg, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                St. Pete Beach is a charming Gulf Coast city in Pinellas County, prized for its powder‑white sand, 
-                lively beachfront districts, and a strong tradition of boating and seaside recreation.
-                The city encompasses notable districts such as Pass‑a‑Grille and the Corey Avenue area and draws boaters
-                year‑round thanks to its direct access to the Gulf of Mexico and nearby marinas.
-              </p>
-              <p>
-               Whether you’re near the Pass‑a‑Grille shoreline and Merry Pier, close to the Corey Avenue shops and dining corridor, 
-                or along Upham Beach and the Blind Pass waterfront, Florida Boat Removal delivers prompt, professional, 
-                and environmentally conscious boat hauling and disposal services. We’re familiar with the permitting, logistical, 
-                and environmental considerations of working throughout Pinellas County’s coastal waters and have the experience to
-                manage every situation safely.
-              </p>
-              <p>
-                Our St. Pete Beach boat removal offerings include towing and removal of derelict vessels, pontoons, sailboats, 
-                and small yachts from private properties, docks, marinas, storage yards, and shoreline locations.
-                We handle all lifting, transport, and compliant disposal with care to make the process straightforward and stress‑free 
-                for each customer.
-              </p>
-              <p>
-                Serving the wider Pinellas County area, including St. Pete Beach, Pass‑a‑Grille, Treasure Island, 
-                Madeira Beach, and neighboring communities. Contact us today for a free quote.
+                St. Petersburg is a vibrant coastal city in Pinellas County, celebrated for its waterfront parks, arts districts, 
+                and extensive shoreline along Tampa Bay. With active marinas, public boat ramps, and a thriving recreational boating scene,
+                professional boat removal services are commonly needed throughout the area.
+              </p> 
+              <p> 
+                Whether you're near Downtown St. Petersburg and the Vinoy waterfront, close to the Historic Old Northeast or Snell Isle,
+                or around Bayfront Park, Shore Acres, or the Marina District, <span className="text-primary">Florida Boat Removal</span> provides
+                prompt, dependable, and environmentally responsible boat hauling and disposal services. 
+                We’re experienced with the permitting, logistical, and ecological considerations of working across Pinellas County’s coastal
+                and inland waterways and will manage each job with care. 
+              </p> 
+              <p> Our St. Petersburg boat removal services include hauling away derelict vessels, pontoons, sailboats, and small yachts 
+                from private properties, docks, marinas, storage yards, and shoreline locations. 
+                We handle all transportation, heavy lifting, and eco‑compliant disposal to ensure a straightforward, stress‑free process
+                for every customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including St. Petersburg, Clearwater, St. Pete Beach, Tierra Verde, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
