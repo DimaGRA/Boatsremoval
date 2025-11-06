@@ -27,11 +27,14 @@ export default function St.Petersburg() {
 
   const serviceAreas = [
     "St. Petersburg Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown St. Petersburg",
+    "the Historic Old Northeast",
+    "Snell Isle",
+    "Vinoy Park",
+    "Shore Acres",
+    "Venetian Isles",
+    "Broadwater",
+    "Bayway Isles"
   ];
 
   const faqs = [
@@ -39,10 +42,9 @@ export default function St.Petersburg() {
       question: "How quickly can you remove a boat in St. Petersburg?",
       answer: "We offer same-day and next-day boat removal services in St. Petersburg, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of St. Petersburg do you serve?",
-      answer: "We serve all of St. Petersburg including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+    { 
+      question: "What areas of St. Petersburg do you serve?", 
+      answer "We serve all of St. Petersburg including Downtown St. Petersburg, the Historic Old Northeast, Broadwater, Bayway Isles, Venetian Isles, Snell Isle, Vinoy Park, Shore Acres, and surrounding neighborhoods in Pinellas County." }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Petersburg. We handle all permits and logistics."
@@ -86,9 +88,7 @@ export default function St.Petersburg() {
                 Fast, eco-friendly, and affordable solutions for Pinellas County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  onClick={() => setLocation('/quote')}
+                
                   data-testid="button-get-quote"
                 >
                   Get Free Quote
