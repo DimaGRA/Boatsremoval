@@ -26,12 +26,11 @@ export default function Town'N'Country() {
   ];
 
   const serviceAreas = [
-    "Town 'N' Country Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Bay Crest Park",
+    "Countryway",
+    "Rocky Creek",
+    "Sweetwater Creek",
+    "Town 'n' Country Center area"    
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function Town'N'Country() {
       question: "How quickly can you remove a boat in Town 'N' Country?",
       answer: "We offer same-day and next-day boat removal services in Town 'N' Country, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Town 'N' Country do you serve?",
-      answer: "We serve all of Town 'N' Country including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+    { 
+      question: "What areas of Town 'n' Country do you serve?",
+      answer: "We serve all of Town 'n' Country including Bay Crest Park, Countryway, Rocky Creek, Sweetwater Creek, and the Town 'n' Country Center area in Hillsborough County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Town 'N' Country. We handle all permits and logistics."
