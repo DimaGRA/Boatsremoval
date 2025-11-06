@@ -26,12 +26,17 @@ export default function Tampa() {
   ];
 
   const serviceAreas = [
-    "Tampa Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Tampa",
+    "Ybor City",
+    "Hyde Park",
+    "Channel District",
+    "Westshore",
+    "Tampa Heights",
+    "Carrollwood",
+    "South Tampa",
+    "Davis Islands",
+    "Seminole Heights",
+    " University Area"
   ];
 
   const faqs = [
@@ -39,10 +44,10 @@ export default function Tampa() {
       question: "How quickly can you remove a boat in Tampa?",
       answer: "We offer same-day and next-day boat removal services in Tampa, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Tampa do you serve?",
-      answer: "We serve all of Tampa including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+      answer: "We serve all of Tampa including Downtown Tampa, Ybor City, Hyde Park, Channel District, Westshore, Tampa Heights, Carrollwood, South Tampa, Davis Islands, Seminole Heights, and the University Area in Hillsborough County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tampa. We handle all permits and logistics."
