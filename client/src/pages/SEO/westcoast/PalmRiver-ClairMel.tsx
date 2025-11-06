@@ -26,12 +26,11 @@ export default function PalmRiver-ClairMel() {
   ];
 
   const serviceAreas = [
-    "Palm River-Clair Mel Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Palm River",
+    "Clair-Mel City",
+    "the 78th Street area",
+    "the U.S. Highway 41 corridor",
+    "Palm River Road area"   
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function PalmRiver-ClairMel() {
       question: "How quickly can you remove a boat in Palm River-Clair Mel?",
       answer: "We offer same-day and next-day boat removal services in Palm River-Clair Mel, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Palm River-Clair Mel do you serve?",
-      answer: "We serve all of Palm River-Clair Mel including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+    { 
+      question: "What areas of Palm River-Clair Mel do you serve?", 
+      answer: "We serve all of Palm River-Clair Mel including Palm River, Clair-Mel City, the 78th Street area, the U.S. Highway 41 corridor, and the Palm River Road area in Hillsborough County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm River-Clair Mel. We handle all permits and logistics."
