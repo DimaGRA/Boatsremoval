@@ -26,12 +26,10 @@ export default function Lutz() {
   ];
 
   const serviceAreas = [
-    "Lutz Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Lutz",
+    "Lutz Lake Fern",
+    "the U.S. Highway 41 corridor",
+    "County Line Road area"    
   ];
 
   const faqs = [
@@ -39,10 +37,10 @@ export default function Lutz() {
       question: "How quickly can you remove a boat in Lutz?",
       answer: "We offer same-day and next-day boat removal services in Lutz, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Lutz do you serve?",
-      answer: "We serve all of Lutz including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+    { 
+      question: "What areas of Lutz do you serve?", 
+      answer: "We serve all of Lutz including Downtown Lutz, Lutz Lake Fern, the U.S. Highway 41 corridor, County Line Road area, and surrounding neighborhoods in Hillsborough County."
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Lutz. We handle all permits and logistics."
