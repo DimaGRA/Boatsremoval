@@ -26,12 +26,11 @@ export default function TreasureIsland() {
   ];
 
   const serviceAreas = [
-    "Treasure Island Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gulf Boulevard beachfront",
+    "Sunset Beach",
+    "Upham Beach Park",
+    "Treasure Island Causeway",
+    "Treasure Island Marina"    
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function TreasureIsland() {
       question: "How quickly can you remove a boat in Treasure Island?",
       answer: "We offer same-day and next-day boat removal services in Treasure Island, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Treasure Island do you serve?",
-      answer: "We serve all of Treasure Island including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+    { 
+      question: "What areas of Treasure Island do you serve?", 
+      answer: "We serve all of Treasure Island including the Gulf Boulevard beachfront, Sunset Beach, Upham Beach Park, Treasure Island Causeway, and Treasure Island Marina, and surrounding neighborhoods in Pinellas County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Treasure Island. We handle all permits and logistics."
@@ -376,26 +375,29 @@ export default function TreasureIsland() {
               About <span className="text-primary">Florida Boat Removal</span> in Treasure Island, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Treasure Island is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Treasure Island is a lively beachfront city in Pinellas County, known for its wide Gulf beaches, relaxed 
+                island atmosphere, and scenic views across Boca Ciega Bay. With direct access to the Gulf of Mexico, popular
+                beach parks, and active boating and fishing activities, professional boat removal services are frequently 
+                needed.
+              </p> 
+              <p> 
+                Whether you're near the Gulf Boulevard beachfront and Treasure Island Causeway, close to Sunset Beach and
+                Upham Beach Park, or in the marina and shoreline areas around Treasure Island Marina and local residential 
+                canals, <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally
+                responsible boat hauling and disposal services. We understand the permitting, logistical, and ecological 
+                challenges of working across Pinellas County’s coastal waters and have the experience to handle every
+                situation. 
               </p>
               <p>
-                Whether you're near the Treasure Island Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Treasure Island boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including Treasure Island, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Our Treasure Island boat removal services include towing and hauling away derelict boats, pontoons, sailboats,
+                and small yachts from private properties, docks, marinas, storage yards, and shoreline locations.
+                We manage all transport, heavy lifting, and compliant disposal with care to ensure a smooth, stress‑free
+                process for each customer.
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including Treasure Island, Madeira Beach,
+                St. Pete Beach, Indian Rocks Beach, and surrounding communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>

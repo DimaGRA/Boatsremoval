@@ -26,12 +26,11 @@ export default function PalmRiver-ClairMel() {
   ];
 
   const serviceAreas = [
-    "Palm River-Clair Mel Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Palm River",
+    "Clair-Mel City",
+    "the 78th Street area",
+    "the U.S. Highway 41 corridor",
+    "Palm River Road area"   
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function PalmRiver-ClairMel() {
       question: "How quickly can you remove a boat in Palm River-Clair Mel?",
       answer: "We offer same-day and next-day boat removal services in Palm River-Clair Mel, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Palm River-Clair Mel do you serve?",
-      answer: "We serve all of Palm River-Clair Mel including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+    { 
+      question: "What areas of Palm River-Clair Mel do you serve?", 
+      answer: "We serve all of Palm River-Clair Mel including Palm River, Clair-Mel City, the 78th Street area, the U.S. Highway 41 corridor, and the Palm River Road area in Hillsborough County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Palm River-Clair Mel. We handle all permits and logistics."
@@ -376,27 +375,28 @@ export default function PalmRiver-ClairMel() {
               About <span className="text-primary">Florida Boat Removal</span> in Palm River-Clair Mel, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Palm River-Clair Mel is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Palm River-Clair Mel Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Palm River-Clair Mel boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Palm River-Clair Mel, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p> 
+               Palm River‑Clair Mel is a mixed residential and industrial community in eastern Hillsborough County, positioned just east 
+               of Tampa and noted for its neighborhoods, local waterways, and proximity to regional transportation corridors.
+               Though not a coastal town, its network of canals, nearby boat ramps, and access to the Hillsborough River system make 
+               boat removal a service often required by residents and property owners. 
+             </p> 
+              <p> 
+                Whether you’re located in Palm River, Clair‑Mel City, near the 78th Street commercial corridor, along U.S. Highway 41, 
+                or close to Palm River Road and adjacent waterfront access points, 
+                <span class="text-primary">Florida Boat Removal</span> offers prompt, professional, and environmentally minded boat 
+                hauling and disposal services. We’re familiar with the permitting, logistical, and environmental issues that arise in 
+                Hillsborough County and bring the local knowledge needed to complete each job safely. 
+              </p> 
+              <p> 
+                Our Palm River‑Clair Mel services cover removal of derelict boats, pontoons, small sailboats, and personal watercraft 
+                from private properties, docks, storage yards, and shoreline locations. We handle all aspects of transport, lifting, 
+                and compliant disposal so customers experience a smooth, worry‑free process from start to finish.
+              </p> 
+              <p> 
+                Serving the entire Hillsborough County area, including Palm River‑Clair Mel, Tampa, Brandon, Riverview, 
+                and neighboring communities. Contact us today for a free estimate! 
+             </p>
             </div>
           </div>
         </section>

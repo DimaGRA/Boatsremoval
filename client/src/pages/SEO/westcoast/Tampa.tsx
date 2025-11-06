@@ -26,12 +26,17 @@ export default function Tampa() {
   ];
 
   const serviceAreas = [
-    "Tampa Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Tampa",
+    "Ybor City",
+    "Hyde Park",
+    "Channel District",
+    "Westshore",
+    "Tampa Heights",
+    "Carrollwood",
+    "South Tampa",
+    "Davis Islands",
+    "Seminole Heights",
+    " University Area"
   ];
 
   const faqs = [
@@ -39,10 +44,10 @@ export default function Tampa() {
       question: "How quickly can you remove a boat in Tampa?",
       answer: "We offer same-day and next-day boat removal services in Tampa, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Tampa do you serve?",
-      answer: "We serve all of Tampa including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
-    },
+      answer: "We serve all of Tampa including Downtown Tampa, Ybor City, Hyde Park, Channel District, Westshore, Tampa Heights, Carrollwood, South Tampa, Davis Islands, Seminole Heights, and the University Area in Hillsborough County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tampa. We handle all permits and logistics."
@@ -376,26 +381,26 @@ export default function Tampa() {
               About <span className="text-primary">Florida Boat Removal</span> in Tampa, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Tampa is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Tampa is a dynamic city in Hillsborough County, known for its waterfront skyline, vibrant neighborhoods,
+                and strong maritime culture along Tampa Bay and the Hillsborough River. With busy downtown docks, commercial ports, 
+                and popular recreational launch points, professional boat removal services are frequently needed.
+              </p> 
+              <p> 
+                Whether you're near the Downtown Tampa waterfront and the Riverwalk, close to Davis Islands and Harbour Island,
+                or around Bayshore Boulevard, the Channel District, or Port Tampa Bay,
+                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible
+                boat disposal services. We understand the permitting, logistical, and ecological challenges of working across
+                Hillsborough County’s inland and coastal waterways and have the experience to handle any situation. 
               </p>
-              <p>
-                Whether you're near the Tampa Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Tampa boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Tampa, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Our Tampa boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, 
+                marinas, storage yards, and waterfront areas. We take care of all transport, heavy lifting, and environmentally responsible
+                disposal to ensure a stress-free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Tampa, South Tampa, Ybor City, Brandon, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>

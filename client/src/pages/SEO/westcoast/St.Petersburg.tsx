@@ -27,11 +27,14 @@ export default function St.Petersburg() {
 
   const serviceAreas = [
     "St. Petersburg Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown St. Petersburg",
+    "the Historic Old Northeast",
+    "Snell Isle",
+    "Vinoy Park",
+    "Shore Acres",
+    "Venetian Isles",
+    "Broadwater",
+    "Bayway Isles"
   ];
 
   const faqs = [
@@ -39,10 +42,9 @@ export default function St.Petersburg() {
       question: "How quickly can you remove a boat in St. Petersburg?",
       answer: "We offer same-day and next-day boat removal services in St. Petersburg, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of St. Petersburg do you serve?",
-      answer: "We serve all of St. Petersburg including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+    { 
+      question: "What areas of St. Petersburg do you serve?", 
+      answer "We serve all of St. Petersburg including Downtown St. Petersburg, the Historic Old Northeast, Broadwater, Bayway Isles, Venetian Isles, Snell Isle, Vinoy Park, Shore Acres, and surrounding neighborhoods in Pinellas County." }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Petersburg. We handle all permits and logistics."
@@ -86,9 +88,7 @@ export default function St.Petersburg() {
                 Fast, eco-friendly, and affordable solutions for Pinellas County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
-                  onClick={() => setLocation('/quote')}
+                
                   data-testid="button-get-quote"
                 >
                   Get Free Quote
@@ -377,25 +377,25 @@ export default function St.Petersburg() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                St. Petersburg is a beautiful coastal city in Pinellas County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the St. Petersburg Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our St. Petersburg boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pinellas County including St. Petersburg, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                St. Petersburg is a vibrant coastal city in Pinellas County, celebrated for its waterfront parks, arts districts, 
+                and extensive shoreline along Tampa Bay. With active marinas, public boat ramps, and a thriving recreational boating scene,
+                professional boat removal services are commonly needed throughout the area.
+              </p> 
+              <p> 
+                Whether you're near Downtown St. Petersburg and the Vinoy waterfront, close to the Historic Old Northeast or Snell Isle,
+                or around Bayfront Park, Shore Acres, or the Marina District, <span class="text-primary">Florida Boat Removal</span> provides
+                prompt, dependable, and environmentally responsible boat hauling and disposal services. 
+                We’re experienced with the permitting, logistical, and ecological considerations of working across Pinellas County’s coastal
+                and inland waterways and will manage each job with care. 
+              </p> 
+              <p> Our St. Petersburg boat removal services include hauling away derelict vessels, pontoons, sailboats, and small yachts 
+                from private properties, docks, marinas, storage yards, and shoreline locations. 
+                We handle all transportation, heavy lifting, and eco‑compliant disposal to ensure a straightforward, stress‑free process
+                for every customer. 
+              </p> 
+              <p> 
+                Serving all of Pinellas County, including St. Petersburg, Clearwater, St. Pete Beach, Tierra Verde, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
