@@ -26,12 +26,10 @@ export default function St.PeteBeach() {
   ];
 
   const serviceAreas = [
-    "St. Pete Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Pass-a-Grille",
+    "the Corey Avenue district",
+    "Upham Beach",
+    "Blind Pass Beach"    
   ];
 
   const faqs = [
@@ -39,10 +37,10 @@ export default function St.PeteBeach() {
       question: "How quickly can you remove a boat in St. Pete Beach?",
       answer: "We offer same-day and next-day boat removal services in St. Pete Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of St. Pete Beach do you serve?",
-      answer: "We serve all of St. Pete Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+   { 
+     question: "What areas of St. Pete Beach do you serve?",
+     answer: "We serve all of St. Pete Beach including Pass-a-Grille, the Corey Avenue district, Upham Beach, Blind Pass Beach, and surrounding neighborhoods in Pinellas County." 
+   }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout St. Pete Beach. We handle all permits and logistics."
