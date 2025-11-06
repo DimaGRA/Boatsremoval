@@ -375,26 +375,26 @@ export default function Town'N'Country() {
               About <span className="text-primary">Florida Boat Removal</span> in Town 'N' Country, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Town 'N' Country is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Town ’n’ Country is a residential community in Hillsborough County, valued for its suburban neighborhoods, canals,
+                and convenient access to Tampa Bay and regional waterways. Though primarily inland, the area’s network of canals, 
+                nearby boat ramps, and proximity to the bay mean professional boat removal services are often necessary. 
               </p>
+              <p> 
+                Whether you're near Bay Crest Park and the Rocky Creek corridor, close to Countryway or Sweetwater Creek neighborhoods, 
+                or around the Town ’n’ Country Center and local waterfront access points,
+                <span class="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat hauling
+                and disposal services. We understand the permitting, logistical, and ecological issues of working throughout 
+                Hillsborough County’s waterways and have the experience to manage every situation safely.
+              </p> 
               <p>
-                Whether you're near the Town 'N' Country Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Our Town ’n’ Country boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal 
+                watercraft from private properties, docks, storage yards, and shoreline areas. We handle all transport, heavy lifting, 
+                and compliant disposal with care to ensure a smooth, stress‑free process for every customer. 
+              </p> 
               <p>
-                Our Town 'N' Country boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Town 'N' Country, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Town ’n’ Country, Tampa, Westchase, Carrollwood, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
