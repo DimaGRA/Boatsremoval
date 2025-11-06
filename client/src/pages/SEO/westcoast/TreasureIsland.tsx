@@ -26,12 +26,11 @@ export default function TreasureIsland() {
   ];
 
   const serviceAreas = [
-    "Treasure Island Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gulf Boulevard beachfront",
+    "Sunset Beach",
+    "Upham Beach Park",
+    "Treasure Island Causeway",
+    "Treasure Island Marina"    
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function TreasureIsland() {
       question: "How quickly can you remove a boat in Treasure Island?",
       answer: "We offer same-day and next-day boat removal services in Treasure Island, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Treasure Island do you serve?",
-      answer: "We serve all of Treasure Island including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+    { 
+      question: "What areas of Treasure Island do you serve?", 
+      answer: "We serve all of Treasure Island including the Gulf Boulevard beachfront, Sunset Beach, Upham Beach Park, Treasure Island Causeway, and Treasure Island Marina, and surrounding neighborhoods in Pinellas County." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Treasure Island. We handle all permits and logistics."
