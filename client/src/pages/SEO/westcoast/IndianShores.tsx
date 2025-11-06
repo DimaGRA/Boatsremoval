@@ -26,12 +26,10 @@ export default function IndianShores() {
   ];
 
   const serviceAreas = [
-    "Indian Shores Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gulf Boulevard beachfront",
+    "Indian Shores Municipal Center",
+    "86th Avenue area",
+    "Indian Shores Beach Park",
   ];
 
   const faqs = [
@@ -39,10 +37,10 @@ export default function IndianShores() {
       question: "How quickly can you remove a boat in Indian Shores?",
       answer: "We offer same-day and next-day boat removal services in Indian Shores, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Indian Shores do you serve?",
-      answer: "We serve all of Indian Shores including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pinellas County."
-    },
+    { 
+      question: "What areas of Indian Shores do you serve?", 
+      answer: "We serve all of Indian Shores including the Gulf Boulevard beachfront, the Indian Shores Municipal Center, 86th Avenue area, Indian Shores Beach Park, and surrounding neighborhoods in Pinellas County."
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Indian Shores. We handle all permits and logistics."
