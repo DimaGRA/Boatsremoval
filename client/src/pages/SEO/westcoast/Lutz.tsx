@@ -374,26 +374,26 @@ export default function Lutz() {
               About <span className="text-primary">Florida Boat Removal</span> in Lutz, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Lutz is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Lutz is a quiet suburban community in Hillsborough County, valued for its leafy streets, lakes,
+                and golf communities like Cheval, with convenient access to Hillsborough River tributaries and nearby boat launch points.
+                Though inland, Lutz is home to numerous residential waterways and private docks, so professional boat removal services 
+                are frequently required. 
+              </p> 
+              <p> 
+                Whether you're near Downtown Lutz and Lutz Lake Fern, close to the Cheval golf and waterfront community, or around 
+                the U.S. Highway 41 corridor, Lake Park, or Collier Parkway area, 
+                <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally responsible boat 
+                disposal services. We understand the permitting, logistical, and environmental concerns of working across 
+                Hillsborough County’s inland waterways and have the experience to manage any situation.
+              </p> 
+              <p> Our Lutz boat removal services include hauling away old boats, pontoons, sailboats, and small yachts 
+                from private properties, docks, storage yards, and residential waterfronts. We handle all transport, 
+                heavy lifting, and eco‑compliant disposal to ensure a smooth, stress‑free experience for every customer.
               </p>
-              <p>
-                Whether you're near the Lutz Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lutz boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Lutz, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Serving all of Hillsborough County, including Lutz, Wesley Chapel, Town n' Country, Odessa, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
