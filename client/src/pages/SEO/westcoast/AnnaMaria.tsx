@@ -408,3 +408,6 @@ export default function AnnaMaria() {
     </div>
   );
 }
+//{ name: "Anna Maria", lat: 27.5077, lon: -82.7384, county: "Manatee", phone: "727-298-0155"},
+//import Anna Maria from "@/pages//SEO/westcoast/AnnaMaria"
+//<Rout path="/boat-removal-fl-annamaria" component={AnnaMaria}/>
