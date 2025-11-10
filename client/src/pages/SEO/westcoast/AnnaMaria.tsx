@@ -375,27 +375,26 @@ export default function AnnaMaria() {
               About <span className="text-primary">Florida Boat Removal</span> in Anna Maria, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Anna Maria is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+             <p> 
+               Anna Maria is a peaceful island city in Manatee County, prized for its sandy beaches, low‑rise charm, and coastal vistas
+               along the Gulf of Mexico and Tampa Bay. Though compact, the island supports an active boating community with nearby marinas,
+               inlets, and residential docks, so professional boat removal is often necessary. 
+             </p> 
+              <p> Whether you're near Pine Avenue and the island’s shops, close to the Anna Maria City Pier, or in residences along
+                Gulf Drive, near Bean Point, or around the city center, <span className="text-primary">Florida Boat Removal</span> 
+                delivers prompt, dependable, and ecologically minded boat disposal services. We understand the permitting, logistical, 
+                and environmental considerations of working on barrier islands and throughout Manatee County and have the know‑how 
+                to handle every situation.
               </p>
               <p>
-                Whether you're near the Anna Maria Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Anna Maria boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Manatee County including Anna Maria, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Our Anna Maria boat removal services include hauling away derelict vessels, pontoons, small yachts, sailboats, 
+                and personal watercraft from private properties, docks, marinas, and shoreline locations. We manage transportation, 
+                heavy lifting, and environmentally responsible disposal so the entire process is safe and worry‑free for each customer.
+              </p> 
+              <p> 
+                Serving all of Manatee County, including Anna Maria, Holmes Beach, Bradenton Beach, Bradenton, and nearby communities.
+                Contact us today for a free quote! 
+             </p>
             </div>
           </div>
         </section>
