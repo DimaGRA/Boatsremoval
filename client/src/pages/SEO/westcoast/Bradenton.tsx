@@ -405,3 +405,6 @@ export default function Bradenton() {
     </div>
   );
 }
+//{ name: "Bradenton", lat: 27.4989, lon: -82.5748, county: "Manatee" },
+//import Bradenton from "@/pages//SEO/westcoast/Bradenton"
+//<Rout path="/boat-removal-fl-bradenton" component={Bradenton}/>
