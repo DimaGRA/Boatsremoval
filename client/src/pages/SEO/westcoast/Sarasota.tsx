@@ -26,12 +26,11 @@ export default function Sarasota() {
   ];
 
   const serviceAreas = [
-    "Sarasota Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Sarasota",
+    "Bayfront",
+    "Marina Jack",
+    "St. Armands Circle",
+    "Gulf Gate"    
   ];
 
   const faqs = [
@@ -39,9 +38,8 @@ export default function Sarasota() {
       question: "How quickly can you remove a boat in Sarasota?",
       answer: "We offer same-day and next-day boat removal services in Sarasota, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Sarasota do you serve?",
-      answer: "We serve all of Sarasota including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { question: "What areas of Sarasota do you serve?", 
+     answer: "We serve all of Sarasota including Downtown Sarasota, Bayfront, Marina Jack, St. Armands Circle, and Gulf Gate in Sarasota County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +375,20 @@ export default function Sarasota() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Sarasota is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Downtown Sarasota and the Bayfront, close to Marina Jack or St. Armands Circle, 
+                or in neighborhoods around Siesta Key, Bird Key, or Gulf Gate, <span className="text-primary">Florida Boat Removal</span>
+                provides prompt, professional, and environmentally conscious boat hauling and disposal services.
+                We understand the permitting, logistical, and ecological considerations of working throughout Sarasota County’s 
+                coastal and inland waterways and bring the local experience to handle every situation. 
+              </p>
+              <p> 
+                Our Sarasota boat removal services include hauling away old and derelict vessels, pontoons, sailboats, and small yachts
+                from private properties, docks, marinas, storage yards, and shoreline locations. We manage all transport, heavy lifting, 
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer.
               </p>
               <p>
-                Whether you're near the Sarasota Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Sarasota boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Sarasota, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including Sarasota, Siesta Key, Longboat Key, Bradenton, and nearby communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +401,6 @@ export default function Sarasota() {
     </div>
   );
 }
+//{ name: "Sarasota", lat: 27.3364, lon: -82.5307, county: "Sarasota", phone: "727-298-0155"},
+//import Sarasota from "@/pages//SEO/westcoast/Sarasota"
+//<Rout path="/boat-removal-fl-sarasota" component={Sarasota}/>
