@@ -26,12 +26,11 @@ export default function AnnaMaria() {
   ];
 
   const serviceAreas = [
-    "Anna Maria Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Pine Avenue",
+    "Gulf Drive",
+    "Anna Maria City Pier",
+    "Bean Point",
+    "Anna Maria city center"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function AnnaMaria() {
       question: "How quickly can you remove a boat in Anna Maria?",
       answer: "We offer same-day and next-day boat removal services in Anna Maria, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Anna Maria do you serve?",
-      answer: "We serve all of Anna Maria including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Anna Maria do you serve?", 
+      answer: "We serve all of Anna Maria including Pine Avenue, Gulf Drive, Anna Maria City Pier, Bean Point, and the city center in Manatee County." 
     },
     {
       question: "Do you remove boats from residential properties?",
