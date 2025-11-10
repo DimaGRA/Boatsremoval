@@ -26,12 +26,11 @@ export default function CitrusPark() {
   ];
 
   const serviceAreas = [
-    "Citrus Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Citrus Park Town Center",
+    "Lake Rogers Park",
+    "Upper Tampa Bay Park",
+    "neighborhoods along Sheldon Road",
+    "Veterans Expressway corridor"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function CitrusPark() {
       question: "How quickly can you remove a boat in Citrus Park?",
       answer: "We offer same-day and next-day boat removal services in Citrus Park, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Citrus Park do you serve?",
-      answer: "We serve all of Citrus Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+      answer: "We serve all of Citrus Park including Citrus Park Town Center, Lake Rogers Park, Upper Tampa Bay Park, neighborhoods along Sheldon Road, and the Veterans Expressway corridor in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function CitrusPark() {
               About <span className="text-primary">Florida Boat Removal</span> in Citrus Park, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Citrus Park is a vibrant suburban community in Hillsborough County, known for its green corridors, retail hubs like 
+                Citrus Park Town Center, and convenient access to Tampa Bay via nearby waterways and boat ramps at Upper Tampa Bay Park 
+                and Lake Rogers Park. While not directly on the open Gulf, Citrus Park sits within an active marine and boating region.
+                With nearby marinas, canals, and residential waterways, professional boat removal services remain important. 
+              </p> 
               <p>
-                Citrus Park is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Citrus Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Citrus Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Citrus Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Whether you're near Citrus Park Town Center, close to Lake Rogers Park, or in residential neighborhoods along Sheldon Road, 
+                around the Veterans Expressway corridor, or near Upper Tampa Bay Park, <span className="text-primary">Florida Boat Removal</span>
+                provides fast, reliable, and eco-friendly boat disposal services. We understand the permitting, logistical, and environmental 
+                challenges of boat removal across Hillsborough County’s inland and coastal environments and have the expertise to handle 
+                any situation.
+              </p> 
+              <p> 
+                Our Citrus Park boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft
+                from private properties, marinas, storage yards, and shoreline access points. We take care of all transportation, 
+                heavy lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Citrus Park, Carrollwood, Westchase, Northdale, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function CitrusPark() {
     </div>
   );
 }
+//{ name: "Citrus Park", lat: 28.0114, lon: -82.5790, county: "Hillsborough", phone: "727-298-0155"},
+//import CitrusPark from "@/pages//SEO/westcoast/CitrusPark"
+//<Rout path="/boat-removal-fl-citruspark" component={CitrusPark}/>
