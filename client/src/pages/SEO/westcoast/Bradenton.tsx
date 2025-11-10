@@ -26,12 +26,11 @@ export default function Bradenton() {
   ];
 
   const serviceAreas = [
-    "Bradenton Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Bradenton",
+    "the Village of the Arts",
+    "West Bradenton",
+    "East Bradenton",
+    "the Manatee River waterfront"
   ];
 
   const faqs = [
@@ -39,9 +38,8 @@ export default function Bradenton() {
       question: "How quickly can you remove a boat in Bradenton?",
       answer: "We offer same-day and next-day boat removal services in Bradenton, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Bradenton do you serve?",
-      answer: "We serve all of Bradenton including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { question: "What areas of Bradenton do you serve?",
+     answer: "We serve all of Bradenton including Downtown Bradenton, the Village of the Arts, West Bradenton, East Bradenton, and the Manatee River waterfront in Manatee County."
     },
     {
       question: "Do you remove boats from residential properties?",
