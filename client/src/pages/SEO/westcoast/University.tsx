@@ -26,12 +26,11 @@ export default function University() {
   ];
 
   const serviceAreas = [
-    "University Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "USF campus",
+    "Fletcher Avenue corridor",
+    "Fowler Avenue neighborhoods",
+    "Busch Boulevard area",
+    "MOSI / University Square vicinity"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function University() {
       question: "How quickly can you remove a boat in University?",
       answer: "We offer same-day and next-day boat removal services in University, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of University do you serve?",
-      answer: "We serve all of University including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of the University area do you serve?",
+      answer: "We serve all of the University area including the USF campus, Fletcher Avenue corridor, Fowler Avenue neighborhoods, Busch Boulevard area, and the MOSI / University Square vicinity in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,27 @@ export default function University() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                University is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                University is a bustling community adjacent to the University of South Florida in Hillsborough County, known for its student
+                housing, research parks, and convenient access to nearby waterways and green spaces. While not a coastal town, the area’s 
+                proximity to the Hillsborough River, local lakes, and nearby boat launch points means boating and water recreation are common,
+                and professional boat removal services are sometimes necessary. 
               </p>
-              <p>
-                Whether you're near the University Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our University boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including University, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Whether you're near the USF campus, close to the Museum of Science and Industry (MOSI) area, or in residential neighborhoods
+                along Fletcher Avenue, Fowler Avenue, or around Busch Boulevard, <span className="text-primary">Florida Boat Removal</span>
+                provides fast, reliable, and environmentally conscious boat disposal services. We understand the permitting, logistical, 
+                and environmental challenges of working throughout Hillsborough County’s inland waterways and have the local expertise
+                to handle any situation. 
+              </p> 
+              <p> 
+                Our University area boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal
+                watercraft from private properties, storage yards, riverfront lots, and public launch sites. We take care of all 
+                transportation, heavy lifting, and environmentally responsible disposal to ensure a safe, efficient, and stress‑free process
+                for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including the University area, Tampa, Temple Terrace, Carrollwood, and surrounding 
+                communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +409,6 @@ export default function University() {
     </div>
   );
 }
+//{ name: "University", lat: 27.9435, lon: -82.5033, county: "Hillsborough", phone: "727-298-0155"},
+//import University from "@/pages//SEO/westcoast/University"
+//<Rout path="/boat-removal-fl-university" component={University}/>
