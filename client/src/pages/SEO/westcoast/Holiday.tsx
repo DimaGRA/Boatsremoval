@@ -409,4 +409,4 @@ export default function Holiday() {
 }
 //{ name: "Holiday", lat: 28.1772, lon: -82.7326, county: "Pasco" , phone: "727-298-0155"},
 //import Holiday from "@/pages//SEO/westcoast/Holiday"
-//<Rout path="/boat-removal-fl-holiday" component={Holiday}/>
+//<Route path="/boat-removal-fl-holiday" component={Holiday}/>
