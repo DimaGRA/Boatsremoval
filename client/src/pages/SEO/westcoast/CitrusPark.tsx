@@ -410,4 +410,4 @@ export default function CitrusPark() {
 }
 //{ name: "Citrus Park", lat: 28.0114, lon: -82.5790, county: "Hillsborough", phone: "727-298-0155"},
 //import CitrusPark from "@/pages//SEO/westcoast/CitrusPark"
-//<Rout path="/boat-removal-fl-citruspark" component={CitrusPark}/>
+//<Route path="/boat-removal-fl-citrus-park" component={CitrusPark}/>
