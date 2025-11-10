@@ -410,4 +410,4 @@ export default function TempleTerrace() {
 }
 //{ name: "Temple Terrace", lat: 28.0326, lon: -82.4088, county: "Hillsborough", phone: "727-298-0155"},
 //import TempleTerrace from "@/pages//SEO/westcoast/TempleTerrace"
-//<Rout path="/boat-removal-fl-temple-terrace" component={TempleTerrace}/>
+//<Route path="/boat-removal-fl-temple-terrace" component={TempleTerrace}/>
