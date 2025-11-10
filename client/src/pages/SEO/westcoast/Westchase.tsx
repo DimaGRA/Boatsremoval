@@ -26,12 +26,11 @@ export default function Westchase() {
   ];
 
   const serviceAreas = [
-    "Westchase Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Westchase Town Center",
+    "Westchase Golf Club area",
+    "Racetrack Road corridor",
+    "Linebaugh Avenue neighborhoods",
+    "Veterans Expressway corridor"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Westchase() {
       question: "How quickly can you remove a boat in Westchase?",
       answer: "We offer same-day and next-day boat removal services in Westchase, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Westchase do you serve?",
-      answer: "We serve all of Westchase including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Westchase do you serve?", 
+      answer: "We serve all of Westchase including Westchase Town Center, the Westchase Golf Club area, the Racetrack Road corridor, Linebaugh Avenue neighborhoods, and the Veterans Expressway corridor in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Westchase() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Westchase is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Westchase is a well‑planned suburban community in Hillsborough County, known for its tree‑lined streets, parks, and
+                golf courses, with convenient access to Tampa and the nearby Tampa Bay shoreline. While not directly on the open water, 
+                Westchase sits within a region active in boating and marine recreation, and nearby launch points and residential waterways 
+                create demand for professional boat removal services.
+              </p> 
+              <p> 
+                Whether you're near Westchase Town Center, close to the Westchase Golf Club, or in neighborhoods around Fawn Lake, 
+                along Linebaugh Avenue, or near the Veterans Expressway corridor, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, reliable, and eco‑minded boat disposal services. We understand the permitting, logistical, and environmental 
+                challenges of working throughout Hillsborough County and have the experience to handle any situation safely. 
+              </p>
+              <p> 
+                Our Westchase boat removal services include hauling away old boats, pontoons, sailboats, and small yachts from private 
+                properties, storage yards, marinas, and shoreline areas. We manage all transportation, heavy lifting, and environmentally 
+                responsible disposal to ensure a smooth, stress‑free process for every customer. 
               </p>
               <p>
-                Whether you're near the Westchase Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Westchase boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Westchase, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Westchase, Tampa, Carrollwood, Citrus Park, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
