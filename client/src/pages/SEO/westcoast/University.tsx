@@ -411,4 +411,4 @@ export default function University() {
 }
 //{ name: "University", lat: 27.9435, lon: -82.5033, county: "Hillsborough", phone: "727-298-0155"},
 //import University from "@/pages//SEO/westcoast/University"
-//<Rout path="/boat-removal-fl-university" component={University}/>
+//<Route path="/boat-removal-fl-university" component={University}/>
