@@ -401,6 +401,4 @@ export default function Sarasota() {
     </div>
   );
 }
-//{ name: "Sarasota", lat: 27.3364, lon: -82.5307, county: "Sarasota", phone: "727-298-0155"},
-//import Sarasota from "@/pages//SEO/westcoast/Sarasota"
-//<Rout path="/boat-removal-fl-sarasota" component={Sarasota}/>
+

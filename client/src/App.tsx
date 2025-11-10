@@ -117,6 +117,9 @@ import StPetersburg from "@/pages/SEO/westcoast/StPetersburg"
 import Tampa from "@/pages/SEO/westcoast/Tampa"
 import TownNCountry from "@/pages/SEO/westcoast/TownNCountry"
 import PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel"
+import AnnaMaria from "@/pages//SEO/westcoast/AnnaMaria"
+import Bradenton from "@/pages//SEO/westcoast/Bradenton"
+import Sarasota from "@/pages//SEO/westcoast/Sarasota"
 
 
 
@@ -234,6 +237,10 @@ function Router() {
       <Route path="/boat-removal-fl-tampa" component={Tampa} />
       <Route path="/boat-removal-fl-town-n-country" component={TownNCountry} />
       <Route path="/boat-removal-fl-palm-river-clair-mel" component={PalmRiverClairMel} />
+      <Route path="/boat-removal-fl-anna-maria" component={AnnaMaria}/>
+      <Route path="/boat-removal-fl-bradenton" component={Bradenton}/>
+      <Route path="/boat-removal-fl-sarasota" component={Sarasota}/>
+      
       
       <Route component={NotFound} />
     </Switch>
