@@ -26,12 +26,11 @@ export default function GreaterCarrollwood() {
   ];
 
   const serviceAreas = [
-    "Greater Carrollwood Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Carrollwood Village",
+    "Lake Carroll",
+    "Dale Mabry Highway corridor",
+    "Gunn Highway neighborhoods",
+    "Northdale"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function GreaterCarrollwood() {
       question: "How quickly can you remove a boat in Greater Carrollwood?",
       answer: "We offer same-day and next-day boat removal services in Greater Carrollwood, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Greater Carrollwood do you serve?",
-      answer: "We serve all of Greater Carrollwood including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+      answer: "We serve all of Greater Carrollwood including Carrollwood Village, Lake Carroll, the Dale Mabry Highway corridor, Gunn Highway neighborhoods, and Northdale in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,26 @@ export default function GreaterCarrollwood() {
               About <span className="text-primary">Florida Boat Removal</span> in Greater Carrollwood, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Greater Carrollwood is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Greater Carrollwood is a peaceful suburban area in Hillsborough County, known for its leafy streets, chain of lakes, 
+                and community amenities such as the Carrollwood Country Club and nearby Lake Carroll. While not directly on the open coast,
+                the neighborhood’s numerous lakes, canals, and easy access to Tampa Bay launch points mean professional boat removal services 
+                are still frequently needed. 
+              </p> 
+              <p> 
+                Whether you're near Carrollwood Village, close to Lake Carroll and its surrounding waterfront subdivisions, or in neighborhoods
+                along Dale Mabry Highway, near Gunn Highway, or around the Carrollwood Country Club, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, dependable, and eco-friendly boat hauling and disposal services. We understand the permitting, logistical, 
+                and environmental challenges of working across Hillsborough County and have the expertise to handle any situation. 
+              </p> 
+              <p> 
+                Our Greater Carrollwood boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal
+                watercraft from private properties, docks, storage yards, and shoreline areas. We take care of all transport, heavy lifting,
+                and environmentally responsible disposal to ensure a smooth, stress‑free process for every customer.
               </p>
-              <p>
-                Whether you're near the Greater Carrollwood Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Greater Carrollwood boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Greater Carrollwood, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Serving all of Hillsborough County, including Greater Carrollwood, Carrollwood Village, Northdale, Tampa, and surrounding 
+                communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
