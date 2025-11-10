@@ -376,26 +376,23 @@ export default function Bradenton() {
               About <span className="text-primary">Florida Boat Removal</span> in Bradenton, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Bradenton is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Bradenton Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Bradenton boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Manatee County including Bradenton, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Bradenton is a coastal city in Manatee County, recognized for its riverfront parks, historic districts, and easy
+                access to Tampa Bay via the Manatee River and Palma Sola Bay. With a busy marina scene, coastal channels, and numerous 
+                launch points, professional boat removal services remain in demand across the region. 
+              </p> 
+              <p> 
+                Whether you're near the Downtown Bradenton Riverwalk, close to the Village of the Arts, or in neighborhoods around 
+                Cortez Road, Palma Sola Bay, or the Manatee River waterfront, <span className="text-primary">Florida Boat Removal</span> 
+                provides prompt, trustworthy, and environmentally responsible boat disposal services. We understand the permitting,
+                logistical, and ecological challenges of operating throughout Manatee County’s coastal and inland waterways
+                and have the expertise to manage every situation. </p> <p> Our Bradenton boat removal services include hauling away old boats,
+                pontoons, sailboats, and small yachts from private properties, marinas, storage yards, and shoreline locations.
+                We handle all transport, heavy lifting, and eco‑compliant disposal to deliver a hassle‑free experience for each customer. 
+              </p> 
+              <p> 
+                Serving all of Manatee County, including Bradenton, Palmetto, Bradenton Beach, Holmes Beach, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
