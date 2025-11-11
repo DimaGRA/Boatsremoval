@@ -26,12 +26,11 @@ export default function Thonotosassa() {
   ];
 
   const serviceAreas = [
-    "Thonotosassa Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Thonotosassa",
+    "Lake Thonotosassa",
+    "Morris Bridge Road area",
+    "U.S. 301 corridor",
+    "Antioch neighborhood"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Thonotosassa() {
       question: "How quickly can you remove a boat in Thonotosassa?",
       answer: "We offer same-day and next-day boat removal services in Thonotosassa, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Thonotosassa do you serve?",
-      answer: "We serve all of Thonotosassa including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Thonotosassa do you serve?", 
+      answer: "We serve all of Thonotosassa including Downtown Thonotosassa, Lake Thonotosassa, the Morris Bridge Road area, the U.S. 301 corridor, and the Antioch neighborhood in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function Thonotosassa() {
               About <span className="text-primary">Florida Boat Removal</span> in Thonotosassa, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Thonotosassa is a quiet community in Hillsborough County, known for its wooded residential areas, freshwater
+                Lake Thonotosassa, and convenient access to regional waterways that connect into the broader Tampa Bay boating region.
+                While not a coastal town, Thonotosassa lies within reach of local marinas and launch points, so professional boat removal 
+                services remain an important option for lakeside and waterfront property owners. 
+              </p> 
+              <p> 
+                Whether you're near Downtown Thonotosassa, close to Lake Thonotosassa, or in neighborhoods along Morris Bridge Road, 
+                the U.S. 301 corridor, or Antioch Acres, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and environmental 
+                challenges of boat removal across Hillsborough County’s inland and coastal areas and have the local experience to handle any
+                situation. 
+              </p> 
               <p>
-                Thonotosassa is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
+                Our Thonotosassa boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft
+                from private properties, lakeside docks, storage yards, and roadside lots. We manage all transportation, heavy lifting,
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
               <p>
-                Whether you're near the Thonotosassa Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Thonotosassa boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Thonotosassa, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Thonotosassa, Plant City, Seffner, Riverview, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function Thonotosassa() {
     </div>
   );
 }
+//{ name: "Thonotosassa", lat: 28.0522, lon: -82.2963, county: "Hillsborough", phone: "727-298-0155"},
+//import Thonotosassa from "@/pages//SEO/westcoast/Thonotosassa"
+//<Route path="/boat-removal-fl-thonotosassa" component={Thonotosassa}/>
