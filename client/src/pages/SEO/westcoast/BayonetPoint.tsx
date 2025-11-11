@@ -26,12 +26,11 @@ export default function BayonetPoint() {
   ];
 
   const serviceAreas = [
-    "Bayonet Point Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Beacon Woods",
+    "U.S. 19 corridor",
+    "Little Road neighborhoods",
+    "Ridge Road area",
+    "Anclote River waterfront"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function BayonetPoint() {
       question: "How quickly can you remove a boat in Bayonet Point?",
       answer: "We offer same-day and next-day boat removal services in Bayonet Point, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Bayonet Point do you serve?",
-      answer: "We serve all of Bayonet Point including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pasco County."
+    { 
+      question: "What areas of Bayonet Point do you serve?", 
+      answer: "We serve all of Bayonet Point including Beacon Woods, the U.S. 19 corridor, Little Road neighborhoods, Ridge Road area, and the Anclote River waterfront in Pasco County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,26 @@ export default function BayonetPoint() {
               About <span className="text-primary">Florida Boat Removal</span> in Bayonet Point, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Bayonet Point is a beautiful coastal city in Pasco County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Bayonet Point is a waterfront community in Pasco County, known for its peaceful neighborhoods, freshwater preserves, 
+                and convenient access to coastal waterways such as the Anclote River and nearby Werner-Boyce Salt Springs State Park. 
+                While not a resort island, Bayonet Point sits within an active boating region with marinas, boat ramps, and residential slips,
+                so professional boat removal services remain an important local resource. 
+              </p> 
+              <p> 
+                Whether you're near Beacon Woods, close to the US-19 corridor, or in residential neighborhoods along Little Road, Ridge Road,
+                or near the Anclote River waterfront, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable,
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges 
+                of boat removal across Pasco County’s coastal and inland waterways and have the local experience to handle any situation. 
               </p>
               <p>
-                Whether you're near the Bayonet Point Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Bayonet Point boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from 
+                private properties, marinas, storage yards, and shoreline access points. We manage all transportation, heavy lifting, and 
+                eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer.
               </p>
-              <p>
-                Our Bayonet Point boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pasco County including Bayonet Point, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Serving all of Pasco County, including Bayonet Point, New Port Richey, Port Richey, Hudson, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function BayonetPoint() {
     </div>
   );
 }
+//{ name: "Bayonet Point", lat: 28.2943, lon: -82.6955, county: "Pasco", phone: "727-298-0155"},
+//import BayonetPoint from "@/pages//SEO/westcoast/BayonetPoint"
+//<Route path="/boat-removal-fl-bayonet-point" component={BayonetPoint}/>
