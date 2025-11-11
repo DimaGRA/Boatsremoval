@@ -26,12 +26,11 @@ export default function Gibsonton() {
   ];
 
   const serviceAreas = [
-    "Gibsonton Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "waterfront/Alafia River shoreline",
+    "the U.S. 41 corridor",
+    "Symmes Road area",
+    "Oakfield Drive neighborhoods",
+    "local marina and boat ramp access points"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Gibsonton() {
       question: "How quickly can you remove a boat in Gibsonton?",
       answer: "We offer same-day and next-day boat removal services in Gibsonton, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Gibsonton do you serve?",
-      answer: "We serve all of Gibsonton including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Gibsonton do you serve?", 
+      answer: "We serve all of Gibsonton including the waterfront/Alafia River shoreline, the U.S. 41 corridor, the Symmes Road area, Oakfield Drive neighborhoods, and local marina and boat ramp access points in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function Gibsonton() {
               About <span className="text-primary">Florida Boat Removal</span> in Gibsonton, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Gibsonton is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Gibsonton Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Gibsonton boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Gibsonton, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Gibsonton is a coastal community in Hillsborough County, known for its waterfront neighborhoods, mangrove-lined shorelines,
+                and direct access to Tampa Bay via the Alafia River and local channels. While not a major resort town, Gibsonton sits
+                squarely within an active boating region. With private docks, boat ramps, and nearby marinas, professional boat removal 
+                services remain an important resource for homeowners and recreational boaters. 
+              </p> 
+              <p> 
+                Whether you're near the Gibsonton waterfront, close to the Alafia River shoreline, or in residential areas along U.S. 41,
+                Symmes Road, or around Oakfield Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges
+                of boat removal across Hillsborough County’s coastal and inland waterways and have the local experience to handle any
+                situation.
+              </p> 
+              <p> 
+                Our Gibsonton boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft 
+                from private properties, marinas, storage yards, and shoreline access points. We manage all transportation, heavy lifting,
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Gibsonton, Riverview, Ruskin, Apollo Beach, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function Gibsonton() {
     </div>
   );
 }
+//{ name: "Gibsonton", lat: 27.8506, lon: -82.3708, county: "Hillsborough" , phone: "727-298-0155"},
+//import Gibsonton from "@/pages//SEO/westcoast/Gibsonton"
+//<Route path="/boat-removal-fl-gibsonton" component={Gibsonton}/>
