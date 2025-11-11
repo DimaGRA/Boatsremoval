@@ -26,12 +26,11 @@ export default function Brandon() {
   ];
 
   const serviceAreas = [
-    "Brandon Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Brandon",
+    "E. Brandon Boulevard",
+    "Kings Avenue area",
+    "Westfield Brandon",
+    "Brandon Regional Hospital area"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Brandon() {
       question: "How quickly can you remove a boat in Brandon?",
       answer: "We offer same-day and next-day boat removal services in Brandon, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Brandon do you serve?",
-      answer: "We serve all of Brandon including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+      answer: "We serve all of Brandon including Downtown Brandon, the E. Brandon Boulevard (U.S. 60) corridor, the Kings Avenue area, the Westfield Brandon / Brandon Mall area, and neighborhoods around Brandon Regional Hospital in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +375,28 @@ export default function Brandon() {
               About <span className="text-primary">Florida Boat Removal</span> in Brandon, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p> 
+               Brandon is a bustling community in Hillsborough County, known for its suburban neighborhoods, parks, and convenient
+               access to waterways and recreational lakes that connect to the greater Tampa Bay boating region. While not directly on
+               the Gulf, Brandon is surrounded by an active boating community with nearby marinas, launch sites, and residential docks, 
+               so professional boat removal services remain essential. 
+             </p> 
               <p>
-                Brandon is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Downtown Brandon, close to Brandon Regional Hospital and Kings Avenue, or in residential neighborhoods 
+                along E. Brandon Boulevard (U.S. 60), Bloomingdale, or the Riverview corridor, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, reliable, and environmentally responsible boat disposal services. We understand the permitting, logistical,
+                and environmental challenges of boat removal across Hillsborough County’s inland and coastal settings and have the experience 
+                to handle any situation. 
+              </p> 
+              <p> 
+                Our Brandon boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from private 
+                properties, marinas, storage yards, and shoreline areas. We handle all transportation, heavy lifting, and eco‑compliant
+                disposal to ensure a safe, efficient, and stress‑free process for every customer. 
               </p>
               <p>
-                Whether you're near the Brandon Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Brandon boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Brandon, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving all of Hillsborough County, including Brandon, Riverview, Valrico, Seffner, and surrounding communities. 
+                Contact us today for a free quote! 
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +408,6 @@ export default function Brandon() {
     </div>
   );
 }
+//{ name: "Brandon", lat: 27.9378, lon: -82.2859, county: "Hillsborough", phone: "727-298-0155"},
+//import Brandon from "@/pages//SEO/westcoast/Brandon"
+//<Route path="/boat-removal-fl-brandon" component={Brandon}/>
