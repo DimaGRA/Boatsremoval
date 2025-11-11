@@ -26,12 +26,11 @@ export default function Riverview() {
   ];
 
   const serviceAreas = [
-    "Riverview Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lake St. Charles",
+    "Alafia River shoreline",
+    "Riverview Drive neighborhoods",
+    "Boyette Road corridor",
+    "U.S. 301 area"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Riverview() {
       question: "How quickly can you remove a boat in Riverview?",
       answer: "We offer same-day and next-day boat removal services in Riverview, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Riverview do you serve?",
-      answer: "We serve all of Riverview including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Riverview do you serve?", 
+      answer: "We serve all of Riverview including Lake St. Charles, the Alafia River shoreline, Riverview Drive neighborhoods, Boyette Road corridor, and the U.S. 301 area in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,26 @@ export default function Riverview() {
               About <span className="text-primary">Florida Boat Removal</span> in Riverview, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Riverview is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Riverview Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Riverview boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Riverview, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Riverview is a growing community in Hillsborough County, known for its suburban neighborhoods, parks, and easy access to
+                Tampa Bay via the Alafia River and local waterways. While not a coastal resort, Riverview sits within an active boating
+                region with nearby marinas and launch sites. With residential docks, lakes, and riverfront properties, professional boat 
+                removal services remain an important resource for homeowners and recreational boaters. 
+              </p> 
+              <p> 
+                Whether you're near Lake St. Charles, close to the Alafia River shoreline, or in residential neighborhoods along Riverview 
+                Drive, Boyette Road, or the U.S. 301 corridor, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges 
+                of boat removal across Hillsborough County’s inland and coastal settings and have the local expertise to handle any situation.
+              </p> 
+              <p> 
+                Our Riverview boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from 
+                private properties, marinas, storage yards, and shoreline access points. We manage all transportation, heavy lifting, 
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Riverview, Brandon, Apollo Beach, Gibsonton, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Riverview() {
     </div>
   );
 }
+//{ name: "Riverview", lat: 27.8576, lon: -82.2975, county: "Hillsborough", phone: "727-298-0155"},
+//import Riverview from "@/pages//SEO/westcoast/Riverview"
+//<Route path="/boat-removal-fl-riverview" component={Riverview}/>

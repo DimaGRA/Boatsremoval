@@ -26,12 +26,11 @@ export default function Hudson() {
   ];
 
   const serviceAreas = [
-    "Hudson Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Hudson Beach",
+    "Hudson Marina area",
+    "Anclote River waterfront",
+    "U.S. 19 corridor",
+    "Ridge Road neighborhoods"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Hudson() {
       question: "How quickly can you remove a boat in Hudson?",
       answer: "We offer same-day and next-day boat removal services in Hudson, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Hudson do you serve?",
-      answer: "We serve all of Hudson including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pasco County."
+    { 
+      question: "What areas of Hudson do you serve?", 
+      answer: "We serve all of Hudson including Hudson Beach, the Hudson Marina area, the Anclote River waterfront, the U.S. 19 corridor, and Ridge Road neighborhoods in Pasco County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,25 @@ export default function Hudson() {
               About <span className="text-primary">Florida Boat Removal</span> in Hudson, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Hudson is a beautiful coastal city in Pasco County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Hudson is a coastal community in Pasco County, known for its relaxed waterfront lifestyle, riverfront parks, and proximity 
+                to scenic Gulf Coast areas like the Anclote River and Hudson Beach. While not a large resort island, Hudson is part of
+                an active boating region. With nearby marinas, boat ramps, and residential waterways, the need for professional boat removal
+                services remains important. 
+              </p> 
+              <p> 
+                Whether you're near the Hudson Marina, close to the Anclote River waterfront, or in residential neighborhoods along U.S. 19, 
+                Ridge Road, or around Hudson Beach, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges
+                of boat removal across Pasco County’s coastal and inland waterways and have the expertise to handle any situation.
+              </p> 
+              <p> Our Hudson boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from private
+                properties, marinas, storage yards, and shoreline areas. We handle all transportation, heavy lifting, and environmentally
+                compliant disposal, ensuring a safe, efficient, and stress‑free process for every customer.
               </p>
               <p>
-                Whether you're near the Hudson Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Hudson boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pasco County including Hudson, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Pasco County, including Hudson, New Port Richey, Port Richey, Bayonet Point, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +406,6 @@ export default function Hudson() {
     </div>
   );
 }
+//{ name: "Hudson", lat: 28.3551, lon: -82.6951, county: "Pasco", phone: "727-298-0155"},
+//import Hudson from "@/pages//SEO/westcoast/Hudson"
+//<Route path="/boat-removal-fl-hudson" component={Hudson}/>

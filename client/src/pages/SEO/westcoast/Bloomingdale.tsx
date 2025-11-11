@@ -26,12 +26,12 @@ export default function Bloomingdale() {
   ];
 
   const serviceAreas = [
-    "Bloomingdale Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Bloomingdale Town Center",
+    "Bloomingdale High School area",
+    "Bloomingdale Avenue area",
+    "Bell Shoals Road corridor",
+    "neighborhoods along Valrico Drive",
+    "Bloomingdale Golfers Club area"
   ];
 
   const faqs = [
@@ -39,9 +39,9 @@ export default function Bloomingdale() {
       question: "How quickly can you remove a boat in Bloomingdale?",
       answer: "We offer same-day and next-day boat removal services in Bloomingdale, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Bloomingdale do you serve?",
-      answer: "We serve all of Bloomingdale including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Bloomingdale do you serve?", 
+      answer: "We serve all of Bloomingdale including Bloomingdale Town Center, the Bloomingdale High School area, the Bloomingdale Avenue and Bell Shoals Road corridor, neighborhoods along Valrico Drive, and the Bloomingdale Golfers Club area in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,28 @@ export default function Bloomingdale() {
               About <span className="text-primary">Florida Boat Removal</span> in Bloomingdale, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p> 
+               Bloomingdale is a suburban community in Hillsborough County, recognized for its family-friendly neighborhoods, expansive 
+               green spaces, and community amenities such as the Bloomingdale Golfers Club and local parks. While not directly on the Gulf,
+               Bloomingdale lies within reach of Tampa Bay’s boating region and nearby lakes, so professional boat removal services remain 
+               a practical need for waterfront homeowners and recreational boaters.
+             </p> 
               <p>
-                Bloomingdale is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near the Bloomingdale Town Center, close to Bloomingdale High School and the Campo YMCA, or in residential
+                neighborhoods along Bloomingdale Avenue, Bell Shoals Road, or the Valrico corridor, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, reliable, and environmentally responsible boat disposal services. We understand the permitting, logistical, 
+                and environmental challenges of boat removal across Hillsborough County’s inland and coastal settings and have the local
+                expertise to handle any situation. 
+              </p> 
+              <p> 
+                Our Bloomingdale boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft
+                from private properties, community lakesides, storage yards, and shoreline access points. We handle all transportation,
+                heavy lifting, and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
               </p>
-              <p>
-                Whether you're near the Bloomingdale Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Bloomingdale boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Bloomingdale, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+              <p> 
+                Serving all of Hillsborough County, including Bloomingdale, Brandon, Valrico, Riverview, and surrounding communities.
+                Contact us today for a free quote! 
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function Bloomingdale() {
     </div>
   );
 }
+//{ name: "Bloomingdale", lat: 27.9328, lon: -82.3465, county: "Hillsborough", phone: "727-298-0155"},
+//import Bloomingdale from "@/pages//SEO/westcoast/Bloomingdale"
+//<Route path="/boat-removal-fl-bloomingdale" component={Bloomingdale}/>

@@ -26,12 +26,12 @@ export default function PlantCity() {
   ];
 
   const serviceAreas = [
-    "Plant City Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Plant City",
+    "Baker Street Historic District",
+    "Sam Allen Park area",
+    "Alexander Street neighborhoods",
+    "Plant City Municipal Airport area",
+    "E. Baker Street / U.S. 92 corridor"
   ];
 
   const faqs = [
@@ -39,9 +39,9 @@ export default function PlantCity() {
       question: "How quickly can you remove a boat in Plant City?",
       answer: "We offer same-day and next-day boat removal services in Plant City, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Plant City do you serve?",
-      answer: "We serve all of Plant City including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Plant City do you serve?", 
+      answer: "We serve all of Plant City including Downtown Plant City (Baker Street Historic District), Sam Allen Park area, Alexander Street neighborhoods, the Plant City Municipal Airport area, and the E. Baker Street / U.S. 92 corridor in Hillsborough County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +376,27 @@ export default function PlantCity() {
               About <span className="text-primary">Florida Boat Removal</span> in Plant City, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Plant City is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Plant City is a historic town in Hillsborough County, celebrated for its agricultural heritage, wide-open spaces, and annual 
+                Strawberry Festival. While not a coastal community, Plant City lies near several lakes and waterways and sits within reach 
+                of Tampa Bay’s boating region, so the need for professional boat removal services can still be important for nearby waterfront
+                and recreational properties. 
               </p>
               <p>
-                Whether you're near the Plant City Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Downtown Plant City and the historic Baker Street district, close to Sam Allen Park, or in residential
+                neighborhoods along Alexander Street, the U.S. 92 (E. Baker Street) corridor, or around the I‑4 interchange, 
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat 
+                disposal services. We understand the permitting, logistical, and environmental challenges of boat removal across Hillsborough
+                County’s inland and coastal settings and have the local expertise to handle any situation.
               </p>
               <p>
-                Our Plant City boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Plant City boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft
+                from private properties, storage yards, lakeside docks, and shoreline access points. We take care of all transportation, 
+                heavy lifting, and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
               <p>
-                Serving all of Hillsborough County including Plant City, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Plant City, Brandon, Valrico, Dover, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +409,6 @@ export default function PlantCity() {
     </div>
   );
 }
+//{ name: "Plant City", lat: 28.0149, lon: -82.1127, county: "Hillsborough", phone: "727-298-0155"},
+//import PlantCity from "@/pages//SEO/westcoast/PlantCity"
+//<Route path="/boat-removal-fl-plant-city" component={PlantCity}/>
