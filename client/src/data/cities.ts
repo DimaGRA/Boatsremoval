@@ -117,7 +117,15 @@ export const allCities: City[] = [
   { name: "Palm River-Clair Mel", lat: 27.9144, lon: -82.3746, county: "Hillsborough", phone: "727-298-0155" },
   { name: "Anna Maria", lat: 27.5077, lon: -82.7384, county: "Manatee", phone: "727-298-0155"},
   { name: "Bradenton", lat: 27.4989, lon: -82.5748, county: "Manatee", phone: "727-298-0155"},
-  { name: "Sarasota", lat: 27.3364, lon: -82.5307, county: "Sarasota", phone: "727-298-0155"}
-
+  { name: "Sarasota", lat: 27.3364, lon: -82.5307, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Westchase", lat: 28.0706, lon: -82.6612, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Greater Carrollwood", lat: 28.0709, lon: -82.4846, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Holiday", lat: 28.1772, lon: -82.7326, county: "Pasco" , phone: "727-298-0155"},
+  { name: "Citrus Park", lat: 28.0114, lon: -82.5790, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Temple Terrace", lat: 28.0326, lon: -82.4088, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "University", lat: 27.9435, lon: -82.5033, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Land O' Lakes", lat: 28.2122, lon: -82.4281, county: "Pasco", phone: "727-298-0155"},
+  { name: "Odessa", lat: 28.1600, lon: -82.5962, county: "Pasco", phone: "727-298-0155"},
+  { name: "New Port Richey", lat: 28.2522, lon: -82.7186, county: "Pasco", phone: "727-298-0155"}
 
 ];

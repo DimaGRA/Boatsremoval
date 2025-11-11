@@ -407,6 +407,4 @@ export default function Westchase() {
     </div>
   );
 }
-//{ name: "Westchase", lat: 28.0706, lon: -82.6612, county: "Hillsborough", phone: "727-298-0155"},
-//import Westchase from "@/pages//SEO/westcoast/Westchase"
-//<Route path="/boat-removal-fl-westchase" component={Westchase}/>
+

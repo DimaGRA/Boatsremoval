@@ -407,6 +407,4 @@ export default function Odessa() {
     </div>
   );
 }
-//{ name: "Odessa", lat: 28.1600, lon: -82.5962, county: "Pasco", phone: "727-298-0155"},
-//import Odessa from "@/pages//SEO/westcoast/Odessa"
-//<Route path="/boat-removal-fl-odessa" component={Odessa}/>
+

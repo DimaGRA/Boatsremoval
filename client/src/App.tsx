@@ -120,6 +120,15 @@ import PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel"
 import AnnaMaria from "@/pages//SEO/westcoast/AnnaMaria"
 import Bradenton from "@/pages//SEO/westcoast/Bradenton"
 import Sarasota from "@/pages//SEO/westcoast/Sarasota"
+import Westchase from "@/pages//SEO/westcoast/Westchase"
+import GreaterCarrollwood from "@/pages//SEO/westcoast/GreaterCarrollwood"
+import Holiday from "@/pages//SEO/westcoast/Holiday"
+import CitrusPark from "@/pages//SEO/westcoast/CitrusPark"
+import TempleTerrace from "@/pages//SEO/westcoast/TempleTerrace"
+import University from "@/pages//SEO/westcoast/University"
+import LandOLakes from "@/pages//SEO/westcoast/LandOLakes"
+import Odessa from "@/pages//SEO/westcoast/Odessa"
+import NewPortRichey from "@/pages//SEO/westcoast/NewPortRichey"
 
 
 
@@ -240,6 +249,15 @@ function Router() {
       <Route path="/boat-removal-fl-anna-maria" component={AnnaMaria}/>
       <Route path="/boat-removal-fl-bradenton" component={Bradenton}/>
       <Route path="/boat-removal-fl-sarasota" component={Sarasota}/>
+      <Route path="/boat-removal-fl-westchase" component={Westchase}/>
+      <Route path="/boat-removal-fl-greater-carrollwood" component={GreaterCarrollwood}/>
+      <Route path="/boat-removal-fl-holiday" component={Holiday}/>
+      <Route path="/boat-removal-fl-citrus-park" component={CitrusPark}/>
+      <Route path="/boat-removal-fl-temple-terrace" component={TempleTerrace}/>
+      <Route path="/boat-removal-fl-university" component={University}/>
+      <Route path="/boat-removal-fl-land-o-lakes" component={LandOLakes}/>
+      <Route path="/boat-removal-fl-odessa" component={Odessa}/>
+      <Route path="/boat-removal-fl-new-port-richey" component={NewPortRichey}/>
       
       
       <Route component={NotFound} />

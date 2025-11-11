@@ -11,7 +11,7 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function LandO'Lakes() {
+export default function LandOLakes() {
   const [, setLocation] = useLocation();
    const nearbyCities = getNearbyCities("Land O' Lakes", 60); // find up to 60 closest
   const phone = getPhoneByCity("Land O' Lakes");
@@ -63,7 +63,7 @@ export default function LandO'Lakes() {
           content="Expert boat removal services in Land O' Lakes, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-land-o'-lakes" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-land-o-lakes" />
       </Helmet>
      <Header cityName="Land O' Lakes" />
       
@@ -408,6 +408,4 @@ export default function LandO'Lakes() {
     </div>
   );
 }
-//{ name: "Land O' Lakes", lat: 28.2122, lon: -82.4281, county: "Pasco", phone: "727-298-0155"},
-//import LandOLakes from "@/pages//SEO/westcoast/LandOLakes"
-//<Route path="/boat-removal-fl-land-o-lakes" component={LandOLakes}/>
+
