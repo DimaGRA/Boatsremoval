@@ -26,12 +26,11 @@ export default function Seffner() {
   ];
 
   const serviceAreas = [
-    "Seffner Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Seffner (Baker Street area)",
+    "the U.S. 92 corridor",
+    "Kingsway Road neighborhoods",
+    "American Gardens",
+    "Bloomfield Hills"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Seffner() {
       question: "How quickly can you remove a boat in Seffner?",
       answer: "We offer same-day and next-day boat removal services in Seffner, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Seffner do you serve?",
-      answer: "We serve all of Seffner including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Seffner do you serve?", 
+      answer: "We serve all of Seffner including Downtown Seffner (Baker Street area), the U.S. 92 corridor, Kingsway Road neighborhoods, American Gardens, and Bloomfield Hills in Hillsborough County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,26 @@ export default function Seffner() {
               About <span className="text-primary">Florida Boat Removal</span> in Seffner, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Seffner is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Seffner is a small community in Hillsborough County, known for its quiet residential streets, historic neighborhoods, 
+                and proximity to regional waterways and lakes that ultimately connect to the greater Tampa Bay boating area. 
+                While not located on the immediate coast, Seffner sits within reach of local marinas and launch points, so professional 
+                boat removal services can still be necessary for nearby waterfront and recreational properties. 
               </p>
-              <p>
-                Whether you're near the Seffner Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Seffner boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Seffner, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> Whether you're near downtown Seffner, close to the U.S. 92 (E. Brandon Blvd) corridor, or in neighborhoods like American 
+                Gardens, Bayland Oaks, or Bloomfield Hills, <span className="text-primary">Florida Boat Removal</span> provides fast, 
+                reliable, and environmentally responsible boat disposal services. We understand the permitting, logistical,
+                and environmental challenges of boat removal across Hillsborough County’s inland and coastal settings and have the
+                experience to handle any situation.
+              </p> 
+              <p> 
+                Our Seffner boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft
+                from private properties, storage yards, lakeside docks, and roadside lots. We manage all transportation, heavy lifting, 
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Seffner, Brandon, Dover, Plant City, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Seffner() {
     </div>
   );
 }
+//{ name: "Seffner", lat: 27.9486, lon: -82.3156, county: "Hillsborough", phone: "727-298-0155"},
+//import Seffner from "@/pages//SEO/westcoast/Seffner"
+//<Route path="/boat-removal-fl-seffner" component={Seffner}/>
