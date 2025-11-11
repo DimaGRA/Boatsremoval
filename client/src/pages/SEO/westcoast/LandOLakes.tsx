@@ -26,12 +26,11 @@ export default function LandO'Lakes() {
   ];
 
   const serviceAreas = [
-    "Land O' Lakes Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Conner's Lake",
+    "Lake Padgett",
+    "State Road 54 corridor",
+    "Suncoast Parkway area",
+    "Land O' Lakes Heritage Park"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function LandO'Lakes() {
       question: "How quickly can you remove a boat in Land O' Lakes?",
       answer: "We offer same-day and next-day boat removal services in Land O' Lakes, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Land O' Lakes do you serve?",
-      answer: "We serve all of Land O' Lakes including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pasco County."
+    { 
+      question: "What areas of Land O' Lakes do you serve?", 
+      answer: "We serve all of Land O' Lakes including Conner's Lake, Lake Padgett, the State Road 54 corridor, the Suncoast Parkway area, and neighborhoods around Land O' Lakes Heritage Park in Pasco County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function LandO'Lakes() {
               About <span className="text-primary">Florida Boat Removal</span> in Land O' Lakes, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Land O' Lakes is a growing suburban community in Pasco County, recognized for its many freshwater lakes, leafy residential
+                developments, and family-friendly parks such as Land O' Lakes Heritage Park. While not a coastal town, the area’s chain of 
+                lakes, canals, and nearby access to larger launch points make boating and water recreation common, so professional boat 
+                removal services remain an important local need. 
+              </p> 
               <p>
-                Land O' Lakes is a beautiful coastal city in Pasco County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Conner's Lake, close to Lake Padgett, or in neighborhoods along State Road 54, US‑41, or around
+                the Suncoast Parkway corridor, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, 
+                and environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges 
+                of working across Pasco County’s inland waterways and have the local experience to handle any situation safely. 
               </p>
               <p>
-                Whether you're near the Land O' Lakes Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Our Land O' Lakes boat removal services include hauling away derelict boats, pontoons, small sailboats,
+                and personal watercraft from private properties, lakeside docks, storage yards, and public launch sites. 
+                We handle all transportation, heavy lifting, and eco‑compliant disposal to ensure a smooth, stress‑free process 
+                for every customer. 
+              </p> 
               <p>
-                Our Land O' Lakes boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pasco County including Land O' Lakes, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Pasco County, including Land O' Lakes, Wesley Chapel, Trinity, Lutz, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function LandO'Lakes() {
     </div>
   );
 }
+//{ name: "Land O' Lakes", lat: 28.2122, lon: -82.4281, county: "Pasco", phone: "727-298-0155"},
+//import LandOLakes from "@/pages//SEO/westcoast/LandOLakes"
+//<Route path="/boat-removal-fl-land-o-lakes" component={LandOLakes}/>

@@ -26,12 +26,11 @@ export default function Odessa() {
   ];
 
   const serviceAreas = [
-    "Odessa Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Gunn Highway corridor",
+    "Keystone area",
+    "Suncoast Parkway corridor",
+    "State Road 54 corridor",
+    "Old Tampa Bay waterfront neighborhoods"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Odessa() {
       question: "How quickly can you remove a boat in Odessa?",
       answer: "We offer same-day and next-day boat removal services in Odessa, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Odessa do you serve?",
-      answer: "We serve all of Odessa including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pasco County."
+    { 
+      question: "What areas of Odessa do you serve?", 
+      answer: "We serve all of Odessa including the Gunn Highway corridor, Keystone area, the Suncoast Parkway corridor, the State Road 54 corridor, and the Old Tampa Bay waterfront neighborhoods in Pasco County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,26 @@ export default function Odessa() {
               About <span className="text-primary">Florida Boat Removal</span> in Odessa, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Odessa is a beautiful coastal city in Pasco County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Odessa is a quiet community in Hillsborough County, noted for its spacious residential lots, wooded landscapes, 
+                and proximity to coastal waters like Old Tampa Bay and nearby conservation areas. While not a Gulf coast resort, Odessa 
+                sits within an active boating region with local launch points and waterfront access, so professional boat removal services 
+                remain an important resource. 
+              </p>
+              <p> 
+                Whether you're near the Keystone area, close to Trinity, or in neighborhoods along Gunn Highway, the State Road 54 corridor,
+                or around the Suncoast Parkway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and 
+                environmentally responsible boat disposal services. We understand the permitting, logistical, and environmental challenges 
+                of boat removal across Hillsborough County’s inland and coastal settings and have the local expertise to handle any situation.
               </p>
               <p>
-                Whether you're near the Odessa Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Odessa boat removal services include hauling away derelict boats, pontoons, small sailboats, and personal watercraft 
+                from private properties, docks, storage yards, and shoreline access points. We handle all transportation, heavy lifting,
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free outcome for every customer. 
               </p>
               <p>
-                Our Odessa boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pasco County including Odessa, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Odessa, Keystone, Trinity, Lutz, and surrounding communities.
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Odessa() {
     </div>
   );
 }
+//{ name: "Odessa", lat: 28.1600, lon: -82.5962, county: "Pasco", phone: "727-298-0155"},
+//import Odessa from "@/pages//SEO/westcoast/Odessa"
+//<Route path="/boat-removal-fl-odessa" component={Odessa}/>
