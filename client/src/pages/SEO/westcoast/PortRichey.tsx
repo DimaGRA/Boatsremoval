@@ -26,12 +26,11 @@ export default function PortRichey() {
   ];
 
   const serviceAreas = [
-    "Port Richey Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Port Richey",
+    "Sims Park",
+    "Marina District",
+    "U.S. 19 corridor",
+    "Anclote River waterfront"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function PortRichey() {
       question: "How quickly can you remove a boat in Port Richey?",
       answer: "We offer same-day and next-day boat removal services in Port Richey, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Port Richey do you serve?",
-      answer: "We serve all of Port Richey including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Pasco County."
+    { 
+      question: "What areas of Port Richey do you serve?", 
+      answer: "We serve all of Port Richey including Downtown Port Richey, Sims Park, the Marina District, the U.S. 19 corridor, and the Anclote River waterfront in Pasco County.",
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function PortRichey() {
               About <span className="text-primary">Florida Boat Removal</span> in Port Richey, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Port Richey is a waterfront city in Pasco County, appreciated for its riverfront charm, historic downtown, 
+                and access to coastal waterways like the Pithlachascotee River and the Anclote River. While not a resort island, 
+                Port Richey sits inside an active boating region with marinas, boat ramps, and residential slips, so professional boat removal
+                services remain an important local resource. 
+              </p> 
+              <p> 
+                Whether you're near Downtown Port Richey and Sims Park, close to the Marina District, or in residential neighborhoods along
+                U.S. 19, Ridge Road, or the Anclote River waterfront, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, dependable, and environmentally responsible boat disposal services. We understand the permitting, logistical,
+                and ecological challenges of boat removal around Pasco County’s coastal and inland waterways and have the experience 
+                to handle any situation. 
+              </p> 
+              <p> 
+                Our Port Richey boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from 
+                private properties, marinas, storage yards, and shoreline access points. We manage all transport, heavy lifting, 
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
               <p>
-                Port Richey is a beautiful coastal city in Pasco County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Port Richey Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Port Richey boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Pasco County including Port Richey, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Pasco County, including Port Richey, New Port Richey, Hudson, Trinity, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function PortRichey() {
     </div>
   );
 }
+//{ name: "Port Richey", lat: 28.2433, lon: -82.7209, county: "Pasco", phone: "727-298-0155"},
+//import PortRichey from "@/pages//SEO/westcoast/PortRichey"
+//<Route path="/boat-removal-fl-port-richey" component={PortRichey}/>
