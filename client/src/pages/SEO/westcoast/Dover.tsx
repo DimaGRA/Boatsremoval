@@ -26,12 +26,11 @@ export default function Dover() {
   ];
 
   const serviceAreas = [
-    "Dover Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Downtown Dover",
+    "Baker Street area",
+    "U.S. 92/E. Baker Street corridor",
+    "I-4 interchange area",
+    "Kingsway Road neighborhoods"    
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Dover() {
       question: "How quickly can you remove a boat in Dover?",
       answer: "We offer same-day and next-day boat removal services in Dover, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Dover do you serve?",
-      answer: "We serve all of Dover including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Dover do you serve?", 
+      answer: "We serve all of Dover including Downtown Dover (Baker Street area), the U.S. 92/E. Baker Street corridor, the I-4 interchange area, Kingsway Road neighborhoods, and nearby residential areas in Hillsborough County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,27 @@ export default function Dover() {
               About <span className="text-primary">Florida Boat Removal</span> in Dover, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Dover is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Dover is a small community in Hillsborough County, recognized for its quiet residential areas, rural lots, and proximity 
+                to regional waterways and recreational lakes that tie into the broader Tampa Bay boating region. While not located on the
+                immediate coast, Dover sits within reach of active boating corridors and nearby launch points, so professional boat removal
+                services remain a valuable local resource. 
               </p>
               <p>
-                Whether you're near the Dover Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near downtown Dover, close to the U.S. 92 corridor, or in residential neighborhoods along Kingsway Road,
+                the I‑4 interchange area, or near local lakes and ponds, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, dependable, and environmentally responsible boat disposal services. We understand the permitting, logistical,
+                and environmental challenges of boat removal across Hillsborough County’s inland and coastal settings and have the local
+                expertise to handle any situation. 
+              </p> 
               <p>
-                Our Dover boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Dover boat removal services include hauling away old boats, pontoons, small sailboats, and personal watercraft from
+                private properties, storage yards, lakeside docks, and roadside lots. We manage all transportation, heavy lifting,
+                and eco‑compliant disposal to ensure a safe, efficient, and stress‑free process for every customer. 
+              </p> 
               <p>
-                Serving all of Hillsborough County including Dover, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Dover, Brandon, Plant City, Seffner, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function Dover() {
     </div>
   );
 }
+//{ name: "Dover", lat: 27.8986, lon: -82.0622, county: "Hillsborough", phone: "727-298-0155"},
+//import Dover from "@/pages//SEO/westcoast/Dover"
+//<Route path="/boat-removal-fl-dover" component={Dover}/>
