@@ -407,6 +407,4 @@ export default function Riverview() {
     </div>
   );
 }
-//{ name: "Riverview", lat: 27.8576, lon: -82.2975, county: "Hillsborough", phone: "727-298-0155"},
-//import Riverview from "@/pages//SEO/westcoast/Riverview"
-//<Route path="/boat-removal-fl-riverview" component={Riverview}/>
+

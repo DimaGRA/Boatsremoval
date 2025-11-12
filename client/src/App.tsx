@@ -129,6 +129,16 @@ import University from "@/pages//SEO/westcoast/University"
 import LandOLakes from "@/pages//SEO/westcoast/LandOLakes"
 import Odessa from "@/pages//SEO/westcoast/Odessa"
 import NewPortRichey from "@/pages//SEO/westcoast/NewPortRichey"
+import BayonetPoint from "@/pages//SEO/westcoast/BayonetPoint"
+import Hudson from "@/pages//SEO/westcoast/Hudson"
+import PlantCity from "@/pages//SEO/westcoast/PlantCity"
+import Dover from "@/pages//SEO/westcoast/Dover"
+import Seffner from "@/pages//SEO/westcoast/Seffner"
+import Brandon from "@/pages//SEO/westcoast/Brandon"
+import Thonotosassa from "@/pages//SEO/westcoast/Thonotosassa"
+import Gibsonton from "@/pages//SEO/westcoast/Gibsonton"
+import Riverview from "@/pages//SEO/westcoast/Riverview"
+import Bloomingdale from "@/pages//SEO/westcoast/Bloomingdale"
 
 
 
@@ -258,6 +268,16 @@ function Router() {
       <Route path="/boat-removal-fl-land-o-lakes" component={LandOLakes}/>
       <Route path="/boat-removal-fl-odessa" component={Odessa}/>
       <Route path="/boat-removal-fl-new-port-richey" component={NewPortRichey}/>
+      <Route path="/boat-removal-fl-bayonet-point" component={BayonetPoint}/>
+      <Route path="/boat-removal-fl-hudson" component={Hudson}/>
+      <Route path="/boat-removal-fl-plant-city" component={PlantCity}/>
+      <Route path="/boat-removal-fl-dover" component={Dover}/>
+      <Route path="/boat-removal-fl-seffner" component={Seffner}/>
+      <Route path="/boat-removal-fl-brandon" component={Brandon}/>
+      <Route path="/boat-removal-fl-thonotosassa" component={Thonotosassa}/>
+      <Route path="/boat-removal-fl-gibsonton" component={Gibsonton}/>
+      <Route path="/boat-removal-fl-riverview" component={Riverview}/>
+      <Route path="/boat-removal-fl-bloomingdale" component={Bloomingdale}/>
       
       
       <Route component={NotFound} />

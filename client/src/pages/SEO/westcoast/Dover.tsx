@@ -408,6 +408,3 @@ export default function Dover() {
     </div>
   );
 }
-//{ name: "Dover", lat: 27.8986, lon: -82.0622, county: "Hillsborough", phone: "727-298-0155"},
-//import Dover from "@/pages//SEO/westcoast/Dover"
-//<Route path="/boat-removal-fl-dover" component={Dover}/>

@@ -126,6 +126,16 @@ export const allCities: City[] = [
   { name: "University", lat: 27.9435, lon: -82.5033, county: "Hillsborough", phone: "727-298-0155"},
   { name: "Land O' Lakes", lat: 28.2122, lon: -82.4281, county: "Pasco", phone: "727-298-0155"},
   { name: "Odessa", lat: 28.1600, lon: -82.5962, county: "Pasco", phone: "727-298-0155"},
-  { name: "New Port Richey", lat: 28.2522, lon: -82.7186, county: "Pasco", phone: "727-298-0155"}
+  { name: "New Port Richey", lat: 28.2522, lon: -82.7186, county: "Pasco", phone: "727-298-0155"},
+  { name: "Bayonet Point", lat: 28.2943, lon: -82.6955, county: "Pasco", phone: "727-298-0155"},
+  { name: "Hudson", lat: 28.3551, lon: -82.6951, county: "Pasco", phone: "727-298-0155"},
+  { name: "Plant City", lat: 28.0149, lon: -82.1127, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Dover", lat: 27.8986, lon: -82.0622, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Seffner", lat: 27.9486, lon: -82.3156, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Brandon", lat: 27.9378, lon: -82.2859, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Thonotosassa", lat: 28.0522, lon: -82.2963, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Gibsonton", lat: 27.8506, lon: -82.3708, county: "Hillsborough" , phone: "727-298-0155"},
+  { name: "Riverview", lat: 27.8576, lon: -82.2975, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Bloomingdale", lat: 27.9328, lon: -82.3465, county: "Hillsborough", phone: "727-298-0155"}
 
 ];

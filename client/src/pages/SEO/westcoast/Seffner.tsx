@@ -407,6 +407,4 @@ export default function Seffner() {
     </div>
   );
 }
-//{ name: "Seffner", lat: 27.9486, lon: -82.3156, county: "Hillsborough", phone: "727-298-0155"},
-//import Seffner from "@/pages//SEO/westcoast/Seffner"
-//<Route path="/boat-removal-fl-seffner" component={Seffner}/>
+

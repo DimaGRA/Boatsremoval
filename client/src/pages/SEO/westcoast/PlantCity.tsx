@@ -409,6 +409,4 @@ export default function PlantCity() {
     </div>
   );
 }
-//{ name: "Plant City", lat: 28.0149, lon: -82.1127, county: "Hillsborough", phone: "727-298-0155"},
-//import PlantCity from "@/pages//SEO/westcoast/PlantCity"
-//<Route path="/boat-removal-fl-plant-city" component={PlantCity}/>
+

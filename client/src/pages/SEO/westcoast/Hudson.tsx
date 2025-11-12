@@ -406,6 +406,4 @@ export default function Hudson() {
     </div>
   );
 }
-//{ name: "Hudson", lat: 28.3551, lon: -82.6951, county: "Pasco", phone: "727-298-0155"},
-//import Hudson from "@/pages//SEO/westcoast/Hudson"
-//<Route path="/boat-removal-fl-hudson" component={Hudson}/>
+
