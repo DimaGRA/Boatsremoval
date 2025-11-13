@@ -26,12 +26,11 @@ export default function Palmetto() {
   ];
 
   const serviceAreas = [
-    "Palmetto Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Palmetto Historic District",
+    "Emerson Point Preserve",
+    "areas along US-41",
+    "10th Street West",
+    " Manatee River waterfront"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Palmetto() {
       question: "How quickly can you remove a boat in Palmetto?",
       answer: "We offer same-day and next-day boat removal services in Palmetto, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Palmetto do you serve?",
-      answer: "We serve all of Palmetto including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Palmetto do you serve?", 
+      answer: "We serve all of Palmetto including the Palmetto Historic District, Emerson Point Preserve, areas along US-41, 10th Street West, and the Manatee River waterfront in Manatee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Palmetto() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Palmetto is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Palmetto is a historic city in Manatee County, valued for its riverfront parks, waterfront views, and proximity to coastal 
+                areas like the Manatee River and Palma Sola Bay. While not directly on the open Gulf, Palmetto sits within the greater Tampa 
+                Bay boating region. With nearby marinas, boat ramps, and residential waterways, the need for professional boat removal services
+                remains important for local homeowners and businesses.
               </p>
               <p>
-                Whether you're near the Palmetto Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near the Palmetto Historic District, close to Emerson Point Preserve, or in residential neighborhoods along 
+                US-41 and 10th Street West, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, 
+                and environmentally responsible boat disposal services. We understand the distinct challenges of boat removal across 
+                Manatee County’s riverfront and coastal-adjacent settings and have the experience to handle any job.
               </p>
               <p>
-                Our Palmetto boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Palmetto boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from private
+                properties, marinas, storage yards, and waterfront docks. We manage all transportation, heavy lifting, and eco-friendly 
+                disposal, delivering a stress-free experience for every customer.
               </p>
               <p>
-                Serving all of Manatee County including Palmetto, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee County, including Palmetto, Bradenton, Ellenton, Parrish, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Palmetto() {
     </div>
   );
 }
+//{ name: "Palmetto", lat: 27.5226, lon: -82.5728, county: "Manatee" , phone: "727-298-0155"},
+//import Palmetto from "@/pages//SEO/westcoast/Palmetto"
+//<Route path="/boat-removal-fl-palmetto" component={Palmetto}/>
