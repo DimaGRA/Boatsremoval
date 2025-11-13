@@ -26,12 +26,11 @@ export default function BayshoreGardens() {
   ];
 
   const serviceAreas = [
-    "Bayshore Gardens Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Bayshore Gardens Park",
+    "Palma Sola Bay",
+    "areas along 59th Street West",
+    "areas along US-41",
+    "Bayshore Gardens Marina"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function BayshoreGardens() {
       question: "How quickly can you remove a boat in Bayshore Gardens?",
       answer: "We offer same-day and next-day boat removal services in Bayshore Gardens, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Bayshore Gardens do you serve?",
-      answer: "We serve all of Bayshore Gardens including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Bayshore Gardens do you serve?", 
+      answer: "We serve all of Bayshore Gardens including Bayshore Gardens Park, Palma Sola Bay, areas along 59th Street West, US-41, and Bayshore Gardens Marina in Manatee County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function BayshoreGardens() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Bayshore Gardens is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Bayshore Gardens is a waterfront community in Manatee County, recognized for its marina access, coastal views, and 
+                close proximity to waterways like Palma Sola Bay and Sarasota Bay. While not directly on the open Gulf, Bayshore Gardens 
+                lies within the greater Tampa Bay boating region. With nearby marinas, boat ramps, and residential canals, the demand for 
+                professional boat removal services remains important for local homeowners and waterfront businesses.
               </p>
               <p>
-                Whether you're near the Bayshore Gardens Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Bayshore Gardens Park, close to Emerson Point Preserve, or in residential neighborhoods along 59th Street
+                West and US‑41, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally 
+                responsible boat disposal services. We understand the unique challenges of boat removal across Manatee County’s riverfront 
+                and coastal-adjacent environments and have the expertise to handle any situation.
               </p>
               <p>
-                Our Bayshore Gardens boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Bayshore Gardens boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from
+                private properties, marinas, storage yards, and waterfront docks. We handle all transportation, heavy lifting, and 
+                eco-friendly disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Serving all of Manatee County including Bayshore Gardens, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee County, including Bayshore Gardens, Bradenton, Palmetto, Ellenton, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function BayshoreGardens() {
     </div>
   );
 }
+//{ name: "Bayshore Gardens", lat: 27.4798, lon: -82.5827, county: "Manatee", phone: "727-298-0155"},
+//import BayshoreGardens from "@/pages//SEO/westcoast/BayshoreGardens"
+//<Route path="/boat-removal-fl-bayshore-gardens" component={BayshoreGardens}/>

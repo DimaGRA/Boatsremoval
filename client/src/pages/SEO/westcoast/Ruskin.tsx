@@ -26,12 +26,10 @@ export default function Ruskin() {
   ];
 
   const serviceAreas = [
-    "Ruskin Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Alafia River shoreline",
+    "U.S. 41 corridor",
+    "College Avenue neighborhoods",
+    "Symmes Road area"
   ];
 
   const faqs = [
@@ -39,9 +37,9 @@ export default function Ruskin() {
       question: "How quickly can you remove a boat in Ruskin?",
       answer: "We offer same-day and next-day boat removal services in Ruskin, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Ruskin do you serve?",
-      answer: "We serve all of Ruskin including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Ruskin do you serve?", 
+      answer: "We serve all of Ruskin including the waterfront/Alafia River shoreline, the U.S. 41 corridor, College Avenue neighborhoods, the Symmes Road area, and nearby residential communities in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +374,27 @@ export default function Ruskin() {
               About <span className="text-primary">Florida Boat Removal</span> in Ruskin, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Ruskin is a waterfront community in Hillsborough County, noted for its bayfront neighborhoods, mangrove-lined shores,
+                and easy access to Tampa Bay via the Alafia River and local channels. While not a major tourist resort, Ruskin is part 
+                of an active boating region. With nearby marinas, boat ramps, and residential docks, professional boat removal services
+                remain an important local need. 
+              </p> 
+              <p> 
+                Whether you're near the Ruskin waterfront, close to the Alafia River mouth, or in residential neighborhoods along U.S. 41,
+                College Avenue, or Symmes Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and 
+                environmentally responsible boat disposal services. We understand the permitting, logistical, and ecological challenges 
+                of boat removal across Hillsborough County’s coastal and inland waterways and have the local expertise to handle any 
+                situation. 
+              </p> 
               <p>
-                Ruskin is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Ruskin Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Ruskin boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Ruskin, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Our Ruskin boat removal services include hauling away old boats, pontoons, sailboats, and personal watercraft from 
+                private properties, marinas, storage yards, and shoreline access points. We take care of all transportation, heavy lifting, 
+                and eco‑compliant disposal, ensuring a safe, efficient, and stress‑free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Hillsborough County, including Ruskin, Gibsonton, Apollo Beach, Riverview, and surrounding communities. 
+                Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Ruskin() {
     </div>
   );
 }
+//{ name: "Ruskin", lat: 27.6879, lon: -82.4011, county: "Hillsborough", phone: "727-298-0155"},
+//import Ruskin from "@/pages//SEO/westcoast/Ruskin"
+//<Route path="/boat-removal-fl-ruskin" component={Ruskin}/>

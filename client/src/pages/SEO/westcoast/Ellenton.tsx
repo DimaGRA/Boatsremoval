@@ -26,12 +26,11 @@ export default function Ellenton() {
   ];
 
   const serviceAreas = [
-    "Ellenton Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Ellenton Historic District",
+    "Palma Sola Bay",
+    "areas along US-41",
+    "57th Avenue East",
+    "Manatee River waterfront"
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function Ellenton() {
       question: "How quickly can you remove a boat in Ellenton?",
       answer: "We offer same-day and next-day boat removal services in Ellenton, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Ellenton do you serve?",
-      answer: "We serve all of Ellenton including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
-    },
+   { 
+     question: "What areas of Ellenton do you serve?",
+     answer: "We serve all of Ellenton including the Ellenton Historic District, Palma Sola Bay, areas along US-41, 57th Avenue East, and the Manatee River waterfront in Manatee County."
+   },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Ellenton. We handle all permits and logistics."
@@ -377,25 +376,25 @@ export default function Ellenton() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Ellenton is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Ellenton is a quiet community in Manatee County, prized for its open green spaces, small-town atmosphere, and proximity to
+                waterways like the Manatee River and Palma Sola Bay. While not directly on the open Gulf, Ellenton lies within the greater
+                Tampa Bay boating region. With nearby marinas, river access points, and residential canals in neighboring areas, the need
+                for professional boat removal services remains important for homeowners and businesses.
               </p>
               <p>
-                Whether you're near the Ellenton Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Ellenton Historic District, close to Robinson Preserve, or in residential neighborhoods along US-41 and 
+                I‑75, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible
+                boat disposal services. We understand the specific challenges of boat removal across Manatee County’s inland and coastal
+                environments and have the expertise to handle any situation.
+              </p> 
+              <p>
+                Our Ellenton boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from private 
+                properties, marinas, storage yards, and riverfront docks. We take care of all transportation, heavy lifting, and
+                environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Our Ellenton boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Manatee County including Ellenton, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee County, including Ellenton, Bradenton, Palmetto, Parrish, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Ellenton() {
     </div>
   );
 }
+//{ name: "Ellenton", lat: 27.5227, lon: -82.5177, county: "Manatee", phone: "727-298-0155"},
+//import Ellenton from "@/pages//SEO/westcoast/Ellenton"
+//<Route path="/boat-removal-fl-ellenton" component={Ellenton}/>

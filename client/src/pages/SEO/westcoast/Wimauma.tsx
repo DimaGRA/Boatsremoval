@@ -26,12 +26,10 @@ export default function Wimauma() {
   ];
 
   const serviceAreas = [
-    "Wimauma Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Wimauma town center",
+    "Little Manatee River area",
+    "locations along US-301",
+    "Balm community"
   ];
 
   const faqs = [
@@ -39,9 +37,9 @@ export default function Wimauma() {
       question: "How quickly can you remove a boat in Wimauma?",
       answer: "We offer same-day and next-day boat removal services in Wimauma, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
+    { 
       question: "What areas of Wimauma do you serve?",
-      answer: "We serve all of Wimauma including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+      answer: "We serve all of Wimauma including Wimauma town center, the Little Manatee River area, locations along US-301, the Balm community, and surrounding neighborhoods in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +375,25 @@ export default function Wimauma() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Wimauma is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Wimauma is a quiet community in Hillsborough County, known for its rural landscapes, agricultural heritage, and proximity
+                to waterways like the Little Manatee River and nearby Tampa Bay. While not directly on the open ocean, Wimauma lies within 
+                the greater Tampa Bay boating region. With nearby marinas, river access points, and residential canals in surrounding towns, 
+                professional boat removal services remain important for property owners and managers.
               </p>
               <p>
-                Whether you're near the Wimauma Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near Balm Boyette Scrub Preserve, close to Little Manatee River State Park, or in residential areas along 
+                US‑301 and SR‑674, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally 
+                responsible boat disposal services. We understand the specific challenges of boat removal across Hillsborough County’s
+                inland and coastal landscapes and have the expertise to handle any situation.
+              </p> 
               <p>
-                Our Wimauma boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Wimauma boat removal services include hauling away old skiffs, center consoles, pontoons, and small yachts from
+                private properties, marinas, storage yards, and riverfront docks. We handle all transportation, heavy lifting, and
+                eco‑friendly disposal, ensuring a hassle‑free process for every customer.
+              </p> 
               <p>
-                Serving all of Hillsborough County including Wimauma, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County, including Wimauma, Ruskin, Apollo Beach, Riverview, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +406,6 @@ export default function Wimauma() {
     </div>
   );
 }
+//{ name: "Wimauma", lat: 27.7165, lon: -82.3206, county: "Hillsborough", phone: "727-298-0155"},
+//import Wimauma from "@/pages//SEO/westcoast/Wimauma"
+//<Route path="/boat-removal-fl-wimauma" component={Wimauma}/>

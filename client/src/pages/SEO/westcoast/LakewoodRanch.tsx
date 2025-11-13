@@ -26,12 +26,11 @@ export default function LakewoodRanch() {
   ];
 
   const serviceAreas = [
-    "Lakewood Ranch Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lakewood Ranch Country Club",
+    "Lakewood Ranch Main Street",
+    "areas along Lakewood Ranch Boulevard",
+    "State Road 70",
+    "Braden River waterfront"
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function LakewoodRanch() {
       question: "How quickly can you remove a boat in Lakewood Ranch?",
       answer: "We offer same-day and next-day boat removal services in Lakewood Ranch, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Lakewood Ranch do you serve?",
-      answer: "We serve all of Lakewood Ranch including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota/Manatee County."
-    },
+   { 
+     question: "What areas of Lakewood Ranch do you serve?", 
+     answer: "We serve all of Lakewood Ranch including Lakewood Ranch Country Club, Lakewood Ranch Main Street, areas along Lakewood Ranch Boulevard, State Road 70, and the Braden River waterfront in Manatee and Sarasota counties."
+   },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Lakewood Ranch. We handle all permits and logistics."
@@ -377,25 +376,27 @@ export default function LakewoodRanch() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lakewood Ranch is a beautiful coastal city in Sarasota/Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Lakewood Ranch is a vibrant master-planned community spanning Manatee and Sarasota counties, celebrated for its lush parks, 
+                championship golf courses, and convenient access to coastal waterways like Sarasota Bay and the Braden River.
+                While not directly on the open Gulf, Lakewood Ranch sits within the greater Tampa Bay boating region. With nearby marinas,
+                river access points, and residential canals in adjacent communities, professional boat removal services remain essential 
+                for homeowners and property managers.
               </p>
               <p>
-                Whether you're near the Lakewood Ranch Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Lakewood Ranch Country Club, close to the Lakewood Ranch Main Street area, or in residential 
+                neighborhoods along Lakewood Ranch Boulevard and State Road 64, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, reliable, and environmentally responsible boat disposal services. We understand the unique challenges of 
+                boat removal across Manatee and Sarasota counties’ inland and coastal-adjacent environments and have the expertise to
+                handle any situation.
               </p>
               <p>
-                Our Lakewood Ranch boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Lakewood Ranch boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from private
+                properties, marinas, storage yards, and waterfront docks. We take care of all transportation, heavy lifting, and 
+                environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Serving all of Sarasota/Manatee County including Lakewood Ranch, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee and Sarasota counties, including Lakewood Ranch, Bradenton, Sarasota, Palmetto, and
+                surrounding communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +409,6 @@ export default function LakewoodRanch() {
     </div>
   );
 }
+//{ name: "Lakewood Ranch", lat: 27.4386, lon: -82.4159, county: "Sarasota/Manatee", phone: "727-298-0155"},
+//import LakewoodRanch from "@/pages//SEO/westcoast/LakewoodRanch"
+//<Route path="/boat-removal-fl-lakewood-ranch" component={LakewoodRanch}/>

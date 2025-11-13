@@ -26,12 +26,12 @@ export default function ApolloBeach() {
   ];
 
   const serviceAreas = [
-    "Apollo Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Apollo Beach Nature Preserve",
+    "South Bay area",
+    "Big Bend Road",
+    "U.S. 41 corridor",
+    "South Shore Boulevard neighborhoods",
+    "Manatee Park access points"
   ];
 
   const faqs = [
@@ -39,9 +39,9 @@ export default function ApolloBeach() {
       question: "How quickly can you remove a boat in Apollo Beach?",
       answer: "We offer same-day and next-day boat removal services in Apollo Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Apollo Beach do you serve?",
-      answer: "We serve all of Apollo Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Apollo Beach do you serve?", 
+      answer: "We serve all of Apollo Beach including the Apollo Beach Nature Preserve and South Bay area, the Big Bend Road and U.S. 41 corridor, the South Shore Boulevard neighborhoods, Manatee Park access points, and the residential waterfront areas around South Bay in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,29 @@ export default function ApolloBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Apollo Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Apollo Beach is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Apollo Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Apollo Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Hillsborough County including Apollo Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+            <p> 
+              Apollo Beach is a waterfront community in Hillsborough County, valued for its bayfront neighborhoods, mangrove shorelines,
+              and close access to Tampa Bay and the wider Gulf waterways. While not a large resort city, Apollo Beach is embedded in an 
+              active boating region. With private docks, boat ramps, and nearby marinas, the demand for professional boat 
+              removal services remains important for homeowners and recreational boaters. 
+            </p> 
+            <p>
+              Whether you're near the Apollo Beach Nature Preserve, close to the South Bay or Manatee Park areas, 
+              or in residential neighborhoods along U.S. 41, Big Bend Road, or around South Shore Boulevard, 
+              <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally 
+              responsible boat disposal services. We understand the permitting, logistical, and ecological challenges of boat 
+              removal across Hillsborough County’s coastal and inland waterways and have the local expertise to handle 
+              any situation. 
+            </p> 
+            <p> Our Apollo Beach boat removal services include hauling away old boats, pontoons, sailboats, and 
+              personal watercraft from private properties, marinas, storage yards, and shoreline access points.
+              We take care of all transportation, heavy lifting, and eco‑compliant disposal, ensuring a safe, efficient, 
+              and stress‑free process for every customer. 
+            </p>
+            <p> 
+              Serving all of Hillsborough County, including Apollo Beach, Gibsonton, Ruskin, Riverview, and surrounding 
+              communities. Contact us today for a free quote!
+            </p>
             </div>
           </div>
         </section>
@@ -408,3 +410,6 @@ export default function ApolloBeach() {
     </div>
   );
 }
+//{ name: "Apollo Beach", lat: 27.7623, lon: -82.3639, county: "Hillsborough", phone: "727-298-0155"},
+//import ApolloBeach from "@/pages//SEO/westcoast/ApolloBeach"
+//<Route path="/boat-removal-fl-apollo-beach" component={ApolloBeach}/>

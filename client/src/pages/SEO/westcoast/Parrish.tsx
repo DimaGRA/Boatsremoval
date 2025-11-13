@@ -26,12 +26,11 @@ export default function Parrish() {
   ];
 
   const serviceAreas = [
-    "Parrish Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Parrish town center",
+    "Lake Manatee Reservoir",
+    "areas along US-301",
+    "Parrish Community Park",
+    "Manatee River waterfront"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Parrish() {
       question: "How quickly can you remove a boat in Parrish?",
       answer: "We offer same-day and next-day boat removal services in Parrish, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Parrish do you serve?",
-      answer: "We serve all of Parrish including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Parrish do you serve?", 
+      answer: "We serve all of Parrish including Parrish town center, Lake Manatee Reservoir, areas along US-301, Parrish Community Park, and the Manatee River waterfront in Manatee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Parrish() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Parrish is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
+                Parrish is a tranquil community in Manatee County, known for its rural charm, open green spaces, and proximity to waterways
+                like the Manatee River and Lake Manatee Reservoir. While not directly on the Atlantic, Parrish sits within the broader Tampa
+                Bay boating region. With nearby marinas, river access points, and residential waterways in neighboring towns, professional
+                boat removal services remain important for homeowners and property managers.
+              </p> 
               <p>
-                Whether you're near the Parrish Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near Parrish Community Park, close to Robinson Preserve, or in residential neighborhoods along US-301 and I‑75,
+                <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and environmentally responsible boat
+                disposal services. We understand the unique challenges of boat removal across Manatee County’s inland and coastal settings 
+                and have the expertise to handle any situation.
+              </p> 
               <p>
-                Our Parrish boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Parrish boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from private 
+                properties, marinas, storage yards, and riverfront docks. We manage all transportation, heavy lifting, and eco-friendly 
+                disposal, ensuring a stress-free process for every customer.
+              </p> 
               <p>
-                Serving all of Manatee County including Parrish, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee County, including Parrish, Bradenton, Palmetto, Ellenton, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Parrish() {
     </div>
   );
 }
+//{ name: "Parrish", lat: 27.5710, lon: -82.3934, county: "Manatee", phone: "727-298-0155"},
+//import Parrish from "@/pages//SEO/westcoast/Parrish"
+//<Route path="/boat-removal-fl-parrish" component={Parrish}/>
