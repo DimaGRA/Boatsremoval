@@ -26,12 +26,10 @@ export default function Tallevast() {
   ];
 
   const serviceAreas = [
-    "Tallevast Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Tallevast Park",
+    "areas along US-41",
+    "34th Street East",
+    "the industrial corridor near 9th Avenue East"
   ];
 
   const faqs = [
@@ -39,10 +37,10 @@ export default function Tallevast() {
       question: "How quickly can you remove a boat in Tallevast?",
       answer: "We offer same-day and next-day boat removal services in Tallevast, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Tallevast do you serve?",
-      answer: "We serve all of Tallevast including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
-    },
+   {
+     question: "What areas of Tallevast do you serve?", 
+     answer: "We serve all of Tallevast including Tallevast Park, areas along US-41, 34th Street East, the industrial corridor near 9th Avenue East, and surrounding neighborhoods in Manatee County." 
+   },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tallevast. We handle all permits and logistics."
@@ -376,27 +374,27 @@ export default function Tallevast() {
               About <span className="text-primary">Florida Boat Removal</span> in Tallevast, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p>
+               Tallevast is a small, historic community in Manatee County, known for its industrial heritage, open landscapes, and proximity
+               to waterways such as the Manatee River and Palma Sola Bay. While not directly on the open Gulf, Tallevast sits within 
+               the greater Tampa Bay boating region. With nearby marinas, river access points, and residential waterways in adjacent 
+               neighborhoods, professional boat removal services remain essential for property owners and local businesses.
+             </p>
               <p>
-                Tallevast is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Tallevast Park, close to Emerson Point Preserve, or in residential and industrial areas along US-41 
+                and 34th Street East, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and
+                environmentally responsible boat disposal services. We understand the particular challenges of boat removal across 
+                Manatee County’s riverfront and coastal-adjacent environments and have the expertise to handle any situation.
               </p>
               <p>
-                Whether you're near the Tallevast Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Tallevast boat removal services include hauling away old skiffs, pontoons, sailboats, and small yachts from 
+                private properties, marinas, storage yards, and riverfront docks. We take care of all transportation, heavy lifting,
+                and environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Our Tallevast boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Tallevast, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving all of Manatee County, including Tallevast, Palmetto, Bradenton, Ellenton, and surrounding communities. 
+                Contact us today for a free quote!
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +406,6 @@ export default function Tallevast() {
     </div>
   );
 }
+//{ name: "Tallevast", lat: 27.4579, lon: -82.5391, county: "Sarasota", phone: "727-298-0155"},
+//import Tallevast from "@/pages//SEO/westcoast/Tallevast"
+//<Route path="/boat-removal-fl-tallevast" component={Tallevast}/>
