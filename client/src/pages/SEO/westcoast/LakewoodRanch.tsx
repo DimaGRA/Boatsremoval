@@ -38,10 +38,10 @@ export default function LakewoodRanch() {
       question: "How quickly can you remove a boat in Lakewood Ranch?",
       answer: "We offer same-day and next-day boat removal services in Lakewood Ranch, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-   { 
+    { 
      question: "What areas of Lakewood Ranch do you serve?", 
      answer: "We serve all of Lakewood Ranch including Lakewood Ranch Country Club, Lakewood Ranch Main Street, areas along Lakewood Ranch Boulevard, State Road 70, and the Braden River waterfront in Manatee and Sarasota counties."
-   },
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Lakewood Ranch. We handle all permits and logistics."
@@ -409,6 +409,3 @@ export default function LakewoodRanch() {
     </div>
   );
 }
-//{ name: "Lakewood Ranch", lat: 27.4386, lon: -82.4159, county: "Sarasota/Manatee", phone: "727-298-0155"},
-//import LakewoodRanch from "@/pages//SEO/westcoast/LakewoodRanch"
-//<Route path="/boat-removal-fl-lakewood-ranch" component={LakewoodRanch}/>

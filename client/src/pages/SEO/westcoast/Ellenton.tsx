@@ -407,6 +407,4 @@ export default function Ellenton() {
     </div>
   );
 }
-//{ name: "Ellenton", lat: 27.5227, lon: -82.5177, county: "Manatee", phone: "727-298-0155"},
-//import Ellenton from "@/pages//SEO/westcoast/Ellenton"
-//<Route path="/boat-removal-fl-ellenton" component={Ellenton}/>
+

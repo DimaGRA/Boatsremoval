@@ -406,6 +406,4 @@ export default function Tallevast() {
     </div>
   );
 }
-//{ name: "Tallevast", lat: 27.4579, lon: -82.5391, county: "Sarasota", phone: "727-298-0155"},
-//import Tallevast from "@/pages//SEO/westcoast/Tallevast"
-//<Route path="/boat-removal-fl-tallevast" component={Tallevast}/>
+

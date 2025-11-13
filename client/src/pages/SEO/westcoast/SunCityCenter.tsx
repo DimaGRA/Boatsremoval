@@ -406,6 +406,3 @@ export default function SunCityCenter() {
     </div>
   );
 }
-//{ name: "Sun City Center", lat: 27.6959, lon: -82.3453, county: "Hillsborough", phone: "727-298-0155"},
-//import SunCityCenter from "@/pages//SEO/westcoast/SunCityCenter"
-//<Route path="/boat-removal-fl-sun-city-center" component={SunCityCenter}/>

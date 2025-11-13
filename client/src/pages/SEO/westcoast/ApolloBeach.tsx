@@ -410,6 +410,4 @@ export default function ApolloBeach() {
     </div>
   );
 }
-//{ name: "Apollo Beach", lat: 27.7623, lon: -82.3639, county: "Hillsborough", phone: "727-298-0155"},
-//import ApolloBeach from "@/pages//SEO/westcoast/ApolloBeach"
-//<Route path="/boat-removal-fl-apollo-beach" component={ApolloBeach}/>
+

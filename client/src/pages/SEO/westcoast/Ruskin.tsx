@@ -407,6 +407,4 @@ export default function Ruskin() {
     </div>
   );
 }
-//{ name: "Ruskin", lat: 27.6879, lon: -82.4011, county: "Hillsborough", phone: "727-298-0155"},
-//import Ruskin from "@/pages//SEO/westcoast/Ruskin"
-//<Route path="/boat-removal-fl-ruskin" component={Ruskin}/>
+

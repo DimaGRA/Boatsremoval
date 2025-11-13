@@ -139,6 +139,16 @@ import Thonotosassa from "@/pages//SEO/westcoast/Thonotosassa"
 import Gibsonton from "@/pages//SEO/westcoast/Gibsonton"
 import Riverview from "@/pages//SEO/westcoast/Riverview"
 import Bloomingdale from "@/pages//SEO/westcoast/Bloomingdale"
+import ApolloBeach from "@/pages//SEO/westcoast/ApolloBeach"
+import Ruskin from "@/pages//SEO/westcoast/Ruskin"
+import SunCityCenter from "@/pages//SEO/westcoast/SunCityCenter"
+import Wimauma from "@/pages//SEO/westcoast/Wimauma"
+import Parrish from "@/pages//SEO/westcoast/Parrish"
+import Ellenton from "@/pages//SEO/westcoast/Ellenton"
+import Palmetto from "@/pages//SEO/westcoast/Palmetto"
+import LakewoodRanch from "@/pages//SEO/westcoast/LakewoodRanch"
+import BayshoreGardens from "@/pages//SEO/westcoast/BayshoreGardens"
+import Tallevast from "@/pages//SEO/westcoast/Tallevast"
 
 
 
@@ -278,6 +288,16 @@ function Router() {
       <Route path="/boat-removal-fl-gibsonton" component={Gibsonton}/>
       <Route path="/boat-removal-fl-riverview" component={Riverview}/>
       <Route path="/boat-removal-fl-bloomingdale" component={Bloomingdale}/>
+      <Route path="/boat-removal-fl-apollo-beach" component={ApolloBeach}/>
+      <Route path="/boat-removal-fl-ruskin" component={Ruskin}/>
+      <Route path="/boat-removal-fl-sun-city-center" component={SunCityCenter}/>
+      <Route path="/boat-removal-fl-wimauma" component={Wimauma}/>
+      <Route path="/boat-removal-fl-parrish" component={Parrish}/>
+      <Route path="/boat-removal-fl-ellenton" component={Ellenton}/>
+      <Route path="/boat-removal-fl-palmetto" component={Palmetto}/>
+      <Route path="/boat-removal-fl-lakewood-ranch" component={LakewoodRanch}/>
+      <Route path="/boat-removal-fl-bayshore-gardens" component={BayshoreGardens}/>
+      <Route path="/boat-removal-fl-tallevast" component={Tallevast}/>
       
       
       <Route component={NotFound} />

@@ -136,6 +136,16 @@ export const allCities: City[] = [
   { name: "Thonotosassa", lat: 28.0522, lon: -82.2963, county: "Hillsborough", phone: "727-298-0155"},
   { name: "Gibsonton", lat: 27.8506, lon: -82.3708, county: "Hillsborough" , phone: "727-298-0155"},
   { name: "Riverview", lat: 27.8576, lon: -82.2975, county: "Hillsborough", phone: "727-298-0155"},
-  { name: "Bloomingdale", lat: 27.9328, lon: -82.3465, county: "Hillsborough", phone: "727-298-0155"}
+  { name: "Bloomingdale", lat: 27.9328, lon: -82.3465, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Apollo Beach", lat: 27.7623, lon: -82.3639, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Ruskin", lat: 27.6879, lon: -82.4011, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Sun City Center", lat: 27.6959, lon: -82.3453, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Wimauma", lat: 27.7165, lon: -82.3206, county: "Hillsborough", phone: "727-298-0155"},
+  { name: "Parrish", lat: 27.5710, lon: -82.3934, county: "Manatee", phone: "727-298-0155"},
+  { name: "Ellenton", lat: 27.5227, lon: -82.5177, county: "Manatee", phone: "727-298-0155"},
+  { name: "Palmetto", lat: 27.5226, lon: -82.5728, county: "Manatee" , phone: "727-298-0155"},
+  { name: "Lakewood Ranch", lat: 27.4386, lon: -82.4159, county: "Sarasota/Manatee", phone: "727-298-0155"},
+  { name: "Bayshore Gardens", lat: 27.4798, lon: -82.5827, county: "Manatee", phone: "727-298-0155"},
+  { name: "Tallevast", lat: 27.4579, lon: -82.5391, county: "Sarasota", phone: "727-298-0155"}
 
 ];
