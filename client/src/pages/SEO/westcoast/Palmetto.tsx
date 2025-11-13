@@ -30,7 +30,7 @@ export default function Palmetto() {
     "Emerson Point Preserve",
     "areas along US-41",
     "10th Street West",
-    " Manatee River waterfront"
+    "Manatee River waterfront"
   ];
 
   const faqs = [
