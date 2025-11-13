@@ -37,10 +37,10 @@ export default function Tallevast() {
       question: "How quickly can you remove a boat in Tallevast?",
       answer: "We offer same-day and next-day boat removal services in Tallevast, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-   {
+    {
      question: "What areas of Tallevast do you serve?", 
      answer: "We serve all of Tallevast including Tallevast Park, areas along US-41, 34th Street East, the industrial corridor near 9th Avenue East, and surrounding neighborhoods in Manatee County." 
-   },
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Tallevast. We handle all permits and logistics."
