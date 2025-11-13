@@ -26,12 +26,10 @@ export default function SunCityCenter() {
   ];
 
   const serviceAreas = [
-    "Sun City Center Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Sun City Center Country Club",
+    "Kings Point",
+    "areas along US-301",
+    "SR-674 (Bell Shoals Road)"
   ];
 
   const faqs = [
@@ -39,9 +37,9 @@ export default function SunCityCenter() {
       question: "How quickly can you remove a boat in Sun City Center?",
       answer: "We offer same-day and next-day boat removal services in Sun City Center, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Sun City Center do you serve?",
-      answer: "We serve all of Sun City Center including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Hillsborough County."
+    { 
+      question: "What areas of Sun City Center do you serve?", 
+      answer: "We serve all of Sun City Center including Sun City Center Country Club, Kings Point, areas along US-301, SR-674 (Bell Shoals Road), and surrounding neighborhoods in Hillsborough County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +375,25 @@ export default function SunCityCenter() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Sun City Center is a beautiful coastal city in Hillsborough County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Sun City Center is a peaceful community in Hillsborough County, celebrated for its scenic golf courses, active retirement
+                lifestyle, and nearby waterfronts like Tampa Bay and the Little Manatee River. While not directly on the open ocean, 
+                Sun City Center sits within South Florida’s vibrant boating region. With marinas, estuaries, and residential canals close by,
+                professional boat removal services remain important for homeowners and property managers.
               </p>
               <p>
-                Whether you're near the Sun City Center Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near the Sun City Center Country Club, close to Alderman’s Ford Regional Park, or in residential areas along
+                US‑301 and SR‑674 (Bell Shoals Road), <span className="text-primary">Florida Boat Removal</span> delivers fast, dependable, 
+                and environmentally responsible boat disposal services. We know the specific challenges of boat removal across Hillsborough 
+                County’s inland waterways and coastal edges and have the experience to handle every situation.
+              </p> 
               <p>
-                Our Sun City Center boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Sun City Center boat removal services cover hauling away old boats, center consoles, sailboats, and small yachts from 
+                private properties, marinas, storage lots, and waterfront docks. We manage transportation, heavy lifting, and proper
+                eco‑friendly disposal, providing a hassle‑free experience for every client.
+              </p> 
               <p>
-                Serving all of Hillsborough County including Sun City Center, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Hillsborough County and nearby communities including Sun City Center, Ruskin, Apollo Beach, Riverview, and surrounding areas. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +406,6 @@ export default function SunCityCenter() {
     </div>
   );
 }
+//{ name: "Sun City Center", lat: 27.6959, lon: -82.3453, county: "Hillsborough", phone: "727-298-0155"},
+//import SunCityCenter from "@/pages//SEO/westcoast/SunCityCenter"
+//<Route path="/boat-removal-fl-sun-city-center" component={SunCityCenter}/>
