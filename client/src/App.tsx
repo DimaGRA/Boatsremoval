@@ -117,7 +117,12 @@ import StPetersburg from "@/pages/SEO/westcoast/StPetersburg"
 import Tampa from "@/pages/SEO/westcoast/Tampa"
 import TownNCountry from "@/pages/SEO/westcoast/TownNCountry"
 import PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel"
-
+import HolmesBeach from "@/pages//SEO/westcoast/HolmesBeach"
+import BradentonBeach from "@/pages//SEO/westcoast/BradentonBeach"
+import LongboatKey from "@/pages//SEO/westcoast/LongboatKey"
+import Siesta Key from "@/pages//SEO/westcoast/Siesta Key"
+import Fruitville from "@/pages//SEO/westcoast/Fruitville"
+import PalmerRanch from "@/pages//SEO/westcoast/PalmerRanch"
 
 
 function Router() {
@@ -234,7 +239,12 @@ function Router() {
       <Route path="/boat-removal-fl-tampa" component={Tampa} />
       <Route path="/boat-removal-fl-town-n-country" component={TownNCountry} />
       <Route path="/boat-removal-fl-palm-river-clair-mel" component={PalmRiverClairMel} />
-      
+      <Route path="/boat-removal-fl-holmes-beach" component={HolmesBeach}/>
+      <Route path="/boat-removal-fl-bradenton-beach" component={BradentonBeach}/>  
+      <Route path="/boat-removal-fl-longboat-key" component={LongboatKey}/>
+      <Route path="/boat-removal-fl-siesta-key" component={Siesta Key}/>    
+      <Route path="/boat-removal-fl-fruitville" component={Fruitville}/>
+      <Route path="/boat-removal-fl-palmer-ranch" component={PalmerRanch}/>
       <Route component={NotFound} />
     </Switch>
   );
