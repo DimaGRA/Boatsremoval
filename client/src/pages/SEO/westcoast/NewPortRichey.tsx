@@ -407,6 +407,4 @@ export default function NewPortRichey() {
     </div>
   );
 }
-//{ name: "New Port Richey", lat: 28.2522, lon: -82.7186, county: "Pasco", phone: "727-298-0155"},
-//import NewPortRichey from "@/pages//SEO/westcoast/NewPortRichey"
-//<Route path="/boat-removal-fl-new-port-richey" component={NewPortRichey}/>
+

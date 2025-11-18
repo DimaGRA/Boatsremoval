@@ -407,6 +407,3 @@ export default function Parrish() {
     </div>
   );
 }
-//{ name: "Parrish", lat: 27.5710, lon: -82.3934, county: "Manatee", phone: "727-298-0155"},
-//import Parrish from "@/pages//SEO/westcoast/Parrish"
-//<Route path="/boat-removal-fl-parrish" component={Parrish}/>

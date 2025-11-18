@@ -408,6 +408,4 @@ export default function Thonotosassa() {
     </div>
   );
 }
-//{ name: "Thonotosassa", lat: 28.0522, lon: -82.2963, county: "Hillsborough", phone: "727-298-0155"},
-//import Thonotosassa from "@/pages//SEO/westcoast/Thonotosassa"
-//<Route path="/boat-removal-fl-thonotosassa" component={Thonotosassa}/>
+

@@ -407,6 +407,4 @@ export default function Palmetto() {
     </div>
   );
 }
-//{ name: "Palmetto", lat: 27.5226, lon: -82.5728, county: "Manatee" , phone: "727-298-0155"},
-//import Palmetto from "@/pages//SEO/westcoast/Palmetto"
-//<Route path="/boat-removal-fl-palmetto" component={Palmetto}/>
+

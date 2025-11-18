@@ -157,6 +157,7 @@ import Fruitville from "@/pages//SEO/westcoast/Fruitville"
 import PalmerRanch from "@/pages//SEO/westcoast/PalmerRanch"
 
 
+
 function Router() {
   return (
     <Switch>

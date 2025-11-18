@@ -407,6 +407,4 @@ export default function BayonetPoint() {
     </div>
   );
 }
-//{ name: "Bayonet Point", lat: 28.2943, lon: -82.6955, county: "Pasco", phone: "727-298-0155"},
-//import BayonetPoint from "@/pages//SEO/westcoast/BayonetPoint"
-//<Route path="/boat-removal-fl-bayonet-point" component={BayonetPoint}/>
+

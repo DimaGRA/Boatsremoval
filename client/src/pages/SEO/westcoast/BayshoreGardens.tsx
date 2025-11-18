@@ -407,6 +407,4 @@ export default function BayshoreGardens() {
     </div>
   );
 }
-//{ name: "Bayshore Gardens", lat: 27.4798, lon: -82.5827, county: "Manatee", phone: "727-298-0155"},
-//import BayshoreGardens from "@/pages//SEO/westcoast/BayshoreGardens"
-//<Route path="/boat-removal-fl-bayshore-gardens" component={BayshoreGardens}/>
+

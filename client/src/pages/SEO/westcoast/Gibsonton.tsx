@@ -408,6 +408,4 @@ export default function Gibsonton() {
     </div>
   );
 }
-//{ name: "Gibsonton", lat: 27.8506, lon: -82.3708, county: "Hillsborough" , phone: "727-298-0155"},
-//import Gibsonton from "@/pages//SEO/westcoast/Gibsonton"
-//<Route path="/boat-removal-fl-gibsonton" component={Gibsonton}/>
+

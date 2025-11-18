@@ -408,6 +408,4 @@ export default function Brandon() {
     </div>
   );
 }
-//{ name: "Brandon", lat: 27.9378, lon: -82.2859, county: "Hillsborough", phone: "727-298-0155"},
-//import Brandon from "@/pages//SEO/westcoast/Brandon"
-//<Route path="/boat-removal-fl-brandon" component={Brandon}/>
+

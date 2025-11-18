@@ -409,6 +409,4 @@ export default function Bloomingdale() {
     </div>
   );
 }
-//{ name: "Bloomingdale", lat: 27.9328, lon: -82.3465, county: "Hillsborough", phone: "727-298-0155"},
-//import Bloomingdale from "@/pages//SEO/westcoast/Bloomingdale"
-//<Route path="/boat-removal-fl-bloomingdale" component={Bloomingdale}/>
+

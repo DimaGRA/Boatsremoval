@@ -383,7 +383,7 @@ export default function Holiday() {
               </p> 
               <p> 
                 Whether you're near Beacon Square, close to Centennial Park, or in residential areas along Moog Road, the US‑19 corridor,
-                or around Gulf Trace, <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally 
+                or around Gulf Trace, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and environmentally 
                 responsible boat disposal services. We understand the permitting, logistical, and ecological challenges of working across 
                 Pasco County’s coastal and inland waterways and have the experience to handle any situation safely. 
               </p> 
@@ -407,6 +407,4 @@ export default function Holiday() {
     </div>
   );
 }
-//{ name: "Holiday", lat: 28.1772, lon: -82.7326, county: "Pasco" , phone: "727-298-0155"},
-//import Holiday from "@/pages//SEO/westcoast/Holiday"
-//<Route path="/boat-removal-fl-holiday" component={Holiday}/>
+

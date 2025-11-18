@@ -406,6 +406,4 @@ export default function Wimauma() {
     </div>
   );
 }
-//{ name: "Wimauma", lat: 27.7165, lon: -82.3206, county: "Hillsborough", phone: "727-298-0155"},
-//import Wimauma from "@/pages//SEO/westcoast/Wimauma"
-//<Route path="/boat-removal-fl-wimauma" component={Wimauma}/>
+
