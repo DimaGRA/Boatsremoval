@@ -26,12 +26,10 @@ export default function VeniceGardens() {
   ];
 
   const serviceAreas = [
-    "Venice Gardens Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Venice Gardens Civic Center",
+    "Shamrock Park and Nature Center",
+    "Center Road",
+    "Jacaranda Boulevard"
   ];
 
   const faqs = [
@@ -39,10 +37,10 @@ export default function VeniceGardens() {
       question: "How quickly can you remove a boat in Venice Gardens?",
       answer: "We offer same-day and next-day boat removal services in Venice Gardens, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Venice Gardens do you serve?",
-      answer: "We serve all of Venice Gardens including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
-    },
+    { 
+     question: "What areas of Venice Gardens do you serve?", 
+     answer: "We serve all of Venice Gardens including Venice Gardens Civic Center, Shamrock Park and Nature Center, areas along Center Road, Jacaranda Boulevard, and nearby neighborhoods in Sarasota County." 
+     },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Venice Gardens. We handle all permits and logistics."
@@ -376,27 +374,27 @@ export default function VeniceGardens() {
               About <span className="text-primary">Florida Boat Removal</span> in Venice Gardens, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p>
+               Venice Gardens is a peaceful community located in Sarasota County, known for its family-friendly neighborhoods, scenic lakes,
+               and close proximity to beautiful coastal areas like Venice Beach and Caspersen Beach. While not directly on the Gulf, 
+               Venice Gardens is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and residential 
+               waterways, the need for professional boat removal services remains essential.
+             </p> 
               <p>
-                Venice Gardens is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Venice Gardens Civic Center, close to Shamrock Park and Nature Center, or in residential neighborhoods 
+                along Center Road and Jacaranda Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast,
+                reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Sarasota
+                County’s inland and coastal environments and have the expertise to handle any situation.
+              </p> 
+              <p>
+                Our Venice Gardens boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+                private properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy 
+                lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Whether you're near the Venice Gardens Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Venice Gardens boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Venice Gardens, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving all of Sarasota County, including Venice Gardens, Venice, Nokomis, Osprey, and surrounding communities. 
+                Contact us today for a free quote!
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +406,6 @@ export default function VeniceGardens() {
     </div>
   );
 }
+//{ name: "Venice Gardens", lat: 27.0525, lon: -82.4319, county: "Sarasota", phone: "727-298-0155"},
+//import VeniceGardens from "@/pages//SEO/westcoast/VeniceGardens"
+//<Route path="/boat-removal-fl-venice-gardens" component={VeniceGardens}/>
