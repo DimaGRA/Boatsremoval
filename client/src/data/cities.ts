@@ -155,7 +155,8 @@ export const allCities: City[] = [
   { name: "Palmer Ranch", lat: 27.2706, lon: -82.4556, county: "Sarasota", phone: "727-298-0155"},
   { name: "Osprey", lat: 27.1588, lon: -82.4333, county: "Sarasota", phone: "727-298-0155"},
   { name: "Nokomis", lat: 27.1517, lon: -82.4092, county: "Sarasota" , phone: "727-298-0155"},
-  { name: "Venice", lat: 27.0998, lon: -82.4542, county: "Sarasota", phone: "727-298-0155"}
-  
+  { name: "Venice", lat: 27.0998, lon: -82.4542, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Venice Gardens", lat: 27.0525, lon: -82.4319, county: "Sarasota", phone: "727-298-0155"}
+
 
 ];
