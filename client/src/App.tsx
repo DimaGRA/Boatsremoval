@@ -158,6 +158,7 @@ import PalmerRanch from "@/pages//SEO/westcoast/PalmerRanch"
 import Osprey from "@/pages//SEO/westcoast/Osprey"
 import Nokomis from "@/pages//SEO/westcoast/Nokomis"
 import Venice from "@/pages//SEO/westcoast/Venice"
+import VeniceGardens from "@/pages//SEO/westcoast/VeniceGardens"
 
 
 function Router() {
@@ -315,6 +316,7 @@ function Router() {
       <Route path="/boat-removal-fl-osprey" component={Osprey}/>
       <Route path="/boat-removal-fl-nokomis" component={Nokomis}/>
       <Route path="/boat-removal-fl-venice" component={Venice}/>
+      <Route path="/boat-removal-fl-venice-gardens" component={VeniceGardens}/>
       
       
       <Route component={NotFound} />
