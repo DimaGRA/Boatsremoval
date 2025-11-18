@@ -26,12 +26,11 @@ export default function Fruitville() {
   ];
 
   const serviceAreas = [
-    "Fruitville Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Fruitville Park",
+    "Celery Fields",
+    "Nathan Benderson Park",
+    "Fruitville Road",
+    "Honore Avenue"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Fruitville() {
       question: "How quickly can you remove a boat in Fruitville?",
       answer: "We offer same-day and next-day boat removal services in Fruitville, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Fruitville do you serve?",
-      answer: "We serve all of Fruitville including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of Fruitville do you serve?", 
+      answer: "We serve all of Fruitville including Fruitville Park, Celery Fields, Nathan Benderson Park, areas along Fruitville Road, and Honore Avenue in Sarasota County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Fruitville() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Fruitville is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Fruitville is a welcoming community located in Sarasota County, known for its residential neighborhoods, parks, and close
+                proximity to beautiful natural areas like Celery Fields and Nathan Benderson Park. While not directly on the Gulf, 
+                Fruitville is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and river access 
+                points, the need for professional boat removal services remains essential.
               </p>
               <p>
-                Whether you're near the Fruitville Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Fruitville Park, close to Celery Fields, or in residential neighborhoods along Fruitville Road and 
+                Honore Avenue, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+                disposal services. We understand the unique challenges of boat removal across Sarasota County’s inland and coastal-adjacent 
+                environments and have the expertise to handle any situation.
               </p>
               <p>
-                Our Fruitville boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Fruitville boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private 
+                properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and 
+                environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Serving all of Sarasota County including Fruitville, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including Fruitville, Sarasota, Bee Ridge, Lakewood Ranch, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Fruitville() {
     </div>
   );
 }
+//{ name: "Fruitville", lat: 27.3541, lon: -82.4445, county: "Sarasota", phone: "727-298-0155"},
+//import Fruitville from "@/pages//SEO/westcoast/Fruitville"
+//<Route path="/boat-removal-fl-fruitville" component={Fruitville}/>

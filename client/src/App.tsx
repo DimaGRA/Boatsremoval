@@ -149,7 +149,16 @@ import Palmetto from "@/pages//SEO/westcoast/Palmetto"
 import LakewoodRanch from "@/pages//SEO/westcoast/LakewoodRanch"
 import BayshoreGardens from "@/pages//SEO/westcoast/BayshoreGardens"
 import Tallevast from "@/pages//SEO/westcoast/Tallevast"
-
+import HolmesBeach from "@/pages//SEO/westcoast/HolmesBeach"
+import BradentonBeach from "@/pages//SEO/westcoast/BradentonBeach"
+import LongboatKey from "@/pages//SEO/westcoast/LongboatKey"
+import SiestaKey from "@/pages//SEO/westcoast/SiestaKey"
+import Fruitville from "@/pages//SEO/westcoast/Fruitville"
+import PalmerRanch from "@/pages//SEO/westcoast/PalmerRanch"
+import Osprey from "@/pages//SEO/westcoast/Osprey"
+import Nokomis from "@/pages//SEO/westcoast/Nokomis"
+import Venice from "@/pages//SEO/westcoast/Venice"
+import VeniceGardens from "@/pages//SEO/westcoast/VeniceGardens"
 
 
 function Router() {
@@ -246,7 +255,7 @@ function Router() {
       <Route path="/boat-removal-fl-wellington" component={Wellington} />
       <Route path="/boat-removal-fl-westlake" component={Westlake} />
       <Route path="/boat-removal-fl-west-palm-beach" component={WestPalmBeach} />
-      <Route path="/boat-removal-fl-east-lake" component={EastLake} />
+     <Route path="/boat-removal-fl-east-lake" component={EastLake} />
       <Route path="/boat-removal-fl-tarpon-springs" component={TarponSprings} />
       <Route path="/boat-removal-fl-palm-harbor" component={PalmHarbor} />
       <Route path="/boat-removal-fl-safety-harbor" component={SafetyHarbor} />
@@ -298,6 +307,16 @@ function Router() {
       <Route path="/boat-removal-fl-lakewood-ranch" component={LakewoodRanch}/>
       <Route path="/boat-removal-fl-bayshore-gardens" component={BayshoreGardens}/>
       <Route path="/boat-removal-fl-tallevast" component={Tallevast}/>
+      <Route path="/boat-removal-fl-holmes-beach" component={HolmesBeach}/>
+      <Route path="/boat-removal-fl-bradenton-beach" component={BradentonBeach}/>  
+      <Route path="/boat-removal-fl-longboat-key" component={LongboatKey}/>
+      <Route path="/boat-removal-fl-siesta-key" component={SiestaKey}/>    
+      <Route path="/boat-removal-fl-fruitville" component={Fruitville}/>
+      <Route path="/boat-removal-fl-palmer-ranch" component={PalmerRanch}/>
+      <Route path="/boat-removal-fl-osprey" component={Osprey}/>
+      <Route path="/boat-removal-fl-nokomis" component={Nokomis}/>
+      <Route path="/boat-removal-fl-venice" component={Venice}/>
+      <Route path="/boat-removal-fl-venice-gardens" component={VeniceGardens}/>
       
       
       <Route component={NotFound} />

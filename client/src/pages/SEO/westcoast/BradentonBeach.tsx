@@ -26,12 +26,11 @@ export default function BradentonBeach() {
   ];
 
   const serviceAreas = [
-    "Bradenton Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Cortez Beach",
+    "Coquina Beach",
+    "areas along Gulf Drive",
+    "Bridge Street",
+    "Bradenton Beach City Pier"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function BradentonBeach() {
       question: "How quickly can you remove a boat in Bradenton Beach?",
       answer: "We offer same-day and next-day boat removal services in Bradenton Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Bradenton Beach do you serve?",
-      answer: "We serve all of Bradenton Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Bradenton Beach do you serve?", 
+      answer: "We serve all of Bradenton Beach including Cortez Beach, Coquina Beach, areas along Gulf Drive, Bridge Street, and the Bradenton Beach City Pier in Manatee County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,28 @@ export default function BradentonBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Bradenton Beach is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Bradenton Beach is a picturesque city located on Anna Maria Island in Manatee County, known for its sandy
+                Gulf beaches, fishing piers, and close proximity to beautiful coastal areas like Cortez Beach and Coquina 
+                Beach. While directly on the Gulf of Mexico, Bradenton Beach is also part of Tampa Bay’s vibrant boating 
+                community. With nearby marinas, canals, and residential waterfronts, the need for professional boat removal 
+                services remains essential.
               </p>
               <p>
-                Whether you're near the Bradenton Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near the Bradenton Beach City Pier, close to Coquina Baywalk, or in residential neighborhoods 
+                along Gulf Drive and Bridge Street, <span className="text-primary">Florida Boat Removal</span> provides fast, 
+                reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across 
+                Manatee County’s island and coastal environments and have the expertise to handle any situation.
+              </p> 
+              <p>
+                Our Bradenton Beach boat removal services include hauling away old boats, yachts, sailboats, and catamarans 
+                from private properties, marinas, storage yards, and waterfront areas. We take care of all transportation,
+                heavy lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Our Bradenton Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Serving all of Manatee County, including Bradenton Beach, Anna Maria, Holmes Beach, Cortez, and surrounding 
+                communities. Contact us today for a free quote!
               </p>
-              <p>
-                Serving all of Manatee County including Bradenton Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function BradentonBeach() {
     </div>
   );
 }
+//{ name: "Bradenton Beach", lat: 27.5021, lon: -82.7106, county: "Manatee", phone: "727-298-0155"},
+//import BradentonBeach from "@/pages//SEO/westcoast/BradentonBeach"
+//<Route path="/boat-removal-fl-bradenton-beach" component={BradentonBeach}/>

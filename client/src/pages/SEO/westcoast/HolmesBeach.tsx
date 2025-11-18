@@ -26,12 +26,11 @@ export default function HolmesBeach() {
   ];
 
   const serviceAreas = [
-    "Holmes Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Manatee Public Beach",
+    "Gulf Drive",
+    "Marina Drive",
+    "Holmes Beach City Hall",
+    "Anna Maria Island"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function HolmesBeach() {
       question: "How quickly can you remove a boat in Holmes Beach?",
       answer: "We offer same-day and next-day boat removal services in Holmes Beach, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Holmes Beach do you serve?",
-      answer: "We serve all of Holmes Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee County."
+    { 
+      question: "What areas of Holmes Beach do you serve?", 
+      answer: "We serve all of Holmes Beach including Manatee Public Beach, areas along Gulf Drive, Marina Drive, Holmes Beach City Hall, and nearby neighborhoods on Anna Maria Island in Manatee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +375,27 @@ export default function HolmesBeach() {
               About <span className="text-primary">Florida Boat Removal</span> in Holmes Beach, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Holmes Beach is a beautiful coastal city in Manatee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Holmes Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Holmes Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Manatee County including Holmes Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+               Holmes Beach is a charming city located on Anna Maria Island in Manatee County, known for its pristine beaches,
+               coastal parks, and close proximity to beautiful areas like Manatee Public Beach and Palma Sola Bay. While directly
+               on the Gulf of Mexico, Holmes Beach is also part of Tampa Bay’s active boating community. With nearby marinas,
+               canals, and residential waterfronts, the need for professional boat removal services remains essential.
+             </p>
+             <p> 
+               Whether you're near Holmes Beach City Hall, close to Anna Maria Island Historical Museum, or in residential
+               neighborhoods along Gulf Drive and Marina Drive, <span className="text-primary">Florida Boat Removal</span>
+               provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal
+               across Manatee County’s coastal and island environments and have the expertise to handle any situation.
+             </p>
+             <p>
+               Our Holmes Beach boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+               properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting,
+               and environmentally responsible disposal, ensuring a stress-free process for every customer.
+             </p> 
+             <p>
+               Serving all of Manatee County, including Holmes Beach, Bradenton, Anna Maria, Longboat Key, and surrounding 
+               communities. Contact us today for a free quote!
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +407,6 @@ export default function HolmesBeach() {
     </div>
   );
 }
+//{ name: "Holmes Beach", lat: 27.5118, lon: -82.6950, county: "Manatee", phone: "727-298-0155"},
+//import HolmesBeach from "@/pages//SEO/westcoast/HolmesBeach"
+//<Route path="/boat-removal-fl-holmes-beach" component={HolmesBeach}/>

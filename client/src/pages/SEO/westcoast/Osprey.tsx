@@ -26,12 +26,10 @@ export default function Osprey() {
   ];
 
   const serviceAreas = [
-    "Osprey Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Oscar Scherer State Park",
+    "The Oaks Club",
+    "areas along Tamiami Trail",
+    "Rivendell Boulevard"
   ];
 
   const faqs = [
@@ -40,8 +38,8 @@ export default function Osprey() {
       answer: "We offer same-day and next-day boat removal services in Osprey, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Osprey do you serve?",
-      answer: "We serve all of Osprey including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+      question: "What areas of Osprey do you serve?", 
+      answer: "We serve all of Osprey including Oscar Scherer State Park, The Oaks Club, areas along Tamiami Trail, Rivendell Boulevard, and nearby neighborhoods in Sarasota County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +375,25 @@ export default function Osprey() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Osprey is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Osprey is a peaceful community located in Sarasota County, known for its natural preserves, waterfront views, and close 
+                proximity to beautiful coastal areas like Oscar Scherer State Park and Blackburn Bay. While not directly on the Gulf,
+                Osprey is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and residential waterways,
+                the need for professional boat removal services remains essential.
+              </p> 
+              <p>
+                Whether you're near The Oaks Club, close to Oscar Scherer State Park, or in residential neighborhoods along Tamiami Trail 
+                and Rivendell Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+                and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Sarasota County’s
+                inland and coastal environments and have the expertise to handle any situation.
+              </p> 
+              <p>
+                Our Osprey boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties,
+                marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and environmentally 
+                responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Whether you're near the Osprey Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Osprey boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Osprey, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including Osprey, Sarasota, Nokomis, Venice, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +406,6 @@ export default function Osprey() {
     </div>
   );
 }
+//{ name: "Osprey", lat: 27.1588, lon: -82.4333, county: "Sarasota", phone: "727-298-0155"},
+//import Osprey from "@/pages//SEO/westcoast/Osprey"
+//<Route path="/boat-removal-fl-osprey" component={Osprey}/>

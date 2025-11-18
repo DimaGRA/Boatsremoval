@@ -26,12 +26,11 @@ export default function LongboatKey() {
   ];
 
   const serviceAreas = [
-    "Longboat Key Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Longboat Key Club",
+    "Bayfront Park",
+    "Gulf of Mexico Drive",
+    "Harbourside Drive",
+    "Sarasota Bay waterfront"
   ];
 
   const faqs = [
@@ -39,9 +38,8 @@ export default function LongboatKey() {
       question: "How quickly can you remove a boat in Longboat Key?",
       answer: "We offer same-day and next-day boat removal services in Longboat Key, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Longboat Key do you serve?",
-      answer: "We serve all of Longboat Key including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Manatee/Sarasota County."
+    { question: "What areas of Longboat Key do you serve?", 
+     answer: "We serve all of Longboat Key including Longboat Key Club, Bayfront Park, areas along Gulf of Mexico Drive, Harbourside Drive, and the Sarasota Bay waterfront in Manatee and Sarasota counties." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +375,28 @@ export default function LongboatKey() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Longboat Key is a beautiful coastal city in Manatee/Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Longboat Key is a scenic barrier island located in both Manatee and Sarasota counties, known for its pristine
+                beaches, luxury resorts, and close proximity to beautiful coastal areas like Sarasota Bay and the 
+                Gulf of Mexico. While directly on the water, Longboat Key is surrounded by Florida’s active boating community.
+                With many nearby marinas, canals, and residential waterfronts, the need for professional boat removal services
+                remains essential.
               </p>
               <p>
-                Whether you're near the Longboat Key Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Longboat Key Club, close to Bayfront Park, or in residential neighborhoods along Gulf of 
+                Mexico Drive and Harbourside Drive, <span className="text-primary">Florida Boat Removal</span> provides fast,
+                reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across
+                Manatee and Sarasota counties’ island and coastal environments and have the expertise to handle any situation.
               </p>
               <p>
-                Our Longboat Key boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Longboat Key boat removal services include hauling away old boats, yachts, sailboats, and catamarans from 
+                private properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy 
+                lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
+              </p> 
               <p>
-                Serving all of Manatee/Sarasota County including Longboat Key, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Manatee and Sarasota counties, including Longboat Key, Bradenton, Sarasota, Holmes Beach, 
+                and surrounding communities. Contact us today for a free quote!
               </p>
+              
             </div>
           </div>
         </section>
@@ -408,3 +408,6 @@ export default function LongboatKey() {
     </div>
   );
 }
+//{ name: "Longboat Key", lat: 27.4417, lon: -82.6266, county: "Manatee/Sarasota", phone: "727-298-0155"},
+//import LongboatKey from "@/pages//SEO/westcoast/LongboatKey"
+//<Route path="/boat-removal-fl-longboat-key" component={LongboatKey}/>

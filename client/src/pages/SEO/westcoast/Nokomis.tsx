@@ -26,12 +26,10 @@ export default function Nokomis() {
   ];
 
   const serviceAreas = [
-    "Nokomis Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Nokomis Beach",
+    "North Jetty Park",
+    "Tamiami Trail",
+    "Albee Road"
   ];
 
   const faqs = [
@@ -39,9 +37,9 @@ export default function Nokomis() {
       question: "How quickly can you remove a boat in Nokomis?",
       answer: "We offer same-day and next-day boat removal services in Nokomis, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Nokomis do you serve?",
-      answer: "We serve all of Nokomis including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of Nokomis do you serve?", 
+      answer: "We serve all of Nokomis including Nokomis Beach, North Jetty Park, areas along Tamiami Trail, Albee Road, and nearby neighborhoods in Sarasota County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +375,25 @@ export default function Nokomis() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Nokomis is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Nokomis is a welcoming coastal community located in Sarasota County, known for its relaxed atmosphere, scenic parks, 
+                and close proximity to beautiful coastal areas like Nokomis Beach and North Jetty Park. While smaller than nearby cities, 
+                Nokomis is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and residential 
+                waterfronts, the need for professional boat removal services remains essential.
               </p>
               <p>
-                Whether you're near the Nokomis Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near Nokomis Beach, close to Oscar Scherer State Park, or in residential neighborhoods along Tamiami Trail
+                and Albee Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+                disposal services. We understand the unique challenges of boat removal across Sarasota County’s inland and coastal 
+                environments and have the expertise to handle any situation.
+              </p> 
               <p>
-                Our Nokomis boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Nokomis boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, 
+                marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and environmentally
+                responsible disposal, ensuring a stress-free process for every customer.
+              </p> 
               <p>
-                Serving all of Sarasota County including Nokomis, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including Nokomis, Venice, Osprey, Sarasota, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +406,6 @@ export default function Nokomis() {
     </div>
   );
 }
+//{ name: "Nokomis", lat: 27.1517, lon: -82.4092, county: "Sarasota" , phone: "727-298-0155"},
+//import Nokomis from "@/pages//SEO/westcoast/Nokomis"
+//<Route path="/boat-removal-fl-nokomis" component={Nokomis}/>

@@ -146,6 +146,17 @@ export const allCities: City[] = [
   { name: "Palmetto", lat: 27.5226, lon: -82.5728, county: "Manatee" , phone: "727-298-0155"},
   { name: "Lakewood Ranch", lat: 27.4386, lon: -82.4159, county: "Sarasota/Manatee", phone: "727-298-0155"},
   { name: "Bayshore Gardens", lat: 27.4798, lon: -82.5827, county: "Manatee", phone: "727-298-0155"},
-  { name: "Tallevast", lat: 27.4579, lon: -82.5391, county: "Sarasota", phone: "727-298-0155"}
+  { name: "Tallevast", lat: 27.4579, lon: -82.5391, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Holmes Beach", lat: 27.5118, lon: -82.6950, county: "Manatee", phone: "727-298-0155"},
+  { name: "Bradenton Beach", lat: 27.5021, lon: -82.7106, county: "Manatee", phone: "727-298-0155"},
+  { name: "Longboat Key", lat: 27.4417, lon: -82.6266, county: "Manatee/Sarasota", phone: "727-298-0155"},
+  { name: "Siesta Key", lat: 27.2676, lon: -82.5468, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Fruitville", lat: 27.3541, lon: -82.4445, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Palmer Ranch", lat: 27.2706, lon: -82.4556, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Osprey", lat: 27.1588, lon: -82.4333, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Nokomis", lat: 27.1517, lon: -82.4092, county: "Sarasota" , phone: "727-298-0155"},
+  { name: "Venice", lat: 27.0998, lon: -82.4542, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Venice Gardens", lat: 27.0525, lon: -82.4319, county: "Sarasota", phone: "727-298-0155"}
+
 
 ];
