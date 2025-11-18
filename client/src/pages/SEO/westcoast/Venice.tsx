@@ -26,12 +26,11 @@ export default function Venice() {
   ];
 
   const serviceAreas = [
-    "Venice Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Venice Beach",
+    "Caspersen Beach",
+    "Venice Fishing Pier",
+    "Centennial Park",
+    "Venice Avenue"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Venice() {
       question: "How quickly can you remove a boat in Venice?",
       answer: "We offer same-day and next-day boat removal services in Venice, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Venice do you serve?",
-      answer: "We serve all of Venice including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of Venice do you serve?", 
+      answer: "We serve all of Venice including Venice Beach, Caspersen Beach, the Venice Fishing Pier, Centennial Park, and areas along Venice Avenue in Sarasota County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Venice() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Venice is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
+                Venice is a charming city located in Sarasota County, known for its historic downtown, scenic parks, and close proximity
+                to beautiful coastal areas like Venice Beach and Caspersen Beach. While directly on the Gulf of Mexico, Venice is surrounded 
+                by Southwest Florida’s active boating community. With nearby marinas, canals, and residential waterways, the need for 
+                professional boat removal services remains essential.
+              </p> 
               <p>
-                Whether you're near the Venice Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near the Venice Fishing Pier, close to Centennial Park, or in residential neighborhoods along Venice Avenue 
+                and Harbor Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+                boat disposal services. We understand the unique challenges of boat removal across Sarasota County’s inland and coastal
+                environments and have the expertise to handle any situation.
+              </p> 
               <p>
-                Our Venice boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Venice boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, marinas, storage yards, and waterfront areas. 
+                We take care of all transportation, heavy lifting, and environmentally responsible disposal, ensuring a stress-free
+                process for every customer.
+              </p> 
               <p>
-                Serving all of Sarasota County including Venice, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including Venice, Nokomis, Osprey, Sarasota, and surrounding communities. 
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Venice() {
     </div>
   );
 }
+//{ name: "Venice", lat: 27.0998, lon: -82.4542, county: "Sarasota", phone: "727-298-0155"},
+//import Venice from "@/pages//SEO/westcoast/Venice"
+//<Route path="/boat-removal-fl-venice" component={Venice}/>
