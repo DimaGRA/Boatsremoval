@@ -152,7 +152,8 @@ export const allCities: City[] = [
   { name: "Longboat Key", lat: 27.4417, lon: -82.6266, county: "Manatee/Sarasota", phone: "727-298-0155"},
   { name: "Siesta Key", lat: 27.2676, lon: -82.5468, county: "Sarasota", phone: "727-298-0155"},
   { name: "Fruitville", lat: 27.3541, lon: -82.4445, county: "Sarasota", phone: "727-298-0155"},
-  { name: "Palmer Ranch", lat: 27.2706, lon: -82.4556, county: "Sarasota", phone: "727-298-0155"}
+  { name: "Palmer Ranch", lat: 27.2706, lon: -82.4556, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Osprey", lat: 27.1588, lon: -82.4333, county: "Sarasota", phone: "727-298-0155"}
   
 
 ];
