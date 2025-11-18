@@ -114,7 +114,13 @@ export const allCities: City[] = [
   { name: "St. Petersburg", lat: 27.7676, lon: -82.6403, county: "Pinellas", phone: "727-298-0155" },
   { name: "Tampa", lat: 27.9506, lon: -82.4572, county: "Hillsborough", phone: "727-298-0155" },
   { name: "Town 'N' Country", lat: 28.0325, lon: -82.5329, county: "Hillsborough", phone: "727-298-0155" },
-  { name: "Palm River-Clair Mel", lat: 27.9144, lon: -82.3746, county: "Hillsborough", phone: "727-298-0155" }
+  { name: "Palm River-Clair Mel", lat: 27.9144, lon: -82.3746, county: "Hillsborough", phone: "727-298-0155" },
+  { name: "Holmes Beach", lat: 27.5118, lon: -82.6950, county: "Manatee", phone: "727-298-0155"},
+  { name: "Bradenton Beach", lat: 27.5021, lon: -82.7106, county: "Manatee", phone: "727-298-0155"},
+  { name: "Longboat Key", lat: 27.4417, lon: -82.6266, county: "Manatee/Sarasota", phone: "727-298-0155"},
+  { name: "Siesta Key", lat: 27.2676, lon: -82.5468, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Fruitville", lat: 27.3541, lon: -82.4445, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Palmer Ranch", lat: 27.2706, lon: -82.4556, county: "Sarasota", phone: "727-298-0155"}
 
 
 
