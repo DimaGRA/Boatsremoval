@@ -152,7 +152,7 @@ import Tallevast from "@/pages//SEO/westcoast/Tallevast"
 import HolmesBeach from "@/pages//SEO/westcoast/HolmesBeach"
 import BradentonBeach from "@/pages//SEO/westcoast/BradentonBeach"
 import LongboatKey from "@/pages//SEO/westcoast/LongboatKey"
-import Siesta Key from "@/pages//SEO/westcoast/Siesta Key"
+import SiestaKey from "@/pages//SEO/westcoast/SiestaKey"
 import Fruitville from "@/pages//SEO/westcoast/Fruitville"
 import PalmerRanch from "@/pages//SEO/westcoast/PalmerRanch"
 
@@ -307,7 +307,7 @@ function Router() {
       <Route path="/boat-removal-fl-holmes-beach" component={HolmesBeach}/>
       <Route path="/boat-removal-fl-bradenton-beach" component={BradentonBeach}/>  
       <Route path="/boat-removal-fl-longboat-key" component={LongboatKey}/>
-      <Route path="/boat-removal-fl-siesta-key" component={Siesta Key}/>    
+      <Route path="/boat-removal-fl-siesta-key" component={SiestaKey}/>    
       <Route path="/boat-removal-fl-fruitville" component={Fruitville}/>
       <Route path="/boat-removal-fl-palmer-ranch" component={PalmerRanch}/>
       
