@@ -117,6 +117,38 @@ import StPetersburg from "@/pages/SEO/westcoast/StPetersburg"
 import Tampa from "@/pages/SEO/westcoast/Tampa"
 import TownNCountry from "@/pages/SEO/westcoast/TownNCountry"
 import PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel"
+import AnnaMaria from "@/pages//SEO/westcoast/AnnaMaria"
+import Bradenton from "@/pages//SEO/westcoast/Bradenton"
+import Sarasota from "@/pages//SEO/westcoast/Sarasota"
+import Westchase from "@/pages//SEO/westcoast/Westchase"
+import GreaterCarrollwood from "@/pages//SEO/westcoast/GreaterCarrollwood"
+import Holiday from "@/pages//SEO/westcoast/Holiday"
+import CitrusPark from "@/pages//SEO/westcoast/CitrusPark"
+import TempleTerrace from "@/pages//SEO/westcoast/TempleTerrace"
+import University from "@/pages//SEO/westcoast/University"
+import LandOLakes from "@/pages//SEO/westcoast/LandOLakes"
+import Odessa from "@/pages//SEO/westcoast/Odessa"
+import NewPortRichey from "@/pages//SEO/westcoast/NewPortRichey"
+import BayonetPoint from "@/pages//SEO/westcoast/BayonetPoint"
+import Hudson from "@/pages//SEO/westcoast/Hudson"
+import PlantCity from "@/pages//SEO/westcoast/PlantCity"
+import Dover from "@/pages//SEO/westcoast/Dover"
+import Seffner from "@/pages//SEO/westcoast/Seffner"
+import Brandon from "@/pages//SEO/westcoast/Brandon"
+import Thonotosassa from "@/pages//SEO/westcoast/Thonotosassa"
+import Gibsonton from "@/pages//SEO/westcoast/Gibsonton"
+import Riverview from "@/pages//SEO/westcoast/Riverview"
+import Bloomingdale from "@/pages//SEO/westcoast/Bloomingdale"
+import ApolloBeach from "@/pages//SEO/westcoast/ApolloBeach"
+import Ruskin from "@/pages//SEO/westcoast/Ruskin"
+import SunCityCenter from "@/pages//SEO/westcoast/SunCityCenter"
+import Wimauma from "@/pages//SEO/westcoast/Wimauma"
+import Parrish from "@/pages//SEO/westcoast/Parrish"
+import Ellenton from "@/pages//SEO/westcoast/Ellenton"
+import Palmetto from "@/pages//SEO/westcoast/Palmetto"
+import LakewoodRanch from "@/pages//SEO/westcoast/LakewoodRanch"
+import BayshoreGardens from "@/pages//SEO/westcoast/BayshoreGardens"
+import Tallevast from "@/pages//SEO/westcoast/Tallevast"
 import HolmesBeach from "@/pages//SEO/westcoast/HolmesBeach"
 import BradentonBeach from "@/pages//SEO/westcoast/BradentonBeach"
 import LongboatKey from "@/pages//SEO/westcoast/LongboatKey"
@@ -219,7 +251,7 @@ function Router() {
       <Route path="/boat-removal-fl-wellington" component={Wellington} />
       <Route path="/boat-removal-fl-westlake" component={Westlake} />
       <Route path="/boat-removal-fl-west-palm-beach" component={WestPalmBeach} />
-      <Route path="/boat-removal-fl-east-lake" component={EastLake} />
+     <Route path="/boat-removal-fl-east-lake" component={EastLake} />
       <Route path="/boat-removal-fl-tarpon-springs" component={TarponSprings} />
       <Route path="/boat-removal-fl-palm-harbor" component={PalmHarbor} />
       <Route path="/boat-removal-fl-safety-harbor" component={SafetyHarbor} />
@@ -239,12 +271,46 @@ function Router() {
       <Route path="/boat-removal-fl-tampa" component={Tampa} />
       <Route path="/boat-removal-fl-town-n-country" component={TownNCountry} />
       <Route path="/boat-removal-fl-palm-river-clair-mel" component={PalmRiverClairMel} />
+      <Route path="/boat-removal-fl-anna-maria" component={AnnaMaria}/>
+      <Route path="/boat-removal-fl-bradenton" component={Bradenton}/>
+      <Route path="/boat-removal-fl-sarasota" component={Sarasota}/>
+      <Route path="/boat-removal-fl-westchase" component={Westchase}/>
+      <Route path="/boat-removal-fl-greater-carrollwood" component={GreaterCarrollwood}/>
+      <Route path="/boat-removal-fl-holiday" component={Holiday}/>
+      <Route path="/boat-removal-fl-citrus-park" component={CitrusPark}/>
+      <Route path="/boat-removal-fl-temple-terrace" component={TempleTerrace}/>
+      <Route path="/boat-removal-fl-university" component={University}/>
+      <Route path="/boat-removal-fl-land-o-lakes" component={LandOLakes}/>
+      <Route path="/boat-removal-fl-odessa" component={Odessa}/>
+      <Route path="/boat-removal-fl-new-port-richey" component={NewPortRichey}/>
+      <Route path="/boat-removal-fl-bayonet-point" component={BayonetPoint}/>
+      <Route path="/boat-removal-fl-hudson" component={Hudson}/>
+      <Route path="/boat-removal-fl-plant-city" component={PlantCity}/>
+      <Route path="/boat-removal-fl-dover" component={Dover}/>
+      <Route path="/boat-removal-fl-seffner" component={Seffner}/>
+      <Route path="/boat-removal-fl-brandon" component={Brandon}/>
+      <Route path="/boat-removal-fl-thonotosassa" component={Thonotosassa}/>
+      <Route path="/boat-removal-fl-gibsonton" component={Gibsonton}/>
+      <Route path="/boat-removal-fl-riverview" component={Riverview}/>
+      <Route path="/boat-removal-fl-bloomingdale" component={Bloomingdale}/>
+      <Route path="/boat-removal-fl-apollo-beach" component={ApolloBeach}/>
+      <Route path="/boat-removal-fl-ruskin" component={Ruskin}/>
+      <Route path="/boat-removal-fl-sun-city-center" component={SunCityCenter}/>
+      <Route path="/boat-removal-fl-wimauma" component={Wimauma}/>
+      <Route path="/boat-removal-fl-parrish" component={Parrish}/>
+      <Route path="/boat-removal-fl-ellenton" component={Ellenton}/>
+      <Route path="/boat-removal-fl-palmetto" component={Palmetto}/>
+      <Route path="/boat-removal-fl-lakewood-ranch" component={LakewoodRanch}/>
+      <Route path="/boat-removal-fl-bayshore-gardens" component={BayshoreGardens}/>
+      <Route path="/boat-removal-fl-tallevast" component={Tallevast}/>
       <Route path="/boat-removal-fl-holmes-beach" component={HolmesBeach}/>
       <Route path="/boat-removal-fl-bradenton-beach" component={BradentonBeach}/>  
       <Route path="/boat-removal-fl-longboat-key" component={LongboatKey}/>
       <Route path="/boat-removal-fl-siesta-key" component={Siesta Key}/>    
       <Route path="/boat-removal-fl-fruitville" component={Fruitville}/>
       <Route path="/boat-removal-fl-palmer-ranch" component={PalmerRanch}/>
+      
+      
       <Route component={NotFound} />
     </Switch>
   );
