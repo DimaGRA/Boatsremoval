@@ -26,12 +26,11 @@ export default function SouthVenice() {
   ];
 
   const serviceAreas = [
-    "South Venice Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "South Venice Community Park",
+    "Venice Gardens",
+    "the Lemon Bay waterfront",
+    "areas along Tamiami Trail",
+    "Center Road"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function SouthVenice() {
       question: "How quickly can you remove a boat in South Venice?",
       answer: "We offer same-day and next-day boat removal services in South Venice, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of South Venice do you serve?",
-      answer: "We serve all of South Venice including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of South Venice do you serve?", 
+      answer: "We serve all of South Venice including South Venice Community Park, Venice Gardens, the Lemon Bay waterfront, areas along Tamiami Trail, and Center Road in Sarasota County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function SouthVenice() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                South Venice is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                South Venice is a relaxed community located in Sarasota County, known for its coastal marshes, waterfront vistas, and 
+                close proximity to scenic areas like Lemon Bay and Venice Beach. While not a large city, South Venice is part of Southwest
+                Florida’s active boating region. With nearby marinas, canals, and residential waterways, the need for professional boat
+                removal services remains important.
+              </p> 
+              <p>
+                Whether you're near South Venice Community Park, close to Venice Gardens, or in residential neighborhoods along Tamiami 
+                Trail and Center Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly
+                boat disposal services. We understand the unique challenges of boat removal across Sarasota County’s coastal and inland
+                environments and have the expertise to handle any situation.
               </p>
               <p>
-                Whether you're near the South Venice Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Our South Venice boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+                properties, marinas, storage yards, and waterfront areas. We handle all transportation, heavy lifting, and environmentally
+                responsible disposal, ensuring a stress-free process for every customer.
+              </p> 
               <p>
-                Our South Venice boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including South Venice, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including South Venice, Venice, Nokomis, Osprey, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function SouthVenice() {
     </div>
   );
 }
+//{ name: "South Venice", lat: 27.0411, lon: -82.4316, county: "Sarasota" , phone: "727-298-0155"},
+//import SouthVenice" from "@/pages//SEO/westcoast/SouthVenice"
+//<Route path="/boat-removal-fl-south-venice" component={SouthVenice}/>
