@@ -26,12 +26,11 @@ export default function CharlotteHarbor() {
   ];
 
   const serviceAreas = [
-    "Charlotte Harbor Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Punta Gorda’s Fishermen’s Village",
+    "Port Charlotte Beach Park",
+    "areas along U.S. 41",
+    "Harbor Boulevard",
+    "nearby waterfront neighborhoods in Charlotte County"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function CharlotteHarbor() {
       question: "How quickly can you remove a boat in Charlotte Harbor?",
       answer: "We offer same-day and next-day boat removal services in Charlotte Harbor, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Charlotte Harbor do you serve?",
-      answer: "We serve all of Charlotte Harbor including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
+    { 
+      question: "What areas of Charlotte Harbor do you serve?", 
+      answer: "We serve all of Charlotte Harbor including Punta Gorda’s Fishermen’s Village, Port Charlotte Beach Park, areas along U.S. 41, Harbor Boulevard, and nearby waterfront neighborhoods in Charlotte County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function CharlotteHarbor() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Charlotte Harbor is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
+                Charlotte Harbor is a scenic estuarine area in Charlotte County, prized for its expansive waterways, mangrove-lined shores,
+                and easy access to coastal attractions like the Peace River and Boca Grande Pass. While not an open-ocean beach, 
+                Charlotte Harbor sits at the heart of Southwest Florida’s vibrant boating community. With numerous marinas, inlets, 
+                and residential canals nearby, professional boat removal services remain an important necessity.
+              </p> 
               <p>
-                Whether you're near the Charlotte Harbor Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Whether you're near Punta Gorda’s Fishermen’s Village, close to Port Charlotte Beach Park, or in residential neighborhoods 
+                along U.S. 41 and Harbor Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, 
+                and eco-friendly boat disposal services. We understand the distinct challenges of boat removal across Charlotte County’s 
+                estuarine and inland environments and have the experience to handle any situation.
+              </p> 
               <p>
-                Our Charlotte Harbor boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
+                Our Charlotte Harbor boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private 
+                properties, marinas, storage yards, and waterfront lots. We manage all transportation, heavy lifting, and environmentally 
+                responsible disposal, ensuring a smooth, stress-free process for every customer.
+              </p> 
               <p>
-                Serving all of Charlotte County including Charlotte Harbor, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Charlotte County, including Charlotte Harbor, Punta Gorda, Port Charlotte, Rotonda West, and surrounding
+                communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function CharlotteHarbor() {
     </div>
   );
 }
+//{ name: "Charlotte Harbor", lat: 26.8886, lon: -82.1956, county: "Charlotte", phone: "727-298-0155"},
+//import CharlotteHarbor" from "@/pages//SEO/westcoast/CharlotteHarbor"
+//<Route path="/boat-removal-fl-charlotte-harbor" component={CharlotteHarbor}/>
