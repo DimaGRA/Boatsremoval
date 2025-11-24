@@ -26,12 +26,11 @@ export default function HarborHeights() {
   ];
 
   const serviceAreas = [
-    "Harbor Heights Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Harbor Heights neighborhood",
+    "Port Charlotte Beach Park",
+    "Port Charlotte Town Center",
+    "areas along U.S. 41",
+    "Harbor Boulevard"
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function HarborHeights() {
       question: "How quickly can you remove a boat in Harbor Heights?",
       answer: "We offer same-day and next-day boat removal services in Harbor Heights, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Harbor Heights do you serve?",
-      answer: "We serve all of Harbor Heights including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
-    },
+   { 
+     question: "What areas of Harbor Heights do you serve?", 
+     answer: "We serve all of Harbor Heights including Harbor Heights neighborhood, Port Charlotte Beach Park, Port Charlotte Town Center, areas along U.S. 41, and Harbor Boulevard in Charlotte County." 
+   },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Harbor Heights. We handle all permits and logistics."
@@ -376,27 +375,27 @@ export default function HarborHeights() {
               About <span className="text-primary">Florida Boat Removal</span> in Harbor Heights, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p>
+               Harbor Heights is a waterfront neighborhood in Charlotte County, valued for its canal-front homes, lush mangroves, and easy 
+               access to expansive waterways like Charlotte Harbor and the Peace River. While not directly on the open Gulf, Harbor Heights 
+               is part of Southwest Florida’s active boating community. With nearby marinas, residential canals, and boat ramps, the need 
+               for professional boat removal services remains essential.
+             </p>
               <p>
-                Harbor Heights is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
+                Whether you're near Harbor Heights Park, close to Port Charlotte Beach Park, or in residential streets along U.S. 41 and 
+                Harbor Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
+                disposal services. We understand the unique challenges of boat removal across Charlotte County’s estuarine and inland 
+                environments and have the expertise to handle any situation.
+              </p> 
               <p>
-                Whether you're near the Harbor Heights Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Our Harbor Heights boat removal services include hauling away old boats, runabouts, pontoons, sailboats, and small yachts
+                from private properties, marinas, storage yards, and waterfront lots. We take care of all transportation, heavy lifting, 
+                winching, and environmentally responsible disposal, ensuring a smooth, stress-free process for every customer.
+              </p> 
               <p>
-                Our Harbor Heights boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Charlotte County including Harbor Heights, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving all of Charlotte County, including Harbor Heights, Port Charlotte, Punta Gorda, Rotonda West, and surrounding 
+                communities. Contact us today for a free quote!
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +407,6 @@ export default function HarborHeights() {
     </div>
   );
 }
+//{ name: "Harbor Heights", lat: 26.9612, lon: -82.0709, county: "Charlotte", phone: "727-298-0155"},
+//import HarborHeights" from "@/pages//SEO/westcoast/HarborHeights"
+//<Route path="/boat-removal-fl-harbor-heights" component={HarborHeights}/>
