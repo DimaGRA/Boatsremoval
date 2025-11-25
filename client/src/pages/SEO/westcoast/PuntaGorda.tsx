@@ -26,12 +26,11 @@ export default function PuntaGorda() {
   ];
 
   const serviceAreas = [
-    "Punta Gorda Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Fishermen's Village",
+    "Laishley Park",
+    "Burnt Store Marina",
+    "areas along U.S. 41",
+    "Marion Avenue"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function PuntaGorda() {
       question: "How quickly can you remove a boat in Punta Gorda?",
       answer: "We offer same-day and next-day boat removal services in Punta Gorda, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Punta Gorda do you serve?",
-      answer: "We serve all of Punta Gorda including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
+    { 
+      question": "What areas of Punta Gorda do you serve?", 
+      answer: "We serve all of Punta Gorda including Fishermen's Village, Laishley Park, Burnt Store Marina, areas along U.S. 41, and Marion Avenue in Charlotte County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,26 @@ export default function PuntaGorda() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Punta Gorda is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Punta Gorda is a charming coastal city in Charlotte County, known for its historic downtown, waterfront parks, and easy 
+                access to scenic waterways like Charlotte Harbor and the Peace River. While parts of the city face the harbor rather than
+                the open Gulf, Punta Gorda is firmly embedded in Southwest Florida’s active boating community. With numerous marinas, c
+                anals, and residential waterways nearby, professional boat removal services remain an important resource for homeowners and 
+                businesses alike.
               </p>
               <p>
-                Whether you're near the Punta Gorda Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Fishermen’s Village, close to Laishley Park, or in residential neighborhoods along U.S. 41 and Marion
+                Avenue, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal 
+                services. We understand the particular challenges of boat removal across Charlotte County’s harborfront and inland 
+                environments and have the experience and equipment to handle any situation.
               </p>
               <p>
-                Our Punta Gorda boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Punta Gorda boat removal services include hauling away old boats, runabouts, pontoons, sailboats, and small yachts from
+                private properties, marinas, storage yards, and waterfront lots. We take care of all transportation, heavy lifting, winching,
+                and environmentally responsible disposal or recycling, ensuring a smooth, stress-free process for every customer.
               </p>
               <p>
-                Serving all of Charlotte County including Punta Gorda, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Charlotte County, including Punta Gorda, Port Charlotte, Rotonda West, Englewood, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -406,5 +406,8 @@ export default function PuntaGorda() {
 
       <Footer />
     </div>
-  );
+  ); 
 }
+//{ name: "Punta Gorda", lat: 26.9287, lon: -82.0454, county: "Charlotte", phone: "727-298-0155"},
+//import PuntaGorda" from "@/pages//SEO/westcoast/PuntaGorda"
+//<Route path="/boat-removal-fl-punta-gorda" component={PuntaGorda}/>
