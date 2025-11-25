@@ -375,12 +375,12 @@ export default function Acline() {
               About <span className="text-primary">Florida Boat Removal</span> in Acline, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-             <p>
+              <p>
                Acline is a quiet neighborhood in Charlotte County, noted for its residential character and its proximity to larger waterfront
                systems such as Charlotte Harbor and the Peace River; while Acline itself is not a beachfront municipality, it lies within
                Southwest Florida’s active boating region, and with nearby marinas, canals, and private docks in adjacent communities, 
                professional boat removal services remain an important local need.
-             </p>
+              </p>
               <p>
                 Whether you're located in Acline’s residential streets, close to Punta Gorda attractions like Fishermen’s Village and Laishle
                 y Park, or in neighborhoods along U.S. 41 and Marion Avenue, <span className="text-primary">Florida Boat Removal</span> provides
@@ -397,7 +397,7 @@ export default function Acline() {
               <p>
                 Serving Charlotte County and nearby communities, including Acline, Punta Gorda, Port Charlotte, Rotonda West, and surrounding
                 neighborhoods; contact us today for a free quote and a prompt on‑site assessment.
-             </p>
+              </p>
             </div>
           </div>
         </section>
