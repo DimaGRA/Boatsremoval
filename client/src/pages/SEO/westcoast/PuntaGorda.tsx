@@ -39,7 +39,7 @@ export default function PuntaGorda() {
       answer: "We offer same-day and next-day boat removal services in Punta Gorda, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     { 
-      question": "What areas of Punta Gorda do you serve?", 
+      question: "What areas of Punta Gorda do you serve?", 
       answer: "We serve all of Punta Gorda including Fishermen's Village, Laishley Park, Burnt Store Marina, areas along U.S. 41, and Marion Avenue in Charlotte County." 
     },
     {
