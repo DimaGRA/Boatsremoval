@@ -26,12 +26,10 @@ export default function BurntStoreMarina() {
   ];
 
   const serviceAreas = [
-    "Burnt Store Marina Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "the marina complex",
+    "Burnt Store Road",
+    "Burnt Store Isles",
+    "nearby Punta Gorda neighborhoods"
   ];
 
   const faqs = [
@@ -39,9 +37,9 @@ export default function BurntStoreMarina() {
       question: "How quickly can you remove a boat in Burnt Store Marina?",
       answer: "We offer same-day and next-day boat removal services in Burnt Store Marina, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Burnt Store Marina do you serve?",
-      answer: "We serve all of Burnt Store Marina including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
+    { 
+      question: "What areas of Burnt Store Marina do you serve?", 
+      answer: "We serve all of Burnt Store Marina including the marina complex, Burnt Store Road, Burnt Store Isles, and nearby Punta Gorda neighborhoods in Charlotte County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +374,30 @@ export default function BurntStoreMarina() {
               About <span className="text-primary">Florida Boat Removal</span> in Burnt Store Marina, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p>
+               Burnt Store Marina is a busy waterfront area in Charlotte County, prized for its deepwater access, marina facilities, 
+               and proximity to scenic waterways like Charlotte Harbor and the Peace River. While the marina itself fronts protected harbor
+               waters rather than open Gulf beaches, Burnt Store Marina is firmly part of Southwest Florida’s active boating community.
+               With slips, boatyards, residential canals, and nearby launch ramps, professional boat removal and disposal services remain 
+               an important resource for boat owners and property managers.
+             </p>
               <p>
-                Burnt Store Marina is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Burnt Store Marina, close to Punta Gorda’s Fishermen’s Village and Laishley Park, or in residential 
+                neighborhoods along Burnt Store Road and U.S. 41, <span className="text-primary">Florida Boat Removal</span> provides fast, 
+                dependable, and environmentally responsible boat disposal services. We understand the logistical challenges of working 
+                around marina slips, narrow canal access, and private docks, and we bring the local experience and equipment needed to 
+                handle each removal safely and efficiently.
               </p>
               <p>
-                Whether you're near the Burnt Store Marina Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Burnt Store Marina boat removal services include hauling away runabouts, pontoons, sailboats, small yachts, and 
+                derelict vessels from private properties, marina slips, storage yards, and waterfront lots. We manage all aspects 
+                of the job — transportation, heavy lifting, winching, and proper disposal or recycling — while following local 
+                environmental guidelines to minimize impact and ensure a smooth, stress‑free process for every customer.
               </p>
               <p>
-                Our Burnt Store Marina boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Charlotte County including Burnt Store Marina, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving Charlotte County and nearby communities, including Burnt Store Marina, Punta Gorda, Port Charlotte, Rotonda West,
+                and surrounding neighborhoods. Contact us today for a free quote and prompt on‑site assessment.
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function BurntStoreMarina() {
     </div>
   );
 }
+//{ name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"},
+//import BurntStoreMarina from "@/pages//SEO/westcoast/BurntStoreMarina"
+//<Route path="/boat-removal-fl-burnt-store-marina" component={BurntStoreMarina}/>

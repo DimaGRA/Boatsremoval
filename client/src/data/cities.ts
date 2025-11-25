@@ -156,7 +156,17 @@ export const allCities: City[] = [
   { name: "Osprey", lat: 27.1588, lon: -82.4333, county: "Sarasota", phone: "727-298-0155"},
   { name: "Nokomis", lat: 27.1517, lon: -82.4092, county: "Sarasota" , phone: "727-298-0155"},
   { name: "Venice", lat: 27.0998, lon: -82.4542, county: "Sarasota", phone: "727-298-0155"},
-  { name: "Venice Gardens", lat: 27.0525, lon: -82.4319, county: "Sarasota", phone: "727-298-0155"}
+  { name: "Venice Gardens", lat: 27.0525, lon: -82.4319, county: "Sarasota", phone: "727-298-0155"},
+  { name: "South Venice", lat: 27.0411, lon: -82.4316, county: "Sarasota" , phone: "727-298-0155"},
+  { name: "Warm Mineral Springs", lat: 27.1559, lon: -82.3446, county: "Sarasota", phone: "727-298-0155"},
+  { name: "North Port", lat: 27.0441, lon: -82.2359, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Port Charlotte", lat: 26.9766, lon: -82.1030, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Charlotte Harbor", lat: 26.8886, lon: -82.1956, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Lake Suzy", lat: 27.0186, lon: -81.9488, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Harbor Heights", lat: 26.9612, lon: -82.0709, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Punta Gorda", lat: 26.9287, lon: -82.0454, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Acline", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
+  { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"}
 
 
 ];

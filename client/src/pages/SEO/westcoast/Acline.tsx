@@ -26,12 +26,11 @@ export default function Acline() {
   ];
 
   const serviceAreas = [
-  "Acline Pier",
-  "Acline Downtown",
-  "Acline Shores",
+  "Fishermen's Village",
+  "Laishley Park",
   "Burnt Store Marina",
-  "Burnt Store Road Corridor",
-  "Harbor Heights"
+  "areas along U.S. 41",
+  "Marion Avenue"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Acline() {
       question: "How quickly can you remove a boat in Acline?",
       answer: "We offer same-day and next-day boat removal services in Acline, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Acline do you serve?",
-      answer: "We serve all of Acline including the central Acline neighborhood, the Acline waterfront and marina area (Burnt Store Marina), the Burnt Store Road corridor, the Acline Heights / Harbor Heights boundary area, and surrounding residential neighborhoods such as Acline Estates."
+    { 
+      question: "What areas of Punta Gorda do you serve?", 
+      answer: "We serve all of Punta Gorda including Fishermen's Village, Laishley Park, Burnt Store Marina, areas along U.S. 41, Marion Avenue, and surrounding neighborhoods in Charlotte County." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +375,29 @@ export default function Acline() {
               About <span className="text-primary">Florida Boat Removal</span> in Acline, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+             <p>
+               Acline is a quiet neighborhood in Charlotte County, noted for its residential character and its proximity to larger waterfront
+               systems such as Charlotte Harbor and the Peace River; while Acline itself is not a beachfront municipality, it lies within
+               Southwest Florida’s active boating region, and with nearby marinas, canals, and private docks in adjacent communities, 
+               professional boat removal services remain an important local need.
+             </p>
               <p>
-                Acline is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're located in Acline’s residential streets, close to Punta Gorda attractions like Fishermen’s Village and Laishle
+                y Park, or in neighborhoods along U.S. 41 and Marion Avenue, <span className="text-primary">Florida Boat Removal</span> provides
+                fast, dependable, and environmentally responsible boat disposal services; we understand the access constraints, narrow drivew
+                ays, and permitting considerations common across Charlotte County’s harborfront and inland areas, and we bring the local 
+                experience and equipment required to handle each job safely and efficiently.
               </p>
               <p>
-                Whether you're near the Acline Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our Acline boat removal services include hauling away runabouts, pontoons, sailboats, small yachts, and derelict vessels
+                from private properties, marina slips, storage yards, and canal or pondside lots; we manage all logistics — transportation,
+                heavy lifting, winching, and proper disposal or recycling — while following local environmental guidelines to minimize
+                impact and ensure a smooth, stress‑free process for every customer.
               </p>
               <p>
-                Our Acline boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Acline, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+                Serving Charlotte County and nearby communities, including Acline, Punta Gorda, Port Charlotte, Rotonda West, and surrounding
+                neighborhoods; contact us today for a free quote and a prompt on‑site assessment.
+             </p>
             </div>
           </div>
         </section>
@@ -408,3 +409,7 @@ export default function Acline() {
     </div>
   );
 }
+}
+//{ name: "Acline", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
+//import Acline" from "@/pages//SEO/westcoast/Acline"
+//<Route path="/boat-removal-fl-acline" component={Acline}/>

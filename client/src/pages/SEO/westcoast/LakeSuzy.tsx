@@ -26,12 +26,11 @@ export default function LakeSuzy() {
   ];
 
   const serviceAreas = [
-    "Lake Suzy Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Lake Suzy Golf Club",
+    "Lake Suzy Airpark",
+    "areas along SW Austin Boulevard",
+    "Pembroke Circle",
+    "nearby neighborhoods in DeSoto County"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function LakeSuzy() {
       question: "How quickly can you remove a boat in Lake Suzy?",
       answer: "We offer same-day and next-day boat removal services in Lake Suzy, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Lake Suzy do you serve?",
-      answer: "We serve all of Lake Suzy including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of Lake Suzy do you serve?", 
+      answer: "We serve all of Lake Suzy including Lake Suzy Golf Club, Lake Suzy Airpark, areas along SW Austin Boulevard, Pembroke Circle, and nearby neighborhoods in DeSoto County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,27 @@ export default function LakeSuzy() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lake Suzy is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Lake Suzy is a tranquil community in DeSoto County, appreciated for its golf course neighborhoods, freshwater ponds,
+                and convenient access to nearby coastal and harbor areas such as Port Charlotte and Charlotte Harbor. While not a beachfront 
+                town, Lake Suzy lies within Southwest Florida’s broader boating and waterfront region. With private docks, nearby marinas,
+                and residential waterways, the demand for professional boat removal services remains important for homeowners and property 
+                managers.
               </p>
               <p>
-                Whether you're near the Lake Suzy Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near the Lake Suzy golf course, close to the community airstrip and estate sections, or in residential 
+                neighborhoods along SW Austin Boulevard and Pembroke Circle, <span className="text-primary">Florida Boat Removal</span> 
+                provides fast, dependable, and eco-friendly boat disposal services. We understand the logistical challenges of boat removal 
+                across DeSoto County’s inland settings and adjacent Charlotte County corridors and have the local experience to handle any
+                situation.
+              </p> 
+              <p>
+                Our Lake Suzy boat removal services include hauling away old boats, runabouts, pontoons, sailboats, and small yachts from 
+                private properties, storage yards, marina slips, and pondside lots. We manage all transportation, heavy lifting, winching,
+                and environmentally responsible disposal or recycling, ensuring a smooth, stress-free process for every customer.
               </p>
               <p>
-                Our Lake Suzy boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Lake Suzy, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving DeSoto County and nearby communities, including Lake Suzy, Arcadia, Port Charlotte, North Port, and surrounding
+                neighborhoods. Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +409,6 @@ export default function LakeSuzy() {
     </div>
   );
 }
+//{ name: "Lake Suzy", lat: 27.0186, lon: -81.9488, county: "Sarasota", phone: "727-298-0155"},
+//import LakeSuzy" from "@/pages//SEO/westcoast/LakeSuzy"
+//<Route path="/boat-removal-fl-lake-suzy" component={LakeSuzy}/>

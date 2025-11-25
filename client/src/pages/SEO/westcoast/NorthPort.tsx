@@ -26,12 +26,11 @@ export default function NorthPort() {
   ];
 
   const serviceAreas = [
-    "North Port Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+    "Warm Mineral Springs Park",
+    "Myakkahatchee Creek Environmental Park",
+    "areas along U.S. 41",
+    "Toledo Blade Boulevard",
+    "North Port City Center"
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function NorthPort() {
       question: "How quickly can you remove a boat in North Port?",
       answer: "We offer same-day and next-day boat removal services in North Port, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of North Port do you serve?",
-      answer: "We serve all of North Port including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
+    { 
+      question: "What areas of North Port do you serve?", 
+      answer: "We serve all of North Port including Warm Mineral Springs Park, Myakkahatchee Creek Environmental Park, areas along U.S. 41, Toledo Blade Boulevard, and North Port City Center." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function NorthPort() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                North Port is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                North Port is a growing city in Sarasota County, celebrated for its expansive preserves, family-friendly neighborhoods, 
+                and close access to natural waterways like Warm Mineral Springs and the Myakka River basin. While not directly on the Gulf,
+                North Port is part of Southwest Florida’s active boating region. With nearby marinas, canals, and residential waterways, 
+                professional boat removal services remain an important resource.
+              </p> 
+              <p>
+                Whether you're near Warm Mineral Springs Park, close to Myakkahatchee Creek Environmental Park, or in residential areas along 
+                U.S. 41 and Toledo Blade Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable,
+                and eco-conscious boat disposal services. We recognize the particular challenges of boat removal across Sarasota County’s
+                inland and coastal-adjacent landscapes and have the skills to manage any situation.
               </p>
               <p>
-                Whether you're near the North Port Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Our North Port boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+                properties, marinas, storage yards, and waterfront lots. We handle all transportation, heavy lifting, and environmentally 
+                responsible disposal, ensuring a smooth, stress-free experience for every customer.
               </p>
               <p>
-                Our North Port boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including North Port, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota County, including North Port, Warm Mineral Springs, Venice, Englewood, and surrounding communities.
+                Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function NorthPort() {
     </div>
   );
 }
+//{ name: "North Port", lat: 27.0441, lon: -82.2359, county: "Sarasota", phone: "727-298-0155"},
+//import NorthPort" from "@/pages//SEO/westcoast/NorthPort"
+//<Route path="/boat-removal-fl-north-port" component={NorthPort}/>
