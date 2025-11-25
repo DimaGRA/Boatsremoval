@@ -159,6 +159,16 @@ import Osprey from "@/pages//SEO/westcoast/Osprey"
 import Nokomis from "@/pages//SEO/westcoast/Nokomis"
 import Venice from "@/pages//SEO/westcoast/Venice"
 import VeniceGardens from "@/pages//SEO/westcoast/VeniceGardens"
+import SouthVenice from "@/pages//SEO/westcoast/SouthVenice"
+import WarmMineralSprings from "@/pages//SEO/westcoast/WarmMineralSprings"
+import NorthPort from "@/pages//SEO/westcoast/NorthPort"
+import PortCharlotte from "@/pages//SEO/westcoast/PortCharlotte"
+import CharlotteHarbor from "@/pages//SEO/westcoast/CharlotteHarbor"
+import LakeSuzy from "@/pages//SEO/westcoast/LakeSuzy"
+import HarborHeights from "@/pages//SEO/westcoast/HarborHeights"
+import PuntaGorda from "@/pages//SEO/westcoast/PuntaGorda"
+import Acline from "@/pages//SEO/westcoast/Acline"
+import BurntStoreMarina from "@/pages//SEO/westcoast/BurntStoreMarina"
 
 
 function Router() {
@@ -255,7 +265,7 @@ function Router() {
       <Route path="/boat-removal-fl-wellington" component={Wellington} />
       <Route path="/boat-removal-fl-westlake" component={Westlake} />
       <Route path="/boat-removal-fl-west-palm-beach" component={WestPalmBeach} />
-     <Route path="/boat-removal-fl-east-lake" component={EastLake} />
+      <Route path="/boat-removal-fl-east-lake" component={EastLake} />
       <Route path="/boat-removal-fl-tarpon-springs" component={TarponSprings} />
       <Route path="/boat-removal-fl-palm-harbor" component={PalmHarbor} />
       <Route path="/boat-removal-fl-safety-harbor" component={SafetyHarbor} />
@@ -317,7 +327,16 @@ function Router() {
       <Route path="/boat-removal-fl-nokomis" component={Nokomis}/>
       <Route path="/boat-removal-fl-venice" component={Venice}/>
       <Route path="/boat-removal-fl-venice-gardens" component={VeniceGardens}/>
-      
+      <Route path="/boat-removal-fl-south-venice" component={SouthVenice}/>
+      <Route path="/boat-removal-fl-warm-mineral-springs" component={WarmMineralSprings}/>
+      <Route path="/boat-removal-fl-north-port" component={NorthPort}/>
+      <Route path="/boat-removal-fl-port-charlotte" component={PortCharlotte}/>
+      <Route path="/boat-removal-fl-charlotte-harbor" component={CharlotteHarbor}/>
+      <Route path="/boat-removal-fl-lake-suzy" component={LakeSuzy}/>
+      <Route path="/boat-removal-fl-harbor-heights" component={HarborHeights}/>      
+      <Route path="/boat-removal-fl-punta-gorda" component={PuntaGorda}/>
+      <Route path="/boat-removal-fl-acline" component={Acline}/>
+      <Route path="/boat-removal-fl-burnt-store-marina" component={BurntStoreMarina}/>
       
       <Route component={NotFound} />
     </Switch>
