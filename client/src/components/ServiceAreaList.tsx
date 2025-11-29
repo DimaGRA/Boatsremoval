@@ -4,7 +4,15 @@ import { City } from "@/data/cities";
 interface Props {
   cities: (City & { distance?: number })[];
 }
-
+function slugifyCity(name: string) {
+  return name
+    .normalize("NFD")                      // split accents
+    .replace(/[\u0300-\u036f]/g, "")      // remove accents
+    .replace(/[^a-zA-Z0-9]/g, "-")        // any non-alphanumeric → "-"
+    .replace(/-+/g, "-")                  // collapse multiple ---- to single -
+    .replace(/^-|-$/g, "")                // trim "-" at start/end
+    .toLowerCase();
+}
 export default function ServiceAreaList({ cities }: Props) {
   const schemaData = {
     "@context": "https://schema.org",
@@ -14,9 +22,7 @@ export default function ServiceAreaList({ cities }: Props) {
       "@type": "ListItem",
       "position": index + 1,
       "name": `${city.name}, Fl Boat Removal`,
-      "url": `https://www.boatsremoval.com/boat-removal-fl-${city.name
-        .toLowerCase()
-        .replace(/ /g, "-")}`
+      "url": `https://www.boatsremoval.com/boat-removal-fl-${slugifyCity(city.name)}`
     }))
   };
 
@@ -37,7 +43,7 @@ export default function ServiceAreaList({ cities }: Props) {
           {cities.map((city) => (
             <a
               key={city.name}
-              href={`/boat-removal-fl-${city.name.toLowerCase().replace(/ /g, "-")}`}
+             href={`/boat-removal-fl-${slugifyCity(city.name)}`}
               className="hover:text-primary transition-colors"
             >
               {city.name}
