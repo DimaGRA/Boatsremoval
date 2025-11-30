@@ -8,9 +8,8 @@ import Home from "@/pages/Home";
 import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
 import TampaBoatRemoval from "@/pages/TampaBay";
-import Oldsmar from "@/pages/SEO/westcoast/Oldsmar";
-import OldsmarFl from "@/pages/Oldsmar";
 import NotFound from "@/pages/not-found";
+
 import Miami from "@/pages/SEO/Miami"
 import Hialeah from "@/pages/SEO/Hialeah"
 import MiamiBeach from "@/pages/SEO/MiamiBeach"
@@ -169,6 +168,7 @@ import HarborHeights from "@/pages//SEO/westcoast/HarborHeights"
 import PuntaGorda from "@/pages//SEO/westcoast/PuntaGorda"
 import Acline from "@/pages//SEO/westcoast/Acline"
 import BurntStoreMarina from "@/pages//SEO/westcoast/BurntStoreMarina"
+import Oldsmar from "@/pages/SEO/westcoast/Oldsmar";
 
 
 function Router() {
@@ -178,8 +178,6 @@ function Router() {
       <Route path="/quote" component={Quote} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
-      <Route path="/boat-removal-fl-oldsmar" component={Oldsmar} />
-      <Route path="/oldsmar-fl-boat-removal" component={OldsmarFl} />
       <Route path="/boat-removal-fl-miami" component={Miami} />
       <Route path="/boat-removal-fl-hialeah" component={Hialeah} />
       <Route path="/boat-removal-fl-miami-beach" component={MiamiBeach} />
@@ -337,6 +335,7 @@ function Router() {
       <Route path="/boat-removal-fl-punta-gorda" component={PuntaGorda}/>
       <Route path="/boat-removal-fl-acline" component={Acline}/>
       <Route path="/boat-removal-fl-burnt-store-marina" component={BurntStoreMarina}/>
+      <Route path="/boat-removal-fl-oldsmar" component={Oldsmar} />
       
       <Route component={NotFound} />
     </Switch>
