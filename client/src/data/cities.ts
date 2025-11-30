@@ -166,7 +166,8 @@ export const allCities: City[] = [
   { name: "Harbor Heights", lat: 26.9612, lon: -82.0709, county: "Charlotte", phone: "727-298-0155"},
   { name: "Punta Gorda", lat: 26.9287, lon: -82.0454, county: "Charlotte", phone: "727-298-0155"},
   { name: "Acline", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
-  { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"}
+  { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Oldsmar", lat: 28.0342, lon: -82.6651, county: "Pinellas", phone: "727-298-0155"}
 
 
 ];
