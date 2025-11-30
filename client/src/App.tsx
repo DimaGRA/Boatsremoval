@@ -8,7 +8,7 @@ import Home from "@/pages/Home";
 import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
 import TampaBoatRemoval from "@/pages/TampaBay";
-import Oldsmar from "@/pages/Oldsmar-Fl";
+import Oldsmar from "@/pages/SEO/westcoast/Oldsmar";
 import OldsmarFl from "@/pages/Oldsmar";
 import NotFound from "@/pages/not-found";
 import Miami from "@/pages/SEO/Miami"
@@ -178,7 +178,7 @@ function Router() {
       <Route path="/quote" component={Quote} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
-      <Route path="/oldsmar-boat-removal" component={Oldsmar} />
+      <Route path="/boat-removal-fl-oldsmar" component={Oldsmar} />
       <Route path="/oldsmar-fl-boat-removal" component={OldsmarFl} />
       <Route path="/boat-removal-fl-miami" component={Miami} />
       <Route path="/boat-removal-fl-hialeah" component={Hialeah} />
