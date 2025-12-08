@@ -391,20 +391,44 @@ export default function Quote() {
                       </div>
                     </div>
 
-                    <div className="space-y-2">
+                   <div className="space-y-2">
   <Label htmlFor="phone">Phone *</Label>
   <Input
     id="phone"
     type="tel"
     placeholder="(555) 123-4567"
     value={formData.phone}
+
+    onKeyDown={(e) => {
+      const allowedKeys = [
+        "Backspace",
+        "Delete",
+        "ArrowLeft",
+        "ArrowRight",
+        "Tab",
+      ];
+
+      // Allow navigation + deletion
+      if (allowedKeys.includes(e.key)) return;
+
+      // Block everything except digits
+      if (!/^[0-9]$/.test(e.key)) {
+        e.preventDefault();
+      }
+    }}
+
+    onPaste={(e) => {
+      const paste = e.clipboardData.getData("text");
+      if (!/^\d+$/.test(paste)) {
+        e.preventDefault();
+      }
+    }}
+
     onChange={(e) => {
       let digits = e.target.value.replace(/\D/g, "");
 
-      // limit to 10 digits
       if (digits.length > 10) digits = digits.slice(0, 10);
 
-      // format automatically
       let formatted = digits;
       if (digits.length > 6) {
         formatted = `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
@@ -416,12 +440,12 @@ export default function Quote() {
 
       setFormData({ ...formData, phone: formatted });
 
-      // validation
       setErrors({
         ...errors,
         phone: digits.length === 10 ? "" : "Please enter correct phone number",
       });
     }}
+
     required
     className={errors.phone ? "border-red-500" : ""}
   />
