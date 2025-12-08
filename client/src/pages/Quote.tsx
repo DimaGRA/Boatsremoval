@@ -442,7 +442,7 @@ export default function Quote() {
 
       setErrors({
         ...errors,
-        phone: digits.length === 10 ? "" : "Please enter correct phone number",
+        phone: digits.length === 10 ? "" : "Please enter 10 digit phone number",
       });
     }}
 
