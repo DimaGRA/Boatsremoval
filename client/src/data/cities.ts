@@ -169,7 +169,8 @@ export const allCities: City[] = [
   { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"},
   { name: "Oldsmar", lat: 28.0342, lon: -82.6651, county: "Pinellas", phone: "727-298-0155"},
   { name: "El Jobean", lat: 27.0147, lon: -82.2657, county: "Charlotte", phone: "727-298-0155"},
-   { name: "Englewood", lat: 26.9689, lon: -82.3506, county: "Charlotte/Sarasota", phone: "727-298-0155"}
+  { name: "Englewood", lat: 26.9689, lon: -82.3506, county: "Charlotte/Sarasota", phone: "727-298-0155"},
+  { name: "Manasota Key", lat: 27.0826, lon: -82.5189, county: "Sarasota", phone: "727-298-0155"}
 
 
 ];
