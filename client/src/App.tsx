@@ -173,6 +173,7 @@ import ElJobean from "@/pages//SEO/westcoast/ElJobean";
 import Englewood from "@/pages//SEO/westcoast/Englewood";
 import ManasotaKey from "@/pages//SEO/westcoast/ManasotaKey";
 import RotondaWest from "@/pages//SEO/westcoast/RotondaWest";
+import CapeHaze from "@/pages//SEO/westcoast/CapeHaze":
 
 
 function Router() {
@@ -344,6 +345,7 @@ function Router() {
       <Route path="/boat-removal-fl-englewood" component={Englewood}/>
       <Route path="/boat-removal-fl-manasota-key" component={ManasotaKey}/>
       <Route path="/boat-removal-fl-rotonda-west" component={RotondaWest}/>
+      <Route path="/boat-removal-fl-cape-haze" component={CapeHaze}/>
       
       <Route component={NotFound} />
     </Switch>
