@@ -25,13 +25,12 @@ export default function ManasotaKey() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "Manasota Key Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+  const serviceAreas = [ 
+    "Manasota Key Beach",
+    "Blind Pass Beach Park",
+    "Stump Pass Beach State Park", 
+    "Englewood Beach", 
+    "Manasota Beach"
   ];
 
   const faqs = [
@@ -39,10 +38,10 @@ export default function ManasotaKey() {
       question: "How quickly can you remove a boat in Manasota Key?",
       answer: "We offer same-day and next-day boat removal services in Manasota Key, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Manasota Key do you serve?",
-      answer: "We serve all of Manasota Key including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Sarasota County."
-    },
+    { 
+      question: "What areas of Manasota Key do you serve?", 
+      answer: "We serve all of Manasota Key including Manasota Beach, Blind Pass Beach Park, Stump Pass Beach State Park, Englewood Beach, and nearby Gulf Boulevard neighborhoods." 
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Manasota Key. We handle all permits and logistics."
@@ -376,26 +375,26 @@ export default function ManasotaKey() {
               About <span className="text-primary">Florida Boat Removal</span> in Manasota Key, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Manasota Key is a beautiful coastal city in Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> 
+                Manasota Key is a scenic barrier island located in Sarasota and Charlotte counties, known for its pristine beaches, 
+                coastal wildlife, and close proximity to natural areas like Lemon Bay and Stump Pass Beach State Park. While small in size,
+                Manasota Key is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and residential 
+                waterfronts, the need for professional boat removal services remains essential.
+              </p>
+              <p> 
+                Whether you're near Manasota Beach, close to Blind Pass Beach Park, or in residential neighborhoods along Gulf Boulevard
+                and Englewood Beach, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly 
+                boat disposal services. We understand the unique challenges of boat removal across Sarasota and Charlotte counties’ 
+                inland and coastal environments and have the expertise to handle any situation.
               </p>
               <p>
-                Whether you're near the Manasota Key Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
+                Our Manasota Key boat removal services include hauling away old boats, yachts, sailboats, and pontoons from private
+                properties, marinas, storage yards, and shoreline areas. We take care of all transportation, heavy lifting, and environmentall
+                y responsible disposal, ensuring a stress-free process for every customer.
+              </p> 
               <p>
-                Our Manasota Key boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Sarasota County including Manasota Key, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota and Charlotte counties, including Manasota Key, Englewood, Venice, Port Charlotte, and surrounding 
+                communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
