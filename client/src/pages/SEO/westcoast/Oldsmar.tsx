@@ -6,12 +6,18 @@ import { Phone, Mail, MapPin, CheckCircle, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RandomBoatGallery from "@/components/RandomBoatGallery";
+import ServiceAreaList from "@/components/ServiceAreaList";
+import { getNearbyCities } from "@/utils/getNearbyCities";
+import logoImage from "@assets/Logo_florida_boat_removal.png";
+import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function OldsmarFl() {
+export default function Oldsmar() {
   const [, setLocation] = useLocation();
-
+   const nearbyCities = getNearbyCities("Oldsmar", 60); // find up to 60 closest
+  const phone = getPhoneByCity("Oldsmar");
+  
   const services = [
-    "Boat Hauling & Transport",
+     "Boat Hauling & Transport",
     "Yacht Dismantling",
     "Catamaran Removal",
     "Sailboat Disposal",
@@ -51,19 +57,16 @@ export default function OldsmarFl() {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Boat Removal Oldsmar FL | Professional Disposal & Dismantling Services</title>
-        <meta 
-          name="description" 
-          content="Expert boat removal services in Oldsmar, Florida. Free quotes, same-day service, eco-friendly disposal. Serving Pinellas County for boats, yachts & catamarans of all sizes." 
-        />
+        <meta name="description" content="Expert boat removal services in Oldsmar, Florida. Free quotes, same-day service, eco-friendly disposal. Serving nearby areas for boats, yachts & catamarans of all sizes." />
         <meta property="og:title" content="Boat Removal Oldsmar FL | Professional Services" />
         <meta 
           property="og:description" 
           content="Expert boat removal services in Oldsmar, Florida. Free quotes, same-day service, eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://boatsremoval.com/Oldsmar-fl-boat-removal" />
+        <link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-oldsmar" />
       </Helmet>
-      <Header />
+     <Header cityName="Oldsmar" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -94,11 +97,11 @@ export default function OldsmarFl() {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={() => window.location.href = 'tel:+17792200187'}
+                  onClick={() => window.location.href = `tel:+1${phone.replace(/[^0-9]/g, "")}`}
                   data-testid="button-call-now"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Call: 779-220-0187
+                  Call: {phone}
                 </Button>
               </div>
             </div>
@@ -110,7 +113,7 @@ export default function OldsmarFl() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose Florida Boat Removal in Oldsmar?
+                Why Choose <span className="text-primary">Florida Boat Removal</span> in Oldsmar?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 We're the trusted boat removal experts serving Oldsmar and all of Pinellas County
@@ -283,7 +286,7 @@ export default function OldsmarFl() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Receive a free, no-obligation quote within 1 hour. We may even pay you for boats with resale value!
+                    Receive a free, no-obligation quote within 1 hour!
                   </p>
                 </CardContent>
               </Card>
@@ -333,57 +336,47 @@ export default function OldsmarFl() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-16 md:py-20 bg-primary text-primary-foreground">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Remove Your Boat in Oldsmar?
-            </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8">
-              Get your free quote today! Fast response, professional service, competitive pricing.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                variant="secondary"
-                onClick={() => setLocation('/quote')}
-                data-testid="button-cta-quote"
-              >
-                Get Free Quote
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-                onClick={() => window.location.href = 'tel:+17792200187'}
-                data-testid="button-cta-call"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now
-              </Button>
-            </div>
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground/90">
-              <div className="flex items-center gap-2">
-                <Phone className="h-5 w-5" />
-                <span>779-220-0187</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Mail className="h-5 w-5" />
-                <span>quote@boatsremoval.com</span>
-              </div>
-            </div>
-          </div>
-        </section>
+       {/* Local Call Section with Logo */}
+<section className="py-16 md:py-20 bg-muted text-center">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Logo */}
+    <img
+      src="/attached_assets/Logo_florida_boat_removal_black.png"
+      alt="Florida Boat Removal logo"
+      className="mx-auto mb-6 w-32 h-auto"
+      loading="lazy"
+    />
 
+    {/* Local Text */}
+    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+      Call <span className="text-primary">Florida Boat Removal</span> Today!
+    </h2>
+    <p className="text-lg text-muted-foreground mb-8">
+      Dial {" "}
+      <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
+        {phone}
+      </a>{" "}
+      to speak with our boat removal specialist serving Olsdmar and all of Pinellas County.
+      Pricing is based on vessel size, condition, and accessibility.
+    </p>
+<Button
+      size="lg"
+      onClick={() => setLocation("/quote")}
+      data-testid="button-local-call-quote"
+    >
+      Get Free Quote
+      <ArrowRight className="ml-2 h-5 w-5" />
+    </Button>
+  </div>
+</section>
         {/* Local Content Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About Boat Removal in Oldsmar, Florida
+              About <span className="text-primary">Florida Boat Removal</span> in Oldsmar, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
+             <p>
                 Oldsmar is a scenic city in Pinellas County, known for its waterfront areas, marinas, and active boating community. With numerous lakes, 
                 boat ramps, and private docks, the need for professional boat removal services is essential.
               </p>
@@ -403,9 +396,12 @@ export default function OldsmarFl() {
             </div>
           </div>
         </section>
+        {/* Nearby Cities Section */}
+        <ServiceAreaList cities={nearbyCities} />
       </main>
 
       <Footer />
     </div>
   );
 }
+

@@ -7,21 +7,21 @@ export interface City {
 }
 
 export const allCities: City[] = [
-  { name: "Miami", lat: 25.7617, lon: -80.1918, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Hialeah", lat: 25.8576, lon: -80.2781, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Miami Beach", lat: 25.7907, lon: -80.1300, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Coral Gables", lat: 25.7215, lon: -80.2684, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Doral", lat: 25.8195, lon: -80.3550, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Homestead", lat: 25.4683, lon: -80.4776, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Kendall", lat: 25.6890, lon: -80.3560, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "North Miami", lat: 25.8909, lon: -80.1869, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Miami Gardens", lat: 25.9420, lon: -80.2456, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Sunny Isles Beach", lat: 25.9410, lon: -80.1228, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Cutler Bay", lat: 25.6033, lon: -80.3404, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Aventura", lat: 25.9561, lon: -80.1395, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Palmetto Bay", lat: 25.6195, lon: -80.2943, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Pinecrest", lat: 25.6619, lon: -80.3076, county: "Miami-Dade", phone: "786-343-5111" },
-  { name: "Miami Lakes", lat: 25.9010, lon: -80.3553, county: "Miami-Dade", phone: "786-343-5111" },
+  { name: "Miami", lat: 25.7617, lon: -80.1918, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Hialeah", lat: 25.8576, lon: -80.2781, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Miami Beach", lat: 25.7907, lon: -80.1300, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Coral Gables", lat: 25.7215, lon: -80.2684, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Doral", lat: 25.8195, lon: -80.3550, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Homestead", lat: 25.4683, lon: -80.4776, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Kendall", lat: 25.6890, lon: -80.3560, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "North Miami", lat: 25.8909, lon: -80.1869, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Miami Gardens", lat: 25.9420, lon: -80.2456, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Sunny Isles Beach", lat: 25.9410, lon: -80.1228, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Cutler Bay", lat: 25.6033, lon: -80.3404, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Aventura", lat: 25.9561, lon: -80.1395, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Palmetto Bay", lat: 25.6195, lon: -80.2943, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Pinecrest", lat: 25.6619, lon: -80.3076, county: "Miami-Dade", phone: "754-224-8555" },
+  { name: "Miami Lakes", lat: 25.9010, lon: -80.3553, county: "Miami-Dade", phone: "754-224-8555" },
 
   { name: "Coconut Creek", lat: 26.2518, lon: -80.1789, county: "Broward", phone: "754-224-8555" },
   { name: "Cooper City", lat: 26.0573, lon: -80.2717, county: "Broward", phone: "754-224-8555" },
@@ -166,7 +166,8 @@ export const allCities: City[] = [
   { name: "Harbor Heights", lat: 26.9612, lon: -82.0709, county: "Charlotte", phone: "727-298-0155"},
   { name: "Punta Gorda", lat: 26.9287, lon: -82.0454, county: "Charlotte", phone: "727-298-0155"},
   { name: "Acline", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
-  { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"}
+  { name: "Burnt Store Marina", lat: 26.9522, lon: -82.2066, county: "Charlotte", phone: "727-298-0155"},
+  { name: "Oldsmar", lat: 28.0342, lon: -82.6651, county: "Pinellas", phone: "727-298-0155"}
 
 
 ];
