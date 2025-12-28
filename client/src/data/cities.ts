@@ -173,6 +173,7 @@ export const allCities: City[] = [
   { name: "Manasota Key", lat: 27.0826, lon: -82.5189, county: "Sarasota", phone: "727-298-0155"},
   { name: "Rotonda West", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
   { name: "Cape Haze", lat: 26.8486, lon: -82.2682, county: "Charlotte" , phone: "727-298-0155"},
+  { name: "Placida", lat: 26.8556, lon: -82.2367, county: "Charlotte", phone: "727-298-0155"},
 
 
 ];
