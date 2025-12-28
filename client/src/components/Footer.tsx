@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">⚓ BoatsRemoval</h3>
+            <h3 className="text-xl font-bold mb-4 text-primary">Florida Boat Removal</h3>
             <div className="text-background/80 text-sm space-y-2">
               <p>201 Seminole St., Clearwater, FL 33755</p>
               <p>4470 Anglers Ave, Fort Lauderdale, FL 33312</p>
@@ -27,14 +28,18 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Service Areas */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Service Areas</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Service Areas</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Blog</a></li>
+              <li>
+                <Link href="/pompano-beach-boat-removal" className="text-background/80 hover:text-primary transition-colors">
+                  Pompano Beach, FL
+                </Link>
+              </li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Fort Lauderdale, FL</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Miami, FL</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">All Broward County</a></li>
             </ul>
           </div>
 
@@ -42,7 +47,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-background/80">779-220-0187</li>
+              <li className="text-background/80">754-224-8555</li>
               <li><a href="mailto:quote@boatsremoval.com" className="text-background/80 hover:text-primary transition-colors">quote@boatsremoval.com</a></li>
               <li className="text-background/80">24/7 Service</li>
             </ul>
@@ -66,7 +71,7 @@ export default function Footer() {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm">
-              © {currentYear} BoatsRemoval. All rights reserved.
+              © {currentYear} Florida Boat Removal. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-background/60 hover:text-primary transition-colors">Privacy Policy</a>

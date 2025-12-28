@@ -21,12 +21,12 @@ export default function HeroSection() {
       {/* Title */}
       <div className="relative z-10 pt-6 sm:pt-10 md:pt-16 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
-          Fast Boat Removal Services
+          Boat Removal, Dismantle, Disposal Services in Florida
         </h1>
 
         {/* Phone number under title */}
         <p className="mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-          779-220-0187
+          754-224-8555
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
           className="bg-secondary text-secondary-foreground hover:bg-secondary font-bold text-lg px-8 h-12 w-full sm:w-56"
           asChild
         >
-          <a href="tel:+17792200187" className="flex items-center justify-center">
+          <a href="tel:+17542248555" className="flex items-center justify-center">
             <Phone className="mr-2 h-5 w-5" />
             Call Now
           </a>
@@ -55,7 +55,7 @@ export default function HeroSection() {
       {/* Subtitle at the bottom */}
       <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-0 w-full text-center px-4 z-10">
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto mt-2">
-          Professional disposal and dismantle of unwanted boats, yachts, catamarans. Same-day
+          Professional disposal and dismantle of unwanted boats, yachts, catamarans from land, water, dock. Same-day
           service available!
         </p>
       </div>

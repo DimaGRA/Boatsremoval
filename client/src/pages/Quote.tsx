@@ -239,7 +239,8 @@ export default function Quote() {
       setStep(1);
     }
   };
-
+  const [errors, setErrors] = useState({ phone: "" });
+  
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -390,18 +391,69 @@ export default function Quote() {
                       </div>
                     </div>
 
-                    <div className="space-y-2">
-                      <Label htmlFor="phone">Phone *</Label>
-                      <Input
-                        id="phone"
-                        type="tel"
-                        placeholder="(555) 123-4567"
-                        value={formData.phone}
-                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        required
-                        data-testid="input-phone"
-                      />
-                    </div>
+                   <div className="space-y-2">
+  <Label htmlFor="phone">Phone *</Label>
+  <Input
+    id="phone"
+    type="tel"
+    placeholder="(555) 123-4567"
+    value={formData.phone}
+
+    onKeyDown={(e) => {
+      const allowedKeys = [
+        "Backspace",
+        "Delete",
+        "ArrowLeft",
+        "ArrowRight",
+        "Tab",
+      ];
+
+      // Allow navigation + deletion
+      if (allowedKeys.includes(e.key)) return;
+
+      // Block everything except digits
+      if (!/^[0-9]$/.test(e.key)) {
+        e.preventDefault();
+      }
+    }}
+
+    onPaste={(e) => {
+      const paste = e.clipboardData.getData("text");
+      if (!/^\d+$/.test(paste)) {
+        e.preventDefault();
+      }
+    }}
+
+    onChange={(e) => {
+      let digits = e.target.value.replace(/\D/g, "");
+
+      if (digits.length > 10) digits = digits.slice(0, 10);
+
+      let formatted = digits;
+      if (digits.length > 6) {
+        formatted = `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+      } else if (digits.length > 3) {
+        formatted = `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+      } else if (digits.length > 0) {
+        formatted = `(${digits}`;
+      }
+
+      setFormData({ ...formData, phone: formatted });
+
+      setErrors({
+        ...errors,
+        phone: digits.length === 10 ? "" : "Please enter 10 digit phone number",
+      });
+    }}
+
+    required
+    className={errors.phone ? "border-red-500" : ""}
+  />
+
+  {errors.phone && (
+    <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
+  )}
+</div>
 
                     <div className="space-y-2">
                       <Label htmlFor="email">Email *</Label>
@@ -437,13 +489,14 @@ export default function Quote() {
                     </div>
 
                     <Button 
-                      type="submit" 
-                      className="w-full bg-primary text-primary-foreground" 
-                      size="lg"
-                      data-testid="button-submit-quote"
-                    >
-                      Get Prices
-                    </Button>
+  type="submit"
+  className="w-full bg-primary text-primary-foreground"
+  size="lg"
+  data-testid="button-submit-quote"
+  disabled={errors.phone !== ""}
+>
+  Get Prices
+</Button>
                   </div>
                 )}
               </form>

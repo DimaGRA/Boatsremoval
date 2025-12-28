@@ -8,33 +8,33 @@ import {
 const faqs = [
   {
     id: "faq-1",
-    question: "What if I want to handle the removal and disposal on my own?",
-    answer: "Managing boat removal by yourself is uncommon and difficult. Professionals have the expertise and equipment needed for safe and efficient disposal.",
+    question: "Can I take care of the boat removal and disposal myself?",
+    answer: "Handling boat removal on your own is challenging and rare. Professionals have the right experience and equipment to ensure the process is safe and efficient.",
   },
   {
     id: "faq-2",
-    question: "Are your boat disposal services environmentally conscious?",
-    answer: "Yes, we prioritize environmentally friendly disposal methods, including recycling and proper handling of hazardous materials.",
+    question: "Are your boat disposal services eco-friendly?",
+    answer: "Absolutely. We focus on environmentally responsible disposal, including recycling materials and safely managing any hazardous components.",
   },
   {
     id: "faq-3",
-    question: "What paperwork is needed for removing a boat?",
-    answer: "The essential documents include the boat's title and registration. For boats over 38 feet and sailboats, coast guard registration is also required.",
+    question: "What paperwork do I need to remove a boat?",
+    answer: "You’ll need the boat’s title and registration. For boats over 38 feet and sailboats, Coast Guard registration is also required.",
   },
   {
     id: "faq-4",
-    question: "What happens if the boat has hazardous materials onboard?",
-    answer: "Hazardous materials are handled in compliance with environmental laws to guarantee safe and appropriate disposal.",
+    question: "What if the boat contains hazardous materials?",
+    answer: "All hazardous materials are managed according to environmental regulations to ensure safe and proper disposal.",
   },
   {
     id: "faq-5",
-    question: "Is my presence required during the boat removal process?",
-    answer: "While it's not necessary for you to be present, it can be helpful. We can arrange everything in advance to ensure a smooth process.",
+    question: "Do I need to be present during the boat removal?",
+    answer: "Your presence isn’t required, but it can be helpful. We can coordinate everything beforehand to make the process seamless.",
   },
   {
     id: "faq-6",
-    question: "Can BoatsRemoval handle boats in inaccessible places?",
-    answer: "Yes, we have the expertise and equipment to effectively remove boats from even the most inaccessible and difficult-to-reach locations.",
+    question: "Can Florida Boat Removal remove boats from hard-to-reach locations?",
+    answer: "Absolutely. We have the experience and specialized equipment to safely remove boats from even the most challenging and inaccessible spots.",
   },
 ];
 

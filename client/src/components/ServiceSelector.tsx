@@ -35,7 +35,7 @@ export default function ServiceSelector() {
           </h2>
           <div className="text-lg text-muted-foreground max-w-4xl mx-auto space-y-4" data-testid="text-services-subtitle">
             <p>
-              At BoatsRemoval, we make getting rid of unwanted boats simple, safe, and stress-free. As a local Florida company, we proudly serve both the East and West Coasts — including Broward, Miami-Dade, Palm Beach, Hernando, Pasco, Pinellas, Hillsborough, Manatee, and Sarasota counties.
+              At Florida Boat Removal, we make getting rid of unwanted boats simple, safe, and stress-free. As a local Florida company, we proudly serve both the East and West Coasts — including Broward, Miami-Dade, Palm Beach, Hernando, Pasco, Pinellas, Hillsborough, Manatee, and Sarasota counties.
             </p>
             <p>
               Our experienced team handles all types of marine vessels — sailboats, motorboats, yachts, pontoons, and jet skis — no matter the size, age, or condition.
@@ -44,7 +44,7 @@ export default function ServiceSelector() {
               Whether your boat is on land, in the water, or even submerged, we'll remove it quickly and responsibly. We take care of salvage, disposal, and environmental compliance, so you can avoid code violations, storage fees, and fines.
             </p>
             <p>
-              With years of experience and hundreds of successful removals across Florida, BoatsRemoval is your trusted local partner for professional and affordable boat removal services on both coasts.
+              With years of experience and hundreds of successful removals across state, Florida Boat Removal is your trusted local partner for professional and affordable boat removal services on both coasts.
             </p>
           </div>
         </div>
