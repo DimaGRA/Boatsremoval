@@ -170,6 +170,7 @@ import Acline from "@/pages//SEO/westcoast/Acline"
 import BurntStoreMarina from "@/pages//SEO/westcoast/BurntStoreMarina"
 import Oldsmar from "@/pages/SEO/westcoast/Oldsmar";
 import ElJobean from "@/pages//SEO/westcoast/ElJobean";
+import Englewood from "@/pages//SEO/westcoast/Englewood";
 
 
 function Router() {
@@ -338,6 +339,7 @@ function Router() {
       <Route path="/boat-removal-fl-burnt-store-marina" component={BurntStoreMarina}/>
       <Route path="/boat-removal-fl-oldsmar" component={Oldsmar} />
       <Route path="/boat-removal-fl-el-jobean" component={ElJobean}/>
+      <Route path="/boat-removal-fl-englewood" component={Englewood}/>
       
       <Route component={NotFound} />
     </Switch>
