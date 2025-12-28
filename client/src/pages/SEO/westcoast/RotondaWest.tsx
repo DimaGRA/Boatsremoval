@@ -26,13 +26,13 @@ export default function RotondaWest() {
   ];
 
   const serviceAreas = [
-    "Rotonda West Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+    "Rotonda Community Park",
+    "Cape Haze Pioneer Trail",
+    "Rotonda Boulevard East",
+    "Parade Circle",
+    "Boundary Boulevard"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function RotondaWest() {
     },
     {
       question: "What areas of Rotonda West do you serve?",
-      answer: "We serve all of Rotonda West including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
+      answer: "We serve all of Rotonda West including Rotonda Community Park, Cape Haze Pioneer Trail, Rotonda Boulevard East, Parade Circle, and Boundary Boulevard neighborhoods."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +376,26 @@ export default function RotondaWest() {
               About <span className="text-primary">Florida Boat Removal</span> in Rotonda West, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+              <p> 
+                Rotonda West is a planned residential community located in Charlotte County, known for its distinctive circular design, 
+                golf courses, and close proximity to beautiful coastal areas like Lemon Bay and Englewood Beach. While not directly on the 
+                Gulf, Rotonda West is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and 
+                residential waterways, the need for professional boat removal services remains essential. 
+              </p> 
               <p>
-                Rotonda West is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Whether you're near Rotonda Community Park, close to Cape Haze Pioneer Trail, or in residential neighborhoods along Rotonda
+                Boulevard, Parade Circle, and Boundary Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, 
+                reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Charlotte
+                County’s inland and coastal environments and have the expertise to handle any situation.
               </p>
-              <p>
-                Whether you're near the Rotonda West Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Rotonda West boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Charlotte County including Rotonda West, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> 
+                Our Rotonda West boat removal services include hauling away old boats, yachts, sailboats, and pontoons from private 
+                properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and 
+                environmentally responsible disposal, ensuring a stress-free process for every customer. 
+              </p> 
+              <p> 
+                Serving all of Charlotte County, including Rotonda West, Englewood, Port Charlotte, Punta Gorda, and surrounding 
+                communities. Contact us today for a free quote! 
               </p>
             </div>
           </div>
@@ -408,3 +408,6 @@ export default function RotondaWest() {
     </div>
   );
 }
+//{ name: "Rotonda West", lat: 27.1130, lon: -82.3720, county: "Sarasota", phone: "727-298-0155"},
+//import RotondaWest" from "@/pages//SEO/westcoast/RotondaWest"
+//<Route path="/boat-removal-fl-rotonda-west" component={RotondaWest}/>
