@@ -394,3 +394,6 @@ export default function BocaGrande() {
     </div>
   );
 }
+//{ name: "Boca Grande", lat: 26.7492, lon: -82.2623, county: "Lee", phone: "727-298-0155"},
+//import BocaGrande from "@/pages/SEO/westcoast/BocaGrande"
+//<Route path="/boat-removal-fl-boca-grande" component={BocaGrande}/>
