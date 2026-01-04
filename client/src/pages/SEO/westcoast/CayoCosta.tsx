@@ -25,14 +25,13 @@ export default function CayoCosta() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "Cayo Costa Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+ const serviceAreas = [
+  "Cayo Costa State Park",
+  "Gulf of Mexico Shoreline",
+  "Charlotte Harbor",
+  "Pine Island Sound",
+  "Cayo Costa Dock Area"
+];
 
   const faqs = [
     {
@@ -40,8 +39,8 @@ export default function CayoCosta() {
       answer: "We offer same-day and next-day boat removal services in Cayo Costa, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Cayo Costa do you serve?",
-      answer: "We serve all of Cayo Costa including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+  question: "What areas of Cayo Costa do you serve?",
+  answer: "We serve all of Cayo Costa, including Cayo Costa State Park, the Gulf of Mexico beachfront, the Pine Island Sound shoreline, the Cayo Costa dock area, and nearby island access points."
     },
     {
       question: "Do you remove boats from residential properties?",
