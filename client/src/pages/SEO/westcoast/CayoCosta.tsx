@@ -375,26 +375,25 @@ export default function CayoCosta() {
               About <span className="text-primary">Florida Boat Removal</span> in Cayo Costa, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Cayo Costa is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p>  Cayo Costa is a remote barrier island located off the coast of Southwest Florida, known for its untouched Gulf beaches,
+                natural preserves, and secluded island setting. Situated between the Gulf of Mexico and Pine Island Sound, Cayo Costa is
+                an important part of the region’s boating and fishing community. With boat-access-only properties, docks, and shoreline
+                landings, the need for professional boat removal services remains essential in this environmentally sensitive area.
               </p>
               <p>
-                Whether you're near the Cayo Costa Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Cayo Costa State Park, close to the island’s dock and ranger station, or along the Pine Island Sound
+                shoreline, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat
+                disposal services. We understand the unique challenges of boat removal on undeveloped barrier islands and have the
+                expertise to handle complex removals safely and efficiently.
               </p>
               <p>
-                Our Cayo Costa boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Cayo Costa boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+                docks, shoreline locations, mooring areas, and waterfront access points. We manage all transportation, heavy lifting,
+                and environmentally responsible disposal, ensuring a smooth and stress-free experience for every customer.
               </p>
               <p>
-                Serving all of Lee County including Cayo Costa, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving Southwest Florida, including Cayo Costa, Pine Island, Captiva, North Captiva, and surrounding coastal
+                communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
