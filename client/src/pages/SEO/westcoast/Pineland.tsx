@@ -26,13 +26,12 @@ export default function Pineland() {
   ];
 
   const serviceAreas = [
-    "Pineland Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Pineland Marina",
+  "Pine Island Sound",
+  "Pineland Harbor",
+  "Waterfront Drive Area",
+  "Stringfellow Road Corridor"
+];
 
   const faqs = [
     {
@@ -40,8 +39,8 @@ export default function Pineland() {
       answer: "We offer same-day and next-day boat removal services in Pineland, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Pineland do you serve?",
-      answer: "We serve all of Pineland including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+  question: "What areas of Pineland do you serve?",
+  answer: "We serve all of Pineland, including Pineland Marina, the Pineland Harbor area, nearby Pine Island Sound waterfronts, residential areas along Waterfront Drive and Stringfellow Road, and surrounding neighborhoods on Pine Island."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,26 @@ export default function Pineland() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pineland is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pineland Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pineland boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Pineland, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pineland is a historic waterfront community located on Pine Island in Lee County, known for its quiet harbor, fishing
+  heritage, and access to scenic waters such as Pine Island Sound and Charlotte Harbor. While not directly on the open
+  Gulf of Mexico, Pineland is an important part of Southwest Florida’s boating and maritime community. With local docks,
+  marinas, and residential waterfront areas, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Pineland Marina, close to the Randell Research Center, or in residential neighborhoods along
+  Waterfront Drive and Stringfellow Road, <span className="text-primary">Florida Boat Removal</span> provides fast,
+  reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee
+  County’s island and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Pineland boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Pineland, Bokeelia, St. James City, Matlacha, and surrounding communities. Contact
+  us today for a free quote!
+</p>
             </div>
           </div>
         </section>
@@ -408,3 +407,6 @@ export default function Pineland() {
     </div>
   );
 }
+//{ name: "Pineland", lat: 26.6999, lon: -82.1105, county: "Lee", phone: "727-298-0155"},
+//import Pineland from "@/pages/SEO/westcoast/Pineland"
+//<Route path="/boat-removal-fl-pineland" component={Pineland}/>
