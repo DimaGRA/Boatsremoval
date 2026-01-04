@@ -26,13 +26,13 @@ export default function Matlacha() {
   ];
 
   const serviceAreas = [
-    "Matlacha Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Matlacha Pass",
+  "Matlacha Community Park",
+  "Pine Island Road Area",
+  "Waterfront Drive",
+  "Matlacha Bridge Area"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Matlacha() {
     },
     {
       question: "What areas of Matlacha do you serve?",
-      answer: "We serve all of Matlacha including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Matlacha, including the Matlacha Pass waterfront, Matlacha Community Park, areas along Pine Island Road, the Matlacha Bridge area, and nearby residential and marina locations throughout the community."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,26 @@ export default function Matlacha() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Matlacha is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Matlacha Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Matlacha boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Matlacha, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Matlacha is a colorful waterfront community located between Cape Coral and Pine Island in Lee County, known for its
+  artistic character, fishing lifestyle, and scenic surroundings along Matlacha Pass. While not directly on the open
+  Gulf of Mexico, Matlacha is closely connected to Southwest Florida’s boating and fishing community. With nearby marinas,
+  canals, and residential waterfront areas, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Matlacha Community Park, close to the Matlacha Bridge, or in residential neighborhoods along Pine
+  Island Road and Waterfront Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and
+  eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee County’s coastal and
+  island-adjacent environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Matlacha boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Matlacha, Cape Coral, Pine Island, Bokeelia, and surrounding communities. Contact
+  us today for a free quote!
+</p>
             </div>
           </div>
         </section>
@@ -408,3 +408,7 @@ export default function Matlacha() {
     </div>
   );
 }
+//{ name: "Matlacha", lat: 26.6281, lon: -82.0784, county: "Lee", phone: "727-298-0155"},
+//import Matlacha from "@/pages/SEO/westcoast/Matlacha"
+//<Route path="/boat-removal-fl-matlacha" component={Matlacha}/>
+
