@@ -406,3 +406,6 @@ export default function CayoCosta() {
     </div>
   );
 }
+//{ name: "Cayo Costa", lat: 26.7734, lon: -82.2237, county: "Lee", phone: "727-298-0155"},
+//import CayoCosta from "@/pages/SEO/westcoast/CayoCosta"
+//<Route path="/boat-removal-fl-cayo-costa" component={CayoCosta}/>
