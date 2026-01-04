@@ -26,13 +26,12 @@ export default function BocaGrande() {
   ];
 
   const serviceAreas = [
-    "Boca Grande Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Boca Grande Beach",
+  "Boca Grande Pass",
+  "Boca Bay",
+  "Gasparilla Island State Park",
+  "5th Street Area"
+];
 
   const faqs = [
     {
@@ -40,8 +39,8 @@ export default function BocaGrande() {
       answer: "We offer same-day and next-day boat removal services in Boca Grande, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Boca Grande do you serve?",
-      answer: "We serve all of Boca Grande including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+  question: "What areas of Boca Grande do you serve?",
+  answer: "We serve all of Boca Grande, including Boca Grande Beach, Boca Grande Pass, the Boca Bay area, the Gasparilla Sound shoreline, and neighborhoods along 5th Street and Park Avenue."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,26 +375,13 @@ export default function BocaGrande() {
               About <span className="text-primary">Florida Boat Removal</span> in Boca Grande, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Boca Grande is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+              <p> Boca Grande is a historic coastal community located on Gasparilla Island in Southwest Florida, known for its pristine Gulf beaches, charming downtown, and world-renowned fishing waters such as Boca Grande Pass. Sitting directly on the Gulf of Mexico, Boca Grande is deeply connected to Florida’s boating and maritime lifestyle. With numerous private docks, marinas, and waterfront residences, professional boat removal services play an essential role in preserving the island’s coastal environment.
               </p>
-              <p>
-                Whether you're near the Boca Grande Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+              <p> Whether you're near Boca Grande Beach, close to Gasparilla Island State Park, or in residential areas along Fifth Street and Park Avenue, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal on barrier islands and around sensitive coastal waterways, and we have the experience to handle each situation safely and efficiently.
               </p>
-              <p>
-                Our Boca Grande boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+              <p> Our Boca Grande boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private properties, marinas, boat slips, and waterfront locations. We manage all transportation, heavy lifting, and environmentally responsible disposal, ensuring a smooth and stress-free experience for every customer.
               </p>
-              <p>
-                Serving all of Lee County including Boca Grande, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+              <p> Serving Boca Grande and surrounding coastal areas, including Gasparilla Island, Placida, Captiva, and nearby Southwest Florida communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
