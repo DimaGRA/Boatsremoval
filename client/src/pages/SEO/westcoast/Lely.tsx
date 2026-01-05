@@ -26,13 +26,13 @@ export default function Lely() {
   ];
 
   const serviceAreas = [
-    "Lely Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Lely Resort",
+  "The Players Club & Spa",
+  "Mustang Island Golf Course",
+  "Flamingo Island Golf Course",
+  "Classics Golf & Country Club"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Lely() {
     },
     {
       question: "What areas of Lely do you serve?",
-      answer: "We serve all of Lely including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Lely including Lely Resort, The Players Club & Spa area, Mustang Island Golf Course, Flamingo Island Golf Course, Classics Golf & Country Club, and surrounding neighborhoods in Collier County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function Lely() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lely is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lely Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lely boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Lely, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lely is a well-established master-planned community located in Collier County, known for its golf courses, landscaped neighborhoods, and close proximity to Naples’ coastal and boating destinations. While Lely itself is inland, it sits near important waterways, marinas, and Gulf access points throughout South Naples. With nearby canals, storage facilities, and residential properties, professional boat removal services remain an important need for the area.
+</p>
+<p>
+  Whether you're located in Lely Resort, near The Players Club &amp; Spa, or in residential communities surrounding Mustang Island Golf Course and Flamingo Island Golf Course, <span className="text-primary">Florida Boat Removal</span> delivers fast, reliable, and eco-friendly boat disposal services. We understand the logistical challenges of boat removal across Collier County’s residential and recreational areas and are equipped to handle every situation safely and efficiently.
+</p>
+<p>
+  Our Lely boat removal services include hauling away old boats, yachts, sailboats, and personal watercraft from private properties, storage yards, golf course communities, and nearby marina locations. We manage all transportation, heavy equipment, and environmentally responsible disposal to ensure a smooth, hassle-free experience.
+</p>
+<p>
+  Serving all of Collier County, including Lely, Naples, East Naples, Golden Gate, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function Lely() {
     </div>
   );
 }
+//{ name: "Lely", lat: 26.0960, lon: -81.7290, county: "Collier", phone: "727-298-0155"},
+//import Lely from "@/pages//SEO/westcoast/Lely"
+//<Route path="/boat-removal-fl-lely" component={Lely}/>
