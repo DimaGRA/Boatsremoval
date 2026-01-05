@@ -26,13 +26,13 @@ export default function MarcoIsland() {
   ];
 
   const serviceAreas = [
-    "Marco Island Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Marco Beach",
+  "Tigertail Beach",
+  "Old Marco Village",
+  "Collier Boulevard",
+  "South Seas Island Resort Area"
+];
+
 
   const faqs = [
     {
@@ -41,8 +41,9 @@ export default function MarcoIsland() {
     },
     {
       question: "What areas of Marco Island do you serve?",
-      answer: "We serve all of Marco Island including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Marco Island including Marco Beach, Tigertail Beach, Old Marco Village, areas along Collier Boulevard, and surrounding neighborhoods on the island."
     },
+
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Marco Island. We handle all permits and logistics."
@@ -377,26 +378,17 @@ export default function MarcoIsland() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Marco Island is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Marco Island Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Marco Island boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Marco Island, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Marco Island is a scenic coastal city located in Collier County, known for its white-sand Gulf beaches, waterfront parks, and close proximity to natural attractions like Tigertail Beach and South Marco Beach. Situated along the Gulf of Mexico, Marco Island is also a major hub for boating and fishing in Southwest Florida. With numerous marinas, canals, and residential waterfront properties, dependable boat removal services are an important local need.
+</p>
+<p>
+  Whether you're near Marco Beach, close to Tigertail Lagoon, or in residential communities along Collier Boulevard and San Marco Road, <span className="text-primary">Florida Boat Removal</span> delivers fast, professional, and environmentally responsible boat disposal services. We understand the specific challenges of boat removal in Collier County’s coastal and island settings and have the experience to manage every situation efficiently.
+</p>
+<p>
+  Our Marco Island boat removal services include the removal of old boats, yachts, sailboats, and catamarans from private homes, marinas, storage facilities, and waterfront locations. We handle all logistics, heavy equipment, and eco-conscious disposal to provide a smooth and worry-free experience for our customers.
+</p>
+<p>
+  Serving all of Collier County, including Marco Island, Naples, Goodland, Isles of Capri, and nearby communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function MarcoIsland() {
     </div>
   );
 }
+//{ name: "Marco Island", lat: 25.9410, lon: -81.7280, county: "Collier", phone: "727-298-0155"}
+//import MarcoIsland from "@/pages//SEO/westcoast/MarcoIsland"
+//<Route path="/boat-removal-fl-marco-island" component={MarcoIsland}/>
