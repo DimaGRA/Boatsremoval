@@ -26,13 +26,13 @@ export default function PelicanBay() {
   ];
 
   const serviceAreas = [
-    "Pelican Bay Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Pelican Bay Boulevard",
+  "Waterside Shops at Pelican Bay",
+  "Clam Bay",
+  "Pelican Bay North Beach Park",
+  "Pelican Bay South Beach Park"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function PelicanBay() {
     },
     {
       question: "What areas of Pelican Bay do you serve?",
-      answer: "We serve all of Pelican Bay including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Pelican Bay including Pelican Bay Boulevard, Clam Bay, the beachfront areas, Waterside Shops area, and surrounding residential neighborhoods in Naples."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function PelicanBay() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pelican Bay is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pelican Bay Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pelican Bay boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Pelican Bay, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pelican Bay is an upscale coastal community located in Naples, Collier County, known for its pristine Gulf beaches, nature preserves, and beautifully maintained residential areas. Situated along the Gulf of Mexico, Pelican Bay is a major part of Southwest Florida’s active boating lifestyle. With access to Clam Bay, beachfront properties, and nearby waterways, dependable boat removal services are an important necessity for the area.
+</p>
+<p>
+  Whether you're near Pelican Bay Boulevard, close to Clam Bay, or in residential communities surrounding the Waterside Shops area, <span className="text-primary">Florida Boat Removal</span> delivers prompt, professional, and environmentally responsible boat disposal services. We understand the specific challenges of boat removal in Naples’ coastal and protected environments and are fully equipped to manage each project safely.
+</p>
+<p>
+  Our Pelican Bay boat removal services include the removal of old boats, yachts, sailboats, and personal watercraft from private properties, marina slips, storage locations, and waterfront areas. From planning to hauling and eco-conscious disposal, we handle every step to ensure a smooth and hassle-free experience.
+</p>
+<p>
+  Serving all of Collier County, including Pelican Bay, Naples Park, Vanderbilt Beach, Park Shore, and nearby communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function PelicanBay() {
     </div>
   );
 }
+//{ name: "Pelican Bay", lat: 26.2317, lon: -81.8081, county: "Collier", phone: "727-298-0155"},
+//import PelicanBay from "@/pages//SEO/westcoast/PelicanBay"
+//<Route path="/boat-removal-fl-pelican-bay" component={PelicanBay}/>
