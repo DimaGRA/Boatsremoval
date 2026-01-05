@@ -42,7 +42,6 @@ export default function FortMyersBeach() {
       question: "What areas of Fort Myers Beach do you serve?",
       answer: "We serve all of Fort Myers Beach including Times Square, Fort Myers Beach Pier area, Estero Boulevard, Matanzas Pass, Bowditch Point Park, and surrounding neighborhoods in Lee County."
     },
-,
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Fort Myers Beach. We handle all permits and logistics."
