@@ -25,14 +25,14 @@ export default function Naples() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "Naples Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+ const serviceAreas = [
+  "Naples Pier",
+  "Fifth Avenue South",
+  "Naples Bay",
+  "Port Royal",
+  "Park Shore"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Naples() {
     },
     {
       question: "What areas of Naples do you serve?",
-      answer: "We serve all of Naples including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Naples including areas around Naples Pier, Fifth Avenue South, Naples Bay, Port Royal, Park Shore, and surrounding neighborhoods throughout Collier County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,22 @@ export default function Naples() {
               About <span className="text-primary">Florida Boat Removal</span> in Naples, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Naples is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Naples Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Naples boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Naples, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+Naples is an upscale coastal city located in Collier County, widely known for its white-sand Gulf beaches, scenic waterfront parks, and access to waterways such as Naples Bay and the Gordon River. Positioned directly on the Gulf of Mexico, Naples is a major hub for recreational boating and waterfront living in Southwest Florida. With numerous marinas, canals, and private docks throughout the city, professional boat removal services are an ongoing necessity.
+</p>
+
+<p>
+Whether you're near the Naples Pier, along Fifth Avenue South, or in residential communities bordering Naples Bay and Port Royal, <span className="text-primary">Florida Boat Removal</span> delivers fast, dependable, and environmentally responsible boat disposal solutions. We understand the logistical and environmental considerations involved in boat removal across Collier County’s coastal and inland waterways and are fully equipped to manage every scenario.
+</p>
+
+<p>
+Our Naples boat removal services include the removal of old boats, yachts, sailboats, and catamarans from private properties, marinas, storage facilities, and waterfront locations. From heavy lifting to transportation and proper disposal, we handle every step with care, providing a smooth and stress-free experience for our customers.
+</p>
+
+<p>
+Serving all of Collier County, including Naples, Park Shore, Pelican Bay, Golden Gate, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +403,6 @@ export default function Naples() {
     </div>
   );
 }
+//{ name: "Naples", lat: 26.1420, lon: -81.7948, county: "Collier", phone: "727-298-0155"}
+//import Naples from "@/pages//SEO/westcoast/Naples"
+//<Route path="/boat-removal-fl-naples" component={Naples}/>
