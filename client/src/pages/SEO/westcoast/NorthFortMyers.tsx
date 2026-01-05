@@ -26,13 +26,13 @@ export default function NorthFortMyers() {
   ];
 
   const serviceAreas = [
-    "North Fort Myers Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Caloosahatchee River Waterfront",
+  "Pine Island Road Corridor",
+  "Tamiami Trail (US 41) Area",
+  "Hancock Bridge Area",
+  "North Fort Myers Waterfront Neighborhoods"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function NorthFortMyers() {
     },
     {
       question: "What areas of North Fort Myers do you serve?",
-      answer: "We serve all of North Fort Myers including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of North Fort Myers, including the Caloosahatchee River waterfront, the Pine Island Road corridor, areas along Tamiami Trail (US 41), the Hancock Bridge area, and surrounding residential neighborhoods throughout the community."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function NorthFortMyers() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                North Fort Myers is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the North Fort Myers Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our North Fort Myers boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including North Fort Myers, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  North Fort Myers is a growing community located along the Caloosahatchee River in Lee County, known for its riverfront
+  neighborhoods, convenient access to major roadways, and proximity to Fort Myers. While not directly on the open Gulf
+  of Mexico, North Fort Myers is closely tied to Southwest Florida’s boating and marine activity. With nearby marinas,
+  canals, and residential waterfront areas, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near the Caloosahatchee River waterfront, close to the Hancock Bridge, or in residential neighborhoods
+  along Pine Island Road and Tamiami Trail (US 41), <span className="text-primary">Florida Boat Removal</span> provides
+  fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee
+  County’s riverfront and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our North Fort Myers boat removal services include hauling away old boats, yachts, sailboats, and catamarans from
+  private properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting,
+  and environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including North Fort Myers, Fort Myers, Cape Coral, Tice, and surrounding communities.
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function NorthFortMyers() {
     </div>
   );
 }
+//{ name: "North Fort Myers", lat: 26.7081, lon: -81.8917, county: "Lee", phone: "727-298-0155"},
+//import NorthFortMyers from "@/pages/SEO/westcoast/NorthFortMyers"
+//<Route path="/boat-removal-fl-north-fort-myers" component={NorthFortMyers}/>
