@@ -177,7 +177,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/" component={Test} />
+      <Route path="/test" component={Test} />
       <Route path="/quote" component={Quote} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
