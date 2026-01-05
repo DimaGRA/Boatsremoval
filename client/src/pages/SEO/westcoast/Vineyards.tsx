@@ -26,13 +26,13 @@ export default function Vineyards() {
   ];
 
   const serviceAreas = [
-    "Vineyards Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Vineyards Boulevard",
+  "Vineyards Country Club",
+  "Vineyards Community Park",
+  "Arbor Lake Drive",
+  "Regency Reserve"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Vineyards() {
     },
     {
       question: "What areas of Vineyards do you serve?",
-      answer: "We serve all of Vineyards including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Vineyards including the Vineyards Country Club area, neighborhoods along Vineyards Boulevard, Regency Reserve, Arbor Lake Drive, and surrounding residential communities in Collier County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function Vineyards() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Vineyards is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Vineyards Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Vineyards boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Vineyards, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Vineyards is a well-established residential community located in northern Naples within Collier County, known for its landscaped neighborhoods, golf courses, and scenic freshwater lakes. While not directly on the Gulf of Mexico, Vineyards is part of Southwest Florida’s active boating and watercraft region due to its proximity to coastal access points and nearby waterways. With community lakes, private docks, and nearby marinas, the demand for professional boat removal services remains important.
+</p>
+<p>
+  Whether you're near Vineyards Country Club, close to Vineyards Community Park, or in residential areas along Vineyards Boulevard and Arbor Lake Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the specific challenges of boat removal in Collier County’s planned communities and have the experience to manage every situation efficiently.
+</p>
+<p>
+  Our Vineyards boat removal services include hauling away old boats, personal watercraft, small yachts, and sailboats from private properties, storage facilities, marinas, and lakefront locations. We handle all transportation, heavy lifting, and environmentally responsible disposal to ensure a smooth and stress-free experience for every customer.
+</p>
+<p>
+  Serving all of Collier County, including Vineyards, Naples, North Naples, Pelican Marsh, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function Vineyards() {
     </div>
   );
 }
+//{ name: "Vineyards", lat: 26.2609, lon: -81.7479, county: "Collier", phone: "727-298-0155"},
+//import Vineyards from "@/pages//SEO/westcoast/Vineyards"
+//<Route path="/boat-removal-fl-vineyards" component={Vineyards}/>
