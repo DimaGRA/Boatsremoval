@@ -175,6 +175,38 @@ import ManasotaKey from "@/pages//SEO/westcoast/ManasotaKey";
 import RotondaWest from "@/pages//SEO/westcoast/RotondaWest";
 import CapeHaze from "@/pages//SEO/westcoast/CapeHaze";
 import Placida from "@/pages//SEO/westcoast/Placida";
+import BocaGrande from "@/pages//SEO/westcoast/BocaGrande"
+import CayoCosta from "@/pages//SEO/westcoast/CayoCosta"
+import Bokeelia from "@/pages//SEO/westcoast/Bokeelia"
+import Pineland from "@/pages//SEO/westcoast/Pineland"
+import Matlacha from "@/pages//SEO/westcoast/Matlacha"
+import CapeCoral from "@/pages//SEO/westcoast/CapeCoral"
+import PineIsland from "@/pages//SEO/westcoast/PineIsland"
+import StJamesCity from "@/pages//SEO/westcoast/StJamesCity"
+import FortMyers from "@/pages//SEO/westcoast/FortMyers"
+import Tice from "@/pages//SEO/westcoast/Tice"
+import NorthFortMyers from "@/pages//SEO/westcoast/NorthFortMyers"
+import CypressLake from "@/pages//SEO/westcoast/CypressLake"
+import Iona from "@/pages//SEO/westcoast/Iona"
+import FortMyersBeach from "@/pages//SEO/westcoast/FortMyersBeach"
+import Estero from "@/pages//SEO/westcoast/Estero"
+import SanCarlosPark from "@/pages//SEO/westcoast/SanCarlosPark"
+import BonitaSprings from "@/pages//SEO/westcoast/BonitaSprings"
+import HeritageBay from "@/pages//SEO/westcoast/HeritageBay"
+import NaplesPark from "@/pages//SEO/westcoast/NaplesPark"
+import PelicanMarsh from "@/pages//SEO/westcoast/PelicanMarsh"
+import PelicanBay from "@/pages//SEO/westcoast/PelicanBay"
+import IslandWalk from "@/pages//SEO/westcoast/IslandWalk"
+import Vineyards from "@/pages//SEO/westcoast/Vineyards"
+import GoldenGate from "@/pages//SEO/westcoast/GoldenGate"
+import BerkshireLakes from "@/pages//SEO/westcoast/BerkshireLakes"
+import Naples from "@/pages//SEO/westcoast/Naples"
+import Lely from "@/pages//SEO/westcoast/Lely"
+import LelyResort from "@/pages//SEO/westcoast/LelyResort"
+import MarcoIsland from "@/pages//SEO/westcoast/MarcoIsland"
+import Goodland from "@/pages//SEO/westcoast/Goodland"
+import EvergladesCity from "@/pages//SEO/westcoast/EvergladesCity"
+import Chokoloskee from "@/pages//SEO/westcoast/Chokoloskee"
 
 
 function Router() {
@@ -348,7 +380,39 @@ function Router() {
       <Route path="/boat-removal-fl-rotonda-west" component={RotondaWest}/>
       <Route path="/boat-removal-fl-cape-haze" component={CapeHaze}/>
       <Route path="/boat-removal-placida" component={Placida}/>
-      
+      <Route path="/boat-removal-fl-boca-grande" component={BocaGrande}/>
+      <Route path="/boat-removal-fl-cayo-costa" component={CayoCosta}/>
+      <Route path="/boat-removal-fl-bokeelia" component={Bokeelia}/>
+      <Route path="/boat-removal-fl-pineland" component={Pineland}/>
+      <Route path="/boat-removal-fl-matlacha" component={Matlacha}/>
+      <Route path="/boat-removal-fl-cape-coral" component={CapeCoral}/>
+      <Route path="/boat-removal-fl-pine-island" component={PineIsland}/>
+      <Route path="/boat-removal-fl-st-james-city" component={StJamesCity}/>
+      <Route path="/boat-removal-fl-fort-myers" component={FortMyers}/>
+      <Route path="/boat-removal-fl-tice" component={Tice}/>
+      <Route path="/boat-removal-fl-north-fort-myers" component={NorthFortMyers}/>
+      <Route path="/boat-removal-fl-cypress-lake" component={CypressLake}/>
+      <Route path="/boat-removal-fl-iona" component={Iona}/>
+      <Route path="/boat-removal-fl-fort-myers-beach" component={FortMyersBeach}/>
+      <Route path="/boat-removal-fl-estero" component={Estero}/>
+      <Route path="/boat-removal-fl-san-carlos-park" component={SanCarlosPark}/>
+      <Route path="/boat-removal-fl-bonita-springs" component={BonitaSprings}/>
+      <Route path="/boat-removal-fl-heritage-bay" component={HeritageBay}/>
+      <Route path="/boat-removal-fl-naples-park" component={NaplesPark}/>
+      <Route path="/boat-removal-fl-pelican-marsh" component={PelicanMarsh}/>
+      <Route path="/boat-removal-fl-pelican-bay" component={PelicanBay}/>
+      <Route path="/boat-removal-fl-island-walk" component={IslandWalk}/>
+      <Route path="/boat-removal-fl-vineyards" component={Vineyards}/>
+      <Route path="/boat-removal-fl-golden-gate" component={GoldenGate}/>
+      <Route path="/boat-removal-fl-berkshire-lakes" component={BerkshireLakes}/>
+      <Route path="/boat-removal-fl-naples" component={Naples}/>
+      <Route path="/boat-removal-fl-lely" component={Lely}/>
+      <Route path="/boat-removal-fl-lely-resort" component={LelyResort}/>
+      <Route path="/boat-removal-fl-marco-island" component={MarcoIsland}/>
+      <Route path="/boat-removal-fl-goodland" component={Goodland}/>
+      <Route path="/boat-removal-fl-everglades-city" component={EvergladesCity}/>
+      <Route path="/boat-removal-fl-chokoloskee" component={Chokoloskee}/>
+
       <Route component={NotFound} />
     </Switch>
   );
