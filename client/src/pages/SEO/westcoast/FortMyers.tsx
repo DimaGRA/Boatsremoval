@@ -26,13 +26,13 @@ export default function FortMyers() {
   ];
 
   const serviceAreas = [
-    "Fort Myers Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Downtown Fort Myers",
+  "Caloosahatchee River Waterfront",
+  "McGregor Boulevard Area",
+  "Edison Park Neighborhood",
+  "Fort Myers Yacht Basin"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function FortMyers() {
     },
     {
       question: "What areas of Fort Myers do you serve?",
-      answer: "We serve all of Fort Myers including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Fort Myers, including Downtown Fort Myers, the Caloosahatchee River waterfront, neighborhoods along McGregor Boulevard, the Edison Park area, and surrounding residential and marina districts within the city."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function FortMyers() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Fort Myers is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Fort Myers Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Fort Myers boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Fort Myers, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Fort Myers is a vibrant city located along the Caloosahatchee River in Lee County, known for its historic districts,
+  riverfront setting, and proximity to Southwest Florida’s coastal waters. While not directly on the open Gulf of Mexico,
+  Fort Myers is a key part of the region’s boating and maritime community. With nearby marinas, canals, and residential
+  waterfront neighborhoods, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Downtown Fort Myers, close to the Edison and Ford Winter Estates, or in residential neighborhoods
+  along McGregor Boulevard and Palm Beach Boulevard, <span className="text-primary">Florida Boat Removal</span> provides
+  fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee
+  County’s riverfront and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Fort Myers boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and riverfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Fort Myers, Cape Coral, North Fort Myers, Fort Myers Beach, and surrounding
+  communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function FortMyers() {
     </div>
   );
 }
+//{ name: "Fort Myers", lat: 26.6406, lon: -81.8723, county: "Lee", phone: "727-298-0155"},
+//import FortMyers from "@/pages/SEO/westcoast/FortMyers"
+//<Route path="/boat-removal-fl-fort-myers" component={FortMyers}/>
