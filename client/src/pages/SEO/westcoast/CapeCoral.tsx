@@ -26,13 +26,13 @@ export default function CapeCoral() {
   ];
 
   const serviceAreas = [
-    "Cape Coral Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Cape Coral Yacht Club",
+  "Caloosahatchee River Waterfront",
+  "Four Mile Cove Area",
+  "Cape Coral Parkway Corridor",
+  "Del Prado Boulevard Area"
+];
+
 
   const faqs = [
     {
@@ -40,8 +40,8 @@ export default function CapeCoral() {
       answer: "We offer same-day and next-day boat removal services in Cape Coral, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of Cape Coral do you serve?",
-      answer: "We serve all of Cape Coral including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+  question: "What areas of Cape Coral do you serve?",
+  answer: "We serve all of Cape Coral, including the Cape Coral Yacht Club area, canal-front neighborhoods throughout the city, areas along Cape Coral Parkway and Del Prado Boulevard, the Four Mile Cove waterfront, and surrounding residential communities."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,27 @@ export default function CapeCoral() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Cape Coral is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Cape Coral Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Cape Coral boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Cape Coral, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Cape Coral is a waterfront city located in Lee County, known for its extensive canal system, Gulf access waterways, and
+  close proximity to scenic coastal areas along the Caloosahatchee River. While not directly on the open Gulf of Mexico,
+  Cape Coral is a major hub of Southwest Florida’s boating community. With hundreds of miles of canals, nearby marinas,
+  and residential waterfront neighborhoods, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Cape Coral Yacht Club, close to Four Mile Cove Ecological Preserve, or in residential neighborhoods
+  along Cape Coral Parkway and Del Prado Boulevard, <span className="text-primary">Florida Boat Removal</span> provides
+  fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee
+  County’s canal-based and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Cape Coral boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and canal-front waterfront areas. We take care of all transportation, heavy
+  lifting, and environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Cape Coral, Fort Myers, North Fort Myers, Matlacha, and surrounding communities.
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +409,6 @@ export default function CapeCoral() {
     </div>
   );
 }
+//{ name: "Cape Coral", lat: 26.5629, lon: -81.9495, county: "Lee", phone: "727-298-0155"},
+//import CapeCoral from "@/pages/SEO/westcoast/CapeCoral"
+//<Route path="/boat-removal-fl-cape-coral" component={CapeCoral}/>
