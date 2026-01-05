@@ -26,13 +26,13 @@ export default function Goodland() {
   ];
 
   const serviceAreas = [
-    "Goodland Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Goodland Boat Park",
+  "Goodland Bay",
+  "Paradise Found Marina",
+  "Goodland Drive",
+  "Goodland Village Waterfront"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Goodland() {
     },
     {
       question: "What areas of Goodland do you serve?",
-      answer: "We serve all of Goodland including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Goodland including the Goodland Boat Park, Goodland Bay, Paradise Found Marina, areas along Goodland Drive, and nearby waterfront neighborhoods throughout the village."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function Goodland() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Goodland is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Goodland Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Goodland boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Goodland, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Goodland is a charming waterfront village in Collier County, known for its historic fishing roots, scenic bay views, and laid-back coastal atmosphere. Located along the shores of Goodland Bay near Marco Island, the community is surrounded by shallow waters, canals, and mangrove-lined shorelines. With its strong boating culture and working waterfronts, professional boat removal services are an important part of maintaining the area’s marine environment.
+</p>
+<p>
+  Whether you're near Goodland Boat Park, close to Paradise Found Marina, or in residential areas along Goodland Drive and the village canals, <span className="text-primary">Florida Boat Removal</span> delivers fast, dependable, and eco-conscious boat disposal services. We understand the unique conditions of boat removal in Collier County’s bayside and island-adjacent communities and are equipped to manage even complex situations.
+</p>
+<p>
+  Our Goodland boat removal services include removing old boats, fishing vessels, sailboats, and small yachts from private docks, marinas, boat ramps, and waterfront properties. We handle all logistics, heavy equipment, and environmentally responsible disposal to make the process simple and stress-free for property owners.
+</p>
+<p>
+  Serving all of Collier County, including Goodland, Marco Island, Naples, Isles of Capri, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function Goodland() {
     </div>
   );
 }
+//{ name: "Goodland", lat: 25.9190, lon: -81.6470, county: "Collier", phone: "727-298-0155"}
+//import Goodland from "@/pages//SEO/westcoast/Goodland"
+//<Route path="/boat-removal-fl-goodland" component={Goodland}/>
