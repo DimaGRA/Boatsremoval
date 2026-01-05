@@ -25,14 +25,14 @@ export default function St.JamesCity() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "St. James City Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+ const serviceAreas = [
+  "St. James City Civic Center Area",
+  "Dixie Beach Boulevard",
+  "Monroe Canal",
+  "Pine Island Sound Waterfront",
+  "Southern Pine Island Shoreline"
+];
+
 
   const faqs = [
     {
@@ -40,8 +40,8 @@ export default function St.JamesCity() {
       answer: "We offer same-day and next-day boat removal services in St. James City, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
     {
-      question: "What areas of St. James City do you serve?",
-      answer: "We serve all of St. James City including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+  question: "What areas of St. James City do you serve?",
+  answer: "We serve all of St. James City, including the Dixie Beach Boulevard area, Monroe Canal waterfronts, neighborhoods near the St. James City Civic Center, Pine Island Sound shoreline locations, and surrounding residential communities."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,28 @@ export default function St.JamesCity() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                St. James City is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the St. James City Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our St. James City boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including St. James City, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  St. James City is a waterfront community located on the southern end of Pine Island in Lee County, known for its quiet
+  neighborhoods, fishing culture, and access to scenic waterways such as Pine Island Sound and San Carlos Bay. While not
+  directly on the open Gulf of Mexico, St. James City is an important part of Southwest Florida’s boating community. With
+  local marinas, canals, and residential waterfront properties, the need for professional boat removal services remains
+  essential.
+</p>
+<p>
+  Whether you're near the St. James City Civic Center, close to the waterfront along Dixie Beach Boulevard, or in
+  residential neighborhoods throughout the southern end of Pine Island, <span className="text-primary">Florida Boat
+  Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of
+  boat removal across Lee County’s island and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our St. James City boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including St. James City, Pine Island, Bokeelia, Pineland, and surrounding communities.
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +410,6 @@ export default function St.JamesCity() {
     </div>
   );
 }
+//{ name: "St. James City", lat: 26.4987, lon: -82.0957, county: "Lee", phone: "727-298-0155"},
+//import StJamesCity from "@/pages/SEO/westcoast/StJamesCity"
+//<Route path="/boat-removal-fl-st-james-city" component={StJamesCity}/>
