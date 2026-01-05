@@ -26,13 +26,12 @@ export default function LelyResort() {
   ];
 
   const serviceAreas = [
-    "Lely Resort Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Flamingo Island",
+  "Classics Golf & Country Club",
+  "Lely Resort Boulevard",
+  "Saint Andrews Boulevard",
+  "Mustang Island"
+];
 
   const faqs = [
     {
@@ -41,8 +40,9 @@ export default function LelyResort() {
     },
     {
       question: "What areas of Lely Resort do you serve?",
-      answer: "We serve all of Lely Resort including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Lely Resort including Flamingo Island, Classics Golf & Country Club, Lely Resort Boulevard, Saint Andrews Boulevard, and surrounding residential communities in Collier County."
     },
+
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Lely Resort. We handle all permits and logistics."
@@ -377,26 +377,18 @@ export default function LelyResort() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Lely Resort is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Lely Resort Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Lely Resort boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Lely Resort, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Lely Resort is a well-planned residential community located in Collier County, just southeast of Naples, known for its golf courses, lakes, and resort-style neighborhoods. While not directly on the Gulf of Mexico, Lely Resort is closely connected to Southwest Florida’s boating lifestyle through nearby waterways, marinas, and coastal access points. With numerous lakes, canals, and nearby waterfront destinations, professional boat removal services remain an important need for local residents.
+</p>
+<p>
+  Whether you're near Lely Resort Boulevard, close to Flamingo Island Course, or in residential communities along Classics Drive and Saint Andrews Boulevard, <span className="text-primary">Florida Boat Removal</span> delivers fast, dependable, and environmentally responsible boat disposal services. We understand the logistical challenges of boat removal throughout Collier County’s residential and recreational areas and are equipped to manage every situation safely and efficiently.
+</p>
+<p>
+  Our Lely Resort boat removal services include removing old boats, pontoons, sailboats, and personal watercraft from private properties, storage areas, marinas, and nearby waterfront locations. We handle all hauling, heavy equipment, and eco-conscious disposal methods to ensure a smooth, stress-free experience from start to finish.
+</p>
+<p>
+  Serving all of Collier County, including Lely Resort, Naples, Marco Island, East Naples, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function LelyResort() {
     </div>
   );
 }
+//{ name: "Lely Resort", lat: 26.0925, lon: -81.7297, county: "Collier", phone: "727-298-0155"},
+//import LelyResort from "@/pages//SEO/westcoast/LelyResort"
+//<Route path="/boat-removal-fl-lely-resort" component={LelyResort}/>

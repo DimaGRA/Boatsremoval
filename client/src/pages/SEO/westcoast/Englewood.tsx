@@ -25,13 +25,12 @@ export default function Englewood() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "Englewood Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+  const serviceAreas = [ 
+    "Englewood Beach", 
+    "Lemon Bay Park",
+    "Dearborn Street", 
+    "Old Englewood Village",
+    "Placida Road" 
   ];
 
   const faqs = [
@@ -39,9 +38,9 @@ export default function Englewood() {
       question: "How quickly can you remove a boat in Englewood?",
       answer: "We offer same-day and next-day boat removal services in Englewood, FL. Contact us before noon for potential same-day service. Emergency removals available 24/7."
     },
-    {
-      question: "What areas of Englewood do you serve?",
-      answer: "We serve all of Englewood including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte/Sarasota County."
+    { 
+      question: "What areas of Englewood do you serve?", 
+      answer: "We serve all of Englewood including Englewood Beach, Lemon Bay Park, Dearborn Street, Old Englewood Village, and Placida Road neighborhoods." 
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,25 +376,25 @@ export default function Englewood() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Englewood is a beautiful coastal city in Charlotte/Sarasota County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
+                Englewood is a welcoming coastal community located in Sarasota and Charlotte counties, known for its sandy beaches,
+                vibrant arts scene, and close proximity to beautiful natural areas like Lemon Bay and Manasota Key. While not a large
+                city, Englewood is surrounded by Southwest Florida’s active boating community. With nearby marinas, canals, and
+                residential waterways, the need for professional boat removal services remains essential.
               </p>
               <p>
-                Whether you're near the Englewood Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
+                Whether you're near Englewood Beach, close to Lemon Bay Park and Environmental Center, or in residential neighborhoods
+                along Dearborn Street, Old Englewood Village, and Placida Road, <span className="text-primary">Florida Boat Removal</span>
+                provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal
+                across Sarasota and Charlotte counties’ inland and coastal environments and have the expertise to handle any situation.
               </p>
               <p>
-                Our Englewood boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
+                Our Englewood boat removal services include hauling away old boats, yachts, sailboats, and pontoons from private
+                properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+                environmentally responsible disposal, ensuring a stress-free process for every customer.
               </p>
               <p>
-                Serving all of Charlotte/Sarasota County including Englewood, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
+                Serving all of Sarasota and Charlotte counties, including Englewood, Venice, North Port, Port Charlotte, and surrounding
+                communities. Contact us today for a free quote!
               </p>
             </div>
           </div>
@@ -408,3 +407,6 @@ export default function Englewood() {
     </div>
   );
 }
+//{ name: "Englewood", lat: 26.9689, lon: -82.3506, county: "Charlotte/Sarasota", phone: "727-298-0155"},
+//import Englewood from "@/pages//SEO/westcoast/Englewood"
+//<Route path="/boat-removal-fl-englewood" component={Englewood}/>

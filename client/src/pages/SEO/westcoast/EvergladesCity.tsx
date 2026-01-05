@@ -26,13 +26,13 @@ export default function EvergladesCity() {
   ];
 
   const serviceAreas = [
-    "Everglades City Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Barron River",
+  "Everglades City Marina",
+  "Smallwood Drive",
+  "McLeod Park",
+  "Museum of the Everglades Area"
+];
+
 
   const faqs = [
     {
@@ -41,8 +41,9 @@ export default function EvergladesCity() {
     },
     {
       question: "What areas of Everglades City do you serve?",
-      answer: "We serve all of Everglades City including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Everglades City including the Barron River waterfront, Everglades City Marina, areas along Smallwood Drive, McLeod Park, and surrounding neighborhoods throughout the city."
     },
+
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Everglades City. We handle all permits and logistics."
@@ -377,26 +378,18 @@ export default function EvergladesCity() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Everglades City is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Everglades City Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Everglades City boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Everglades City, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Everglades City is a historic waterfront town located in Collier County, known as a gateway to Everglades National Park and recognized for its scenic waterways, fishing heritage, and access to the Ten Thousand Islands. Positioned along the Barron River near the Gulf of Mexico, Everglades City plays an important role in Southwest Florida’s boating and fishing community. With local marinas, riverfront properties, and working docks, professional boat removal services are often essential.
+</p>
+<p>
+  Whether you're near the Everglades City Marina, along the Barron River, or in residential areas off Smallwood Drive and Broadway Avenue, <span className="text-primary">Florida Boat Removal</span> delivers prompt, dependable, and environmentally responsible boat disposal services. We understand the unique challenges of boat removal in protected waterways and coastal environments throughout Collier County and are fully equipped to manage every situation.
+</p>
+<p>
+  Our Everglades City boat removal services include removing old boats, fishing vessels, sailboats, and small commercial craft from private properties, marinas, boat ramps, and waterfront locations. We handle all logistics, heavy equipment, and eco-conscious disposal methods to ensure a smooth and stress-free experience for our customers.
+</p>
+<p>
+  Serving all of Collier County, including Everglades City, Chokoloskee, Plantation Island, Ochopee, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +401,6 @@ export default function EvergladesCity() {
     </div>
   );
 }
+//{ name: "Everglades City", lat: 25.8587, lon: -81.3856, county: "Collier", phone: "727-298-0155"},
+//import EvergladesCity from "@/pages//SEO/westcoast/EvergladesCity"
+//<Route path="/boat-removal-fl-everglades-city" component={EvergladesCity}/>

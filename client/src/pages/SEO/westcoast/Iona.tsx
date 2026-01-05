@@ -26,13 +26,12 @@ export default function Iona() {
   ];
 
   const serviceAreas = [
-    "Iona Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Iona McGregor",
+  "Iona Beach Park",
+  "San Carlos Bay Area",
+  "Punta Rassa",
+  "Estero Bay Shoreline"
+];
 
   const faqs = [
     {
@@ -41,7 +40,7 @@ export default function Iona() {
     },
     {
       question: "What areas of Iona do you serve?",
-      answer: "We serve all of Iona including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Iona, including the Iona McGregor area, Iona Beach Park, the San Carlos Bay waterfront, neighborhoods along McGregor Boulevard, and nearby canal-front residential communities."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,27 @@ export default function Iona() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Iona is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Iona Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Iona boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Iona, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Iona is a coastal community located in Lee County near the mouth of the Caloosahatchee River, known for its waterfront
+  neighborhoods, canal systems, and proximity to San Carlos Bay and Estero Bay. While not directly on the open Gulf of
+  Mexico, Iona is closely connected to Southwest Florida’s active boating community. With nearby marinas, canals, and
+  residential waterfront properties, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Iona Beach Park, close to the Iona McGregor area, or in residential neighborhoods along McGregor
+  Boulevard and surrounding canal-front streets, <span className="text-primary">Florida Boat Removal</span> provides
+  fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee
+  County’s coastal and inland waterway environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Iona boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Iona, Fort Myers, Cape Coral, Cypress Lake, and surrounding communities. Contact
+  us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +408,6 @@ export default function Iona() {
     </div>
   );
 }
+//{ name: "Iona", lat: 26.5217, lon: -81.9640, county: "Lee", phone: "727-298-0155"},
+//import Iona from "@/pages//SEO/westcoast/Iona"
+//<Route path="/boat-removal-fl-iona" component={Iona}/>

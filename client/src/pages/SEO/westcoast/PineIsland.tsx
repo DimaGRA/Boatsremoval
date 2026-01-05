@@ -26,13 +26,12 @@ export default function PineIsland() {
   ];
 
   const serviceAreas = [
-    "Pine Island Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Bokeelia",
+  "Pineland",
+  "St. James City",
+  "Stringfellow Road Area",
+  "Pine Island Sound Shoreline"
+];
 
   const faqs = [
     {
@@ -41,7 +40,7 @@ export default function PineIsland() {
     },
     {
       question: "What areas of Pine Island do you serve?",
-      answer: "We serve all of Pine Island including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Pine Island, including Bokeelia, Pineland, St. James City, areas along Stringfellow Road, the Pine Island Sound shoreline, and surrounding waterfront communities."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,27 @@ export default function PineIsland() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pine Island is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pine Island Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pine Island boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Pine Island, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pine Island is a laid-back island community located in Lee County, known for its fishing heritage, rural atmosphere,
+  and access to scenic waterways such as Pine Island Sound and Charlotte Harbor. While not directly on the open Gulf of
+  Mexico, Pine Island is an important part of Southwest Florida’s boating community. With local marinas, canals, and
+  extensive waterfront properties, the need for professional boat removal services remains essential.
+</p>
+<p>
+  Whether you're near Bokeelia, close to Pineland Marina, or in residential communities throughout St. James City and
+  along Stringfellow Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and
+  eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee County’s island and
+  coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Pine Island boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Pine Island, Bokeelia, Pineland, St. James City, and surrounding communities.
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +408,6 @@ export default function PineIsland() {
     </div>
   );
 }
+//{ name: "Pine Island", lat: 26.6672, lon: -82.1573, county: "Lee", phone: "727-298-0155"},
+//import PineIsland from "@/pages/SEO/westcoast/PineIsland"
+//<Route path="/boat-removal-fl-pine-island" component={PineIsland}/>

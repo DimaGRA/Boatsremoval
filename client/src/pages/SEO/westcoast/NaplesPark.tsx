@@ -26,13 +26,13 @@ export default function NaplesPark() {
   ];
 
   const serviceAreas = [
-    "Naples Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Vanderbilt Drive",
+  "Naples Park Central Area",
+  "94th Avenue North",
+  "95th Avenue North",
+  "Gulf Shore Drive"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function NaplesPark() {
     },
     {
       question: "What areas of Naples Park do you serve?",
-      answer: "We serve all of Naples Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Naples Park including areas near Vanderbilt Drive, Gulf Shore Drive, 94th Avenue North, 95th Avenue North, and surrounding residential neighborhoods."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function NaplesPark() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Naples Park is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Naples Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Naples Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Naples Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Naples Park is a well-known coastal neighborhood in Collier County, appreciated for its proximity to the Gulf, walkable streets, and access to nearby beaches and waterways such as Vanderbilt Beach and Delnor-Wiggins Pass. Although not directly on an island, Naples Park is closely connected to Southwest Florida’s active boating lifestyle. With nearby canals, residential docks, and marina access points, professional boat removal services are often necessary.
+</p>
+<p>
+  Whether you're near Vanderbilt Drive, close to 94th Avenue North, or in residential areas around Gulf Shore Drive and 96th Avenue North, <span className="text-primary">Florida Boat Removal</span> offers fast, dependable, and environmentally responsible boat disposal services. We understand the local waterfront conditions throughout Naples Park and have the experience to manage boat removal safely and efficiently.
+</p>
+<p>
+  Our Naples Park boat removal services include removing old boats, yachts, sailboats, and personal watercraft from private properties, canal-side homes, storage locations, and nearby marinas. We handle all logistics, heavy equipment, and proper disposal methods to ensure a smooth and stress-free experience.
+</p>
+<p>
+  Serving all of Collier County, including Naples Park, Vanderbilt Beach, Pelican Bay, North Naples, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function NaplesPark() {
     </div>
   );
 }
+//{ name: "Naples Park", lat: 26.2853, lon: -81.8056, county: "Collier", phone: "727-298-0155"},
+//import NaplesPark from "@/pages//SEO/westcoast/NaplesPark"
+//<Route path="/boat-removal-fl-naples-park" component={NaplesPark}/>

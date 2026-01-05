@@ -26,13 +26,13 @@ export default function Estero() {
   ];
 
   const serviceAreas = [
-    "Estero Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
+  "Coconut Point",
+  "Estero River",
+  "Koreshan State Park",
+  "Three Oaks Parkway Area",
+  "U.S. 41 Corridor"
   ];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function Estero() {
     },
     {
       question: "What areas of Estero do you serve?",
-      answer: "We serve all of Estero including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Estero including areas near the Estero River, Coconut Point, Koreshan State Park, Three Oaks Parkway, and surrounding neighborhoods in Lee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,17 @@ export default function Estero() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Estero is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Estero Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Estero boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Estero, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Estero is a growing community in Lee County, known for its scenic river views, preserved natural areas, and convenient access to Southwest Florida’s coastal waterways. While not directly on the open Gulf, Estero is closely connected to the region’s boating lifestyle through the Estero River, nearby bays, and surrounding waterfront developments. With marinas, canals, and residential water access points nearby, professional boat removal services are an important local need.
+</p>
+<p>
+  Whether you're near the Estero River, close to Koreshan State Park, or in residential neighborhoods around Three Oaks Parkway and Corkscrew Road, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the specific challenges of boat removal throughout Lee County’s inland waterways and coastal-adjacent communities and are equipped to handle every situation.
+</p>
+<p>
+  Our Estero boat removal services include hauling away old boats, yachts, sailboats, and personal watercraft from private properties, marinas, storage facilities, and waterfront areas. We manage all logistics, heavy lifting, and environmentally responsible disposal to ensure a smooth and stress-free experience.
+</p>
+<p>
+  Serving all of Lee County, including Estero, Bonita Springs, San Carlos Park, Fort Myers, and surrounding communities. Contact us today for a free quote!
+</p>
             </div>
           </div>
         </section>
@@ -408,3 +399,6 @@ export default function Estero() {
     </div>
   );
 }
+//{ name: "Estero", lat: 26.4381, lon: -81.8068, county: "Lee", phone: "727-298-0155"},
+//import Estero from "@/pages//SEO/westcoast/Estero"
+//<Route path="/boat-removal-fl-estero" component={Estero}/>

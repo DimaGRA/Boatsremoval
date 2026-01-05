@@ -26,13 +26,12 @@ export default function HeritageBay() {
   ];
 
   const serviceAreas = [
-    "Heritage Bay Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Heritage Bay Golf & Country Club",
+  "Tarpon Bay Boulevard",
+  "Livingston Road Area",
+  "Immokalee Road Corridor"
+];
+
 
   const faqs = [
     {
@@ -41,7 +40,7 @@ export default function HeritageBay() {
     },
     {
       question: "What areas of Heritage Bay do you serve?",
-      answer: "We serve all of Heritage Bay including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Heritage Bay including the Heritage Bay Golf & Country Club community, areas along Tarpon Bay Boulevard, Livingston Road, Immokalee Road, and surrounding neighborhoods in North Naples."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,18 @@ export default function HeritageBay() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Heritage Bay is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Heritage Bay Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Heritage Bay boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Heritage Bay, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Heritage Bay is a well-established residential community located in North Naples within Collier County, known for its golf courses, preserved natural surroundings, and proximity to Southwest Florida’s coastal waterways. While not directly on the Gulf of Mexico, Heritage Bay residents enjoy easy access to nearby bays, canals, and boating destinations, making reliable boat removal services an important local need.
+</p>
+<p>
+  Whether you're near the Heritage Bay Golf & Country Club, close to Immokalee Road, or in neighborhoods along Tarpon Bay Boulevard and Livingston Road, <span className="text-primary">Florida Boat Removal</span> provides prompt, dependable, and environmentally responsible boat disposal services. We understand the logistical challenges of boat removal throughout inland and coastal areas of Collier County and are equipped to manage every detail.
+</p>
+<p>
+  Our Heritage Bay boat removal services include removing old boats, fishing vessels, sailboats, and personal watercraft from private properties, storage facilities, marinas, and nearby waterfront access points. We handle all hauling, heavy equipment, and eco-conscious disposal to ensure a smooth and stress-free experience.
+</p>
+<p>
+  Serving all of Collier County, including Heritage Bay, North Naples, Bonita Springs, Golden Gate, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +399,6 @@ export default function HeritageBay() {
     </div>
   );
 }
+//{ name: "Heritage Bay", lat: 26.2664, lon: -81.7638, county: "Collier", phone: "727-298-0155"},
+//import HeritageBay from "@/pages//SEO/westcoast/HeritageBay"
+//<Route path="/boat-removal-fl-heritage-bay" component={HeritageBay}/>

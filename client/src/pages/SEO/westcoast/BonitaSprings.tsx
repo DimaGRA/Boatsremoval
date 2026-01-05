@@ -26,13 +26,13 @@ export default function BonitaSprings() {
   ];
 
   const serviceAreas = [
-    "Bonita Springs Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Bonita Beach",
+  "Barefoot Beach",
+  "Bonita Beach Road Area",
+  "Imperial River",
+  "Old U.S. 41 Corridor"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function BonitaSprings() {
     },
     {
       question: "What areas of Bonita Springs do you serve?",
-      answer: "We serve all of Bonita Springs including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier/Lee County."
+      answer: "We serve all of Bonita Springs including Bonita Beach, Barefoot Beach, the Old U.S. 41 area, neighborhoods along Bonita Beach Road, Imperial Parkway, and surrounding communities in Lee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function BonitaSprings() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Bonita Springs is a beautiful coastal city in Collier/Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Bonita Springs Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Bonita Springs boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier/Lee County including Bonita Springs, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Bonita Springs is a vibrant coastal city in Lee County, celebrated for its Gulf-front beaches, natural preserves, and access to scenic waterways like the Imperial River and Estero Bay. Although known for destinations such as Bonita Beach and Barefoot Beach, the city is also deeply connected to Southwest Florida’s active boating lifestyle. With numerous canals, riverfront homes, and nearby marinas, professional boat removal services are an important local need.
+</p>
+<p>
+  Whether you're near Bonita Beach Park, close to Riverside Park along the Imperial River, or in residential areas near Bonita Beach Road and Old U.S. 41, <span className="text-primary">Florida Boat Removal</span> delivers prompt, dependable, and environmentally responsible boat disposal services. We understand the specific challenges of boat removal throughout Lee County’s coastal and inland waterways and are equipped to manage every situation safely.
+</p>
+<p>
+  Our Bonita Springs boat removal services include removing old boats, yachts, sailboats, and catamarans from private residences, marinas, storage facilities, and waterfront properties. We handle all logistics, heavy equipment, and eco-conscious disposal methods to provide a smooth, hassle-free experience for our customers.
+</p>
+<p>
+  Serving all of Lee County, including Bonita Springs, Estero, San Carlos Park, Fort Myers Beach, and nearby communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function BonitaSprings() {
     </div>
   );
 }
+//{ name: "Bonita Springs", lat: 26.3398, lon: -81.7787, county: "Lee", phone: "727-298-0155"},
+//import BonitaSprings from "@/pages//SEO/westcoast/BonitaSprings"
+//<Route path="/boat-removal-fl-bonita-springs" component={BonitaSprings}/>

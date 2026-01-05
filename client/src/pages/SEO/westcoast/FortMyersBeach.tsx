@@ -26,13 +26,12 @@ export default function FortMyersBeach() {
   ];
 
   const serviceAreas = [
-    "Fort Myers Beach Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Times Square",
+  "Fort Myers Beach Pier",
+  "Estero Boulevard",
+  "Matanzas Pass",
+  "Bowditch Point Park"
+];
 
   const faqs = [
     {
@@ -41,7 +40,7 @@ export default function FortMyersBeach() {
     },
     {
       question: "What areas of Fort Myers Beach do you serve?",
-      answer: "We serve all of Fort Myers Beach including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of Fort Myers Beach including Times Square, Fort Myers Beach Pier area, Estero Boulevard, Matanzas Pass, Bowditch Point Park, and surrounding neighborhoods in Lee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,18 @@ export default function FortMyersBeach() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Fort Myers Beach is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Fort Myers Beach Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Fort Myers Beach boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Fort Myers Beach, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Fort Myers Beach is a well-known coastal town located on Estero Island in Lee County, recognized for its white-sand Gulf beaches, active fishing scene, and proximity to scenic areas such as Times Square and Bowditch Point Park. Positioned directly on the Gulf of Mexico, Fort Myers Beach is also closely connected to Southwest Florida’s thriving boating lifestyle. With surrounding marinas, canals, and waterfront neighborhoods, professional boat removal services are an important local need.
+</p>
+<p>
+  Whether you're near the Fort Myers Beach Pier, close to Matanzas Pass Preserve, or in residential areas along Estero Boulevard and San Carlos Boulevard, <span className="text-primary">Florida Boat Removal</span> delivers prompt, dependable, and environmentally responsible boat disposal services. We understand the specific challenges of boat removal throughout Lee County’s barrier island and coastal settings and are equipped to manage every situation.
+</p>
+<p>
+  Our Fort Myers Beach boat removal services include the removal of old boats, yachts, sailboats, and catamarans from private properties, marinas, storage facilities, and waterfront locations. We handle all logistics, heavy equipment, and eco-conscious disposal practices to ensure a smooth, worry-free experience for our customers.
+</p>
+<p>
+  Serving all of Lee County, including Fort Myers Beach, San Carlos Park, Iona, Bonita Springs, and nearby communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +399,6 @@ export default function FortMyersBeach() {
     </div>
   );
 }
+//{ name: "Fort Myers Beach", lat: 26.4520, lon: -81.9481, county: "Lee", phone: "727-298-0155"},
+//import FortMyersBeach from "@/pages//SEO/westcoast/FortMyersBeach"
+//<Route path="/boat-removal-fl-fort-myers-beach" component={FortMyersBeach}/>

@@ -25,14 +25,13 @@ export default function Placida() {
     "Marina Cleanouts"
   ];
 
-  const serviceAreas = [
-    "Placida Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+ const serviceAreas = [
+    "Placida Harbor",
+    "Placida Road",
+    "Placida Village",
+    "Placida Boat Ramp",
+    "Cape Haze Marina"
+];
 
   const faqs = [
     {
@@ -41,8 +40,8 @@ export default function Placida() {
     },
     {
       question: "What areas of Placida do you serve?",
-      answer: "We serve all of Placida including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Charlotte County."
-    },
+      answer: "We serve all of Placida including Placida Harbor, Placida Road, Placida Village, Cape Haze Marina, and Don Pedro Island State Park neighborhoods."
+    }
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Placida. We handle all permits and logistics."
@@ -376,27 +375,27 @@ export default function Placida() {
               About <span className="text-primary">Florida Boat Removal</span> in Placida, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                Placida is a beautiful coastal city in Charlotte County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Placida Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Placida boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Charlotte County including Placida, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+          <p>
+            Placida is a quiet coastal community located in Charlotte County, known for its marshland vistas, boating lifestyle, and
+            close proximity to scenic areas like Gasparilla Sound and Don Pedro Island State Park. While not directly on a major urban 
+            waterfront, Placida is part of Southwest Florida’s active boating network. With nearby marinas, canals, and residential 
+            waterways, the need for professional boat removal services remains essential.
+          </p>
+          <p>
+            Whether you're near Placida Harbor, close to Cape Haze Marina, or in residential neighborhoods along Placida Road
+            and the Placida Village area, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+            and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Charlotte
+            County’s inland and coastal environments and have the expertise to handle any situation.
+          </p>
+          <p>
+            Our Placida boat removal services include hauling away old boats, yachts, sailboats, and pontoons from private
+            properties, marinas, storage yards, and shoreline areas. We take care of all transportation, heavy lifting, 
+            and environmentally responsible disposal, ensuring a stress-free process for every customer.
+          </p>
+          <p>
+            Serving all of Charlotte County, including Placida, Cape Haze, Rotonda West, Port Charlotte, and surrounding 
+            communities. Contact us today for a free quote!
+          </p>
             </div>
           </div>
         </section>
@@ -408,3 +407,6 @@ export default function Placida() {
     </div>
   );
 }
+//{ name: "Placida", lat: 26.8556, lon: -82.2367, county: "Charlotte", phone: "727-298-0155"},
+//import Placida" from "@/pages//SEO/westcoast/Placida"
+//<Route path="/boat-removal-placida" component={Placida}/>

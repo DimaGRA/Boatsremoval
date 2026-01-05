@@ -26,13 +26,13 @@ export default function Chokoloskee() {
   ];
 
   const serviceAreas = [
-    "Chokoloskee Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Chokoloskee Pier",
+  "Mamie Street Waterfront",
+  "Smallwood Drive",
+  "Chokoloskee Bay",
+  "Ten Thousand Islands Shoreline"
+];
+
 
   const faqs = [
     {
@@ -41,8 +41,9 @@ export default function Chokoloskee() {
     },
     {
       question: "What areas of Chokoloskee do you serve?",
-      answer: "We serve all of Chokoloskee including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Chokoloskee including Chokoloskee Island, the Chokoloskee Pier area, neighborhoods along Smallwood Drive and Mamie Street, Chokoloskee Bay, and surrounding waterfront areas in Collier County."
     },
+
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Chokoloskee. We handle all permits and logistics."
@@ -377,26 +378,18 @@ export default function Chokoloskee() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Chokoloskee is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Chokoloskee Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Chokoloskee boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Chokoloskee, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Chokoloskee is a small historic community located in Collier County along the edge of Everglades National Park, known for its rich fishing heritage, mangrove shorelines, and close connection to the Ten Thousand Islands. While not a beach town, Chokoloskee sits directly on coastal waters that support boating, commercial fishing, and waterfront living. With local docks, canals, and residential shoreline access, the need for professional boat removal services remains important.
+</p>
+<p>
+  Whether you're near the Chokoloskee Pier, close to Smallwood Store and Museum, or in residential areas along Mamie Street and the waterfront canals, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal in Collier County’s coastal and Everglades-adjacent environments and have the experience to manage every situation safely.
+</p>
+<p>
+  Our Chokoloskee boat removal services include hauling away old boats, fishing vessels, skiffs, and sailboats from private properties, docks, marinas, storage areas, and waterfront locations. We handle all transportation, heavy lifting, and environmentally responsible disposal, ensuring a smooth and stress-free process for every customer.
+</p>
+<p>
+  Serving all of Collier County, including Chokoloskee, Everglades City, Plantation Island, Marco Island, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +401,6 @@ export default function Chokoloskee() {
     </div>
   );
 }
+//{ name: "Chokoloskee", lat: 25.8126, lon: -81.3648, county: "Collier", phone: "727-298-0155"},
+//import Chokoloskee from "@/pages//SEO/westcoast/Chokoloskee"
+//<Route path="/boat-removal-fl-chokoloskee" component={Chokoloskee}/>

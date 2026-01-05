@@ -26,13 +26,13 @@ export default function SanCarlosPark() {
   ];
 
   const serviceAreas = [
-    "San Carlos Park Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "San Carlos Boulevard",
+  "Three Oaks Parkway",
+  "Alico Road Area",
+  "Oriole Road",
+  "Lakeridge Circle"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function SanCarlosPark() {
     },
     {
       question: "What areas of San Carlos Park do you serve?",
-      answer: "We serve all of San Carlos Park including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Lee County."
+      answer: "We serve all of San Carlos Park including neighborhoods near San Carlos Boulevard, Three Oaks Parkway, the Alico Road area, Oriole Road, and surrounding residential communities in Lee County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -376,27 +376,19 @@ export default function SanCarlosPark() {
               About <span className="text-primary">Florida Boat Removal</span> in San Carlos Park, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p>
-                San Carlos Park is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the San Carlos Park Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our San Carlos Park boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including San Carlos Park, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+             <p>
+  San Carlos Park is a well-established community in Lee County, located just south of Fort Myers and known for its convenient location, residential neighborhoods, and proximity to major waterways and coastal destinations. While not directly on the Gulf of Mexico, San Carlos Park is closely connected to Southwest Florida’s active boating scene through nearby rivers, bays, and marinas. With surrounding canals, storage facilities, and waterfront access points, professional boat removal services are often needed.
+</p>
+<p>
+  Whether you're near San Carlos Boulevard, close to Three Oaks Parkway, or in residential areas around Alico Road and Oriole Road, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal throughout Lee County’s inland and coastal-adjacent communities and have the experience to manage every situation safely and efficiently.
+</p>
+<p>
+  Our San Carlos Park boat removal services include removing old boats, yachts, sailboats, and personal watercraft from private properties, storage yards, marinas, and nearby waterfront locations. We handle all transportation, heavy equipment, and environmentally responsible disposal, ensuring a smooth and stress-free process for our customers.
+</p>
+<p>
+  Serving all of Lee County, including San Carlos Park, Fort Myers, Estero, Bonita Springs, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function SanCarlosPark() {
     </div>
   );
 }
+//{ name: "San Carlos Park", lat: 26.4767, lon: -81.8198, county: "Lee", phone: "727-298-0155"},
+//import SanCarlosPark from "@/pages//SEO/westcoast/SanCarlosPark"
+//<Route path="/boat-removal-fl-san-carlos-park" component={SanCarlosPark}/>

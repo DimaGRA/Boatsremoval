@@ -377,26 +377,28 @@ export default function Bokeelia() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Bokeelia is a beautiful coastal city in Lee County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Bokeelia Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Bokeelia boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Lee County including Bokeelia, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Bokeelia is a waterfront community located on the northern end of Pine Island in Lee County, known for its laid-back
+  atmosphere, fishing culture, and proximity to scenic waterways such as Pine Island Sound and Charlotte Harbor. While
+  not directly on the open Gulf of Mexico, Bokeelia plays an important role in Southwest Florida’s active boating
+  community. With local marinas, canals, and residential waterfront properties, the need for professional boat removal
+  services remains essential.
+</p>
+<p>
+  Whether you're near Jug Creek Marina, close to the Pine Island Sound shoreline, or in residential neighborhoods along
+  Stringfellow Road and Harbor Drive, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable,
+  and eco-friendly boat disposal services. We understand the unique challenges of boat removal across Lee County’s island
+  and coastal environments and have the expertise to handle any situation.
+</p>
+<p>
+  Our Bokeelia boat removal services include hauling away old boats, yachts, sailboats, and catamarans from private
+  properties, marinas, storage yards, and waterfront areas. We take care of all transportation, heavy lifting, and
+  environmentally responsible disposal, ensuring a stress-free process for every customer.
+</p>
+<p>
+  Serving all of Lee County, including Bokeelia, St. James City, Matlacha, Cape Coral, and surrounding communities.
+  Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +410,6 @@ export default function Bokeelia() {
     </div>
   );
 }
+//{ name: "Bokeelia", lat: 26.7042, lon: -82.1606, county: "Lee", phone: "727-298-0155"},
+//import Bokeelia from "@/pages/SEO/westcoast/Bokeelia"
+//<Route path="/boat-removal-fl-bokeelia" component={Bokeelia}/>

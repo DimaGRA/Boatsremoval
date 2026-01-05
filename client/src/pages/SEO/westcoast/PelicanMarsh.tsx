@@ -26,13 +26,12 @@ export default function PelicanMarsh() {
   ];
 
   const serviceAreas = [
-    "Pelican Marsh Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Pelican Marsh Boulevard",
+  "Pelican Marsh Golf Club",
+  "The Center Club at Pelican Marsh",
+  "Galleria Shoppes at Vanderbilt",
+  "Pelican Marsh Residential Communities"
+];
 
   const faqs = [
     {
@@ -41,7 +40,7 @@ export default function PelicanMarsh() {
     },
     {
       question: "What areas of Pelican Marsh do you serve?",
-      answer: "We serve all of Pelican Marsh including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Pelican Marsh including areas around Pelican Marsh Boulevard, the Pelican Marsh Golf Club, The Center Club, the Galleria Shoppes at Vanderbilt, and surrounding residential neighborhoods in Collier County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +376,18 @@ export default function PelicanMarsh() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Pelican Marsh is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Pelican Marsh Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Pelican Marsh boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Pelican Marsh, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Pelican Marsh is a well-established residential community located in northern Naples within Collier County, recognized for its scenic preserves, golf courses, and proximity to coastal attractions such as Vanderbilt Beach and Clam Pass. While not directly on the Gulf of Mexico, Pelican Marsh is closely connected to Southwest Florida’s active boating lifestyle through nearby waterways and marinas. With surrounding canals, lakes, and waterfront-adjacent neighborhoods, professional boat removal services remain an important need.
+</p>
+<p>
+  Whether you're near Pelican Marsh Boulevard, close to the Galleria Shoppes at Vanderbilt, or in residential areas surrounding the Pelican Marsh Golf Club, <span className="text-primary">Florida Boat Removal</span> delivers fast, dependable, and environmentally responsible boat disposal services. We understand the specific challenges of boat removal throughout Collier County’s planned communities and coastal regions and are fully equipped to manage every situation.
+</p>
+<p>
+  Our Pelican Marsh boat removal services include the removal of old boats, yachts, sailboats, and personal watercraft from private properties, storage facilities, nearby marinas, and waterfront locations. We handle all logistics, heavy equipment, and eco-conscious disposal methods to ensure a smooth, hassle-free experience for our customers.
+</p>
+<p>
+  Serving all of Collier County, including Pelican Marsh, Naples Park, North Naples, Vanderbilt Beach, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +399,6 @@ export default function PelicanMarsh() {
     </div>
   );
 }
+//{ name: "Naples Park", lat: 26.2853, lon: -81.8056, county: "Collier", phone: "727-298-0155"},
+//import NaplesPark from "@/pages//SEO/westcoast/NaplesPark"
+//<Route path="/boat-removal-fl-naples-park" component={NaplesPark}/>

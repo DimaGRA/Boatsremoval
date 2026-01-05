@@ -26,13 +26,13 @@ export default function BerkshireLakes() {
   ];
 
   const serviceAreas = [
-    "Berkshire Lakes Pier",
-    "Hillsboro Inlet",
-    "Lighthouse Point",
-    "Atlantic Boulevard",
-    "Sample Road Area",
-    "Federal Highway Corridor"
-  ];
+  "Berkshire Lakes Boulevard",
+  "Belville Boulevard",
+  "Berkshire Commons Area",
+  "Santa Barbara Boulevard Corridor",
+  "Golden Gate Parkway East"
+];
+
 
   const faqs = [
     {
@@ -41,7 +41,7 @@ export default function BerkshireLakes() {
     },
     {
       question: "What areas of Berkshire Lakes do you serve?",
-      answer: "We serve all of Berkshire Lakes including the beachfront areas, Hillsboro Inlet, areas along Federal Highway, Atlantic Boulevard, Sample Road, and surrounding neighborhoods in Collier County."
+      answer: "We serve all of Berkshire Lakes including areas around Berkshire Lakes Boulevard, Belville Boulevard, the Berkshire Commons area, Santa Barbara Boulevard, Golden Gate Parkway, and surrounding neighborhoods in Collier County."
     },
     {
       question: "Do you remove boats from residential properties?",
@@ -377,26 +377,18 @@ export default function BerkshireLakes() {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                Berkshire Lakes is a beautiful coastal city in Collier County, known for its pristine beaches, 
-                fishing pier, and active boating community. With numerous waterfront properties, marinas, and 
-                boat owners, the need for professional boat removal services is essential.
-              </p>
-              <p>
-                Whether you're near the Berkshire Lakes Pier, along the Intracoastal Waterway, or in residential 
-                neighborhoods off Federal Highway, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat 
-                disposal services. We understand the unique challenges of boat removal in South Florida's coastal 
-                environment and have the expertise to handle any situation.
-              </p>
-              <p>
-                Our Berkshire Lakes boat removal services include hauling away old boats, yachts, sailboats, and 
-                catamarans from residential properties, marinas, storage facilities, and waterfront locations. 
-                We handle all the heavy lifting, transportation, and environmentally responsible disposal, so you 
-                don't have to worry about a thing.
-              </p>
-              <p>
-                Serving all of Collier County including Berkshire Lakes, Fort Lauderdale, Deerfield Beach, and 
-                surrounding areas. Contact us today for a free quote!
-              </p>
+  Berkshire Lakes is a well-established residential community located in Naples, Collier County, known for its scenic lakes, walking paths, and convenient access to nearby shopping and major roadways. While not directly on the Gulf of Mexico, Berkshire Lakes is close to canals, waterways, and coastal boating areas throughout greater Naples. With nearby marinas, storage facilities, and private properties, professional boat removal services remain an important need for local residents.
+</p>
+<p>
+  Whether you're near Berkshire Lakes Boulevard, close to Berkshire Commons, or in residential neighborhoods along Belville Boulevard and Santa Barbara Boulevard, <span className="text-primary">Florida Boat Removal</span> provides fast, reliable, and eco-friendly boat disposal services. We understand the unique challenges of boat removal throughout Collier County’s inland and coastal communities and have the experience to manage every situation efficiently.
+</p>
+<p>
+  Our Berkshire Lakes boat removal services include hauling away old boats, yachts, sailboats, and personal watercraft from private properties, storage yards, marinas, and canal-access locations. We handle all transportation, heavy lifting, and environmentally responsible disposal, ensuring a smooth and stress-free process for every customer.
+</p>
+<p>
+  Serving all of Collier County, including Berkshire Lakes, Naples, Golden Gate, East Naples, and surrounding communities. Contact us today for a free quote!
+</p>
+
             </div>
           </div>
         </section>
@@ -408,3 +400,6 @@ export default function BerkshireLakes() {
     </div>
   );
 }
+//{ name: "Berkshire Lakes", lat: 26.1680, lon: -81.7440, county: "Collier", phone: "727-298-0155"}
+//import BerkshireLakes from "@/pages//SEO/westcoast/BerkshireLakes"
+//<Route path="/boat-removal-fl-berkshire-lakes" component={BerkshireLakes}/>
