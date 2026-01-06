@@ -382,7 +382,7 @@ export default function PalmHarbor() {
               </p> 
               <p>
                 Whether you're near Downtown Palm Harbor and Main Street, close to Wall Springs Park and the marina access, or in residential neighborhoods along Curlew Road, 
-                Belcher Road, and the Innisbrook golf and resort area, <span class="text-primary">Florida Boat Removal</span> provides fast, dependable, 
+                Belcher Road, and the Innisbrook golf and resort area, <span className="text-primary">Florida Boat Removal</span> provides fast, dependable, 
                 and eco‑friendly boat hauling and disposal services. We understand the permitting, logistical, and environmental concerns of working throughout Pinellas County’s coastal 
                 and inland waterways and have the experience to handle every situation.
               </p> 
