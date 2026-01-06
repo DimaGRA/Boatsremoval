@@ -41,7 +41,7 @@ export default function ManasotaKey() {
     { 
       question: "What areas of Manasota Key do you serve?", 
       answer: "We serve all of Manasota Key including Manasota Beach, Blind Pass Beach Park, Stump Pass Beach State Park, Englewood Beach, and nearby Gulf Boulevard neighborhoods." 
-    }
+    },
     {
       question: "Do you remove boats from residential properties?",
       answer: "Yes! We remove boats from residential driveways, backyards, marinas, storage facilities, and waterfront properties throughout Manasota Key. We handle all permits and logistics."
