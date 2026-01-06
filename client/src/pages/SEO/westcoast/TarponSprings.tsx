@@ -383,7 +383,7 @@ export default function TarponSprings() {
               </p> 
               <p> 
                 Whether you're near the Sponge Docks and Historic Downtown, close to the Anclote River marina and Spring Bayou waterfront, 
-                or in residential neighborhoods along Pinellas Avenue, Safford Park, and Tarpon Avenue, <span class="text-primary">Florida Boat Removal</span> delivers fast,
+                or in residential neighborhoods along Pinellas Avenue, Safford Park, and Tarpon Avenue, <span className="text-primary">Florida Boat Removal</span> delivers fast,
                 dependable, and environmentally responsible boat disposal services. We understand the logistical and regulatory challenges of working across Pinellas County’s 
                 coastal and inland waterways and have the expertise to handle every situation. 
               </p>
