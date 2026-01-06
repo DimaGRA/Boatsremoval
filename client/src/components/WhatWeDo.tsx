@@ -46,3 +46,4 @@ export default function WhatWeDo() {
       </div>
     </section>
   );
+}
