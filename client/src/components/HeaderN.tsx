@@ -26,17 +26,17 @@ export default function Header({ cityName }: { cityName?: string }) {
 
             {/* DESKTOP NAV */}
             <nav className="hidden md:flex flex-1 justify-center gap-10">
-              <a href="#services" className="font-semibold text-secondary-foreground hover:opacity-80">
-                Service Area
+              <a href="/about" className="font-semibold text-secondary-foreground hover:opacity-80">
+                About Us
               </a>
               <a href="#services" className="font-semibold text-secondary-foreground hover:opacity-80">
+                Our Services
+              </a>
+              <a href="/vessel" className="font-semibold text-secondary-foreground hover:opacity-80">
                 Vessel Type
               </a>
-              <a href="#pricing" className="font-semibold text-secondary-foreground hover:opacity-80">
-                FAQ
-              </a>
-              <a href="#contact" className="font-semibold text-secondary-foreground hover:opacity-80">
-                Contact
+              <a href="/quote" className="font-semibold text-secondary-foreground hover:opacity-80">
+                Quote Request
               </a>
             </nav>
 
@@ -104,3 +104,4 @@ export default function Header({ cityName }: { cityName?: string }) {
     </>
   );
 }
+
