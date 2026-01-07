@@ -10,7 +10,7 @@ import Gallery from "@/components/Gallery";
 import ContactSection from "@/components/ContactSectionN";
 import Footer from "@/components/FooterN";
 
-export default function Home() {
+export default function Test() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -29,4 +29,5 @@ export default function Home() {
     </div>
   );
 }
+
 
