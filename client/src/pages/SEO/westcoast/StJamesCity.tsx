@@ -11,7 +11,7 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_florida_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function St.JamesCity() {
+export default function StJamesCity() {
   const [, setLocation] = useLocation();
    const nearbyCities = getNearbyCities("St. James City", 60); // find up to 60 closest
   const phone = getPhoneByCity("St. James City");
