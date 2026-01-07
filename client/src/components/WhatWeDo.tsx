@@ -60,7 +60,7 @@ export default function WhatWeDo() {
             <a className="block">
               <Card className="text-center border-4 border-orange-600 rounded-xl h-full cursor-pointer hover:shadow-xl hover:-translate-y-1 transition">
                 <CardHeader>
-                  <WavesArrowUp className="mx-auto h-12 w-12 text-primary mb-4" />
+                  <Waves className="mx-auto h-12 w-12 text-primary mb-4" />
                   <CardTitle>Sunken Boat Removal</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -88,5 +88,6 @@ export default function WhatWeDo() {
     </section>
   );
 }
+
 
 
