@@ -1,8 +1,7 @@
 import { Link } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Trash, Ship } from "lucide-react";
-import WavesArrowUp from "lucide-react/dist/esm/icons/waves-arrow-up.js";
+import { Trash, Ship, Waves } from "lucide-react";
 
 export default function WhatWeDo() {
   return (
@@ -89,4 +88,5 @@ export default function WhatWeDo() {
     </section>
   );
 }
+
 
