@@ -16,7 +16,7 @@ import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
 import TampaBoatRemoval from "@/pages/TampaBay";
 import NotFound from "@/pages/not-found";
-import Test from "@/pages/Test";
+//import Test from "@/pages/Test";
 
 import Miami from "@/pages/SEO/Miami"
 import Hialeah from "@/pages/SEO/Hialeah"
@@ -221,7 +221,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/test" component={Test} />
+  //<Route path="/test" component={Test} />
       <Route path="/quote" component={Quote} />
       <Route path="/about" component={About} />
       <Route path="/services" component={Services} />
