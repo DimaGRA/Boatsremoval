@@ -89,8 +89,15 @@ export default function WhoWeAre() {
               Our services help you avoid <strong>code violations, storage fees, and fines</strong>,
               while ensuring your boat is removed responsibly and legally.
             </p>
+            <div className="mt-6 flex justify-center">
+    <a href="/about">
+      <button className="bg-primary text-white font-semibold px-6 py-3 rounded-lg border-2 border-orange-600 hover:bg-orange-600 transition-colors">
+        Learn More
+      </button>
+    </a>
           </div>
         </div>
+       </div>
 
         {/* ================= RECENT JOBS ================= */}
         <div className="text-center bg-white py-12 rounded-2xl border-4 border-primary shadow-lg">

@@ -13,14 +13,14 @@ export default function Header({ cityName }: { cityName?: string }) {
       {/* ================= HEADER ================= */}
 <header className="fixed top-0 left-0 right-0 z-50 bg-secondary border-b border-secondary-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 md:h-24">
+          <div className="flex items-center justify-between h-28 md:h-24">
 
             {/* LOGO */}
             <a href="/" className="flex items-center">
               <img
                 src={logoImage}
                 alt="Florida Boat Removal logo"
-                className="h-14 md:h-20 w-auto"
+                className="h-16 md:h-20 w-auto"
               />
             </a>
 
@@ -29,7 +29,7 @@ export default function Header({ cityName }: { cityName?: string }) {
               <a href="/about" className="font-semibold text-secondary-foreground hover:opacity-80">
                 About Us
               </a>
-              <a href="#services" className="font-semibold text-secondary-foreground hover:opacity-80">
+              <a href="/services" className="font-semibold text-secondary-foreground hover:opacity-80">
                 Our Services
               </a>
               <a href="/vessel" className="font-semibold text-secondary-foreground hover:opacity-80">
@@ -104,4 +104,3 @@ export default function Header({ cityName }: { cityName?: string }) {
     </>
   );
 }
-

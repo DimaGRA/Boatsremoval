@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Trash, Ship, Waves } from "lucide-react";
+import { Trash, Ship, WavesArrowUp } from "lucide-react";
 
 export default function WhatWeDo() {
   return (
@@ -60,7 +60,7 @@ export default function WhatWeDo() {
             <a className="block">
               <Card className="text-center border-4 border-orange-600 rounded-xl h-full cursor-pointer hover:shadow-xl hover:-translate-y-1 transition">
                 <CardHeader>
-                  <Waves className="mx-auto h-12 w-12 text-primary mb-4" />
+                  <WavesArrowUp className="mx-auto h-12 w-12 text-primary mb-4" />
                   <CardTitle>Sunken Boat Removal</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -88,6 +88,3 @@ export default function WhatWeDo() {
     </section>
   );
 }
-
-
-
