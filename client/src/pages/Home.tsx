@@ -1,7 +1,12 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import ServiceSelector from "@/components/ServiceSelector";
-import PricingSection from "@/components/PricingSection";
+import WhoWeAre from "@/components/WhoWeAre";
+import ThreeStepProcess from "@/components/ThreeStepProcess";
+import WhatWeDo from "@/components/WhatWeDo";
+import VesselType from "@/components/VesselType";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import FAQ from "@/components/FAQ";
+import Gallery from "@/components/Gallery";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -9,10 +14,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-16 md:pt-20">
+      <main className="relative">
         <HeroSection />
-        <ServiceSelector />
-        <PricingSection />
+        <WhoWeAre />
+        <ThreeStepProcess />
+        <WhatWeDo />
+        <VesselType />
+        <WhyChooseUs />
+        <FAQ />
+        <Gallery />
         <ContactSection />
       </main>
       <Footer />
