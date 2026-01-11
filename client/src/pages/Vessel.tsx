@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { RulerDimensionLine, Weight, Ship } from "lucide-react";
+import { Ruler, Weight, Ship } from "lucide-react";
 import heroImage from "@assets/Main2.webp";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -56,7 +56,7 @@ export default function Vessel() {
                     <a className="block">
               <Card className="text-center border-4 border-orange-600 rounded-xl h-full cursor-pointer hover:shadow-xl hover:-translate-y-1 transition">
                 <CardHeader>
-                  <RulerDimensionLine className="mx-auto h-12 w-12 text-primary mb-4" />
+                  <Ruler className="mx-auto h-12 w-12 text-primary mb-4" />
                   <CardTitle>60 FT</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -110,4 +110,5 @@ export default function Vessel() {
      <Footer />
   </>
   );
+
 }
