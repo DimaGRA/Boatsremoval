@@ -1,5 +1,5 @@
-import Header from "@/components/HeaderN";
-import HeroSection from "@/components/HeroSectionN";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
 import WhoWeAre from "@/components/WhoWeAre";
 import ThreeStepProcess from "@/components/ThreeStepProcess";
 import WhatWeDo from "@/components/WhatWeDo";
@@ -7,10 +7,10 @@ import VesselType from "@/components/VesselType";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import FAQ from "@/components/FAQ";
 import Gallery from "@/components/Gallery";
-import ContactSection from "@/components/ContactSectionN";
-import Footer from "@/components/FooterN";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
-export default function Test() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -29,5 +29,3 @@ export default function Test() {
     </div>
   );
 }
-
-
