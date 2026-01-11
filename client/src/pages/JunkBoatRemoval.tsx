@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Ready from "@/components/Ready";
-import junkBoatImage from "@assets/junk_boat.webp";
+import junkBoatImage from "@assets/Junk_boat.webp";
 import VesselType from "@/components/VesselType";
 import {
   Accordion,
@@ -198,4 +198,5 @@ export default function JunkBoatRemoval() {
      <Footer />
   </>
   );
+
 }
