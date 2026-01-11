@@ -13,7 +13,8 @@ export default function Gallery() {
   "/attached_assets/Boat_images/Boat_disposal_7.webp",
   "/attached_assets/Boat_images/Boat_disposal_8.webp",
   "/attached_assets/Boat_images/Boat_disposal_9.webp",
-
+  "/attached_assets/Boat_images/Boat_disposal_10.webp",
+    
   "/attached_assets/Boat_images/Boat_removal_3.webp",
   "/attached_assets/Boat_images/Boat_removal_4.webp",
   "/attached_assets/Boat_images/Boat_removal_5.webp",
@@ -102,4 +103,5 @@ export default function Gallery() {
     </section>
   );
 }
+
 
