@@ -5,6 +5,12 @@ import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Services from "@/pages/Services";
+import Vessel from "@/pages/Vessel";
+import JunkBoatRemoval from "@/pages/JunkBoatRemoval";
+import SalvageBoatRemoval from "@/pages/SalvageBoatRemoval";
+import SunkenBoatRemoval from "@/pages/SunkenBoatRemoval";
 import Quote from "@/pages/Quote";
 import PompanoBeach from "@/pages/PompanoBeach";
 import TampaBoatRemoval from "@/pages/TampaBay";
@@ -216,6 +222,12 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/test" component={Test} />
       <Route path="/quote" component={Quote} />
+      <Route path="/about" component={About} />
+      <Route path="/services" component={Services} />
+      <Route path="/vessel" component={Vessel} />
+      <Route path="/junk-boat-removal" component={JunkBoatRemoval} />
+      <Route path="/salvage-boat-removal" component={SalvageBoatRemoval} />
+      <Route path="/sunken-boat-removal" component={SunkenBoatRemoval} />
       <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
       <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
       <Route path="/boat-removal-fl-miami" component={Miami} />
