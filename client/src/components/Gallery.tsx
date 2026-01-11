@@ -55,7 +55,7 @@ export default function Gallery() {
     <div className="text-center bg-white py-12 rounded-2xl border-4 border-primary shadow-lg">
 
       <h2 className="text-4xl font-bold text-gray-900 mb-4">
-        MORE RECENT JOBS
+        RECENT JOBS
       </h2>
 
       {/* ORANGE DIVIDER */}
@@ -102,3 +102,4 @@ export default function Gallery() {
     </section>
   );
 }
+
