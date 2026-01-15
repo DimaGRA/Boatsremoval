@@ -392,7 +392,7 @@ function Router() {
       <Route path="/boat-removal-fl-manasota-key" component={ManasotaKey}/>
       <Route path="/boat-removal-fl-rotonda-west" component={RotondaWest}/>
       <Route path="/boat-removal-fl-cape-haze" component={CapeHaze}/>
-      <Route path="/boat-removal-placida" component={Placida}/>
+      <Route path="/boat-removal-fl-placida" component={Placida}/>
       <Route path="/boat-removal-fl-boca-grande" component={BocaGrande}/>
       <Route path="/boat-removal-fl-cayo-costa" component={CayoCosta}/>
       <Route path="/boat-removal-fl-bokeelia" component={Bokeelia}/>
