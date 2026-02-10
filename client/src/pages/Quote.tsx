@@ -17,15 +17,7 @@ import { useToast } from "@/hooks/use-toast";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const boatSizes = [
-  "5ft - 10ft",
-  "10ft - 15ft", 
-  "15ft - 20ft",
-  "20ft - 25ft",
-  "25ft - 35ft",
-  "35ft - 45ft",
-  "45ft +"
-];
+const boatSizes = Array.from({ length: 56 }, (_, i) => `${i + 5} ft`);
 
 const engineTypes = [
   "Inboard",
@@ -299,10 +291,10 @@ export default function Quote() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="boatSize">Boat Size *</Label>
+                      <Label htmlFor="boatSize">Boat Length *</Label>
                       <Select value={formData.boatSize} onValueChange={(value) => setFormData({ ...formData, boatSize: value })}>
                         <SelectTrigger id="boatSize" data-testid="select-boat-size">
-                          <SelectValue placeholder="Select boat size" />
+                          <SelectValue placeholder="Select boat length" />
                         </SelectTrigger>
                         <SelectContent>
                           {boatSizes.map((size) => (
