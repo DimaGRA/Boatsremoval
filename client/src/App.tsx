@@ -2,7 +2,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
@@ -434,6 +434,18 @@ function Router() {
 function App() {
   return (
     <HelmetProvider>
+      <Helmet>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17866313594"
+        ></script>
+        <script>{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17866313594');
+        `}</script>
+      </Helmet>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />
