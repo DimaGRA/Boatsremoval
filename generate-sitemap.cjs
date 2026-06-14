@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
 
-const ROUTER_FILE = './client/src/App.jsx'; // change if your routes are elsewhere
+const ROUTER_FILE = './client/src/App.tsx'; // change if your routes are elsewhere
 const HOSTNAME = 'https://www.boatsremoval.com';
 
 async function generateSitemap() {
@@ -34,7 +34,7 @@ async function generateSitemap() {
   const sitemap = await streamToPromise(smStream);
 
   fs.writeFileSync(
-    './public/sitemap.xml',
+    './client/public/sitemap.xml',
     sitemap.toString()
   );
 
