@@ -16,4 +16,4 @@ jobs:
     steps:
       - uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.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 }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
