@@ -215,6 +215,38 @@ import Goodland from "@/pages//SEO/westcoast/Goodland"
 import EvergladesCity from "@/pages//SEO/westcoast/EvergladesCity"
 import Chokoloskee from "@/pages//SEO/westcoast/Chokoloskee"
 
+import Apalachicola from "@/pages/SEO/gulfcoast/Apalachicola"
+import BayStLouis from "@/pages/SEO/gulfcoast/BayStLouis"
+import Biloxi from "@/pages/SEO/gulfcoast/Biloxi"
+import Callaway from "@/pages/SEO/gulfcoast/Callaway"
+import Carrabelle from "@/pages/SEO/gulfcoast/Carrabelle"
+import CedarKey from "@/pages/SEO/gulfcoast/CedarKey"
+import CrystalRiver from "@/pages/SEO/gulfcoast/CrystalRiver"
+import DauphinIsland from "@/pages/SEO/gulfcoast/DauphinIsland"
+import GulfCoastDestin from "@/pages/SEO/gulfcoast/Destin"
+import Eastpoint from "@/pages/SEO/gulfcoast/Eastpoint"
+import Foley from "@/pages/SEO/gulfcoast/Foley"
+import FortWaltonBeach from "@/pages/SEO/gulfcoast/FortWaltonBeach"
+import GulfBreeze from "@/pages/SEO/gulfcoast/GulfBreeze"
+import GulfShores from "@/pages/SEO/gulfcoast/GulfShores"
+import Inglis from "@/pages/SEO/gulfcoast/Inglis"
+import LongBeach from "@/pages/SEO/gulfcoast/LongBeach"
+import LynnHaven from "@/pages/SEO/gulfcoast/LynnHaven"
+import MexicoBeach from "@/pages/SEO/gulfcoast/MexicoBeach"
+import Milton from "@/pages/SEO/gulfcoast/Milton"
+import Mobile from "@/pages/SEO/gulfcoast/Mobile"
+import MossPoint from "@/pages/SEO/gulfcoast/MossPoint"
+import OceanSprings from "@/pages/SEO/gulfcoast/OceanSprings"
+import OrangeBeach from "@/pages/SEO/gulfcoast/OrangeBeach"
+import GulfCoastPanamaCity from "@/pages/SEO/gulfcoast/PanamaCity"
+import PanamaCityBeach from "@/pages/SEO/gulfcoast/PanamaCityBeach"
+import Pascagoula from "@/pages/SEO/gulfcoast/Pascagoula"
+import Parker from "@/pages/SEO/gulfcoast/Parker"
+import GulfCoastPensacola from "@/pages/SEO/gulfcoast/Pensacola"
+import PortStJoe from "@/pages/SEO/gulfcoast/PortStJoe"
+import Tallahassee from "@/pages/SEO/gulfcoast/Tallahassee"
+import Waveland from "@/pages/SEO/gulfcoast/Waveland"
+
 
 function Router() {
   return (
@@ -425,6 +457,38 @@ function Router() {
       <Route path="/boat-removal-fl-goodland" component={Goodland}/>
       <Route path="/boat-removal-fl-everglades-city" component={EvergladesCity}/>
       <Route path="/boat-removal-fl-chokoloskee" component={Chokoloskee}/>
+
+      <Route path="/boat-removal-fl-apalachicola" component={Apalachicola} />
+      <Route path="/boat-removal-fl-bay-st-louis" component={BayStLouis} />
+      <Route path="/boat-removal-fl-biloxi" component={Biloxi} />
+      <Route path="/boat-removal-fl-callaway" component={Callaway} />
+      <Route path="/boat-removal-fl-carrabelle" component={Carrabelle} />
+      <Route path="/boat-removal-fl-cedar-key" component={CedarKey} />
+      <Route path="/boat-removal-fl-crystal-river" component={CrystalRiver} />
+      <Route path="/boat-removal-fl-dauphin-island" component={DauphinIsland} />
+      <Route path="/boat-removal-fl-destin" component={GulfCoastDestin} />
+      <Route path="/boat-removal-fl-eastpoint" component={Eastpoint} />
+      <Route path="/boat-removal-fl-foley" component={Foley} />
+      <Route path="/boat-removal-fl-fort-walton-beach" component={FortWaltonBeach} />
+      <Route path="/boat-removal-fl-gulf-breeze" component={GulfBreeze} />
+      <Route path="/boat-removal-fl-gulf-shores" component={GulfShores} />
+      <Route path="/boat-removal-fl-inglis" component={Inglis} />
+      <Route path="/boat-removal-fl-long-beach" component={LongBeach} />
+      <Route path="/boat-removal-fl-lynn-haven" component={LynnHaven} />
+      <Route path="/boat-removal-fl-mexico-beach" component={MexicoBeach} />
+      <Route path="/boat-removal-fl-milton" component={Milton} />
+      <Route path="/boat-removal-fl-mobile" component={Mobile} />
+      <Route path="/boat-removal-fl-moss-point" component={MossPoint} />
+      <Route path="/boat-removal-fl-ocean-springs" component={OceanSprings} />
+      <Route path="/boat-removal-fl-orange-beach" component={OrangeBeach} />
+      <Route path="/boat-removal-fl-panama-city" component={GulfCoastPanamaCity} />
+      <Route path="/boat-removal-fl-panama-city-beach" component={PanamaCityBeach} />
+      <Route path="/boat-removal-fl-pascagoula" component={Pascagoula} />
+      <Route path="/boat-removal-fl-parker" component={Parker} />
+      <Route path="/boat-removal-fl-pensacola" component={GulfCoastPensacola} />
+      <Route path="/boat-removal-fl-port-st-joe" component={PortStJoe} />
+      <Route path="/boat-removal-fl-tallahassee" component={Tallahassee} />
+      <Route path="/boat-removal-fl-waveland" component={Waveland} />
 
       <Route component={NotFound} />
     </Switch>
